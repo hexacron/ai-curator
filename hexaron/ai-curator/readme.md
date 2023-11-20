@@ -1,3 +1,21 @@
+## public-apis
+Description: A collective list of free APIs
+URL: https://github.com/public-apis/public-apis
+Stars: 269138
+
+
+## Awesome-Hacking
+Description: A collection of various awesome lists for hackers, pentesters and security researchers
+URL: https://github.com/Hack-with-Github/Awesome-Hacking
+Stars: 71402
+
+
+## hackingtool
+Description: ALL IN ONE Hacking Tool For Hackers
+URL: https://github.com/Z4nzu/hackingtool
+Stars: 40848
+
+
 ## awesome-rust
 Description: A curated list of Rust code and resources.
 URL: https://github.com/rust-unofficial/awesome-rust
@@ -16,44 +34,26 @@ URL: https://github.com/enaqx/awesome-pentest
 Stars: 19567
 
 
-## awesome-podcasts
-Description: Collection of awesome podcasts
-URL: https://github.com/rShetty/awesome-podcasts
-Stars: 11715
+## twint
+Description: An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.
+URL: https://github.com/twintproject/twint
+Stars: 15293
 
 
-## awesome-security
-Description: A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
-URL: https://github.com/sbilly/awesome-security
-Stars: 10523
+## awesome-osint
+Description: :scream: A curated list of amazingly awesome OSINT
+URL: https://github.com/jivoi/awesome-osint
+Stars: 14639
 
 
-## lists
-Description: The definitive list of lists (of lists) curated on GitHub and elsewhere
-URL: https://github.com/jnv/lists
-Stars: 9278
+## GHunt
+Description: 🕵️‍♂️ Offensive Google framework.
+URL: https://github.com/mxrch/GHunt
+Stars: 14245
 
 
-## awesome-youtubers
-Description: An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
-URL: https://github.com/JoseDeFreitas/awesome-youtubers
-Stars: 4538
-
-
-## telegram-list
-Description: List of telegram groups, channels & bots // Список интересных групп, каналов и ботов телеграма // Список чатов для программистов
-URL: https://github.com/goq/telegram-list
-Stars: 4263
-
-
-## public-apis
-Description: A collaborative list of public APIs for developers
-URL: https://github.com/public-apis-dev/public-apis
-Stars: 2101
-
-
-## List-All-Programming-Telegram-Group
-Description: List of All Programming Telegram Group
-URL: https://github.com/hendisantika/List-All-Programming-Telegram-Group
-Stars: 1243
+## PENTESTING-BIBLE
+Description: articles
+URL: https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE
+Stars: 12463
 
