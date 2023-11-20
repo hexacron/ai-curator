@@ -25,7 +25,7 @@ Stars: 11715
 ## awesome-security
 Description: A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
 URL: https://github.com/sbilly/awesome-security
-Stars: 10522
+Stars: 10523
 
 
 ## lists
