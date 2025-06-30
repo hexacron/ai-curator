@@ -1,0 +1,80 @@
+name: AI Repository Curator
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - 'simple_curator.py'
+      - 'generate_website.py'
+      - 'config.json'
+      - '.github/workflows/curator.yml'
+
+jobs:
+  curate-repositories:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        pip install requests python-dotenv
+
+    - name: Create config if not exists
+      run: |
+        if [ ! -f config.json ]; then
+          echo '{}' > config.json
+        fi
+
+    - name: Run curator
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+        GITHUB_REPO: ${{ github.event.repository.name }}
+      run: |
+        python simple_curator.py
+
+    - name: Generate website files
+      run: |
+        python generate_website.py
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: './docs'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update curator results $(date '+%Y-%m-%d %H:%M')"
+          git push
+        fi
