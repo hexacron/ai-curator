@@ -2,14 +2,14 @@ name: AI Repository Curator
 
 on:
   schedule:
-    # Run daily at 6 AM UTC (adjust timezone as needed)
+    # Run daily at 6 AM UTC
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual triggering
   push:
     branches: [ main ]
     paths:
       - 'curator_v7.py'
-      - 'generate_website.py'
+      - 'generate_website.py' # Add this file
       - 'config.json'
       - '.github/workflows/curator.yml'
       - 'requirements.txt'
@@ -35,34 +35,27 @@ jobs:
         cache: 'pip'
 
     - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
-    - name: Create config if it does not exist
-      run: |
-        if [ ! -f config.json ]; then
-          echo '{}' > config.json
-        fi
+      run: pip install -r requirements.txt
 
     - name: Run Curator Script
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        GITHUB_USERNAME: ${{ github.repository_owner }}
-        GITHUB_REPO: ${{ github.event.repository.name }}
       run: python curator_v7.py
 
     - name: Generate Website Files
       run: python generate_website.py
 
     - name: Setup GitHub Pages
-      uses: actions/configure-pages@v5 # Updated from v3
+      uses: actions/configure-pages@v5
 
     - name: Upload GitHub Pages artifact
-      uses: actions/upload-pages-artifact@v3 # Updated from v2
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './docs'
 
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4 # Updated from v2
+      uses: actions/deploy-pages@v4
 
     - name: Commit and push changes
       run: |
