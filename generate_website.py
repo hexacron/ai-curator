@@ -4,53 +4,61 @@ from datetime import datetime
 
 def generate_website():
     """
-    Generates a clean HTML website from repository data with a dark mode toggle and proper layout.
+    Generates a clean, self-contained HTML website with a working dark mode toggle.
     """
     
+    # Ensure the 'docs' directory exists
     if not os.path.exists('docs'):
-        print("📁 'docs' directory not found. Creating it now.")
         os.makedirs('docs')
 
+    # Load repository data from cache.json
     cache_file = 'cache.json'
     repos = []
-    
     if os.path.exists(cache_file):
         try:
             with open(cache_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 repos = data.get('repositories', [])
-            print(f"✅ Found {len(repos)} repositories in {cache_file}.")
         except (json.JSONDecodeError, IOError) as e:
             print(f"⚠️ Could not read or parse {cache_file}: {e}")
-    else:
-        print(f"⚠️ {cache_file} not found. The website will indicate that no data is available.")
 
     repos.sort(key=lambda r: r.get('stars', 0), reverse=True)
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-    # --- FIX IS IN THIS SCRIPT BLOCK ---
-    # Note the double curly braces {{ and }} to escape them for the f-string.
     html_content = f"""
     <!DOCTYPE html>
-    <html lang="en" class="scroll-smooth">
+    <html lang="en" class="">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AI & OSINT Repository Curator</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
-            // Set theme on page load based on user preference or system settings
-            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {{
-                document.documentElement.classList.add('dark');
-            }} else {{
-                document.documentElement.classList.remove('dark');
+            // Function to apply the theme
+            function applyTheme(theme) {{
+                if (theme === 'dark') {{
+                    document.documentElement.classList.add('dark');
+                }} else {{
+                    document.documentElement.classList.remove('dark');
+                }}
             }}
 
             // Function to toggle the theme
             function toggleTheme() {{
-                const isDark = document.documentElement.classList.toggle('dark');
-                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                const isDark = document.documentElement.classList.contains('dark');
+                const newTheme = isDark ? 'light' : 'dark';
+                localStorage.setItem('theme', newTheme);
+                applyTheme(newTheme);
+            }}
+
+            // Apply theme on initial page load
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (savedTheme) {{
+                applyTheme(savedTheme);
+            }} else {{
+                applyTheme(prefersDark ? 'dark' : 'light');
             }}
         </script>
     </head>
@@ -61,8 +69,10 @@ def generate_website():
                 <p class="text-gray-600 dark:text-gray-400 mt-2">A curated list of top-tier projects in AI, OSINT, and Cybersecurity.</p>
                 <p class="text-sm text-gray-400 dark:text-gray-500 mt-1">Last updated: {timestamp}</p>
                 <button onclick="toggleTheme()" class="absolute top-0 right-0 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:outline-none" aria-label="Toggle theme">
-                    <svg class="h-6 w-6 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-                    <svg class="h-6 w-6 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" class="dark:hidden"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" class="hidden dark:inline"/>
+                    </svg>
                 </button>
             </header>
             <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
