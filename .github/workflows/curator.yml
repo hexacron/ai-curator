@@ -2,19 +2,20 @@ name: AI Repository Curator
 
 on:
   schedule:
-    # Run daily at 6 AM UTC
+    # Run daily at 6 AM UTC (adjust timezone as needed)
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual triggering
   push:
     branches: [ main ]
     paths:
-      - 'simple_curator.py'
+      - 'curator_v7.py'
       - 'generate_website.py'
       - 'config.json'
       - '.github/workflows/curator.yml'
+      - 'requirements.txt'
 
 jobs:
-  curate-repositories:
+  curate-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -27,7 +28,7 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Set up Python
+    - name: Set up Python 3.9
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
@@ -35,46 +36,42 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests python-dotenv
+        pip install -r requirements.txt
 
-    - name: Create config if not exists
+    - name: Create config if it does not exist
       run: |
         if [ ! -f config.json ]; then
           echo '{}' > config.json
         fi
 
-    - name: Run curator
+    - name: Run Curator Script
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
         GITHUB_REPO: ${{ github.event.repository.name }}
-      run: |
-        python simple_curator.py
+      run: python curator_v7.py
 
-    - name: Generate website files
-      run: |
-        python generate_website.py
+    - name: Generate Website Files
+      run: python generate_website.py
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v5
+    - name: Setup GitHub Pages
+      uses: actions/configure-pages@v5 # Updated from v3
 
-    - name: Upload to GitHub Pages
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: './docs'
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v3 # Updated from v2
 
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v2
+      uses: actions/deploy-pages@v4 # Updated from v2
 
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "No changes to commit."
         else
-          git commit -m "🤖 Auto-update curator results $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "🤖 Chore: Auto-update curator results and website"
           git push
         fi
