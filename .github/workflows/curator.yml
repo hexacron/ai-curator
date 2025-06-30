@@ -55,8 +55,6 @@ jobs:
     - name: Generate Website Files
       run: python generate_website.py
 
-    # --- FIX IS HERE ---
-    # This step disables Jekyll, which fixes the deployment error.
     - name: Disable Jekyll
       run: touch ./docs/.nojekyll
 
@@ -72,14 +70,23 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@v4
 
+    # --- FIX IS HERE ---
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
+        
+        # Check if there are any changes to commit
         if git diff --staged --quiet; then
           echo "No changes to commit."
         else
+          # Pull the latest changes from the remote to avoid conflicts
+          git pull --rebase
+          
+          # Commit the new files
           git commit -m "🤖 Chore: Auto-update curator results and website"
+          
+          # Push the changes
           git push
         fi
