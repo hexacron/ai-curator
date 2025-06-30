@@ -9,7 +9,7 @@ on:
     branches: [ main ]
     paths:
       - 'curator_v7.py'
-      - 'generate_website.py' # Add this file
+      - 'generate_website.py'
       - 'config.json'
       - '.github/workflows/curator.yml'
       - 'requirements.txt'
@@ -21,6 +21,12 @@ jobs:
       contents: write
       pages: write
       id-token: write
+    
+    # --- FIX IS HERE ---
+    # This block is required by the deploy-pages action.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout repository
@@ -36,6 +42,12 @@ jobs:
 
     - name: Install dependencies
       run: pip install -r requirements.txt
+
+    - name: Create config if it does not exist
+      run: |
+        if [ ! -f config.json ]; then
+          echo '{}' > config.json
+        fi
 
     - name: Run Curator Script
       env:
