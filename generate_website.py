@@ -4,7 +4,7 @@ from datetime import datetime
 
 def generate_website():
     """
-    Generates an HTML website from repository data with a dark mode toggle and improved layout.
+    Generates a clean HTML website from repository data with a dark mode toggle and proper layout.
     """
     
     # Ensure the 'docs' directory exists
@@ -33,41 +33,36 @@ def generate_website():
     # --- HTML Head, Header, and Dark Mode Script ---
     html_content = f"""
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AI & OSINT Curator</title>
+        <title>AI & OSINT Repository Curator</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
-            // Set theme on page load
+            // Set theme on page load based on user preference or system settings
             if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
                 document.documentElement.classList.add('dark');
             } else {
                 document.documentElement.classList.remove('dark');
             }
 
-            // Theme toggle function
+            // Function to toggle the theme
             function toggleTheme() {
-                if (document.documentElement.classList.contains('dark')) {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('theme', 'light');
-                } else {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('theme', 'dark');
-                }
+                const isDark = document.documentElement.classList.toggle('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
             }
         </script>
     </head>
     <body class="bg-gray-100 dark:bg-gray-900 font-sans transition-colors duration-300">
         <div class="container mx-auto px-4 py-8">
             <header class="text-center mb-10 relative">
-                <h1 class="text-5xl font-bold text-gray-800 dark:text-gray-100">AI & OSINT Repository Curator</h1>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-gray-100">AI & OSINT Repository Curator</h1>
                 <p class="text-gray-600 dark:text-gray-400 mt-2">A curated list of top-tier projects in AI, OSINT, and Cybersecurity.</p>
                 <p class="text-sm text-gray-400 dark:text-gray-500 mt-1">Last updated: {timestamp}</p>
-                <button onclick="toggleTheme()" class="absolute top-0 right-0 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:outline-none">
+                <button onclick="toggleTheme()" class="absolute top-0 right-0 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:outline-none" aria-label="Toggle theme">
                     <svg id="theme-icon-light" class="h-6 w-6 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-                    <svg id="theme-icon-dark" class="h-6 w-6 hidden dark:inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                    <svg id="theme-icon-dark" class="h-6 w-6 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
                 </button>
             </header>
             <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -84,16 +79,13 @@ def generate_website():
     else:
         for repo in repos:
             topics_html = ''.join([f'<span class="inline-block bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 text-xs font-semibold mr-2 mb-2 px-2.5 py-0.5 rounded-full">{topic}</span>' for topic in repo.get('topics', [])[:5]])
-            
-            # ** LAYOUT FIX IS HERE **
-            # Using flexbox to ensure cards have equal height and content is aligned.
             html_content += f"""
             <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 p-6 flex flex-col">
                 <div class="flex-grow">
-                    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
                         <a href="{repo['html_url']}" target="_blank" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">{repo['name']}</a>
                     </h2>
-                    <p class="text-gray-700 dark:text-gray-300 mb-4 text-sm h-24 overflow-hidden">{repo.get('description', 'No description available.')}</p>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm h-24 overflow-auto">{repo.get('description', 'No description available.')}</p>
                 </div>
                 <div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
                     <div class="h-14 overflow-y-auto mb-4">
@@ -122,7 +114,7 @@ def generate_website():
     with open('docs/index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
 
-    print("✅ Successfully generated website at docs/index.html with layout fixes and dark mode.")
+    print("✅ Successfully generated website at docs/index.html.")
 
 if __name__ == "__main__":
     generate_website()
