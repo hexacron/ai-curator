@@ -22,8 +22,6 @@ jobs:
       pages: write
       id-token: write
     
-    # --- FIX IS HERE ---
-    # This block is required by the deploy-pages action.
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -56,6 +54,11 @@ jobs:
 
     - name: Generate Website Files
       run: python generate_website.py
+
+    # --- FIX IS HERE ---
+    # This step disables Jekyll, which fixes the deployment error.
+    - name: Disable Jekyll
+      run: touch ./docs/.nojekyll
 
     - name: Setup GitHub Pages
       uses: actions/configure-pages@v5
