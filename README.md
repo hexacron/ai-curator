@@ -1,12 +1,12 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-06-30 10:37:37*
+*Last updated: 2025-06-30 14:57:54*
 
 ## 📊 Collection Summary
 
 - **Total Repositories**: 181
 - **Total Stars**: 95,003
-- **Search Queries**: 5
+- **Search Queries**: 8
 
 ### 🔥 Top Languages
 - **Python**: 72 repositories
@@ -114,6 +114,88 @@ Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domai
 📚 A curated list of awesome programming books (Algorithms and data structures, Artificial intelligence, Software Architecture, Human–computer interaction, Operating Systems, Database Systems, IT Security, Concurrency, Interpreters and Compilers, High-Performance Computing, Distributed Systems, Game Development, Mathematical optimization)
 
 **Topics**: `awesome` `awesome-list` `books` `learning-resources` `programming`
+
+---
+
+### 11. [lazyrecon](https://github.com/nahamsec/lazyrecon)
+**1,981 ⭐** | **Shell** | Updated: 2025-06-27
+
+This script is intended to automate your reconnaissance process in an organized fashion
+
+---
+
+### 12. [GitGot](https://github.com/BishopFox/GitGot)
+**1,514 ⭐** | **Python** | Updated: 2025-06-25
+
+Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
+
+**Topics**: `fuzzy-matching` `gist-search` `gists` `github-api` `osint`
+
+---
+
+### 13. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
+**1,431 ⭐** | **Go** | Updated: 2025-06-30
+
+A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
+
+---
+
+### 14. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
+**1,366 ⭐** | **Python** | Updated: 2025-06-24
+
+AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
+
+**Topics**: `attack-surface` `attacksurfacemapper` `linkedin` `osint` `python`
+
+---
+
+### 15. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
+**1,130 ⭐** | **None** | Updated: 2025-06-30
+
+A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
+
+**Topics**: `agents` `ai` `aiagent` `awesome-list` `bounty-hunters`
+
+---
+
+### 16. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
+**1,084 ⭐** | **TypeScript** | Updated: 2025-06-28
+
+AI-Powered Penetration Testing Assistant for offensive security testing, focused on web applications and network penetration testing.
+
+---
+
+### 17. [intelmq](https://github.com/certtools/intelmq)
+**1,061 ⭐** | **Python** | Updated: 2025-06-29
+
+IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
+
+**Topics**: `alerts` `automation` `cert` `csirt` `cybersecurity`
+
+---
+
+### 18. [legion](https://github.com/Abacus-Group-RTO/legion)
+**1,045 ⭐** | **Python** | Updated: 2025-06-19
+
+Legion is an open source, easy-to-use, super-extensible and semi-automated network penetration testing tool that aids in discovery, reconnaissance and exploitation of information systems.
+
+---
+
+### 19. [mantis](https://github.com/PhonePe/mantis)
+**941 ⭐** | **Python** | Updated: 2025-06-26
+
+Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
+
+**Topics**: `application-security` `attack-surface-management` `bugbounty` `caasm` `hacktoberfest`
+
+---
+
+### 20. [karma_v2](https://github.com/Dheerajmadhukar/karma_v2)
+**860 ⭐** | **Shell** | Updated: 2025-06-19
+
+⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾ is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
+
+**Topics**: `automation` `bash-script` `bugbounty` `infrastructure` `intelligence`
 
 ---
 
