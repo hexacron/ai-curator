@@ -1,0 +1,38 @@
+{
+  "github_token": "tokenhere",
+  "username": "your-github-username",
+  "repo": "ai-curator",
+  "file_path": "README.md",
+  "branch": "main",
+  
+  "search_queries": [
+    "OSINT AI artificial intelligence security",
+    "machine learning cybersecurity threat intelligence",
+    "automated reconnaissance AI tools",
+    "AI security analysis frameworks",
+    "open source intelligence automation",
+    "artificial intelligence penetration testing",
+    "ML security research tools",
+    "AI-powered threat detection"
+  ],
+  
+  "filters": {
+    "min_stars": 10,
+    "min_size": 1000,
+    "languages": ["Python", "JavaScript", "Go", "Rust", "C++", "Java"],
+    "exclude_keywords": ["awesome-list", "tutorial-only", "homework", "test-repo"]
+  },
+  
+  "output_format": "markdown",
+  "max_repos_per_query": 30,
+  "enable_caching": true,
+  "cache_duration_hours": 12,
+  
+  "advanced_options": {
+    "include_forks": false,
+    "min_last_update_days": 365,
+    "require_license": false,
+    "prefer_topics": ["ai", "machine-learning", "osint", "security", "cybersecurity"],
+    "api_delay_seconds": 1.5
+  }
+}
