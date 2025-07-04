@@ -1,14 +1,14 @@
 {
-  "timestamp": 1751290559.956277,
+  "timestamp": 1751637594.8167624,
   "repositories": [
     {
       "name": "taranis-ai",
       "full_name": "taranis-ai/taranis-ai",
       "html_url": "https://github.com/taranis-ai/taranis-ai",
       "description": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
-      "stars": 693,
+      "stars": 698,
       "language": "Python",
-      "last_updated": "2025-06-29",
+      "last_updated": "2025-07-03",
       "topics": [
         "artificial-intelligence",
         "cybersecurity",
@@ -23,9 +23,9 @@
       "full_name": "blark/aiodnsbrute",
       "html_url": "https://github.com/blark/aiodnsbrute",
       "description": "Python 3.5+ DNS asynchronous brute force utility",
-      "stars": 656,
+      "stars": 658,
       "language": "Python",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-03",
       "topics": [
         "async",
         "brute-force",
@@ -52,9 +52,9 @@
       "full_name": "atiilla/geospy",
       "html_url": "https://github.com/atiilla/geospy",
       "description": "Python tool using Google's Gemini API to uncover the location where photos were taken through AI-powered geo-location analysis.",
-      "stars": 381,
+      "stars": 382,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-02",
       "topics": [
         "geolocation",
         "image",
@@ -67,9 +67,9 @@
       "full_name": "arxhr007/Aliens_eye",
       "html_url": "https://github.com/arxhr007/Aliens_eye",
       "description": "Hunt down 840+ social media accounts using AI",
-      "stars": 334,
+      "stars": 335,
       "language": "Python",
-      "last_updated": "2025-06-29",
+      "last_updated": "2025-06-30",
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -98,9 +98,9 @@
       "full_name": "The-Osint-Toolbox/Geolocation-OSINT",
       "html_url": "https://github.com/The-Osint-Toolbox/Geolocation-OSINT",
       "description": "Improve you Geolocation skills, with this ilist of resources.",
-      "stars": 252,
+      "stars": 253,
       "language": null,
-      "last_updated": "2025-06-20",
+      "last_updated": "2025-07-02",
       "topics": [
         "ai",
         "bing-maps",
@@ -146,9 +146,9 @@
       "full_name": "Hack23/cia",
       "html_url": "https://github.com/Hack23/cia",
       "description": "Comprehensive open-source intelligence platform analyzing Swedish political activities using AI and data visualization. Tracks politicians, government institutions, and parliamentary data, offering detailed insights, performance metrics, and advanced analytics.",
-      "stars": 174,
+      "stars": 176,
       "language": "Java",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "civic-tech",
         "data-analysis",
@@ -419,7 +419,7 @@
       "description": "OSINT Multi Recon Tool is an advanced open-source intelligence (OSINT) gathering tool designed for ethical hackers, penetration testers, and cybersecurity professionals. This tool automates reconnaissance by collecting valuable information from various sources, including GitHub, LinkedIn, WHOIS, subdomains, and phone number lookups.",
       "stars": 16,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai",
         "automated",
@@ -455,6 +455,38 @@
       "license_name": "MIT License"
     },
     {
+      "name": "Ai-Prompts",
+      "full_name": "zebbern/Ai-Prompts",
+      "html_url": "https://github.com/zebbern/Ai-Prompts",
+      "description": "\ud83e\uddfe | Use these AI prompts to refine your searches, improve accuracy, and get detailed, context-driven responses that precisely match your queries.",
+      "stars": 15,
+      "language": null,
+      "last_updated": "2025-07-02",
+      "topics": [
+        "ai",
+        "ai-engineering",
+        "ai-hacking",
+        "ai-prompts",
+        "ai-tips",
+        "bug-bounty",
+        "chatgpt",
+        "chatgpt-plugins",
+        "cybersecurity-education",
+        "development",
+        "engineering",
+        "gpt",
+        "gpt-prompts",
+        "hacking",
+        "osint",
+        "pentest",
+        "query",
+        "reconnaissance",
+        "research",
+        "search-algorithms"
+      ],
+      "license_name": "MIT License"
+    },
+    {
       "name": "recops",
       "full_name": "forensic-toolkit/recops",
       "html_url": "https://github.com/forensic-toolkit/recops",
@@ -485,38 +517,6 @@
         "vgg-face"
       ],
       "license_name": "Other"
-    },
-    {
-      "name": "Ai-Prompts",
-      "full_name": "zebbern/Ai-Prompts",
-      "html_url": "https://github.com/zebbern/Ai-Prompts",
-      "description": "\ud83e\uddfe | Use these AI prompts to refine your searches, improve accuracy, and get detailed, context-driven responses that precisely match your queries.",
-      "stars": 14,
-      "language": null,
-      "last_updated": "2025-06-17",
-      "topics": [
-        "ai",
-        "ai-engineering",
-        "ai-hacking",
-        "ai-prompts",
-        "ai-tips",
-        "bug-bounty",
-        "chatgpt",
-        "chatgpt-plugins",
-        "cybersecurity-education",
-        "development",
-        "engineering",
-        "gpt",
-        "gpt-prompts",
-        "hacking",
-        "osint",
-        "pentest",
-        "query",
-        "reconnaissance",
-        "research",
-        "search-algorithms"
-      ],
-      "license_name": "MIT License"
     },
     {
       "name": "Social-Net-SCrap",
@@ -595,9 +595,9 @@
       "full_name": "The-Art-of-Hacking/h4cker",
       "html_url": "https://github.com/The-Art-of-Hacking/h4cker",
       "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
-      "stars": 21690,
+      "stars": 21751,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai",
         "ai-security",
@@ -627,9 +627,9 @@
       "full_name": "zero-equals-false/awesome-programming-books",
       "html_url": "https://github.com/zero-equals-false/awesome-programming-books",
       "description": "\ud83d\udcda A curated list of awesome programming books (Algorithms and data structures, Artificial intelligence, Software Architecture, Human\u2013computer interaction, Operating Systems, Database Systems, IT Security, Concurrency, Interpreters and Compilers, High-Performance Computing, Distributed Systems, Game Development, Mathematical optimization)",
-      "stars": 2012,
+      "stars": 2013,
       "language": null,
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-03",
       "topics": [
         "awesome",
         "awesome-list",
@@ -655,9 +655,9 @@
       "full_name": "ossf/ai-ml-security",
       "html_url": "https://github.com/ossf/ai-ml-security",
       "description": "Working Group on Artificial Intelligence and Machine Learning (AI/ML) Security",
-      "stars": 84,
+      "stars": 87,
       "language": null,
-      "last_updated": "2025-06-27",
+      "last_updated": "2025-07-03",
       "topics": [],
       "license_name": "Apache License 2.0"
     },
@@ -726,9 +726,9 @@
       "full_name": "djdprogramming/adfa2",
       "html_url": "https://github.com/djdprogramming/adfa2",
       "description": "# David's Personal Roadmap to Learning Data Science #### Based on the article [Learn Data Science for free in 2021](https://www.kdnuggets.com/2021/01/learn-data-science-free-2021.html) from KDnuggets. Some additions have been made. ###### I'm new to data science and programming. Some areas of study in this roadmap may be researched to a point of redundancy while materials for other topics could be seriously lacking. As I progress through this learning path, I'll be able to gauge which areas need more (or less) focus and will add and remove resources as needed.  ## Schoolwork ##### Required readings for my Data Science classes. - [ ] [Doing Data Science: Straight Talk from the Frontline](https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659) by Cathy O'Neil & Rachel Schutt   - [ ] 1. Introduction: What is Data Science?   - [ ] 2. Statistical Inference, Exploratory Data Analysis, and the Data Science Process   - [ ] 3. Algorithms   - [ ] 4. Spam Filters, Naive Bayes, and Wrangling   - [ ] 5. Logistic Regression   - [ ] 6. Time Stamps and Financial Modeling   - [ ] 7. Extracting Meaning from Data   - [ ] 8. Recommendation Engines: Building a User-Facing Data Product at Scale   - [ ] 9. Data Visualization and Fraud Detection   - [ ] 10. Social Networks and Data Journalism   - [ ] 11. Causality   - [ ] 12. Epidemiology   - [ ] 13. Lessons Learned from Data Competitions: Data Leakage and Model Evaluation   - [ ] 14. Data Engineering: MapReduce, Pregel, and Hadoop   - [ ] 15. The Students Speak   - [ ] 16. Next-Generation Data Scientists, Hubris, and Ethics   - [ ] [Practical Statistics for Data Scientists: 50 Essential Concepts](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X/ref=sr_1_1?dchild=1&keywords=Practical+Statistics+for+Data+Scientists&qid=1609991269&s=books&sr=1-1) by Peter Bruce, Andrew Bruce & Peter Gedeck   - [ ] 1. Exploratory Data Analysis   - [ ] 2. Data and Sampling Distributions   - [ ] 3. Statistical Experiments and Significance Testing   - [ ] 4. Regression and Prediction   - [ ] 5. Classification   - [ ] 6. Statistical Machine Learning   - [ ] 7. Unsupervised Learning  ## Programming Skills ##### Learn programming basics. - [ ] [Python 3 Basics Tutorial Series](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M) by sentdex   - [ ] 1. Python 3 Programming Tutorial: Why Python 3? Python 2 vs Python 3 `7:36`   - [ ] 2. Python 3 Programming Tutorial: Installing Python 3 - How to Install Both Python 2 and Python 3 `15:47`   - [ ] 3. Python 3 Programming Tutorial: Print Function and Strings `9:31`   - [ ] 4. Python 3 Programming Tutorial: Math `4:49`   - [ ] 5. Python 3 Programming Tutorial: Variables `4:26`   - [ ] 6. Python 3 Programming Tutorial: While Loop `5:55`   - [ ] 7. Python 3 Programming Tutorial: For Loop `9:05`   - [ ] 8. Python 3 Programming Tutorial: If Statement `4:54`   - [ ] 9. Python 3 Programming Tutorial: If Else `3:20`   - [ ] 10. Python 3 Programming Tutorial: If Elif Else `4:19`   - [ ] 11. Python 3 Programming Tutorial: Functions `3:05`   - [ ] 12. Python 3 Programming Tutorial: Function Parameters `4:00`   - [ ] 13. Python 3 Programming Tutorial: Function Parameter Defaults `6:06`   - [ ] 14. Python 3 Programming Tutorial: Global and Local Variables `6:31`   - [ ] 15. Python 3 Programming Tutorial: Installing Modules `7:44`   - [ ] 16. Python 3 Programming Tutorial: How to Download and Install Python Packages and Modules with Pip `8:32`   - [ ] 17. Python 3 Programming Tutorial: Common Errors `4:49`   - [ ] 18. Python 3 Programming Tutorial: Writing to File `3:35`   - [ ] 19. Python 3 Programming Tutorial: Appending Files `2:42`   - [ ] 20. Python 3 Programming Tutorial: Read from a File `1:49`   - [ ] 21. Python 3 Programming Tutorial: Classes `4:56`   - [ ] 22. Python 3 Programming Tutorial: Frequently Asked Questions `5:33`   - [ ] 23. Python 3 Programming Tutorial: Getting User Input `1:43`   - [ ] 24. Python 3 Programming Tutorial: Statistics (Mean, Standard Deviation) `2:36`   - [ ] 25. Python 3 Programming Tutorial: Module Import Syntax `5:31`   - [ ] 26. Python 3 Programming Tutorial: Making Modules `4:58`   - [ ] 27. Python 3 Programming Tutorial: Lists and Tuples `5:51`   - [ ] 28. Python 3 Programming Tutorial: List Manipulation `9:35`   - [ ] 29. Python 3 Programming Tutorial: Multi-Dimensional List `5:45`   - [ ] 30. Python 3 Programming Tutorial: Reading from a CSV Spreadsheet `9:24`   - [ ] 31. Python 3 Programming Tutorial: Try and Except Error Handlings `7:04`   - [ ] 32. Python 3 Programming Tutorial: Multi-Line Print `3:19`   - [ ] 33. Python 3 Programming Tutorial: Dictionaries `7:11`   - [ ] 34. Python 3 Programming Tutorial: Built-in Functions `10:58`   - [ ] 35. Python 3 Programming Tutorial: OS Module `5:01`   - [ ] 36. Python 3 Programming Tutorial: Sys Module `11:00`   - [ ] 37. Python 3 Programming Tutorial: urllib Module `24:04`   - [ ] 38. Python 3 Programming Tutorial: Regular Expressions/Regex with re `19:58`   - [ ] 39. Python 3 Programming Tutorial: Parsing Websites with re and urllib `7:29`   - [ ] 40. Python 3 Programming Tutorial: Tkinter Module Making Windows `8:03`   - [ ] 41. Python 3 Programming Tutorial: Tkinter Adding Buttons `6:29`   - [ ] 42. Python 3 Programming Tutorial: Tkinter Event Handling `5:40`   - [ ] 43. Python 3 Programming Tutorial: Tkinter Menu Bar `10:25`   - [ ] 44. Python 3 Programming Tutorial: Tkinter Adding Images and Text `11:59`   - [ ] 45. Python 3 Programming Tutorial: Threading Module `18:43`   - [ ] 46. Python 3 Programming Tutorial: cx_freeze Python to .exe `12:08`   - [ ] 47. Python 3 Programming Tutorial: Subprocess Module `13:17`   - [ ] 48. Python 3 Programming Tutorial: Matplotlib Graphing Intro `10:25`   - [ ] 49. Python 3 Programming Tutorial: Matplotlib Labels and Titles `5:03`   - [ ] 50. Python 3 Programming Tutorial: Matplotlib Styles `10:38`   - [ ] 51. Python 3 Programming Tutorial: Matplotlib Legends `4:07`   - [ ] 52. Python 3 Programming Tutorial: Scatter Plots and Bar Charts `6:38`   - [ ] 53. Python 3 Programming Tutorial: Matplotlib Plotting from a CSV `7:21`   - [ ] 54. Python 3 Programming Tutorial: ftplib FTP Transfers Python `8:47`   - [ ] 55. Python 3 Programming Tutorial: Sockets Intro `10:48`   - [ ] 56. Python 3 Programming Tutorial: Sockets Simple Port Scanner `5:08`   - [ ] 57. Python 3 Programming Tutorial: Threaded Port Scanner `9:36`   - [ ] 58. Python 3 Programming Tutorial: Sockets Binding and Listening `5:53`   - [ ] 59. Python 3 Programming Tutorial: Sockets Client Server System `10:27` - [ ] [Intermediate Python Programming](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfju7ADVp5W1GF9jVhjbX-_) by sentdex   - [ ] 1. Intermediate Python Programming: Introduction `7:48`   - [ ] 2. Intermediate Python Programming: String Concatenation and Formatting `13:40`   - [ ] 3. Intermediate Python Programming: Argparse for CLI `10:49`   - [ ] 4. Intermediate Python Programming: List Comprehension and Generator Expressions `6:52`   - [ ] 5. Intermediate Python Programming: More on List Comp and Generators `15:28`   - [ ] 6. Intermediate Python Programming: Timeit Module `11:28`   - [ ] 7. Intermediate Python Programming: Enumerate `4:48`   - [ ] 8. Intermediate Python Programming: Zip `7:23`   - [ ] 9. Intermediate Python Programming: Writing Our Own Generator `11:08`   - [ ] 10. Intermediate Python Programming: Multiprocessing `11:30`   - [ ] 11. Intermediate Python Programming: Getting Returned Values from Processes `4:22`   - [ ] 12. Intermediate Python Programming: Multiprocessing Spider Example `24:18`   - [ ] 13. Intermediate Python Programming: Object Oriented Programming Introductions `11:35`   - [ ] 14. Intermediate Python Programming: Creating an Environment for Our Project `11:49`   - [ ] 15. Intermediate Python Programming: Many Blob Objects `8:30`   - [ ] 16. Intermediate Python Programming: Object Modularity Thoughts `16:41`   - [ ] 17. Intermediate Python Programming: OOP Inheritance `10:17`   - [ ] 18. Intermediate Python Programming: Decorators `8:50`   - [ ] 19. Intermediate Python Programming: Operator Overloading `10:19`   - [ ] 20. Intermediate Python Programming: Detecting Collisions `15:20`   - [ ] 21. Intermediate Python Programming: Special Methods, OOP, Iteration `13:30`   - [ ] 22. Intermediate Python Programming: Logging `15:00`   - [ ] 23. Intermediate Python Programming: Error Handling `6:11`   - [ ] 24. Intermediate Python Programming: --str-- and --repr-- `11:32`   - [ ] 25. Intermediate Python Programming: Args and Kwargs `11:58`   - [ ] 26. Intermediate Python Programming: Asyncio - Asynchronous Programming with Coroutines `28:37` - [ ] [2021 Complete Python Bootcamp From Zero to Hero in Python](https://www.udemy.com/course/complete-python-bootcamp/) by Jose Portilla   - [ ] 1. Course Overview   - [ ] 2. Python Setup   - [ ] 3. Python Object and Data Structure Basics   - [ ] 4. Python Comparison Operators   - [ ] 5. Python Statements   - [ ] 6. Methods and Functions   - [ ] 7. Milestone Project 1   - [ ] 8. Object Oriented Programming   - [ ] 9. Modules and Packages   - [ ] 10. Errors and Exceptions Handlings   - [ ] 11. Milestone Project 2   - [ ] 12. Python Decorators   - [ ] 13. Python Generators   - [ ] 14. Advanced Python Modules   - [ ] 15. Web Scraping with Python   - [ ] 16. Working with Images with Python   - [ ] 17. Working with PDFs and Spreadsheet CSV Files   - [ ] 18. Emails with Python   - [ ] 19. Final Capstone Python Project   - [ ] 20. Advanced Python Objects and Data Structures   - [ ] 21. Bonus Material - Introduction to GUIs - [ ] Build the 5 projects listed in the [5 Intermediate Python Projects](https://www.youtube.com/watch?v=o5sb8ehRSYA&ab_channel=TechWithTim) video by Tech With Tim   - [ ] 1. Build a Website with Django/Flask   - [ ] 2. Use a WebScraper   - [ ] 3. Create a Game with PyGame   - [ ] 4. Build a GUI with Tkinter/PyQt5   - [ ] 5. Robotics/Raspberry Pi Project    ## Data Analysis and Visualization ##### Learn NumPy, Pandas and Matplotlib. - [ ] [Python NumPy Tutorial for Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `58:09` - [ ] Read the [Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Introduction to NumPy   - [ ] 2. Understanding Data Types in Python   - [ ] 3. The Basics of NumPy Arrays   - [ ] 4. Computation on NumPy Arrays: Universal Functions   - [ ] 5. Aggregations: Min, Max, and Everything in Between   - [ ] 6. Computation on Arrays: Broadcasting   - [ ] 7. Comparisons, Masks, and Boolean Logic   - [ ] 8. Fancy Indexing   - [ ] 9. Sorting Arrays   - [ ] 10. Structured Data: NumPy's Structured Arrays - [ ] [Pandas Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) by Corey Schafer   - [ ] 1. Python Pandas Tutorial: Getting Started with Data Analysis - Installation and Loading Data `23:01`   - [ ] 2. Python Pandas Tutorial: DataFrame and Series Basics - Selecting Rows and Columns `33:35`   - [ ] 3. Python Pandas Tutorial: Indexes - How to Set, Reset, and Use Indexes `17:27`   - [ ] 4. Python Pandas Tutorial: Filtering - Using Conditionals to Filter Rows and Columns `23:04`   - [ ] 5. Python Pandas Tutorial: Updating Rows and Columns - Modifying Data within DataFrames `40:03`   - [ ] 6. Python Pandas Tutorial: Add/Remove Rows and Columns from DataFrames `16:55`   - [ ] 7. Python Pandas Tutorial: Sorting Data `15:40`   - [ ] 8. Python Pandas Tutorial: Grouping and Aggregating - Analyzing and Exploring Your Data `49:06`   - [ ] 9. Python Pandas Tutorial: Cleaning Data - Casting Data Types and Handling Missing Values `31:54`   - [ ] 10. Python Pandas Tutorial: Working with Dates and Time Series Data `35:41`   - [ ] 11. Python Pandas Tutorial: Reading/Writing Data to Different Sources - Excel, JSON, SQL, Etc. `32:45` - [ ] Read the [Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Data Manipulation with Pandas   - [ ] 2. Introducing Pandas Objects   - [ ] 3. Data Indexing and Selection   - [ ] 4. Operating on Data in Pandas   - [ ] 5. Handling Missing Data   - [ ] 6. Hierarchical Indexing   - [ ] 7. Combining Datasets: Concat and Append   - [ ] 8. Combining Datasets: Merge and Join   - [ ] 9. Aggregation and Grouping   - [ ] 10. Pivot Tables   - [ ] 11. Vectorized String Operations   - [ ] 12. Working with Time Series   - [ ] 13. High-Performance Pandas: eval() and query() - [ ] [Matplotlib Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) by Corey Schafer   - [ ] 1. Matplotlib Tutorial: Creating and Customizing Our First Plots `35:01`   - [ ] 2. Matplotlib Tutorial: Bar Charts and Analyzing Data from CSVs `34:26`   - [ ] 3. Matplotlib Tutorial: Pie Charts `17:02`   - [ ] 4. Matplotlib Tutorial: Stack Plots `14:49`   - [ ] 5. Matplotlib Tutorial: Filling Area on Line Plots `15:18`   - [ ] 6. Matplotlib Tutorial: Histograms `16:36`   - [ ] 7. Matplotlib Tutorial: Scatter Plots `21:24`   - [ ] 8. Matplotlib Tutorial: Plotting Time Series Data `17:09`   - [ ] 9. Matplotlib Tutorial: Plotting Live Data in Real-Time `20:34`   - [ ] 10. Matplotlib Tutorial: Subplots `21:22` - [ ] Read the [Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Visualization with Matplotlib   - [ ] 2. Simple Line Plots   - [ ] 3. Simple Scatter Plots   - [ ] 4. Visualizing Errors   - [ ] 5. Density and Contour Plots   - [ ] 6. Histograms, Binnings, and Density   - [ ] 7. Customizing Plot Legends   - [ ] 8. Customizing Colorbars   - [ ] 9. Multiple Subplots   - [ ] 10. Text and Annotation   - [ ] 11. Customizing Ticks   - [ ] 12. Customizing Matplotlib: Configurations and Stylesheets   - [ ] 13. Three-Dimensional Plotting in Matplotlib   - [ ] 14. Geographic Data with Basemap   - [ ] 15. Visualization with Seaborn - [ ] [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)](https://www.youtube.com/watch?v=LHBE6Q9XlzI&t=2s&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `12:19:51`  ## Data Preprocessing ##### Learn the basics of data preprocessing. - [ ] [Data Cleaning](https://www.kaggle.com/learn/data-cleaning) by Kaggle   - [ ] 1. Handling Missing Values   - [ ] 2. Scaling and Normalization   - [ ] 3. Parsing Dates   - [ ] 4. Character Encodings   - [ ] 5. Inconsistent Data Entry - [ ] Do the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic) competition by Kaggle - [ ] Do the [Housing Prices](https://www.kaggle.com/c/home-data-for-ml-course) competition by Kaggle - [ ] [Feature Engineering](https://www.kaggle.com/learn/feature-engineering) by Kaggle   - [ ] 1. Baseline Model   - [ ] 2. Categorical Encodings   - [ ] 3. Feature Generation   - [ ] 4. Feature Selection    ## Databases ##### Learn about databases. - [ ] [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) by Kaggle   - [ ] 1. Getting Started with SQL and BigQuery   - [ ] 2. Select, From & Where   - [ ] 3. Group By, Having & Count   - [ ] 4. Order By   - [ ] 5. As & With   - [ ] 6. Joining Data - [ ] [Advanced SQL](https://www.kaggle.com/learn/advanced-sql) by Kaggle   - [ ] 1. JOINs and UNIONs   - [ ] 2. Analytic Functions   - [ ] 3. Nested and Repeated Data   - [ ] 4. Writing Efficient Queries - [ ] [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `1:57:33`  ## Machine Learning ##### Taking our first steps into the world of ML. - [ ] [Machine Learning](https://www.coursera.org/learn/machine-learning#syllabus) by Andrew Ng (skipping the MATLAB section)   - [ ] 1. Introduction   - [ ] 2. Linear Regression with One Variable   - [ ] 3. Linear Algebra Review   - [ ] 4. Linear Regression with Multiple Variables   - [ ] 5. Logistic Regression   - [ ] 6. Regularization   - [ ] 7. Neural Networks: Representation   - [ ] 8. Neural Networks: Learning   - [ ] 9: Advice for Applying Machine Learning   - [ ] 10. Machine Learning System Design   - [ ] 11. Support Vector Machines   - [ ] 12. Unsupervised Learning   - [ ] 13. Dimensionality Reduction   - [ ] 14. Anomaly Detection   - [ ] 15. Recommender Systems   - [ ] 16. Large Scale Machine Learning   - [ ] 17. Application Example: Photo OCR - [ ] [Coursera Machine Learning MOOC by Andrew Ng Python Programming Assignments](https://github.com/dibgerge/ml-coursera-python-assignments)   - [ ] Exercise 1   - [ ] Exercise 2   - [ ] Exercise 3   - [ ] Exercise 4   - [ ] Exercise 5   - [ ] Exercise 6   - [ ] Exercise 7   - [ ] Exercise 8 - [ ] Do any [Kaggle](https://www.kaggle.com/) competition - [ ] [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) by Kaggle   - [ ] 1. Introduction   - [ ] 2. Missing Values   - [ ] 3. Categorical Variables   - [ ] 4. Pipelines   - [ ] 5. Cross-Validation   - [ ] 6. XGBoost   - [ ] 7. Data Leakage    ## Linear Algebra and Statistics  ##### Learn linear algebra and statistics. - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra) on Khan Academy   - [ ] 1. Vectors and Spaces   - [ ] 2. Matrix Transformations   - [ ] 3. Alternate Coordinate Systems (Bases) - [ ] [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) on MIT OpenCourseWare   - [ ] Problem Set 1   - [ ] Problem Set 2   - [ ] Problem Set 3   - [ ] Problem Set 4   - [ ] Problem Set 5   - [ ] Problem Set 6   - [ ] Problem Set 7   - [ ] Problem Set 8   - [ ] Problem Set 9   - [ ] Problem Set 10   - [ ] Exam 1   - [ ] Exam 2   - [ ] Exam 3   - [ ] Final Exam - [ ] [Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) on Khan Academy   - [ ] 1. Analyzing Categorical Data   - [ ] 2. Displaying and Comparing Quantitative Data   - [ ] 3. Summarizing Quantitative Data   - [ ] 4. Modeling Data Distributions   - [ ] 5. Exploring Bivariate Numerical Data   - [ ] 6. Study Design   - [ ] 7. Probability   - [ ] 8. Counting, Permutations, and Combinations   - [ ] 9. Random Variables   - [ ] 10. Sampling Distributions   - [ ] 11. Confidence Intervals   - [ ] 12. Significance Tests (Hypothesis Testing)   - [ ] 13. Two-Sample Inference for the Difference Between Groups   - [ ] 14. Inference for Categorical Data (Chi-Square Tests)   - [ ] 15. Advanced Regression (Inference and Transforming)   - [ ] 16. Analysis of Variance (ANOVA) - [ ] [Introduction to Probability and Statistics](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) on MIT OpenCourseWare   - [ ] Problem Set 1   - [ ] Problem Set 2   - [ ] Problem Set 3   - [ ] Problem Set 4   - [ ] Problem Set 5   - [ ] Problem Set 6   - [ ] Problem Set 7   - [ ] Problem Set 8   - [ ] Problem Set 9   - [ ] Exam 1 Practice Questions I   - [ ] Exam 1 Practice Questions II   - [ ] Exam 1 Practice Questions: Long List   - [ ] Exam 1   - [ ] Exam 2 Practice Questions   - [ ] Exam 2   - [ ] Final Exam Practice Questions   - [ ] Final Exam - [ ] [Deep Learning Book](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio & Aaron Courville   - [ ] 1. Introduction   - [ ] 2. Linear Algebra   - [ ] 3. Probability and Information Theory   - [ ] 4. Numerical Computation   - [ ] 5. Machine Learning Basics   - [ ] 6. Deep Feedforward Networks   - [ ] 7. Regularization for Deep Learning   - [ ] 8. Optimization for Training Deep Models   - [ ] 9. Convolutional Networks   - [ ] 10. Sequence Modeling: Recurrent and Recursive Nets   - [ ] 11. Practical Methodology   - [ ] 12. Applications   - [ ] 13. Linear Factor Models   - [ ] 14. Autoencoders   - [ ] 15. Representation Learning   - [ ] 16. Structured Probabilistic Models for Deep Learning   - [ ] 17. Monte Carlo Methods   - [ ] 18. Confronting the Partition Function   - [ ] 19. Approximate Inference   - [ ] 20. Deep Generative Models    ## Deep Learning ##### Learning about deep learning. - [ ] [Practical Deep Learning for Coders](https://course.fast.ai/) by fast.ai   - [ ] Lesson 1   - [ ] Lesson 2   - [ ] Lesson 3   - [ ] Lesson 4   - [ ] Lesson 5   - [ ] Lesson 6   - [ ] Lesson 7   - [ ] Lesson 8 - [ ] [Part 2: Deep Learning from the Foundations](https://course19.fast.ai/part2) by fast.ai   - [ ] Lesson 1   - [ ] Lesson 2   - [ ] Lesson 3   - [ ] Lesson 4   - [ ] Lesson 5   - [ ] Lesson 6   - [ ] Lesson 7   - [ ] Lesson 8   - [ ] Lesson 9   - [ ] Lesson 10   - [ ] Lesson 11   - [ ] Lesson 12   - [ ] Lesson 13   - [ ] Lesson 14 - [ ] [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng   - [ ] Course 1: Neural Networks and Deep Learning     - [ ] 1. Introduction to Deep Learning     - [ ] 2. Neural Network Basics     - [ ] 3. Shallow Neural Networks     - [ ] 4. Deep Neural Networks   - [ ] Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization     - [ ] 1. Practical Aspects of Deep Learning     - [ ] 2. Optimization Algorithms     - [ ] 3. Hyperparameter tuning, Batch Normalization and Programming Frameworks   - [ ] Course 3: Structuring Machine Learning Projects     - [ ] 1. ML Strategy (1)     - [ ] 2. ML Strategy (2)   - [ ] Course 4: Convolutional Neural Networks     - [ ] 1. Foundations of Convolutional Neural Networks     - [ ] 2. Deep Convolutional Models: Case Studies     - [ ] 3. Object Detection     - [ ] 4. Special applications: Face recognition & Neural style transfer   - [ ] Course 5: Sequence Models     - [ ] 1. Recurrent Neural Networks     - [ ] 2. Natural Language Processing & Word Embeddings     - [ ] 3. Sequence Models & Attention Mechanism - [ ] [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice?) by Laurence Moroney   - [ ] Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning     - [ ] 1. A New Programming Paradigm     - [ ] 2. Introduction to Computer Vision     - [ ] 3. Enhancing Vision with Convolutional Neural Networks     - [ ] 4. Using Real-World Images   - [ ] Course 2: Convolutional Neural Networks in TensorFlow     - [ ] 1. Exploring a Larger Dataset     - [ ] 2. Augmentation: A Technique to Avoid Overfitting     - [ ] 3. Transfer Learning     - [ ] 4. Multiclass Classifications   - [ ] Course 3: Natural Language Processing in TensorFlow     - [ ] 1. Sentiment in Text     - [ ] 2. Word Embeddings     - [ ] 3. Sequence Models     - [ ] 4. Sequence Models and Literature   - [ ] Course 4: Sequences, Time Series and Prediction     - [ ] 1. Sequences and Prediction     - [ ] 2. Deep Neural Networks for Time Series     - [ ] 3. Recurrent Neural Networks for Time Series     - [ ] 4. Real-World Time Series Data      ##  Cloud for Model Deployment ##### Learn how to build, train, test, and deploy a machine learning model on AWS. - [ ] [AWS Machine Learning Specialty](https://www.youtube.com/playlist?list=PLEF5xKHm-3ZNDvdJpMCLu9xa1oDNvAmMr) by Amazon   - [ ] 1. AWS Training and Certification: Machine Learning `1:31`   - [ ] 2. Build, Train and Deploy Machine Learning Models on AWS with Amazon SageMaker - AWS Online `35:51`   - [ ] 3. AWS re:Invent 2018: Leadership Session: Machine Learning (AIM202-L) `58:01`   - [ ] 4. Machine Learning Models with TensorFlow Using Amazon SageMaker - AWS Online Tech Talks `40:16`   - [ ] 5. AWS re:Invent 2018: Build & Deploy ML Models Quickly & Easily with Amazon SageMaker `57:53`   - [ ] 6. AWS re:Invent 2018: CI/CD for Your Machine Learning Pipeline with Amazon SageMaker `57:13`   - [ ] 7. AWS Berlin Summit 2018 - Building and Running Your First ML Application on Amazon SageMaker `52:54`   - [ ] 8. Predictive Analytics with Amazon SageMaker `1:03:29`   - [ ] 9. AWS re:Invent 2018: AI/ML with Data Lakes: Counterintuitive Consumer Insights in Retail `1:00:10`   - [ ] 10. AWS re:Invent 2018: Industrialize Machine Learning Using CI/CD Techniques (FSV304-i) `45:34`   - [ ] 11. AWS re:Invent 2018: Driving Machine Learning and Analytics Use Cases with AWS Storage (STG302) `40:16`   - [ ] 12. AWS re:Invent 2018: Deep Learning Applications Using TensorFlow (AIM401-R) `1:02:29`   - [ ] 13. AWS re:Invent 2017: Machine Learning State of the Union (MCL210) `1:00:55`   - [ ] 14. AWS re:Invent 2017: Containerized Machine Learning on AWS (CON309) `1:03:21`   - [ ] 15. AWS re:Invent 2017: Introduction to Deep Learning (MCL205) `46:17`   - [ ] 16. Continuous Delivery with AWS CodePipeline and Amazon SageMaker `25:24`   - [ ] 17. AWS re:Invent 2017: Best Practices for Distributed Machine Learning and Predictive A (ABD403) `1:16:16`   - [ ] 18. AWS re:Invent 2017: GPS: Enhancing Customer Security Using AI/ML on AWS (GPSTEC311) `50:21`   - [ ] 19. How to Wrangle Data for Machine Learning on AWS `59:24`   - [ ] 20. Extract Data from Images and Videos with Amazon Rekognition (Level 300) `26:52`   - [ ] 21. Exploring the Business Use Cases for Amazon Machine Learning - 2017 AWS Online Tech Talks `30:35`   - [ ] 22. AWS re:Invent 2017: Orchestrating Machine Learning Training for Netflix Recommendation (MCL317) `54:21`   - [ ] 23. AWS re:Invent 2017: Reinforcement Learning - The Ultimate AI (ARC320) `1:00:00`   - [ ] 24. Amazon Machine Learning: Empowering Developers to Build Smart Applications `55:09`   - [ ] 25. Amazon SageMaker's Built-in Algorithm Webinar Series: DeepAR Forecasting `53:41`   - [ ] 26. Amazon SageMaker's Built-in Algorithm Webinar Series: Linear Learner `58:55`   - [ ] 27. Amazon SageMaker's Built-in Algorithm Webinar Series: Clustering with K Means `58:52`   - [ ] 28. Amazon SageMaker's Built-in Algorithm Webinar Series: Latent Dirichlet Allocation (LDA) `57:25`   - [ ] 29. Amazon SageMaker's Built-in Algorithm Webinar Series: XGBoost `1:01:02`   - [ ] 30. Amazon SageMaker's Built-in Algorithm Webinar Series: ResNet `55:56`   - [ ] 31. Amazon SageMaker-s Built-in Algorithm Webinar Series: Blazing Text `1:14:37`   - [ ] 32. AWS re:Invent 2017: NEW LAUNCH! Introducing Amazon SageMaker (MCL365) `1:02:08`   - [ ] 33. Fully Managed Notebook Instances with Amazon SageMaker - a Deep Dive `16:45`   - [ ] 34. Built-in Machine Learning Algorithms with Amazon SageMaker -  a Deep Dive `15:38` - [ ] [Machine Learning with TensorFlow on Google Cloud Platform Specialization](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp) by Google Cloud Training   - [ ] Course 1: How Google does Machine Learning     - [ ] 1. Introduction to Course     - [ ] 2. What It Means to Be AI First     - [ ] 3. How Google Does ML     - [ ] 4. Inclusive ML     - [ ] 5. Python Notebooks in the Cloud     - [ ] 6. Summary   - [ ] Course 2: Launching into Machine Learning     - [ ] 1. Introduction to Course     - [ ] 2. Improve Data Quality and Exploratory Data Analysis     - [ ] 3. Practical ML     - [ ] 4. Optimization     - [ ] 5. Generalization and Sampling     - [ ] 6. Summary   - [ ] Course 3: Introduction to TensorFlow     - [ ] 1. Introduction to Course     - [ ] 2. Introduction to TensorFlow     - [ ] 3. Design and Build a TensorFlow Input Data Pipeline     - [ ] 4. Training Neural Networks with TensorFlow 2 and the Keras Sequential API     - [ ] 5. Training Neural Networks with TensorFlow 2 and the Keras Functional API     - [ ] 6. Summary   - [ ] Course 4: Feature Engineering     - [ ] 1. Introduction to Course     - [ ] 2. Raw Data to Features     - [ ] 3. Preprocessing and Feature Creation     - [ ] 4. Feature Crosses     - [ ] 5. TensorFlow Transform     - [ ] 6. Summary   - [ ] Course 5: Art and Science of Machine Learning     - [ ] 1. Introduction     - [ ] 2. The Art of ML     - [ ] 3. Hyperparameter Tuning     - [ ] 4. A Pinch of Science     - [ ] 5. The Science of Neural Networks     - [ ] 6. Embeddings     - [ ] 7. Summary",
-      "stars": 40,
+      "stars": 41,
       "language": null,
-      "last_updated": "2025-05-21",
+      "last_updated": "2025-07-02",
       "topics": [],
       "license_name": null
     },
@@ -739,7 +739,7 @@
       "description": "AI based Online Exam Proctoring System is an innovative project designed to maintain the integrity and security of online exams using Python and Computer Vision. ",
       "stars": 29,
       "language": "Python",
-      "last_updated": "2025-06-29",
+      "last_updated": "2025-07-02",
       "topics": [
         "artificial-intelligence",
         "computer-vision",
@@ -792,13 +792,24 @@
       "license_name": null
     },
     {
+      "name": "Smart-Monitor-An-AI-Powered-IoT-Monitoring-System-for-Small-Medium-Scale-Premises",
+      "full_name": "BernardNyarko/Smart-Monitor-An-AI-Powered-IoT-Monitoring-System-for-Small-Medium-Scale-Premises",
+      "html_url": "https://github.com/BernardNyarko/Smart-Monitor-An-AI-Powered-IoT-Monitoring-System-for-Small-Medium-Scale-Premises",
+      "description": "With recent advances in both Artificial Intelligence (AI) and Internet of Things (IoT) capabilities, it is more possible than ever to implement surveillance systems that can automatically identify people who might represent a potential security threat to the public in real-time. Imagine a surveillance camera system that can detect various on-body weapons, suspicious objects, and traffic. This system could transform surveillance cameras from passive sentries into active observers, which would help prevent a possible mass shooting in a school, stadium, or mall. In this project, we tried to realize such systems by implementing Smart-Monitor, an AI-powered threat detector for intelligent surveillance cameras. The developed system can be deployed locally on the surveillance cameras at the network edge. Deploying AI-enabled surveillance applications at the edge enables the initial analysis of the captured images on-site, reducing the communication overheads and enabling swift security actions. We developed a mobile app that users can detect suspicious objects in an image and video captured by several cameras at the network edge. Also, the model can generate a high-quality segmentation mask for each object instance in the photo, along with the confidence percentage. The camera side used a Raspberry Pi 4 device, Neural Compute Stick 2 (NCS 2), Logitech C920 webcam, motion sensors, buzzers, pushbuttons, LED lights, Python Face recognition, and TensorFlow Custom Object Detection. When the system detects a motion in the surrounding environment, the motion sensors send a signal to the Raspberry Pi device notifying it to start capturing images for such physical activity. Using Python\u2019s face recognition and TensorFlow 2 custom object detection Smart-Monitor can recognize eight classes, including a baseball bat, bird, cat, dog, gun, hammer, knife, and human faces. Finally, we evaluated our system using various performance metrics such as classification time and accuracy, scalability, etc. ",
+      "stars": 16,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-07-02",
+      "topics": [],
+      "license_name": null
+    },
+    {
       "name": "awesome-ml-for-cybersecurity",
       "full_name": "jivoi/awesome-ml-for-cybersecurity",
       "html_url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
       "description": " :octocat: Machine Learning for Cyber Security",
-      "stars": 7628,
+      "stars": 7641,
       "language": null,
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "awesome-list",
         "cyber-security",
@@ -812,9 +823,9 @@
       "full_name": "JoseDeFreitas/awesome-youtubers",
       "html_url": "https://github.com/JoseDeFreitas/awesome-youtubers",
       "description": "An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.",
-      "stars": 6666,
+      "stars": 6676,
       "language": "Markdown",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "awesome",
         "awesome-list",
@@ -840,9 +851,9 @@
       "full_name": "KOSASIH/eulers-shield",
       "html_url": "https://github.com/KOSASIH/eulers-shield",
       "description": "A decentralized, AI-powered financial system for stabilizing the value of Pi Coin at $314159. Combining blockchain, machine learning, and cybersecurity, Euler's Shield ensures the security, scalability, and decentralization of the Pi Coin ecosystem.",
-      "stars": 201,
+      "stars": 202,
       "language": "Python",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-03",
       "topics": [
         "cyber-security",
         "eulers-shield",
@@ -858,9 +869,9 @@
       "full_name": "PacktPublishing/Hands-on-Machine-Learning-for-Cyber-Security",
       "html_url": "https://github.com/PacktPublishing/Hands-on-Machine-Learning-for-Cyber-Security",
       "description": "Hands-On Machine Learning for Cybersecurity, published by Packt",
-      "stars": 194,
+      "stars": 195,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-06-12",
+      "last_updated": "2025-07-03",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -929,32 +940,13 @@
       "license_name": null
     },
     {
-      "name": "Intrusion-and-anomaly-detection-with-machine-learning",
-      "full_name": "slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
-      "html_url": "https://github.com/slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
-      "description": "Machine learning algorithms applied on log analysis to detect intrusions and suspicious activities.",
-      "stars": 156,
-      "language": "Python",
-      "last_updated": "2025-06-29",
-      "topics": [
-        "cybersecurity",
-        "detect-intrusions",
-        "http-status-code",
-        "infosec",
-        "intrusion-detection",
-        "log-analysis",
-        "machine-learning"
-      ],
-      "license_name": null
-    },
-    {
       "name": "PyVerse",
       "full_name": "UTSAVS26/PyVerse",
       "html_url": "https://github.com/UTSAVS26/PyVerse",
       "description": "PyVerse is an open-source collection of diverse Python projects, tools, and scripts, ranging from beginner to advanced, across various domains like machine learning, web development, and automation.",
-      "stars": 155,
+      "stars": 158,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-06-27",
+      "last_updated": "2025-07-03",
       "topics": [
         "algorithms",
         "automation",
@@ -976,6 +968,25 @@
         "wob-24"
       ],
       "license_name": "MIT License"
+    },
+    {
+      "name": "Intrusion-and-anomaly-detection-with-machine-learning",
+      "full_name": "slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
+      "html_url": "https://github.com/slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
+      "description": "Machine learning algorithms applied on log analysis to detect intrusions and suspicious activities.",
+      "stars": 156,
+      "language": "Python",
+      "last_updated": "2025-06-29",
+      "topics": [
+        "cybersecurity",
+        "detect-intrusions",
+        "http-status-code",
+        "infosec",
+        "intrusion-detection",
+        "log-analysis",
+        "machine-learning"
+      ],
+      "license_name": null
     },
     {
       "name": "Network-Intrusion-Detection-Using-Machine-Learning",
@@ -1117,7 +1128,7 @@
       "description": "A collection of AI-powered tools for phishing detection, adversarial machine learning, and cybersecurity research. Includes Streamlit/Flask apps, attack simulations, LoRA fine-tuning, and secure model evaluation for red teaming and defense.",
       "stars": 94,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-06-26",
+      "last_updated": "2025-07-02",
       "topics": [
         "cybersecurity",
         "hacker",
@@ -1262,17 +1273,6 @@
       "license_name": null
     },
     {
-      "name": "AI-Powered-Threat-Detection-System",
-      "full_name": "CyberNexusX/AI-Powered-Threat-Detection-System",
-      "html_url": "https://github.com/CyberNexusX/AI-Powered-Threat-Detection-System",
-      "description": "Developed a machine learning-based cybersecurity framework that identifies and mitigates potential threats in cloud environments. Integrated with SIEM tools for real-time monitoring. ",
-      "stars": 49,
-      "language": "Python",
-      "last_updated": "2025-06-28",
-      "topics": [],
-      "license_name": "MIT License"
-    },
-    {
       "name": "Malicious-Urlv5",
       "full_name": "abhisheksaxena1998/Malicious-Urlv5",
       "html_url": "https://github.com/abhisheksaxena1998/Malicious-Urlv5",
@@ -1377,6 +1377,17 @@
         "tensorflow"
       ],
       "license_name": null
+    },
+    {
+      "name": "AI-Powered-Threat-Detection-System",
+      "full_name": "CyberNexusX/AI-Powered-Threat-Detection-System",
+      "html_url": "https://github.com/CyberNexusX/AI-Powered-Threat-Detection-System",
+      "description": "Developed a machine learning-based cybersecurity framework that identifies and mitigates potential threats in cloud environments. Integrated with SIEM tools for real-time monitoring. ",
+      "stars": 39,
+      "language": "Python",
+      "last_updated": "2025-07-02",
+      "topics": [],
+      "license_name": "MIT License"
     },
     {
       "name": "10-Machine-Learning-Blueprints-You-Should-Know-for-Cybersecurity",
@@ -1767,9 +1778,9 @@
       "full_name": "prodaft/cradle",
       "html_url": "https://github.com/prodaft/cradle",
       "description": "CRADLE is a collaborative platform for Cyber Threat Intelligence analysts. It streamlines threat investigations with integrated note-taking, automated data linking, interactive visualizations, and robust access control. Enhance your CTI workflow from analysis to reporting\u2014all in one secure space.",
-      "stars": 240,
+      "stars": 242,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-03",
       "topics": [
         "automation",
         "collaborative",
@@ -1873,9 +1884,9 @@
       "full_name": "Tencent/AI-Infra-Guard",
       "html_url": "https://github.com/Tencent/AI-Infra-Guard",
       "description": "A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.",
-      "stars": 1431,
+      "stars": 1465,
       "language": "Go",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [],
       "license_name": "Other"
     },
@@ -1884,9 +1895,9 @@
       "full_name": "al-sultani/prokzee",
       "html_url": "https://github.com/al-sultani/prokzee",
       "description": "A cross-platform desktop application for HTTP/HTTPS traffic interception and analysis, built with Go. Features modern UI, traffic manipulation tools, request resending, fuzzing capabilities, and AI-powered analysis.",
-      "stars": 152,
+      "stars": 153,
       "language": "Go",
-      "last_updated": "2025-06-29",
+      "last_updated": "2025-07-01",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -1905,7 +1916,7 @@
       "full_name": "ccq1/awsome_kali_MCPServers",
       "html_url": "https://github.com/ccq1/awsome_kali_MCPServers",
       "description": "awsome kali MCPServers is a set of MCP servers tailored for Kali Linux, designed to empower AI Agents in reverse engineering and security testing. It offers flexible network analysis, target sniffing, traffic analysis, binary understanding, and automation, enhancing AI-driven workflows.",
-      "stars": 62,
+      "stars": 63,
       "language": "Python",
       "last_updated": "2025-06-30",
       "topics": [
@@ -1930,24 +1941,13 @@
       "license_name": "MIT License"
     },
     {
-      "name": "alder-security-scanner",
-      "full_name": "Adamsmith6300/alder-security-scanner",
-      "html_url": "https://github.com/Adamsmith6300/alder-security-scanner",
-      "description": "An AI-powered security analysis tool for web applications that combines Large Language Model (LLM) analysis with intelligent agent-based verification to identify and validate security vulnerabilities in your codebase.",
-      "stars": 34,
-      "language": "Python",
-      "last_updated": "2025-06-14",
-      "topics": [],
-      "license_name": "Apache License 2.0"
-    },
-    {
       "name": "Wazuh-MCP-Server",
       "full_name": "gensecaihq/Wazuh-MCP-Server",
       "html_url": "https://github.com/gensecaihq/Wazuh-MCP-Server",
       "description": " AI-powered security operations with Wazuh SIEM + Claude Desktop. Natural language threat detection, automated incident response & compliance. 14 security tools, real-time monitoring, ML anomaly detection. Transform your SOC with conversational security analysis. Production-ready MCP server.",
-      "stars": 32,
+      "stars": 35,
       "language": "Python",
-      "last_updated": "2025-06-27",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai",
         "claude",
@@ -1968,6 +1968,17 @@
       "license_name": "MIT License"
     },
     {
+      "name": "alder-security-scanner",
+      "full_name": "Adamsmith6300/alder-security-scanner",
+      "html_url": "https://github.com/Adamsmith6300/alder-security-scanner",
+      "description": "An AI-powered security analysis tool for web applications that combines Large Language Model (LLM) analysis with intelligent agent-based verification to identify and validate security vulnerabilities in your codebase.",
+      "stars": 34,
+      "language": "Python",
+      "last_updated": "2025-06-14",
+      "topics": [],
+      "license_name": "Apache License 2.0"
+    },
+    {
       "name": "android-scanner-ai",
       "full_name": "X-Vector/android-scanner-ai",
       "html_url": "https://github.com/X-Vector/android-scanner-ai",
@@ -1983,9 +1994,9 @@
       "full_name": "Szowesgad/mcp-server-semgrep",
       "html_url": "https://github.com/Szowesgad/mcp-server-semgrep",
       "description": "MCP Server Semgrep is a [Model Context Protocol](https://modelcontextprotocol.io) compliant server that integrates the powerful Semgrep static analysis tool with AI assistants like Anthropic Claude. It enables advanced code analysis, security vulnerability detection, and code quality improvements directly through a conversational interface.",
-      "stars": 14,
+      "stars": 15,
       "language": "JavaScript",
-      "last_updated": "2025-05-21",
+      "last_updated": "2025-07-02",
       "topics": [
         "anthropic-claude",
         "modelcontextprotocol",
@@ -2024,9 +2035,9 @@
       "full_name": "yogeshojha/rengine",
       "html_url": "https://github.com/yogeshojha/rengine",
       "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-      "stars": 7993,
+      "stars": 8006,
       "language": "HTML",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2052,9 +2063,9 @@
       "full_name": "six2dez/reconftw",
       "html_url": "https://github.com/six2dez/reconftw",
       "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-      "stars": 6409,
+      "stars": 6423,
       "language": "Shell",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2082,9 +2093,9 @@
       "full_name": "Tib3rius/AutoRecon",
       "html_url": "https://github.com/Tib3rius/AutoRecon",
       "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-      "stars": 5558,
+      "stars": 5567,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -2093,9 +2104,9 @@
       "full_name": "leebaird/discover",
       "html_url": "https://github.com/leebaird/discover",
       "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.",
-      "stars": 3678,
+      "stars": 3681,
       "language": "Shell",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "bash",
         "enumeration",
@@ -2118,9 +2129,9 @@
       "full_name": "bhavsec/reconspider",
       "html_url": "https://github.com/bhavsec/reconspider",
       "description": "\ud83d\udd0e Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
-      "stars": 2315,
+      "stars": 2316,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "automated",
         "cybersecurity",
@@ -2143,9 +2154,9 @@
       "full_name": "screetsec/Sudomy",
       "html_url": "https://github.com/screetsec/Sudomy",
       "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
-      "stars": 2179,
+      "stars": 2181,
       "language": "Shell",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-04",
       "topics": [
         "bash",
         "bugbounty",
@@ -2174,9 +2185,9 @@
       "full_name": "nahamsec/lazyrecon",
       "html_url": "https://github.com/nahamsec/lazyrecon",
       "description": "This script is intended to automate your reconnaissance process in an organized fashion",
-      "stars": 1981,
+      "stars": 1982,
       "language": "Shell",
-      "last_updated": "2025-06-27",
+      "last_updated": "2025-07-03",
       "topics": [],
       "license_name": null
     },
@@ -2185,9 +2196,9 @@
       "full_name": "BishopFox/GitGot",
       "html_url": "https://github.com/BishopFox/GitGot",
       "description": "Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.",
-      "stars": 1514,
+      "stars": 1511,
       "language": "Python",
-      "last_updated": "2025-06-25",
+      "last_updated": "2025-07-03",
       "topics": [
         "fuzzy-matching",
         "gist-search",
@@ -2209,9 +2220,9 @@
       "full_name": "superhedgy/AttackSurfaceMapper",
       "html_url": "https://github.com/superhedgy/AttackSurfaceMapper",
       "description": "AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.",
-      "stars": 1366,
+      "stars": 1369,
       "language": "Python",
-      "last_updated": "2025-06-24",
+      "last_updated": "2025-07-04",
       "topics": [
         "attack-surface",
         "attacksurfacemapper",
@@ -2261,9 +2272,9 @@
       "full_name": "Dheerajmadhukar/karma_v2",
       "html_url": "https://github.com/Dheerajmadhukar/karma_v2",
       "description": "\u2877\u2802\ud835\ude94\ud835\ude8a\ud835\ude9b\ud835\ude96\ud835\ude8a \ud835\ude9f\ud835\udff8\u2810\u28be is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)",
-      "stars": 860,
+      "stars": 863,
       "language": "Shell",
-      "last_updated": "2025-06-19",
+      "last_updated": "2025-07-02",
       "topics": [
         "automation",
         "bash-script",
@@ -2298,9 +2309,9 @@
       "full_name": "capt-meelo/LazyRecon",
       "html_url": "https://github.com/capt-meelo/LazyRecon",
       "description": "An automated approach to performing recon for bug bounty hunting and penetration testing.",
-      "stars": 444,
+      "stars": 445,
       "language": "Shell",
-      "last_updated": "2025-06-22",
+      "last_updated": "2025-07-03",
       "topics": [
         "bugbounty",
         "pentest",
@@ -2388,9 +2399,9 @@
       "full_name": "0xPugal/SubDomz",
       "html_url": "https://github.com/0xPugal/SubDomz",
       "description": "An Automated Subdomain Enumeration Tool",
-      "stars": 264,
+      "stars": 265,
       "language": "Shell",
-      "last_updated": "2025-06-12",
+      "last_updated": "2025-07-03",
       "topics": [
         "bugbounty",
         "recon",
@@ -2424,6 +2435,28 @@
         "services"
       ],
       "license_name": "GNU General Public License v3.0"
+    },
+    {
+      "name": "Lazy-Hunter",
+      "full_name": "iamunixtz/Lazy-Hunter",
+      "html_url": "https://github.com/iamunixtz/Lazy-Hunter",
+      "description": "LazyHunter is an automated reconnaissance tool designed for bug hunters, leveraging Shodan's InternetDB and CVEDB APIs",
+      "stars": 201,
+      "language": "Python",
+      "last_updated": "2025-07-04",
+      "topics": [
+        "bughunter",
+        "bughunting",
+        "cves",
+        "cveshunter",
+        "lazyhunter",
+        "port",
+        "recon",
+        "reconcves",
+        "scanner",
+        "scanner-web"
+      ],
+      "license_name": "GNU General Public License v2.0"
     },
     {
       "name": "Reconky-Automated_Bash_Script",
@@ -2463,28 +2496,6 @@
       "last_updated": "2025-04-17",
       "topics": [],
       "license_name": "MIT License"
-    },
-    {
-      "name": "Lazy-Hunter",
-      "full_name": "iamunixtz/Lazy-Hunter",
-      "html_url": "https://github.com/iamunixtz/Lazy-Hunter",
-      "description": "LazyHunter is an automated reconnaissance tool designed for bug hunters, leveraging Shodan's InternetDB and CVEDB APIs",
-      "stars": 193,
-      "language": "Python",
-      "last_updated": "2025-06-26",
-      "topics": [
-        "bughunter",
-        "bughunting",
-        "cves",
-        "cveshunter",
-        "lazyhunter",
-        "port",
-        "recon",
-        "reconcves",
-        "scanner",
-        "scanner-web"
-      ],
-      "license_name": "GNU General Public License v2.0"
     },
     {
       "name": "Rekon",
@@ -2632,9 +2643,9 @@
       "full_name": "iamthefrogy/frogy2.0",
       "html_url": "https://github.com/iamthefrogy/frogy2.0",
       "description": "Frogy 2.0 is an automated external reconnaissance and Attack Surface Management (ASM) toolkit",
-      "stars": 105,
+      "stars": 106,
       "language": "HTML",
-      "last_updated": "2025-06-21",
+      "last_updated": "2025-07-01",
       "topics": [],
       "license_name": null
     },
@@ -2786,9 +2797,9 @@
       "full_name": "gotr00t0day/exp0s3d",
       "html_url": "https://github.com/gotr00t0day/exp0s3d",
       "description": "Maximize your bug bounty hunting efficiency with exp0s3d - the open-source tool that automates initial reconnaissance and vulnerability detection.",
-      "stars": 72,
+      "stars": 73,
       "language": "Python",
-      "last_updated": "2025-06-05",
+      "last_updated": "2025-07-03",
       "topics": [],
       "license_name": null
     },
@@ -2831,17 +2842,6 @@
       "license_name": null
     },
     {
-      "name": "Battalion",
-      "full_name": "theabraxas/Battalion",
-      "html_url": "https://github.com/theabraxas/Battalion",
-      "description": "Battalion is a tool used to automate reconnaissance and assist both pentesters and internal security/admin teams.",
-      "stars": 44,
-      "language": "Shell",
-      "last_updated": "2024-02-17",
-      "topics": [],
-      "license_name": null
-    },
-    {
       "name": "easyrecon",
       "full_name": "cspshivam/easyrecon",
       "html_url": "https://github.com/cspshivam/easyrecon",
@@ -2861,13 +2861,24 @@
       "license_name": null
     },
     {
+      "name": "Battalion",
+      "full_name": "theabraxas/Battalion",
+      "html_url": "https://github.com/theabraxas/Battalion",
+      "description": "Battalion is a tool used to automate reconnaissance and assist both pentesters and internal security/admin teams.",
+      "stars": 43,
+      "language": "Shell",
+      "last_updated": "2025-07-03",
+      "topics": [],
+      "license_name": null
+    },
+    {
       "name": "scope",
       "full_name": "rix4uni/scope",
       "html_url": "https://github.com/rix4uni/scope",
       "description": "An automated GitHub Actions-based crawler that fetches and updates public scopes from popular bug bounty platforms (like Hackerone/Bugcrowd/Intigriti/etc) (updates every 10 minutes)",
       "stars": 43,
       "language": "Shell",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2908,9 +2919,9 @@
       "full_name": "MorDavid/ExternalAttacker-MCP",
       "html_url": "https://github.com/MorDavid/ExternalAttacker-MCP",
       "description": "A modular external attack surface mapping tool integrating tools for automated reconnaissance and bug bounty workflows.",
-      "stars": 40,
+      "stars": 41,
       "language": "Python",
-      "last_updated": "2025-06-18",
+      "last_updated": "2025-07-02",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2925,6 +2936,22 @@
         "nuclei-templates",
         "projectdiscovery",
         "tlsx"
+      ],
+      "license_name": null
+    },
+    {
+      "name": "rec0n",
+      "full_name": "m0rd3caii/rec0n",
+      "html_url": "https://github.com/m0rd3caii/rec0n",
+      "description": "A fully automated subdomain reconnaissance and sensitive data discovery toolkit.",
+      "stars": 40,
+      "language": "Python",
+      "last_updated": "2025-07-03",
+      "topics": [
+        "bugbounty",
+        "bugbounty-tool",
+        "hacking-tool",
+        "webpentesting"
       ],
       "license_name": null
     },
@@ -2973,22 +3000,6 @@
       "license_name": "MIT License"
     },
     {
-      "name": "rec0n",
-      "full_name": "m0rd3caii/rec0n",
-      "html_url": "https://github.com/m0rd3caii/rec0n",
-      "description": "A fully automated subdomain reconnaissance and sensitive data discovery toolkit.",
-      "stars": 30,
-      "language": "Python",
-      "last_updated": "2025-06-30",
-      "topics": [
-        "bugbounty",
-        "bugbounty-tool",
-        "hacking-tool",
-        "webpentesting"
-      ],
-      "license_name": null
-    },
-    {
       "name": "hunter-kit",
       "full_name": "hunters-org/hunter-kit",
       "html_url": "https://github.com/hunters-org/hunter-kit",
@@ -3013,9 +3024,9 @@
       "full_name": "taielab/awesome-hacking-lists",
       "html_url": "https://github.com/taielab/awesome-hacking-lists",
       "description": "A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!",
-      "stars": 1130,
+      "stars": 1136,
       "language": null,
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-02",
       "topics": [
         "agents",
         "ai",
@@ -3045,9 +3056,9 @@
       "full_name": "hackerai-tech/PentestGPT",
       "html_url": "https://github.com/hackerai-tech/PentestGPT",
       "description": "AI-Powered Penetration Testing Assistant for offensive security testing, focused on web applications and network penetration testing.",
-      "stars": 1084,
+      "stars": 1086,
       "language": "TypeScript",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-04",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3056,9 +3067,9 @@
       "full_name": "berylliumsec/nebula",
       "html_url": "https://github.com/berylliumsec/nebula",
       "description": "AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.",
-      "stars": 649,
+      "stars": 651,
       "language": "Python",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai",
         "ai-powered-ethical-hacking-tool",
@@ -3083,9 +3094,9 @@
       "full_name": "vxcontrol/pentagi",
       "html_url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "stars": 379,
+      "stars": 386,
       "language": "Go",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai-agents",
         "ai-security-tool",
@@ -3113,9 +3124,9 @@
       "full_name": "Juanhacker051/FOTOSPLOIT-",
       "html_url": "https://github.com/Juanhacker051/FOTOSPLOIT-",
       "description": "*FotoSploit*  $ git clone https://github.com/Cesar-Hack-Gray/FotoSploit $ cd FotoSploit $ chmod +x * $ bash install sh $ ./FotoSploit $ show options  =================================================  *instalar metasploit no termux(Facilmente)*  comandos para instalar metasploit no termux   1:\u00a0\u00a0 apt update && apt upgrade  2:\u00a0\u00a0 apt install curl  3:\u00a0\u00a0\u00a0 curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh  4:\u00a0\u00a0\u00a0\u00a0 ls  5:\u00a0\u00a0\u00a0\u00a0\u00a0chmod 777 metasploit.sh  6:\u00a0\u00a0\u00a0\u00a0 ls  7:\u00a0\u00a0\u00a0\u00a0 ./metasploit.sh  (Carregandooooo)  8:\u00a0\u00a0\u00a0 msfconsole  =================================================  *EchoPwn*  Instala\u00e7\u00e3o   git clone https://github.com/hackerspider1/EchoPwn.git  cd EchoPwn  chmod +x install.sh EchoPwn.sh  ./install.sh  EchoPwn.sh  =================================================  *DarkFly-Tool*  Instala\u00e7\u00e3o   apt update && apt upgrade   apt install git  git clone https://github.com/Ranginang67/DarkFly-Tool   cd DarkFly-Tool   chmod +x *   python2 install.py   =================================================  *Tool-x*  Instala\u00e7\u00e3o  apt update  apt install git  git clone https://github.com/rajkumardusad/Tool-X.git  cd Tool-X  chmod +x install.aex  sh install.aex ou \u00a0./install.aex  =================================================  *Multi_Phish*  pkg instalar droplet   pkg instalar openssh  pkg instalar git   pkg instalar curl   pkg instalar wget   apt instalar git php -y   git clone\u00a0https://github.com/perjayro/MultiPhish.git  cd phish   chmod 777 phish.sh  bash phish.sh  =================================================  *Pentest Tools Framework*  git clone https://github.com/pikpikcu/Pentest-Tools-Framework.git  cd Pentest-Tools-Framework  pip install -r require.txt  python install.py  python ptf.py  =================================================  *Destroyer-framework*  \u2b55\ufe0fLINUX   git clone https://github.com/Cesar-Hack-Gray/Destroyer-framework  cd Destroyer-framework  ls   bash install.sh  ./Destroyer   \u2b55\ufe0fTERMUX   apt upgrede -y && pkg update -y  apt install -y  apt install -y curl  apt install git  git clone https://github.com/Cesar-Hack-Gray/Destroyer-framework  cd Destroyer-framework  ls  bash install.sh  ./Destroyer  =================================================  *NIKTO*  Instala\u00e7\u00e3o  git clone https://github.com/sullo/nikto  apt-get install openssl libcrypt-ssleay-perl  Uso de proxys:  perl nikto.pl -h localhost -p 8080 -useproxy proxyIp  Atualizando Nikto:  perl nikto.pl -update  =================================================  *SocialFish*  Instala\u00e7\u00e3o   $ apt update && upgrade  $ apt install git  $ apt install python2  $ git clone https://github.com/UndeadSec/SocialFish.git   $ cd SocialFish  $ chmod +x *  $ pip2 install -r requirements.txt  =================================================  *Opal [ATUALIZADO]*  git clone https://github.com/shadowlabscc/ProjectOpal.git  cd ProjectOpal  python opal.py   python Injector.py  =================================================  *Kit de ferramentas para bugbounty. #CVEs*  https://github.com/Medicean/VulApps https://github.com/qazbnm456/awesome-cve-poc https://github.com/tunz/js-vuln-db https://github.com/cve-search/cve-search https://github.com/nixawk/labs https://github.com/Coalfire-Research/java-deserialization-exploits https://github.com/Metnew/uxss-db https://github.com/TH3xACE/SUDO_KILLER https://github.com/Mr-xn/Penetration_Testing_POC https://github.com/toolswatch/vFeed  =================================================  *Para pegar informa\u00e7\u00f5es*    1\ufe0f\u20e3 Phone In Foga https://github.com/sundowndev/PhoneInfoga   2\ufe0f\u20e3 In Foga - Email https://github.com/m4ll0k/Infoga   3\ufe0f\u20e3 Angry Fuzz3r https://github.com/ihebski/angryFuzzer   4\ufe0f\u20e3 Hakku Framework https://github.com/4shadoww/hakkuframework   5\ufe0f\u20e3 Knock Mail https://github.com/4w4k3/KnockMail   6\ufe0f\u20e3 Santet Online https://github.com/Gameye98/santet-online   7\ufe0f\u20e3 The Harvester https://github.com/laramies/theHarvester   8\ufe0f\u20e3 Optiva Framework https://github.com/joker25000/Optiva-Framework   9\ufe0f\u20e3 Cyber Scan https://github.com/medbenali/CyberScan  \ud83d\udd1f Gloom Framework https://github.com/StreetSec/Gloom-Framework  =================================================  *OXID Tools*  git clone https://github.com/oxyda-fox/OXIDTools.git  cd OXIDTools  chmod +x *  . /setup.sh  . /run.sh  =================================================  *xShock*  Instala\u00e7\u00e3o   git clone https://github.com/capture0x/xShock/   cd xShock   pip3 install -r requirements.txt  Executar   python3 main.py   =================================================  *Web Pentest*  Instala\u00e7\u00e3o  apt update && apt upgrade  apt install git  apt install python2  apt install python  git clone https://github.com/cr4shcod3/pureblood  cd pureblood  chmod +x *  pip install -r requirements.txt  Uso  python2 pureblood.py  =================================================  *Quack*  Requisitos  apt update && apt upgrade -y  termux-setup-storage  pkg install -y git   pkg install -y python   pip install --upgrade pip  pip install requests  Instala\u00e7\u00e3o  git clone https://github.com/entynetproject/quack  cd quack  pip install -r requirements.txt  chmod +x quack  =================================================  *Thoron Framework*  git clone https://github.com/entynetproject/thoron.git cd thoron  chmod + x install.sh  ./install.sh  =================================================  *BlackPhish*  git clone https://github.com/Ahmedmahmed8a/BlackPhish   cd BlackPhish   bash installer.sh   =================================================  *RapidPayload*  git clone\u00a0https://github.com/AngelSecurityTeam/RapidPayload  cd RapidPayload  bash install.sh  python3 RapidPayload.py  =================================================  *Termux_ExtraKeys* apt update && apt upgrade -y  apt install git -y  git clone https://github.com/Fabrix07Hack/Termux_ExtraKeys.git  cd Termux_ExtraKeys  chmod 777 *  ./extrakeys_Termux  =================================================  *PyReconExSploit*  apt-get update   apt-get upgrade   apt-get install exploitdb netcat nmap perl php   git clone https://github.com/AkutoSai/PyReconExSploit   cd PyReconExSploit/  python3 setup.py install   cp -r /home/user/Desktop/PyReconExSploit/pyreconexsploit /usr/local/lib/python3.7/dist-packages pyreconexsploit  =================================================  *Evil Framework*  apt update  apt upgrade   pip2 install requests  git clone https://github.com/LOoLzeC/Evil-create-framework  cd Evil-create-framework  python2 vcrt.py  show android  help  Escolha um virus  create virus\"seu virus\"  SET OUTPUT cd /sdcard  SET VIRUS NAME \"nome do seu virus\"   run ================================================= *Wifite*  apt update && apt upgrade  apt install git  apt install python2  git clone https://github.com/derv82/wifite2  ls  cd wifite  ls  python2 wifite.py ================================================= *MALICIOUS*  $ termux-setup-storage  $ cd /sdcard   $ apt install git   $ apt install python2   $ apt install ruby   $ gem install lolcat   $ git clone https://github.com/Hider5/Malicious   $ cd Malicious   $ pip2 install -r requirements.txt   $ python2 malicious.py ================================================= *Hammer*  apt update  apt-get install python -y  apt install git  apt install python3  git clone https://github.com/cyweb/hammer  ls  cd hammer  chmod +x hammer.py  python3 hammer.py\u00a0 -s (alvo) -p 80 -t 150  ================================================= *VIRUS X*  $ apt update && apt upgrade $ apt install git   $ apt install python  $ git clone https://github.com/TSMaitry/VirusX.git   $ cd VirusX  $ chmod +x VirusX.py   $ python2 VirusX.py ================================================= *INFECT*  $ apt-get update -y   $ apt-get upgrade -y   $ apt install python -y  $ apt install python2 -y   $ apt install git -y   $ pip install lolcat   $ git clone https://github.com/noob-hackers/Infect   $ ls   $ cd infect   $ ls   $ bash infect.sh =================================================  *F-Society Framework*  (Instala\u00e7\u00e3o)  apt install git  apt install python2  (Instala\u00e7\u00e3o do pacote)  git clone https://github.com/Manisso/fsociety  ls  cd fsociety  ls  chmod +x fsociety.py  ./install.sh  python2 fsociety.py  =================================================  *MyServer*  Abra o termux e digite os seguintes comandos.  apt update  apt install git  git clone https://github.com/rajkumardusad/MyServer  cd MyServer  chmod +x install  ./install =================================================  *AirCrack-ng*  apt update  apt install root-repo  apt install aircrack-ng =================================================  *RouterSploit*  apt update && apt upgrade  apt install python -y  pip2 install  apt install git  git clone https://github.com/threat9/routersploit  ls  cd routersploit  pip2 install -r requirements -dev.txt  pip install future  ls  python rsf.py =================================================  *Shell Phish*  apt update  apt upgrade -y  termux-setup-storage  apt installl git  git clone https://github.com/thelinuxchoice/shellphish  cd shellphish  apt installl php  apt install curl  git clone https://github.com/PSecurity/ps.ngrok  cd ps.ngrok  mv ngrok /data/data/com.termux/files/home/shellphish/  cd ..  rm -rf ps.ngrok  chmod +x ngrok  chmod +x shellphish.sh  bash shellphish.sh  # Ao Iniciar:  cd shellphish  bash shellphish.sh  comandos :  pkg install clang   git clone https://github.com/XCHADXFAQ77X/XERXES   ls  cd XERXES   ls  chmod +x *  ls  clang xerxes.c -o xerxes   ./xerxes exemplo: website.com.br 80  galera lembrando nao bote HTTPS nem www so o nome do site exemplo : website.com.br   ``` ALGUNS COMANDOS DO TERMUX BY: BAN```  apt update && apt upgrade  termux-setup-storage apt install git apt install net-tools apt install termux-tools apt install neofetch apt install ncurses-utils apt install curl curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh chmod +x metasploit.sh ./metasploit.sh msfconsole ____________________________________________ https://github.com/PSecurity/ps.ngrok  termux-setup-storage apt update && apt upgrade -y pkg update && pkg upgrade -y apt install curl pkg install git git clone https://github.com/PSecurity/ps.ngrok cd ps.ngrok mv ngrok /data/data/com.termux/files/home cd .. chmod +x ngrok ./ngrok ( chave de ativa\u00e7\u00e3o NGROK) ./ngrok http 80 ________________________________________________ apt update Apt install python2  Apt install git Git clone https://github.com/evait-security/weeman ls cd weeman chmod +x * python2 weeman.py Set url (url) set action_url (url) run (\u2192Abra outra p\u00e1gina\u2190)      cd .. ./ngrok http 8080  ____________________________________________ apt update apt upgrade apt git git clone https://github.com/liorvh/hammer-1 cd hammer-1 chmod +x * python hammer.py python hammer.py -s (site + www) -t 256 -p 80 ___________________________________________________ apt install git Pkg install clang  Fa\u00e7a a instala\u00e7\u00e3o do Script git clone https://github.com/zanyarjamal/xerxes  Entre no diret\u00f3rio cd xerxes  Digite o comando clang xerxes.c -o xerxes  Agora e s\u00f3 inicia o Ataque ./xerxes website.com 80 ____________________________________________ apt update && apt upgrade apt install php apt install python2 apt install toilet apt install git git clone https://github.com/4L13199/LITESPAM cd LITESPAM ls sh LITESPAM.sh As op\u00e7\u00f5es aparecer\u00e3o como mostrado abaixo, voc\u00ea apenas escolhe qual bomba de spam SMS ser\u00e1 executada ____________________________________________  $ pkg update $ pkg upgrade $ pkg install git $ pkg install php $ pkg install toilet $ pkg install python2 $ gem install lolcat $ pip2 install requests $ pip2 install termcolor $ git clone https://github.com/mbest99/MIXINGS.git $ cd MIXINGS $ bash 0ppay.sh  Features:-  [ 1] PHISING V1 [ 2] PHISING V2 [ 3] PHISING V3 [ 4] PHISING V4 [ 5] PHISING GAME [ 6] Hack fb target [ 7] Hack fb massal [ 8] Hack fb Target+Massal [ 9] Hack FB ans (#root) [10] Hack Instagram (#root) [11] Hack Twitter (#root) [12] Hack Gmail (#root) [13] Fb Info [14] Santet Online [15] Spam IG [16] Spam WA [17] Spam Sms [18] Youtube AutoView (#root) ____________________________________________ No termux, pra adiantar...  pkg install nodejs  Em seguida, crie um aplicativo e guarde o nome dele https://www.heroku.com/  $ pkg install git -y  $ termux-setup-storage  $ ls  $ git clone -b  herooku https://github.com/XploitWizer/XploitSPY  $ cd XploitSPY  $ ls  $ pkg install nodejs  $ npm install heroku -g  $ heroku login -i  $ heroku git:remote -a nomedoapp    $ heroku buildpacks:add heroku/jvm  $ heroku buildpacks:add heroku/nodejs  $ git push heroku herooku:master ____________________________________________ PERSONALIZAR TERMUX apt update && apt upgrade -y pkg install nano pkg install vim cd ../usr/etc ls vim bash.bashrc  Precione a letra (I) para editar o texto  Depois vc apaga a seguinte mensagem que aparece no termux \" PS1='\\$ ' \" E cola isso \u2192 PS1=\"\\033[1;32m \u2554\\033[0m\"\"\\033[1;31m[ \\033m\"\"\\033[1;32m SEU NOME AKI\\033[0m\"\"\\033[1;31m @\\033[0m\"\"\\033[1;32m\u2551\\033[0m\"\"\\033[1;37m \u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\u2261\\033[0m\"\"\\033[1;32m \u255a\u25b6 \"  Coloca o seu nome onde t\u00e1 escrito \" seu nome aqui\"  Para sair vc clica no ESC + : + x a\u00ed voc\u00ea d\u00ea enter. Depois de o comando exit e d\u00ea enter, dps \u00e9 s\u00f3 abrir dnovo ;>  ____________________________________________ pkg update && pkg upgrade $pkg install python2 $pip2 install requests $pip2 install mechanize $pkg install git $git clone https://github.com/ARIYA-CYBER/NEW $cd NEW $python2 FbNew.py ____________________________________________ https://github.com/Paxv28/CrusherDDoS  apt install git apt install python cd CrusherDDoS chmod +x Setup.sh ./Setup.sh python CSDDoS.py",
-      "stars": 366,
+      "stars": 367,
       "language": null,
-      "last_updated": "2025-06-29",
+      "last_updated": "2025-07-03",
       "topics": [],
       "license_name": null
     },
@@ -3143,9 +3154,9 @@
       "full_name": "cyproxio/mcp-for-security",
       "html_url": "https://github.com/cyproxio/mcp-for-security",
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 262,
+      "stars": 275,
       "language": "TypeScript",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai-assistants",
         "ai-security",
@@ -3221,9 +3232,9 @@
       "full_name": "haroonawanofficial/PentestAI-ML",
       "html_url": "https://github.com/haroonawanofficial/PentestAI-ML",
       "description": "Pentest AI utilizes machine learning to fully automate penetration testing and exploitation for assessing port, web, and application security. It creates maps of identified CVEs, maps them into Metasploit payloads, and automatically deploys them. The system learns from responses to enable highly precised successful attacks, provides detailed report",
-      "stars": 65,
+      "stars": 67,
       "language": "Python",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-03",
       "topics": [
         "security",
         "vulnerabilities",
@@ -3236,9 +3247,9 @@
       "full_name": "westonbrown/Cyber-AutoAgent",
       "html_url": "https://github.com/westonbrown/Cyber-AutoAgent",
       "description": "AI cybersecurity agent for automated penetration testing and vulnerability assessment",
-      "stars": 49,
+      "stars": 50,
       "language": "Python",
-      "last_updated": "2025-06-27",
+      "last_updated": "2025-07-02",
       "topics": [
         "agents",
         "cybersecurity-tools",
@@ -3247,24 +3258,13 @@
       "license_name": "MIT License"
     },
     {
-      "name": "PentestingTool",
-      "full_name": "gus5298/PentestingTool",
-      "html_url": "https://github.com/gus5298/PentestingTool",
-      "description": "AI-based Web Application Penetration Testing Tool",
-      "stars": 24,
-      "language": "Python",
-      "last_updated": "2025-06-06",
-      "topics": [],
-      "license_name": null
-    },
-    {
       "name": "CIPHER",
       "full_name": "ibndias/CIPHER",
       "html_url": "https://github.com/ibndias/CIPHER",
       "description": "Cybersecurity Intelligent Pentesting Helper for Ethical Researcher (CIPHER). Fine tuned LLM for penetration testing guidance based on writeups.",
-      "stars": 24,
+      "stars": 25,
       "language": "Python",
-      "last_updated": "2025-06-28",
+      "last_updated": "2025-07-01",
       "topics": [
         "ai",
         "benchmark",
@@ -3275,6 +3275,17 @@
         "pentesting",
         "vulnerability"
       ],
+      "license_name": null
+    },
+    {
+      "name": "PentestingTool",
+      "full_name": "gus5298/PentestingTool",
+      "html_url": "https://github.com/gus5298/PentestingTool",
+      "description": "AI-based Web Application Penetration Testing Tool",
+      "stars": 24,
+      "language": "Python",
+      "last_updated": "2025-06-06",
+      "topics": [],
       "license_name": null
     },
     {
@@ -3295,7 +3306,7 @@
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
       "stars": 11,
       "language": "JavaScript",
-      "last_updated": "2025-06-30",
+      "last_updated": "2025-07-04",
       "topics": [
         "ai",
         "ai-tools",
@@ -3406,9 +3417,9 @@
       "full_name": "syedbilalalam1/PentestGPT",
       "html_url": "https://github.com/syedbilalalam1/PentestGPT",
       "description": "Penetration Testing via Nmap and Nikto, with a touch of AI.",
-      "stars": 6,
+      "stars": 7,
       "language": "Python",
-      "last_updated": "2025-06-21",
+      "last_updated": "2025-07-02",
       "topics": [],
       "license_name": "MIT License"
     },
