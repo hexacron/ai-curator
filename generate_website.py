@@ -4,15 +4,15 @@ from datetime import datetime
 
 def generate_website():
     """
-    Generates a clean, self-contained HTML website with a working dark mode toggle
-    and proper layout, ensuring no external artifacts are included.
+    Generates a clean, self-contained HTML website from repository data,
+    ensuring no external artifacts are included.
     """
     
-    # Ensure the 'docs' directory exists
-    if not os.path.exists('docs'):
-        os.makedirs('docs')
+    # --- Setup and Data Loading ---
+    docs_dir = 'docs'
+    if not os.path.exists(docs_dir):
+        os.makedirs(docs_dir)
 
-    # Load repository data from cache.json
     cache_file = 'cache.json'
     repos = []
     if os.path.exists(cache_file):
@@ -38,7 +38,7 @@ def generate_website():
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-    # --- HTML Head, Header, and Dark Mode Script ---
+    # --- HTML Generation ---
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en" class="">
@@ -105,7 +105,7 @@ def generate_website():
             <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 p-6 flex flex-col">
                 <div class="flex-grow">
                     <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-                        <a href="{repo.get('url', '#')}" target="_blank" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">{repo['name']}</a>
+                        <a href="{repo.get('html_url', '#')}" target="_blank" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">{repo['name']}</a>
                     </h2>
                     <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm h-24 overflow-auto">{repo.get('description', 'No description available.')}</p>
                 </div>
@@ -132,10 +132,10 @@ def generate_website():
     </html>
     """
 
-    with open('docs/index.html', 'w', encoding='utf-8') as f:
+    with open(os.path.join(docs_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html_content)
 
-    print("✅ Successfully generated clean website at docs/index.html.")
+    print(f"✅ Successfully generated clean website at {os.path.join(docs_dir, 'index.html')}.")
 
 if __name__ == "__main__":
     generate_website()
