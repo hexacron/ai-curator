@@ -1,11 +1,11 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-07-05 06:12:00*
+*Last updated: 2025-07-06 06:12:55*
 
 ## 📊 Collection Summary
 
 - **Total Repositories**: 182
-- **Total Stars**: 95,262
+- **Total Stars**: 95,346
 
 ### 🔥 Top Languages
 - **Python**: 72 repositories
@@ -29,7 +29,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**21,751 ⭐** | **Jupyter Notebook** | Updated: 2025-07-04
+**21,776 ⭐** | **Jupyter Notebook** | Updated: 2025-07-06
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -38,7 +38,7 @@ This repository is primarily maintained by Omar Santos (@santosomar) and include
 ---
 
 ### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,006 ⭐** | **HTML** | Updated: 2025-07-04
+**8,007 ⭐** | **HTML** | Updated: 2025-07-06
 
 reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,641 ⭐** | **None** | Updated: 2025-07-04
+**7,645 ⭐** | **None** | Updated: 2025-07-05
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,676 ⭐** | **Markdown** | Updated: 2025-07-04
+**6,681 ⭐** | **Markdown** | Updated: 2025-07-06
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,423 ⭐** | **Shell** | Updated: 2025-07-04
+**6,426 ⭐** | **Shell** | Updated: 2025-07-05
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,7 +74,7 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,567 ⭐** | **Python** | Updated: 2025-07-04
+**5,574 ⭐** | **Python** | Updated: 2025-07-05
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
@@ -90,7 +90,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,316 ⭐** | **Python** | Updated: 2025-07-04
+**2,318 ⭐** | **Python** | Updated: 2025-07-05
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -99,7 +99,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 9. [Sudomy](https://github.com/screetsec/Sudomy)
-**2,181 ⭐** | **Shell** | Updated: 2025-07-04
+**2,182 ⭐** | **Shell** | Updated: 2025-07-05
 
 Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
 
@@ -133,14 +133,14 @@ Semi-automated, feedback-driven tool to rapidly search through troves of public 
 ---
 
 ### 13. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**1,465 ⭐** | **Go** | Updated: 2025-07-04
+**1,468 ⭐** | **Go** | Updated: 2025-07-05
 
 A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
 
 ---
 
 ### 14. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
-**1,369 ⭐** | **Python** | Updated: 2025-07-04
+**1,371 ⭐** | **Python** | Updated: 2025-07-04
 
 AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 
@@ -149,7 +149,7 @@ AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 ---
 
 ### 15. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
-**1,136 ⭐** | **None** | Updated: 2025-07-02
+**1,137 ⭐** | **None** | Updated: 2025-07-04
 
 A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
 
@@ -158,14 +158,14 @@ A curated collection of top-tier penetration testing tools and productivity util
 ---
 
 ### 16. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
-**1,086 ⭐** | **TypeScript** | Updated: 2025-07-04
+**1,087 ⭐** | **TypeScript** | Updated: 2025-07-05
 
 AI-Powered Penetration Testing Assistant for offensive security testing, focused on web applications and network penetration testing.
 
 ---
 
 ### 17. [intelmq](https://github.com/certtools/intelmq)
-**1,061 ⭐** | **Python** | Updated: 2025-06-29
+**1,062 ⭐** | **Python** | Updated: 2025-07-04
 
 IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
 
@@ -190,7 +190,7 @@ Mantis is a security framework that automates the workflow of discovery, reconna
 ---
 
 ### 20. [karma_v2](https://github.com/Dheerajmadhukar/karma_v2)
-**863 ⭐** | **Shell** | Updated: 2025-07-02
+**864 ⭐** | **Shell** | Updated: 2025-07-04
 
 ⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾ is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
 
