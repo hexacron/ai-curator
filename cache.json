@@ -1,5 +1,5 @@
 {
-  "timestamp": 1752041670.7296576,
+  "timestamp": 1752214476.4335248,
   "repositories": [
     {
       "name": "taranis-ai",
@@ -98,9 +98,9 @@
       "full_name": "ALW1EZ/PANO",
       "html_url": "https://github.com/ALW1EZ/PANO",
       "description": "\ud83d\udd0d PANO: Advanced OSINT investigation platform combining graph visualization, timeline analysis, and AI assistance to uncover hidden connections in data. Built with Python and modern Qt.",
-      "stars": 260,
+      "stars": 262,
       "language": "Python",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-10",
       "topics": [
         "cybersecurity",
         "investigation",
@@ -148,7 +148,7 @@
       "description": "Comprehensive open-source intelligence platform analyzing Swedish political activities using AI and data visualization. Tracks politicians, government institutions, and parliamentary data, offering detailed insights, performance metrics, and advanced analytics.",
       "stars": 177,
       "language": "Java",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-10",
       "topics": [
         "ai",
         "civic-tech",
@@ -177,9 +177,9 @@
       "full_name": "apurvsinghgautam/robin",
       "html_url": "https://github.com/apurvsinghgautam/robin",
       "description": "AI-Powered Dark Web OSINT Tool",
-      "stars": 79,
+      "stars": 80,
       "language": "Python",
-      "last_updated": "2025-07-05",
+      "last_updated": "2025-07-10",
       "topics": [
         "ai-tool",
         "darkweb",
@@ -227,9 +227,9 @@
       "full_name": "Ironship/TelegramOSINTPolo",
       "html_url": "https://github.com/Ironship/TelegramOSINTPolo",
       "description": "The app is used to download posts from Telegram feeds and save them to text files for later OSINT AI use",
-      "stars": 47,
+      "stars": 45,
       "language": "Python",
-      "last_updated": "2025-05-14",
+      "last_updated": "2025-07-09",
       "topics": [],
       "license_name": null
     },
@@ -409,7 +409,7 @@
       "description": "OSINT Multi Recon Tool is an advanced open-source intelligence (OSINT) gathering tool designed for ethical hackers, penetration testers, and cybersecurity professionals. This tool automates reconnaissance by collecting valuable information from various sources, including GitHub, LinkedIn, WHOIS, subdomains, and phone number lookups.",
       "stars": 17,
       "language": "Python",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-11",
       "topics": [
         "ai",
         "automated",
@@ -445,29 +445,13 @@
       "license_name": "GNU Affero General Public License v3.0"
     },
     {
-      "name": "ihunt",
-      "full_name": "hdks-bug/ihunt",
-      "html_url": "https://github.com/hdks-bug/ihunt",
-      "description": "Information gathering tool using OSINT and AI",
-      "stars": 15,
-      "language": "Python",
-      "last_updated": "2025-04-30",
-      "topics": [
-        "information-gathering",
-        "llm",
-        "osint",
-        "reconnaissance"
-      ],
-      "license_name": "MIT License"
-    },
-    {
       "name": "Ai-Prompts",
       "full_name": "zebbern/Ai-Prompts",
       "html_url": "https://github.com/zebbern/Ai-Prompts",
       "description": "\ud83e\uddfe | Use these AI prompts to refine your searches, improve accuracy, and get detailed, context-driven responses that precisely match your queries.",
-      "stars": 15,
+      "stars": 16,
       "language": null,
-      "last_updated": "2025-07-02",
+      "last_updated": "2025-07-10",
       "topics": [
         "ai",
         "ai-engineering",
@@ -489,6 +473,22 @@
         "reconnaissance",
         "research",
         "search-algorithms"
+      ],
+      "license_name": "MIT License"
+    },
+    {
+      "name": "ihunt",
+      "full_name": "hdks-bug/ihunt",
+      "html_url": "https://github.com/hdks-bug/ihunt",
+      "description": "Information gathering tool using OSINT and AI",
+      "stars": 15,
+      "language": "Python",
+      "last_updated": "2025-04-30",
+      "topics": [
+        "information-gathering",
+        "llm",
+        "osint",
+        "reconnaissance"
       ],
       "license_name": "MIT License"
     },
@@ -523,6 +523,17 @@
         "vgg-face"
       ],
       "license_name": "Other"
+    },
+    {
+      "name": "Cyber-Jarvis",
+      "full_name": "kokatesaurabh/Cyber-Jarvis",
+      "html_url": "https://github.com/kokatesaurabh/Cyber-Jarvis",
+      "description": "Cyber-Jarvis is a versatile AI assistant for automation and cybersecurity. It handles tasks like playing videos, detecting objects, performing OSINT, scanning for vulnerabilities, cracking hashes, steganography, and AI jailbreak. Integrates various tools for enhanced digital management and security.",
+      "stars": 14,
+      "language": "Python",
+      "last_updated": "2025-07-09",
+      "topics": [],
+      "license_name": null
     },
     {
       "name": "Social-Net-SCrap",
@@ -586,17 +597,6 @@
       "license_name": "GNU General Public License v3.0"
     },
     {
-      "name": "Cyber-Jarvis",
-      "full_name": "kokatesaurabh/Cyber-Jarvis",
-      "html_url": "https://github.com/kokatesaurabh/Cyber-Jarvis",
-      "description": "Cyber-Jarvis is a versatile AI assistant for automation and cybersecurity. It handles tasks like playing videos, detecting objects, performing OSINT, scanning for vulnerabilities, cracking hashes, steganography, and AI jailbreak. Integrates various tools for enhanced digital management and security.",
-      "stars": 12,
-      "language": "Python",
-      "last_updated": "2025-06-25",
-      "topics": [],
-      "license_name": null
-    },
-    {
       "name": "honeypot-ai",
       "full_name": "LucasFaudman/honeypot-ai",
       "html_url": "https://github.com/LucasFaudman/honeypot-ai",
@@ -612,9 +612,9 @@
       "full_name": "The-Art-of-Hacking/h4cker",
       "html_url": "https://github.com/The-Art-of-Hacking/h4cker",
       "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
-      "stars": 21827,
+      "stars": 21861,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-11",
       "topics": [
         "ai",
         "ai-security",
@@ -672,9 +672,9 @@
       "full_name": "ossf/ai-ml-security",
       "html_url": "https://github.com/ossf/ai-ml-security",
       "description": "Working Group on Artificial Intelligence and Machine Learning (AI/ML) Security",
-      "stars": 88,
+      "stars": 89,
       "language": null,
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": "Apache License 2.0"
     },
@@ -743,9 +743,9 @@
       "full_name": "djdprogramming/adfa2",
       "html_url": "https://github.com/djdprogramming/adfa2",
       "description": "# David's Personal Roadmap to Learning Data Science #### Based on the article [Learn Data Science for free in 2021](https://www.kdnuggets.com/2021/01/learn-data-science-free-2021.html) from KDnuggets. Some additions have been made. ###### I'm new to data science and programming. Some areas of study in this roadmap may be researched to a point of redundancy while materials for other topics could be seriously lacking. As I progress through this learning path, I'll be able to gauge which areas need more (or less) focus and will add and remove resources as needed.  ## Schoolwork ##### Required readings for my Data Science classes. - [ ] [Doing Data Science: Straight Talk from the Frontline](https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659) by Cathy O'Neil & Rachel Schutt   - [ ] 1. Introduction: What is Data Science?   - [ ] 2. Statistical Inference, Exploratory Data Analysis, and the Data Science Process   - [ ] 3. Algorithms   - [ ] 4. Spam Filters, Naive Bayes, and Wrangling   - [ ] 5. Logistic Regression   - [ ] 6. Time Stamps and Financial Modeling   - [ ] 7. Extracting Meaning from Data   - [ ] 8. Recommendation Engines: Building a User-Facing Data Product at Scale   - [ ] 9. Data Visualization and Fraud Detection   - [ ] 10. Social Networks and Data Journalism   - [ ] 11. Causality   - [ ] 12. Epidemiology   - [ ] 13. Lessons Learned from Data Competitions: Data Leakage and Model Evaluation   - [ ] 14. Data Engineering: MapReduce, Pregel, and Hadoop   - [ ] 15. The Students Speak   - [ ] 16. Next-Generation Data Scientists, Hubris, and Ethics   - [ ] [Practical Statistics for Data Scientists: 50 Essential Concepts](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X/ref=sr_1_1?dchild=1&keywords=Practical+Statistics+for+Data+Scientists&qid=1609991269&s=books&sr=1-1) by Peter Bruce, Andrew Bruce & Peter Gedeck   - [ ] 1. Exploratory Data Analysis   - [ ] 2. Data and Sampling Distributions   - [ ] 3. Statistical Experiments and Significance Testing   - [ ] 4. Regression and Prediction   - [ ] 5. Classification   - [ ] 6. Statistical Machine Learning   - [ ] 7. Unsupervised Learning  ## Programming Skills ##### Learn programming basics. - [ ] [Python 3 Basics Tutorial Series](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M) by sentdex   - [ ] 1. Python 3 Programming Tutorial: Why Python 3? Python 2 vs Python 3 `7:36`   - [ ] 2. Python 3 Programming Tutorial: Installing Python 3 - How to Install Both Python 2 and Python 3 `15:47`   - [ ] 3. Python 3 Programming Tutorial: Print Function and Strings `9:31`   - [ ] 4. Python 3 Programming Tutorial: Math `4:49`   - [ ] 5. Python 3 Programming Tutorial: Variables `4:26`   - [ ] 6. Python 3 Programming Tutorial: While Loop `5:55`   - [ ] 7. Python 3 Programming Tutorial: For Loop `9:05`   - [ ] 8. Python 3 Programming Tutorial: If Statement `4:54`   - [ ] 9. Python 3 Programming Tutorial: If Else `3:20`   - [ ] 10. Python 3 Programming Tutorial: If Elif Else `4:19`   - [ ] 11. Python 3 Programming Tutorial: Functions `3:05`   - [ ] 12. Python 3 Programming Tutorial: Function Parameters `4:00`   - [ ] 13. Python 3 Programming Tutorial: Function Parameter Defaults `6:06`   - [ ] 14. Python 3 Programming Tutorial: Global and Local Variables `6:31`   - [ ] 15. Python 3 Programming Tutorial: Installing Modules `7:44`   - [ ] 16. Python 3 Programming Tutorial: How to Download and Install Python Packages and Modules with Pip `8:32`   - [ ] 17. Python 3 Programming Tutorial: Common Errors `4:49`   - [ ] 18. Python 3 Programming Tutorial: Writing to File `3:35`   - [ ] 19. Python 3 Programming Tutorial: Appending Files `2:42`   - [ ] 20. Python 3 Programming Tutorial: Read from a File `1:49`   - [ ] 21. Python 3 Programming Tutorial: Classes `4:56`   - [ ] 22. Python 3 Programming Tutorial: Frequently Asked Questions `5:33`   - [ ] 23. Python 3 Programming Tutorial: Getting User Input `1:43`   - [ ] 24. Python 3 Programming Tutorial: Statistics (Mean, Standard Deviation) `2:36`   - [ ] 25. Python 3 Programming Tutorial: Module Import Syntax `5:31`   - [ ] 26. Python 3 Programming Tutorial: Making Modules `4:58`   - [ ] 27. Python 3 Programming Tutorial: Lists and Tuples `5:51`   - [ ] 28. Python 3 Programming Tutorial: List Manipulation `9:35`   - [ ] 29. Python 3 Programming Tutorial: Multi-Dimensional List `5:45`   - [ ] 30. Python 3 Programming Tutorial: Reading from a CSV Spreadsheet `9:24`   - [ ] 31. Python 3 Programming Tutorial: Try and Except Error Handlings `7:04`   - [ ] 32. Python 3 Programming Tutorial: Multi-Line Print `3:19`   - [ ] 33. Python 3 Programming Tutorial: Dictionaries `7:11`   - [ ] 34. Python 3 Programming Tutorial: Built-in Functions `10:58`   - [ ] 35. Python 3 Programming Tutorial: OS Module `5:01`   - [ ] 36. Python 3 Programming Tutorial: Sys Module `11:00`   - [ ] 37. Python 3 Programming Tutorial: urllib Module `24:04`   - [ ] 38. Python 3 Programming Tutorial: Regular Expressions/Regex with re `19:58`   - [ ] 39. Python 3 Programming Tutorial: Parsing Websites with re and urllib `7:29`   - [ ] 40. Python 3 Programming Tutorial: Tkinter Module Making Windows `8:03`   - [ ] 41. Python 3 Programming Tutorial: Tkinter Adding Buttons `6:29`   - [ ] 42. Python 3 Programming Tutorial: Tkinter Event Handling `5:40`   - [ ] 43. Python 3 Programming Tutorial: Tkinter Menu Bar `10:25`   - [ ] 44. Python 3 Programming Tutorial: Tkinter Adding Images and Text `11:59`   - [ ] 45. Python 3 Programming Tutorial: Threading Module `18:43`   - [ ] 46. Python 3 Programming Tutorial: cx_freeze Python to .exe `12:08`   - [ ] 47. Python 3 Programming Tutorial: Subprocess Module `13:17`   - [ ] 48. Python 3 Programming Tutorial: Matplotlib Graphing Intro `10:25`   - [ ] 49. Python 3 Programming Tutorial: Matplotlib Labels and Titles `5:03`   - [ ] 50. Python 3 Programming Tutorial: Matplotlib Styles `10:38`   - [ ] 51. Python 3 Programming Tutorial: Matplotlib Legends `4:07`   - [ ] 52. Python 3 Programming Tutorial: Scatter Plots and Bar Charts `6:38`   - [ ] 53. Python 3 Programming Tutorial: Matplotlib Plotting from a CSV `7:21`   - [ ] 54. Python 3 Programming Tutorial: ftplib FTP Transfers Python `8:47`   - [ ] 55. Python 3 Programming Tutorial: Sockets Intro `10:48`   - [ ] 56. Python 3 Programming Tutorial: Sockets Simple Port Scanner `5:08`   - [ ] 57. Python 3 Programming Tutorial: Threaded Port Scanner `9:36`   - [ ] 58. Python 3 Programming Tutorial: Sockets Binding and Listening `5:53`   - [ ] 59. Python 3 Programming Tutorial: Sockets Client Server System `10:27` - [ ] [Intermediate Python Programming](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfju7ADVp5W1GF9jVhjbX-_) by sentdex   - [ ] 1. Intermediate Python Programming: Introduction `7:48`   - [ ] 2. Intermediate Python Programming: String Concatenation and Formatting `13:40`   - [ ] 3. Intermediate Python Programming: Argparse for CLI `10:49`   - [ ] 4. Intermediate Python Programming: List Comprehension and Generator Expressions `6:52`   - [ ] 5. Intermediate Python Programming: More on List Comp and Generators `15:28`   - [ ] 6. Intermediate Python Programming: Timeit Module `11:28`   - [ ] 7. Intermediate Python Programming: Enumerate `4:48`   - [ ] 8. Intermediate Python Programming: Zip `7:23`   - [ ] 9. Intermediate Python Programming: Writing Our Own Generator `11:08`   - [ ] 10. Intermediate Python Programming: Multiprocessing `11:30`   - [ ] 11. Intermediate Python Programming: Getting Returned Values from Processes `4:22`   - [ ] 12. Intermediate Python Programming: Multiprocessing Spider Example `24:18`   - [ ] 13. Intermediate Python Programming: Object Oriented Programming Introductions `11:35`   - [ ] 14. Intermediate Python Programming: Creating an Environment for Our Project `11:49`   - [ ] 15. Intermediate Python Programming: Many Blob Objects `8:30`   - [ ] 16. Intermediate Python Programming: Object Modularity Thoughts `16:41`   - [ ] 17. Intermediate Python Programming: OOP Inheritance `10:17`   - [ ] 18. Intermediate Python Programming: Decorators `8:50`   - [ ] 19. Intermediate Python Programming: Operator Overloading `10:19`   - [ ] 20. Intermediate Python Programming: Detecting Collisions `15:20`   - [ ] 21. Intermediate Python Programming: Special Methods, OOP, Iteration `13:30`   - [ ] 22. Intermediate Python Programming: Logging `15:00`   - [ ] 23. Intermediate Python Programming: Error Handling `6:11`   - [ ] 24. Intermediate Python Programming: --str-- and --repr-- `11:32`   - [ ] 25. Intermediate Python Programming: Args and Kwargs `11:58`   - [ ] 26. Intermediate Python Programming: Asyncio - Asynchronous Programming with Coroutines `28:37` - [ ] [2021 Complete Python Bootcamp From Zero to Hero in Python](https://www.udemy.com/course/complete-python-bootcamp/) by Jose Portilla   - [ ] 1. Course Overview   - [ ] 2. Python Setup   - [ ] 3. Python Object and Data Structure Basics   - [ ] 4. Python Comparison Operators   - [ ] 5. Python Statements   - [ ] 6. Methods and Functions   - [ ] 7. Milestone Project 1   - [ ] 8. Object Oriented Programming   - [ ] 9. Modules and Packages   - [ ] 10. Errors and Exceptions Handlings   - [ ] 11. Milestone Project 2   - [ ] 12. Python Decorators   - [ ] 13. Python Generators   - [ ] 14. Advanced Python Modules   - [ ] 15. Web Scraping with Python   - [ ] 16. Working with Images with Python   - [ ] 17. Working with PDFs and Spreadsheet CSV Files   - [ ] 18. Emails with Python   - [ ] 19. Final Capstone Python Project   - [ ] 20. Advanced Python Objects and Data Structures   - [ ] 21. Bonus Material - Introduction to GUIs - [ ] Build the 5 projects listed in the [5 Intermediate Python Projects](https://www.youtube.com/watch?v=o5sb8ehRSYA&ab_channel=TechWithTim) video by Tech With Tim   - [ ] 1. Build a Website with Django/Flask   - [ ] 2. Use a WebScraper   - [ ] 3. Create a Game with PyGame   - [ ] 4. Build a GUI with Tkinter/PyQt5   - [ ] 5. Robotics/Raspberry Pi Project    ## Data Analysis and Visualization ##### Learn NumPy, Pandas and Matplotlib. - [ ] [Python NumPy Tutorial for Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `58:09` - [ ] Read the [Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Introduction to NumPy   - [ ] 2. Understanding Data Types in Python   - [ ] 3. The Basics of NumPy Arrays   - [ ] 4. Computation on NumPy Arrays: Universal Functions   - [ ] 5. Aggregations: Min, Max, and Everything in Between   - [ ] 6. Computation on Arrays: Broadcasting   - [ ] 7. Comparisons, Masks, and Boolean Logic   - [ ] 8. Fancy Indexing   - [ ] 9. Sorting Arrays   - [ ] 10. Structured Data: NumPy's Structured Arrays - [ ] [Pandas Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) by Corey Schafer   - [ ] 1. Python Pandas Tutorial: Getting Started with Data Analysis - Installation and Loading Data `23:01`   - [ ] 2. Python Pandas Tutorial: DataFrame and Series Basics - Selecting Rows and Columns `33:35`   - [ ] 3. Python Pandas Tutorial: Indexes - How to Set, Reset, and Use Indexes `17:27`   - [ ] 4. Python Pandas Tutorial: Filtering - Using Conditionals to Filter Rows and Columns `23:04`   - [ ] 5. Python Pandas Tutorial: Updating Rows and Columns - Modifying Data within DataFrames `40:03`   - [ ] 6. Python Pandas Tutorial: Add/Remove Rows and Columns from DataFrames `16:55`   - [ ] 7. Python Pandas Tutorial: Sorting Data `15:40`   - [ ] 8. Python Pandas Tutorial: Grouping and Aggregating - Analyzing and Exploring Your Data `49:06`   - [ ] 9. Python Pandas Tutorial: Cleaning Data - Casting Data Types and Handling Missing Values `31:54`   - [ ] 10. Python Pandas Tutorial: Working with Dates and Time Series Data `35:41`   - [ ] 11. Python Pandas Tutorial: Reading/Writing Data to Different Sources - Excel, JSON, SQL, Etc. `32:45` - [ ] Read the [Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Data Manipulation with Pandas   - [ ] 2. Introducing Pandas Objects   - [ ] 3. Data Indexing and Selection   - [ ] 4. Operating on Data in Pandas   - [ ] 5. Handling Missing Data   - [ ] 6. Hierarchical Indexing   - [ ] 7. Combining Datasets: Concat and Append   - [ ] 8. Combining Datasets: Merge and Join   - [ ] 9. Aggregation and Grouping   - [ ] 10. Pivot Tables   - [ ] 11. Vectorized String Operations   - [ ] 12. Working with Time Series   - [ ] 13. High-Performance Pandas: eval() and query() - [ ] [Matplotlib Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) by Corey Schafer   - [ ] 1. Matplotlib Tutorial: Creating and Customizing Our First Plots `35:01`   - [ ] 2. Matplotlib Tutorial: Bar Charts and Analyzing Data from CSVs `34:26`   - [ ] 3. Matplotlib Tutorial: Pie Charts `17:02`   - [ ] 4. Matplotlib Tutorial: Stack Plots `14:49`   - [ ] 5. Matplotlib Tutorial: Filling Area on Line Plots `15:18`   - [ ] 6. Matplotlib Tutorial: Histograms `16:36`   - [ ] 7. Matplotlib Tutorial: Scatter Plots `21:24`   - [ ] 8. Matplotlib Tutorial: Plotting Time Series Data `17:09`   - [ ] 9. Matplotlib Tutorial: Plotting Live Data in Real-Time `20:34`   - [ ] 10. Matplotlib Tutorial: Subplots `21:22` - [ ] Read the [Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) chapter from the Python Data Science Handbook by Jake VanderPlas   - [ ] 1. Visualization with Matplotlib   - [ ] 2. Simple Line Plots   - [ ] 3. Simple Scatter Plots   - [ ] 4. Visualizing Errors   - [ ] 5. Density and Contour Plots   - [ ] 6. Histograms, Binnings, and Density   - [ ] 7. Customizing Plot Legends   - [ ] 8. Customizing Colorbars   - [ ] 9. Multiple Subplots   - [ ] 10. Text and Annotation   - [ ] 11. Customizing Ticks   - [ ] 12. Customizing Matplotlib: Configurations and Stylesheets   - [ ] 13. Three-Dimensional Plotting in Matplotlib   - [ ] 14. Geographic Data with Basemap   - [ ] 15. Visualization with Seaborn - [ ] [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)](https://www.youtube.com/watch?v=LHBE6Q9XlzI&t=2s&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `12:19:51`  ## Data Preprocessing ##### Learn the basics of data preprocessing. - [ ] [Data Cleaning](https://www.kaggle.com/learn/data-cleaning) by Kaggle   - [ ] 1. Handling Missing Values   - [ ] 2. Scaling and Normalization   - [ ] 3. Parsing Dates   - [ ] 4. Character Encodings   - [ ] 5. Inconsistent Data Entry - [ ] Do the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic) competition by Kaggle - [ ] Do the [Housing Prices](https://www.kaggle.com/c/home-data-for-ml-course) competition by Kaggle - [ ] [Feature Engineering](https://www.kaggle.com/learn/feature-engineering) by Kaggle   - [ ] 1. Baseline Model   - [ ] 2. Categorical Encodings   - [ ] 3. Feature Generation   - [ ] 4. Feature Selection    ## Databases ##### Learn about databases. - [ ] [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) by Kaggle   - [ ] 1. Getting Started with SQL and BigQuery   - [ ] 2. Select, From & Where   - [ ] 3. Group By, Having & Count   - [ ] 4. Order By   - [ ] 5. As & With   - [ ] 6. Joining Data - [ ] [Advanced SQL](https://www.kaggle.com/learn/advanced-sql) by Kaggle   - [ ] 1. JOINs and UNIONs   - [ ] 2. Analytic Functions   - [ ] 3. Nested and Repeated Data   - [ ] 4. Writing Efficient Queries - [ ] [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8&ab_channel=freeCodeCamp.org) by freeCodeCamp.org `1:57:33`  ## Machine Learning ##### Taking our first steps into the world of ML. - [ ] [Machine Learning](https://www.coursera.org/learn/machine-learning#syllabus) by Andrew Ng (skipping the MATLAB section)   - [ ] 1. Introduction   - [ ] 2. Linear Regression with One Variable   - [ ] 3. Linear Algebra Review   - [ ] 4. Linear Regression with Multiple Variables   - [ ] 5. Logistic Regression   - [ ] 6. Regularization   - [ ] 7. Neural Networks: Representation   - [ ] 8. Neural Networks: Learning   - [ ] 9: Advice for Applying Machine Learning   - [ ] 10. Machine Learning System Design   - [ ] 11. Support Vector Machines   - [ ] 12. Unsupervised Learning   - [ ] 13. Dimensionality Reduction   - [ ] 14. Anomaly Detection   - [ ] 15. Recommender Systems   - [ ] 16. Large Scale Machine Learning   - [ ] 17. Application Example: Photo OCR - [ ] [Coursera Machine Learning MOOC by Andrew Ng Python Programming Assignments](https://github.com/dibgerge/ml-coursera-python-assignments)   - [ ] Exercise 1   - [ ] Exercise 2   - [ ] Exercise 3   - [ ] Exercise 4   - [ ] Exercise 5   - [ ] Exercise 6   - [ ] Exercise 7   - [ ] Exercise 8 - [ ] Do any [Kaggle](https://www.kaggle.com/) competition - [ ] [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) by Kaggle   - [ ] 1. Introduction   - [ ] 2. Missing Values   - [ ] 3. Categorical Variables   - [ ] 4. Pipelines   - [ ] 5. Cross-Validation   - [ ] 6. XGBoost   - [ ] 7. Data Leakage    ## Linear Algebra and Statistics  ##### Learn linear algebra and statistics. - [ ] [Linear Algebra](https://www.khanacademy.org/math/linear-algebra) on Khan Academy   - [ ] 1. Vectors and Spaces   - [ ] 2. Matrix Transformations   - [ ] 3. Alternate Coordinate Systems (Bases) - [ ] [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) on MIT OpenCourseWare   - [ ] Problem Set 1   - [ ] Problem Set 2   - [ ] Problem Set 3   - [ ] Problem Set 4   - [ ] Problem Set 5   - [ ] Problem Set 6   - [ ] Problem Set 7   - [ ] Problem Set 8   - [ ] Problem Set 9   - [ ] Problem Set 10   - [ ] Exam 1   - [ ] Exam 2   - [ ] Exam 3   - [ ] Final Exam - [ ] [Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) on Khan Academy   - [ ] 1. Analyzing Categorical Data   - [ ] 2. Displaying and Comparing Quantitative Data   - [ ] 3. Summarizing Quantitative Data   - [ ] 4. Modeling Data Distributions   - [ ] 5. Exploring Bivariate Numerical Data   - [ ] 6. Study Design   - [ ] 7. Probability   - [ ] 8. Counting, Permutations, and Combinations   - [ ] 9. Random Variables   - [ ] 10. Sampling Distributions   - [ ] 11. Confidence Intervals   - [ ] 12. Significance Tests (Hypothesis Testing)   - [ ] 13. Two-Sample Inference for the Difference Between Groups   - [ ] 14. Inference for Categorical Data (Chi-Square Tests)   - [ ] 15. Advanced Regression (Inference and Transforming)   - [ ] 16. Analysis of Variance (ANOVA) - [ ] [Introduction to Probability and Statistics](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) on MIT OpenCourseWare   - [ ] Problem Set 1   - [ ] Problem Set 2   - [ ] Problem Set 3   - [ ] Problem Set 4   - [ ] Problem Set 5   - [ ] Problem Set 6   - [ ] Problem Set 7   - [ ] Problem Set 8   - [ ] Problem Set 9   - [ ] Exam 1 Practice Questions I   - [ ] Exam 1 Practice Questions II   - [ ] Exam 1 Practice Questions: Long List   - [ ] Exam 1   - [ ] Exam 2 Practice Questions   - [ ] Exam 2   - [ ] Final Exam Practice Questions   - [ ] Final Exam - [ ] [Deep Learning Book](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio & Aaron Courville   - [ ] 1. Introduction   - [ ] 2. Linear Algebra   - [ ] 3. Probability and Information Theory   - [ ] 4. Numerical Computation   - [ ] 5. Machine Learning Basics   - [ ] 6. Deep Feedforward Networks   - [ ] 7. Regularization for Deep Learning   - [ ] 8. Optimization for Training Deep Models   - [ ] 9. Convolutional Networks   - [ ] 10. Sequence Modeling: Recurrent and Recursive Nets   - [ ] 11. Practical Methodology   - [ ] 12. Applications   - [ ] 13. Linear Factor Models   - [ ] 14. Autoencoders   - [ ] 15. Representation Learning   - [ ] 16. Structured Probabilistic Models for Deep Learning   - [ ] 17. Monte Carlo Methods   - [ ] 18. Confronting the Partition Function   - [ ] 19. Approximate Inference   - [ ] 20. Deep Generative Models    ## Deep Learning ##### Learning about deep learning. - [ ] [Practical Deep Learning for Coders](https://course.fast.ai/) by fast.ai   - [ ] Lesson 1   - [ ] Lesson 2   - [ ] Lesson 3   - [ ] Lesson 4   - [ ] Lesson 5   - [ ] Lesson 6   - [ ] Lesson 7   - [ ] Lesson 8 - [ ] [Part 2: Deep Learning from the Foundations](https://course19.fast.ai/part2) by fast.ai   - [ ] Lesson 1   - [ ] Lesson 2   - [ ] Lesson 3   - [ ] Lesson 4   - [ ] Lesson 5   - [ ] Lesson 6   - [ ] Lesson 7   - [ ] Lesson 8   - [ ] Lesson 9   - [ ] Lesson 10   - [ ] Lesson 11   - [ ] Lesson 12   - [ ] Lesson 13   - [ ] Lesson 14 - [ ] [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng   - [ ] Course 1: Neural Networks and Deep Learning     - [ ] 1. Introduction to Deep Learning     - [ ] 2. Neural Network Basics     - [ ] 3. Shallow Neural Networks     - [ ] 4. Deep Neural Networks   - [ ] Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization     - [ ] 1. Practical Aspects of Deep Learning     - [ ] 2. Optimization Algorithms     - [ ] 3. Hyperparameter tuning, Batch Normalization and Programming Frameworks   - [ ] Course 3: Structuring Machine Learning Projects     - [ ] 1. ML Strategy (1)     - [ ] 2. ML Strategy (2)   - [ ] Course 4: Convolutional Neural Networks     - [ ] 1. Foundations of Convolutional Neural Networks     - [ ] 2. Deep Convolutional Models: Case Studies     - [ ] 3. Object Detection     - [ ] 4. Special applications: Face recognition & Neural style transfer   - [ ] Course 5: Sequence Models     - [ ] 1. Recurrent Neural Networks     - [ ] 2. Natural Language Processing & Word Embeddings     - [ ] 3. Sequence Models & Attention Mechanism - [ ] [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice?) by Laurence Moroney   - [ ] Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning     - [ ] 1. A New Programming Paradigm     - [ ] 2. Introduction to Computer Vision     - [ ] 3. Enhancing Vision with Convolutional Neural Networks     - [ ] 4. Using Real-World Images   - [ ] Course 2: Convolutional Neural Networks in TensorFlow     - [ ] 1. Exploring a Larger Dataset     - [ ] 2. Augmentation: A Technique to Avoid Overfitting     - [ ] 3. Transfer Learning     - [ ] 4. Multiclass Classifications   - [ ] Course 3: Natural Language Processing in TensorFlow     - [ ] 1. Sentiment in Text     - [ ] 2. Word Embeddings     - [ ] 3. Sequence Models     - [ ] 4. Sequence Models and Literature   - [ ] Course 4: Sequences, Time Series and Prediction     - [ ] 1. Sequences and Prediction     - [ ] 2. Deep Neural Networks for Time Series     - [ ] 3. Recurrent Neural Networks for Time Series     - [ ] 4. Real-World Time Series Data      ##  Cloud for Model Deployment ##### Learn how to build, train, test, and deploy a machine learning model on AWS. - [ ] [AWS Machine Learning Specialty](https://www.youtube.com/playlist?list=PLEF5xKHm-3ZNDvdJpMCLu9xa1oDNvAmMr) by Amazon   - [ ] 1. AWS Training and Certification: Machine Learning `1:31`   - [ ] 2. Build, Train and Deploy Machine Learning Models on AWS with Amazon SageMaker - AWS Online `35:51`   - [ ] 3. AWS re:Invent 2018: Leadership Session: Machine Learning (AIM202-L) `58:01`   - [ ] 4. Machine Learning Models with TensorFlow Using Amazon SageMaker - AWS Online Tech Talks `40:16`   - [ ] 5. AWS re:Invent 2018: Build & Deploy ML Models Quickly & Easily with Amazon SageMaker `57:53`   - [ ] 6. AWS re:Invent 2018: CI/CD for Your Machine Learning Pipeline with Amazon SageMaker `57:13`   - [ ] 7. AWS Berlin Summit 2018 - Building and Running Your First ML Application on Amazon SageMaker `52:54`   - [ ] 8. Predictive Analytics with Amazon SageMaker `1:03:29`   - [ ] 9. AWS re:Invent 2018: AI/ML with Data Lakes: Counterintuitive Consumer Insights in Retail `1:00:10`   - [ ] 10. AWS re:Invent 2018: Industrialize Machine Learning Using CI/CD Techniques (FSV304-i) `45:34`   - [ ] 11. AWS re:Invent 2018: Driving Machine Learning and Analytics Use Cases with AWS Storage (STG302) `40:16`   - [ ] 12. AWS re:Invent 2018: Deep Learning Applications Using TensorFlow (AIM401-R) `1:02:29`   - [ ] 13. AWS re:Invent 2017: Machine Learning State of the Union (MCL210) `1:00:55`   - [ ] 14. AWS re:Invent 2017: Containerized Machine Learning on AWS (CON309) `1:03:21`   - [ ] 15. AWS re:Invent 2017: Introduction to Deep Learning (MCL205) `46:17`   - [ ] 16. Continuous Delivery with AWS CodePipeline and Amazon SageMaker `25:24`   - [ ] 17. AWS re:Invent 2017: Best Practices for Distributed Machine Learning and Predictive A (ABD403) `1:16:16`   - [ ] 18. AWS re:Invent 2017: GPS: Enhancing Customer Security Using AI/ML on AWS (GPSTEC311) `50:21`   - [ ] 19. How to Wrangle Data for Machine Learning on AWS `59:24`   - [ ] 20. Extract Data from Images and Videos with Amazon Rekognition (Level 300) `26:52`   - [ ] 21. Exploring the Business Use Cases for Amazon Machine Learning - 2017 AWS Online Tech Talks `30:35`   - [ ] 22. AWS re:Invent 2017: Orchestrating Machine Learning Training for Netflix Recommendation (MCL317) `54:21`   - [ ] 23. AWS re:Invent 2017: Reinforcement Learning - The Ultimate AI (ARC320) `1:00:00`   - [ ] 24. Amazon Machine Learning: Empowering Developers to Build Smart Applications `55:09`   - [ ] 25. Amazon SageMaker's Built-in Algorithm Webinar Series: DeepAR Forecasting `53:41`   - [ ] 26. Amazon SageMaker's Built-in Algorithm Webinar Series: Linear Learner `58:55`   - [ ] 27. Amazon SageMaker's Built-in Algorithm Webinar Series: Clustering with K Means `58:52`   - [ ] 28. Amazon SageMaker's Built-in Algorithm Webinar Series: Latent Dirichlet Allocation (LDA) `57:25`   - [ ] 29. Amazon SageMaker's Built-in Algorithm Webinar Series: XGBoost `1:01:02`   - [ ] 30. Amazon SageMaker's Built-in Algorithm Webinar Series: ResNet `55:56`   - [ ] 31. Amazon SageMaker-s Built-in Algorithm Webinar Series: Blazing Text `1:14:37`   - [ ] 32. AWS re:Invent 2017: NEW LAUNCH! Introducing Amazon SageMaker (MCL365) `1:02:08`   - [ ] 33. Fully Managed Notebook Instances with Amazon SageMaker - a Deep Dive `16:45`   - [ ] 34. Built-in Machine Learning Algorithms with Amazon SageMaker -  a Deep Dive `15:38` - [ ] [Machine Learning with TensorFlow on Google Cloud Platform Specialization](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp) by Google Cloud Training   - [ ] Course 1: How Google does Machine Learning     - [ ] 1. Introduction to Course     - [ ] 2. What It Means to Be AI First     - [ ] 3. How Google Does ML     - [ ] 4. Inclusive ML     - [ ] 5. Python Notebooks in the Cloud     - [ ] 6. Summary   - [ ] Course 2: Launching into Machine Learning     - [ ] 1. Introduction to Course     - [ ] 2. Improve Data Quality and Exploratory Data Analysis     - [ ] 3. Practical ML     - [ ] 4. Optimization     - [ ] 5. Generalization and Sampling     - [ ] 6. Summary   - [ ] Course 3: Introduction to TensorFlow     - [ ] 1. Introduction to Course     - [ ] 2. Introduction to TensorFlow     - [ ] 3. Design and Build a TensorFlow Input Data Pipeline     - [ ] 4. Training Neural Networks with TensorFlow 2 and the Keras Sequential API     - [ ] 5. Training Neural Networks with TensorFlow 2 and the Keras Functional API     - [ ] 6. Summary   - [ ] Course 4: Feature Engineering     - [ ] 1. Introduction to Course     - [ ] 2. Raw Data to Features     - [ ] 3. Preprocessing and Feature Creation     - [ ] 4. Feature Crosses     - [ ] 5. TensorFlow Transform     - [ ] 6. Summary   - [ ] Course 5: Art and Science of Machine Learning     - [ ] 1. Introduction     - [ ] 2. The Art of ML     - [ ] 3. Hyperparameter Tuning     - [ ] 4. A Pinch of Science     - [ ] 5. The Science of Neural Networks     - [ ] 6. Embeddings     - [ ] 7. Summary",
-      "stars": 41,
+      "stars": 42,
       "language": null,
-      "last_updated": "2025-07-02",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": null
     },
@@ -824,9 +824,9 @@
       "full_name": "jivoi/awesome-ml-for-cybersecurity",
       "html_url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
       "description": " :octocat: Machine Learning for Cyber Security",
-      "stars": 7651,
+      "stars": 7655,
       "language": null,
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-10",
       "topics": [
         "awesome-list",
         "cyber-security",
@@ -840,9 +840,9 @@
       "full_name": "JoseDeFreitas/awesome-youtubers",
       "html_url": "https://github.com/JoseDeFreitas/awesome-youtubers",
       "description": "An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.",
-      "stars": 6706,
+      "stars": 6717,
       "language": "Markdown",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-11",
       "topics": [
         "awesome",
         "awesome-list",
@@ -897,9 +897,9 @@
       "full_name": "abhinav-bhardwaj/IoT-Network-Intrusion-Detection-System-UNSW-NB15",
       "html_url": "https://github.com/abhinav-bhardwaj/IoT-Network-Intrusion-Detection-System-UNSW-NB15",
       "description": "Network Intrusion Detection based on various machine learning and deep learning algorithms using UNSW-NB15 Dataset",
-      "stars": 174,
+      "stars": 175,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-10",
       "topics": [
         "classification",
         "cybersecurity",
@@ -929,9 +929,9 @@
       "full_name": "shramos/practical-ml-for-cybersecurity",
       "html_url": "https://github.com/shramos/practical-ml-for-cybersecurity",
       "description": "More than twenty practical cases with real datasets of application of Machine Learning to the field of Cybersecurity",
-      "stars": 159,
+      "stars": 160,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-06-25",
+      "last_updated": "2025-07-10",
       "topics": [
         "aprendizaje-automatico",
         "artificial",
@@ -957,11 +957,30 @@
       "license_name": null
     },
     {
+      "name": "Intrusion-and-anomaly-detection-with-machine-learning",
+      "full_name": "slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
+      "html_url": "https://github.com/slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
+      "description": "Machine learning algorithms applied on log analysis to detect intrusions and suspicious activities.",
+      "stars": 156,
+      "language": "Python",
+      "last_updated": "2025-07-09",
+      "topics": [
+        "cybersecurity",
+        "detect-intrusions",
+        "http-status-code",
+        "infosec",
+        "intrusion-detection",
+        "log-analysis",
+        "machine-learning"
+      ],
+      "license_name": null
+    },
+    {
       "name": "PyVerse",
       "full_name": "UTSAVS26/PyVerse",
       "html_url": "https://github.com/UTSAVS26/PyVerse",
       "description": "PyVerse is an open-source collection of diverse Python projects, tools, and scripts, ranging from beginner to advanced, across various domains like machine learning, web development, and automation.",
-      "stars": 157,
+      "stars": 156,
       "language": "Jupyter Notebook",
       "last_updated": "2025-07-09",
       "topics": [
@@ -987,21 +1006,34 @@
       "license_name": "MIT License"
     },
     {
-      "name": "Intrusion-and-anomaly-detection-with-machine-learning",
-      "full_name": "slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
-      "html_url": "https://github.com/slrbl/Intrusion-and-anomaly-detection-with-machine-learning",
-      "description": "Machine learning algorithms applied on log analysis to detect intrusions and suspicious activities.",
-      "stars": 156,
-      "language": "Python",
-      "last_updated": "2025-07-08",
+      "name": "MALWARE-DETECTION-FINAL-YEAR-PROJECT",
+      "full_name": "Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
+      "html_url": "https://github.com/Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
+      "description": "Final Year Malware Detection Project with PPT, Research Paper, code and Synopsis. Malware detection project by Machine Learning ALgorithms.",
+      "stars": 135,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-07-10",
       "topics": [
+        "btech",
+        "btechfinalyear",
+        "cryptographyproject",
         "cybersecurity",
-        "detect-intrusions",
-        "http-status-code",
-        "infosec",
-        "intrusion-detection",
-        "log-analysis",
-        "machine-learning"
+        "datasets",
+        "final-project",
+        "final-year-project",
+        "machine",
+        "machine-learning",
+        "machinelearningprojects",
+        "malware",
+        "malware-analysis",
+        "malware-detection",
+        "malware-project",
+        "malware-research",
+        "malwaredetection",
+        "malwareproject",
+        "projects",
+        "sem8",
+        "semproject"
       ],
       "license_name": null
     },
@@ -1034,38 +1066,6 @@
         "svm-classifier"
       ],
       "license_name": "GNU General Public License v3.0"
-    },
-    {
-      "name": "MALWARE-DETECTION-FINAL-YEAR-PROJECT",
-      "full_name": "Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
-      "html_url": "https://github.com/Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
-      "description": "Final Year Malware Detection Project with PPT, Research Paper, code and Synopsis. Malware detection project by Machine Learning ALgorithms.",
-      "stars": 133,
-      "language": "Jupyter Notebook",
-      "last_updated": "2025-06-25",
-      "topics": [
-        "btech",
-        "btechfinalyear",
-        "cryptographyproject",
-        "cybersecurity",
-        "datasets",
-        "final-project",
-        "final-year-project",
-        "machine",
-        "machine-learning",
-        "machinelearningprojects",
-        "malware",
-        "malware-analysis",
-        "malware-detection",
-        "malware-project",
-        "malware-research",
-        "malwaredetection",
-        "malwareproject",
-        "projects",
-        "sem8",
-        "semproject"
-      ],
-      "license_name": null
     },
     {
       "name": "SEMA",
@@ -1145,7 +1145,7 @@
       "description": "A collection of AI-powered tools for phishing detection, adversarial machine learning, and cybersecurity research. Includes Streamlit/Flask apps, attack simulations, LoRA fine-tuning, and secure model evaluation for red teaming and defense.",
       "stars": 97,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-07",
+      "last_updated": "2025-07-10",
       "topics": [
         "cybersecurity",
         "hacker",
@@ -1268,6 +1268,17 @@
       "license_name": "GNU General Public License v2.0"
     },
     {
+      "name": "IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
+      "full_name": "harshilpatel1799/IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
+      "html_url": "https://github.com/harshilpatel1799/IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
+      "description": "The continuing  increase of Internet of Things (IoT) based networks have increased the need for Computer networks intrusion detection systems (IDSs). Over the last few years, IDSs for IoT networks have been increasing reliant on machine learning (ML) techniques, algorithms, and models as traditional cybersecurity approaches become less viable for IoT. IDSs that have developed and implemented using machine learning approaches are effective, and accurate in detecting networks attacks with high-performance capabilities. However, the acceptability and trust of these systems may have been hindered due to many of the ML implementations being \u2018black boxes\u2019 where human interpretability, transparency, explainability, and logic in prediction outputs is significantly unavailable. The UNSW-NB15 is an IoT-based network traffic data set with classifying normal activities and malicious attack behaviors. Using this dataset, three ML classifiers: Decision Trees, Multi-Layer Perceptrons, and XGBoost, were trained. The ML classifiers and corresponding algorithm for developing a network forensic system based on network flow identifiers and features that can track suspicious activities of botnets proved to be very high-performing based on model performance accuracies. Thereafter, established Explainable AI (XAI) techniques using Scikit-Learn, LIME, ELI5, and SHAP libraries allowed for visualizations of the decision-making frameworks for the three classifiers to increase explainability in classification prediction. The results determined XAI is both feasible and viable as cybersecurity experts and professionals have much to gain with the implementation of traditional ML systems paired with Explainable AI (XAI) techniques. ",
+      "stars": 51,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-07-11",
+      "topics": [],
+      "license_name": null
+    },
+    {
       "name": "Complete_Cybersecurity_Path",
       "full_name": "GrandGarcon/Complete_Cybersecurity_Path",
       "html_url": "https://github.com/GrandGarcon/Complete_Cybersecurity_Path",
@@ -1277,17 +1288,6 @@
       "last_updated": "2025-05-25",
       "topics": [],
       "license_name": "Apache License 2.0"
-    },
-    {
-      "name": "IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
-      "full_name": "harshilpatel1799/IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
-      "html_url": "https://github.com/harshilpatel1799/IoT-Network-Intrusion-Detection-and-Classification-using-Explainable-XAI-Machine-Learning",
-      "description": "The continuing  increase of Internet of Things (IoT) based networks have increased the need for Computer networks intrusion detection systems (IDSs). Over the last few years, IDSs for IoT networks have been increasing reliant on machine learning (ML) techniques, algorithms, and models as traditional cybersecurity approaches become less viable for IoT. IDSs that have developed and implemented using machine learning approaches are effective, and accurate in detecting networks attacks with high-performance capabilities. However, the acceptability and trust of these systems may have been hindered due to many of the ML implementations being \u2018black boxes\u2019 where human interpretability, transparency, explainability, and logic in prediction outputs is significantly unavailable. The UNSW-NB15 is an IoT-based network traffic data set with classifying normal activities and malicious attack behaviors. Using this dataset, three ML classifiers: Decision Trees, Multi-Layer Perceptrons, and XGBoost, were trained. The ML classifiers and corresponding algorithm for developing a network forensic system based on network flow identifiers and features that can track suspicious activities of botnets proved to be very high-performing based on model performance accuracies. Thereafter, established Explainable AI (XAI) techniques using Scikit-Learn, LIME, ELI5, and SHAP libraries allowed for visualizations of the decision-making frameworks for the three classifiers to increase explainability in classification prediction. The results determined XAI is both feasible and viable as cybersecurity experts and professionals have much to gain with the implementation of traditional ML systems paired with Explainable AI (XAI) techniques. ",
-      "stars": 50,
-      "language": "Jupyter Notebook",
-      "last_updated": "2025-05-27",
-      "topics": [],
-      "license_name": null
     },
     {
       "name": "Malicious-Urlv5",
@@ -1357,24 +1357,13 @@
       "license_name": "MIT License"
     },
     {
-      "name": "AI_Cybersecurity_finalproject",
-      "full_name": "pykira-cpu/AI_Cybersecurity_finalproject",
-      "html_url": "https://github.com/pykira-cpu/AI_Cybersecurity_finalproject",
-      "description": "DDoS detection using Machine Learning Algorithms",
-      "stars": 41,
-      "language": "Jupyter Notebook",
-      "last_updated": "2025-06-25",
-      "topics": [],
-      "license_name": null
-    },
-    {
       "name": "Network-Intrusion-Detection-Using-Deep-Learning",
       "full_name": "Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning",
       "html_url": "https://github.com/Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning",
       "description": " Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning (RNN) models, MERN web I/O System.",
-      "stars": 41,
+      "stars": 42,
       "language": "EJS",
-      "last_updated": "2025-05-25",
+      "last_updated": "2025-07-09",
       "topics": [
         "classification",
         "cybersecurity",
@@ -1396,13 +1385,24 @@
       "license_name": null
     },
     {
+      "name": "AI_Cybersecurity_finalproject",
+      "full_name": "pykira-cpu/AI_Cybersecurity_finalproject",
+      "html_url": "https://github.com/pykira-cpu/AI_Cybersecurity_finalproject",
+      "description": "DDoS detection using Machine Learning Algorithms",
+      "stars": 41,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-06-25",
+      "topics": [],
+      "license_name": null
+    },
+    {
       "name": "AI-Powered-Threat-Detection-System",
       "full_name": "CyberNexusX/AI-Powered-Threat-Detection-System",
       "html_url": "https://github.com/CyberNexusX/AI-Powered-Threat-Detection-System",
       "description": "Developed a machine learning-based cybersecurity framework that identifies and mitigates potential threats in cloud environments. Integrated with SIEM tools for real-time monitoring. ",
-      "stars": 39,
+      "stars": 35,
       "language": "Python",
-      "last_updated": "2025-07-02",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -1661,6 +1661,32 @@
       "license_name": "MIT License"
     },
     {
+      "name": "Malware-Detection-and-Analysis-using-Machine-Learning",
+      "full_name": "0xfke/Malware-Detection-and-Analysis-using-Machine-Learning",
+      "html_url": "https://github.com/0xfke/Malware-Detection-and-Analysis-using-Machine-Learning",
+      "description": "Malware\ud83e\udda0 Detection and Analysis using Machine Learning (MDAML) is designed to provide users with an intuitive interface for analyzing and detecting malware in various file formats. ",
+      "stars": 20,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-07-10",
+      "topics": [
+        "blueteam",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "graduation-project",
+        "graduation-research",
+        "last-year-project",
+        "machine-learning",
+        "malware-analysis",
+        "malware-detection",
+        "malware-detection-project",
+        "malware-research",
+        "pe-header",
+        "static-analysis"
+      ],
+      "license_name": "MIT License"
+    },
+    {
       "name": "Detection_of_Malicious_URLs",
       "full_name": "sid321axn/Detection_of_Malicious_URLs",
       "html_url": "https://github.com/sid321axn/Detection_of_Malicious_URLs",
@@ -1708,32 +1734,6 @@
         "security"
       ],
       "license_name": null
-    },
-    {
-      "name": "Malware-Detection-and-Analysis-using-Machine-Learning",
-      "full_name": "0xfke/Malware-Detection-and-Analysis-using-Machine-Learning",
-      "html_url": "https://github.com/0xfke/Malware-Detection-and-Analysis-using-Machine-Learning",
-      "description": "Malware\ud83e\udda0 Detection and Analysis using Machine Learning (MDAML) is designed to provide users with an intuitive interface for analyzing and detecting malware in various file formats. ",
-      "stars": 19,
-      "language": "Jupyter Notebook",
-      "last_updated": "2025-07-05",
-      "topics": [
-        "blueteam",
-        "cybersecurity",
-        "cybersecurity-tools",
-        "ethical-hacking",
-        "graduation-project",
-        "graduation-research",
-        "last-year-project",
-        "machine-learning",
-        "malware-analysis",
-        "malware-detection",
-        "malware-detection-project",
-        "malware-research",
-        "pe-header",
-        "static-analysis"
-      ],
-      "license_name": "MIT License"
     },
     {
       "name": "malwares-ml",
@@ -1907,9 +1907,9 @@
       "full_name": "Tencent/AI-Infra-Guard",
       "html_url": "https://github.com/Tencent/AI-Infra-Guard",
       "description": "A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.",
-      "stars": 1472,
+      "stars": 1479,
       "language": "Go",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": "Other"
     },
@@ -2027,13 +2027,30 @@
       "license_name": "Other"
     },
     {
+      "name": "lighthouse-mcp-server",
+      "full_name": "danielsogl/lighthouse-mcp-server",
+      "html_url": "https://github.com/danielsogl/lighthouse-mcp-server",
+      "description": "MCP server that enables AI agents to perform comprehensive web audits using Google Lighthouse with 13+ tools for performance, accessibility, SEO, and security analysis.",
+      "stars": 9,
+      "language": "TypeScript",
+      "last_updated": "2025-07-10",
+      "topics": [
+        "lighthouse",
+        "lighthouse-audits",
+        "lighthouse-score",
+        "mcp",
+        "mcp-server"
+      ],
+      "license_name": "MIT License"
+    },
+    {
       "name": "rengine",
       "full_name": "yogeshojha/rengine",
       "html_url": "https://github.com/yogeshojha/rengine",
       "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-      "stars": 8017,
+      "stars": 8022,
       "language": "HTML",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-11",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2059,9 +2076,9 @@
       "full_name": "six2dez/reconftw",
       "html_url": "https://github.com/six2dez/reconftw",
       "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-      "stars": 6433,
+      "stars": 6436,
       "language": "Shell",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2089,9 +2106,9 @@
       "full_name": "Tib3rius/AutoRecon",
       "html_url": "https://github.com/Tib3rius/AutoRecon",
       "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-      "stars": 5581,
+      "stars": 5588,
       "language": "Python",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -2100,9 +2117,9 @@
       "full_name": "leebaird/discover",
       "html_url": "https://github.com/leebaird/discover",
       "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.",
-      "stars": 3685,
+      "stars": 3687,
       "language": "Shell",
-      "last_updated": "2025-07-07",
+      "last_updated": "2025-07-10",
       "topics": [
         "bash",
         "enumeration",
@@ -2125,9 +2142,9 @@
       "full_name": "bhavsec/reconspider",
       "html_url": "https://github.com/bhavsec/reconspider",
       "description": "\ud83d\udd0e Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
-      "stars": 2321,
+      "stars": 2323,
       "language": "Python",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [
         "automated",
         "cybersecurity",
@@ -2150,9 +2167,9 @@
       "full_name": "screetsec/Sudomy",
       "html_url": "https://github.com/screetsec/Sudomy",
       "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
-      "stars": 2183,
+      "stars": 2184,
       "language": "Shell",
-      "last_updated": "2025-07-06",
+      "last_updated": "2025-07-09",
       "topics": [
         "bash",
         "bugbounty",
@@ -2246,9 +2263,9 @@
       "full_name": "PhonePe/mantis",
       "html_url": "https://github.com/PhonePe/mantis",
       "description": "Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.",
-      "stars": 943,
+      "stars": 944,
       "language": "Python",
-      "last_updated": "2025-07-07",
+      "last_updated": "2025-07-10",
       "topics": [
         "application-security",
         "attack-surface-management",
@@ -2305,9 +2322,9 @@
       "full_name": "capt-meelo/LazyRecon",
       "html_url": "https://github.com/capt-meelo/LazyRecon",
       "description": "An automated approach to performing recon for bug bounty hunting and penetration testing.",
-      "stars": 445,
+      "stars": 446,
       "language": "Shell",
-      "last_updated": "2025-07-03",
+      "last_updated": "2025-07-10",
       "topics": [
         "bugbounty",
         "pentest",
@@ -2321,9 +2338,9 @@
       "full_name": "epi052/recon-pipeline",
       "html_url": "https://github.com/epi052/recon-pipeline",
       "description": "An automated target reconnaissance pipeline.",
-      "stars": 435,
+      "stars": 434,
       "language": "Python",
-      "last_updated": "2025-05-27",
+      "last_updated": "2025-07-11",
       "topics": [
         "bugbounty",
         "python3",
@@ -2395,9 +2412,9 @@
       "full_name": "0xPugal/SubDomz",
       "html_url": "https://github.com/0xPugal/SubDomz",
       "description": "An Automated Subdomain Enumeration Tool",
-      "stars": 265,
+      "stars": 266,
       "language": "Shell",
-      "last_updated": "2025-07-03",
+      "last_updated": "2025-07-10",
       "topics": [
         "bugbounty",
         "recon",
@@ -2498,9 +2515,9 @@
       "full_name": "shiblisec/Rekon",
       "html_url": "https://github.com/shiblisec/Rekon",
       "description": "The project contains multiple shell scripts for automating the tasks during recon.",
-      "stars": 175,
+      "stars": 174,
       "language": "Shell",
-      "last_updated": "2025-06-03",
+      "last_updated": "2025-07-10",
       "topics": [
         "automation",
         "bash",
@@ -2793,9 +2810,9 @@
       "full_name": "gotr00t0day/exp0s3d",
       "html_url": "https://github.com/gotr00t0day/exp0s3d",
       "description": "Maximize your bug bounty hunting efficiency with exp0s3d - the open-source tool that automates initial reconnaissance and vulnerability detection.",
-      "stars": 73,
+      "stars": 74,
       "language": "Python",
-      "last_updated": "2025-07-03",
+      "last_updated": "2025-07-10",
       "topics": [],
       "license_name": null
     },
@@ -2844,7 +2861,7 @@
       "description": "An automated GitHub Actions-based crawler that fetches and updates public scopes from popular bug bounty platforms (like Hackerone/Bugcrowd/Intigriti/etc) (updates every 10 minutes)",
       "stars": 44,
       "language": "Shell",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2900,6 +2917,22 @@
       "license_name": null
     },
     {
+      "name": "rec0n",
+      "full_name": "m0rd3caii/rec0n",
+      "html_url": "https://github.com/m0rd3caii/rec0n",
+      "description": "A fully automated subdomain reconnaissance and sensitive data discovery toolkit.",
+      "stars": 42,
+      "language": "Python",
+      "last_updated": "2025-07-10",
+      "topics": [
+        "bugbounty",
+        "bugbounty-tool",
+        "hacking-tool",
+        "webpentesting"
+      ],
+      "license_name": null
+    },
+    {
       "name": "RustAutoRecon",
       "full_name": "spacialsec/RustAutoRecon",
       "html_url": "https://github.com/spacialsec/RustAutoRecon",
@@ -2908,22 +2941,6 @@
       "language": "Rust",
       "last_updated": "2025-04-27",
       "topics": [],
-      "license_name": null
-    },
-    {
-      "name": "rec0n",
-      "full_name": "m0rd3caii/rec0n",
-      "html_url": "https://github.com/m0rd3caii/rec0n",
-      "description": "A fully automated subdomain reconnaissance and sensitive data discovery toolkit.",
-      "stars": 41,
-      "language": "Python",
-      "last_updated": "2025-07-06",
-      "topics": [
-        "bugbounty",
-        "bugbounty-tool",
-        "hacking-tool",
-        "webpentesting"
-      ],
       "license_name": null
     },
     {
@@ -2956,9 +2973,9 @@
       "full_name": "AdmiralGaust/bountyRecon",
       "html_url": "https://github.com/AdmiralGaust/bountyRecon",
       "description": "Bash script to automate Bug Bounty Reconnaissance",
-      "stars": 38,
+      "stars": 39,
       "language": "Shell",
-      "last_updated": "2025-03-19",
+      "last_updated": "2025-07-10",
       "topics": [
         "automation",
         "bugbounty",
@@ -2967,6 +2984,17 @@
         "reconnaissance"
       ],
       "license_name": null
+    },
+    {
+      "name": "ZoomeyeSearch",
+      "full_name": "RevoltSecurities/ZoomeyeSearch",
+      "html_url": "https://github.com/RevoltSecurities/ZoomeyeSearch",
+      "description": "A powerful CLI tool that uses ZoomEye to search exposed services, gather intelligence, and automate reconnaissance.",
+      "stars": 38,
+      "language": "Python",
+      "last_updated": "2025-07-10",
+      "topics": [],
+      "license_name": "MIT License"
     },
     {
       "name": "website-passive-reconnaissance",
@@ -2983,17 +3011,6 @@
         "web"
       ],
       "license_name": "GNU General Public License v3.0"
-    },
-    {
-      "name": "ZoomeyeSearch",
-      "full_name": "RevoltSecurities/ZoomeyeSearch",
-      "html_url": "https://github.com/RevoltSecurities/ZoomeyeSearch",
-      "description": "A powerful CLI tool that uses ZoomEye to search exposed services, gather intelligence, and automate reconnaissance.",
-      "stars": 37,
-      "language": "Python",
-      "last_updated": "2025-07-08",
-      "topics": [],
-      "license_name": "MIT License"
     },
     {
       "name": "hunter-kit",
@@ -3020,9 +3037,9 @@
       "full_name": "taielab/awesome-hacking-lists",
       "html_url": "https://github.com/taielab/awesome-hacking-lists",
       "description": "A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!",
-      "stars": 1137,
+      "stars": 1138,
       "language": null,
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [
         "agents",
         "ai",
@@ -3052,9 +3069,9 @@
       "full_name": "hackerai-tech/PentestGPT",
       "html_url": "https://github.com/hackerai-tech/PentestGPT",
       "description": "AI-Powered Penetration Testing Assistant for offensive security testing, focused on web applications and network penetration testing.",
-      "stars": 1090,
+      "stars": 1094,
       "language": "TypeScript",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-10",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3063,9 +3080,9 @@
       "full_name": "berylliumsec/nebula",
       "html_url": "https://github.com/berylliumsec/nebula",
       "description": "AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.",
-      "stars": 652,
+      "stars": 653,
       "language": "Python",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-09",
       "topics": [
         "ai",
         "ai-powered-ethical-hacking-tool",
@@ -3090,9 +3107,9 @@
       "full_name": "vxcontrol/pentagi",
       "html_url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "stars": 394,
+      "stars": 397,
       "language": "Go",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-10",
       "topics": [
         "ai-agents",
         "ai-security-tool",
@@ -3150,9 +3167,9 @@
       "full_name": "cyproxio/mcp-for-security",
       "html_url": "https://github.com/cyproxio/mcp-for-security",
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 284,
+      "stars": 287,
       "language": "TypeScript",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-10",
       "topics": [
         "ai-assistants",
         "ai-security",
@@ -3177,9 +3194,9 @@
       "full_name": "aielte-research/HackSynth",
       "html_url": "https://github.com/aielte-research/HackSynth",
       "description": "LLM Agent and Evaluation Framework for Autonomous Penetration Testing ",
-      "stars": 118,
+      "stars": 119,
       "language": "Python",
-      "last_updated": "2025-07-07",
+      "last_updated": "2025-07-11",
       "topics": [
         "ai",
         "autonomous-pentesting",
@@ -3196,9 +3213,9 @@
       "full_name": "m-sec-org/ez-ai-agent",
       "html_url": "https://github.com/m-sec-org/ez-ai-agent",
       "description": "Automated Penetration Testing with EZ and Agents",
-      "stars": 96,
+      "stars": 97,
       "language": "JavaScript",
-      "last_updated": "2025-07-08",
+      "last_updated": "2025-07-11",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3243,9 +3260,9 @@
       "full_name": "westonbrown/Cyber-AutoAgent",
       "html_url": "https://github.com/westonbrown/Cyber-AutoAgent",
       "description": "AI cybersecurity agent for automated penetration testing and vulnerability assessment",
-      "stars": 51,
+      "stars": 53,
       "language": "Python",
-      "last_updated": "2025-07-05",
+      "last_updated": "2025-07-11",
       "topics": [
         "agents",
         "cybersecurity-tools",
@@ -3258,7 +3275,7 @@
       "full_name": "hexadivine/hexflow",
       "html_url": "https://github.com/hexadivine/hexflow",
       "description": "Automated Penetration Testing Mind Map with Artificial Intelligence",
-      "stars": 31,
+      "stars": 39,
       "language": "JavaScript",
       "last_updated": "2025-07-09",
       "topics": [
@@ -3322,7 +3339,7 @@
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
       "stars": 13,
       "language": "JavaScript",
-      "last_updated": "2025-07-09",
+      "last_updated": "2025-07-11",
       "topics": [
         "ai",
         "ai-tools",

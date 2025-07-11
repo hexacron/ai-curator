@@ -1,18 +1,18 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-07-10 06:14:13*
+*Last updated: 2025-07-11 06:14:36*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 183
-- **Total Stars**: 95,528
+- **Total Repositories**: 184
+- **Total Stars**: 95,650
 
 ### 🔥 Top Languages
 - **Python**: 72 repositories
 - **Jupyter Notebook**: 31 repositories
 - **None**: 27 repositories
 - **Shell**: 25 repositories
-- **TypeScript**: 5 repositories
+- **TypeScript**: 6 repositories
 
 ### 🏷️ Popular Topics
 - `cybersecurity` (46)
@@ -29,7 +29,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**21,827 ⭐** | **Jupyter Notebook** | Updated: 2025-07-09
+**21,861 ⭐** | **Jupyter Notebook** | Updated: 2025-07-11
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -38,7 +38,7 @@ This repository is primarily maintained by Omar Santos (@santosomar) and include
 ---
 
 ### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,017 ⭐** | **HTML** | Updated: 2025-07-09
+**8,022 ⭐** | **HTML** | Updated: 2025-07-11
 
 reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,651 ⭐** | **None** | Updated: 2025-07-08
+**7,655 ⭐** | **None** | Updated: 2025-07-10
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,706 ⭐** | **Markdown** | Updated: 2025-07-09
+**6,717 ⭐** | **Markdown** | Updated: 2025-07-11
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,433 ⭐** | **Shell** | Updated: 2025-07-08
+**6,436 ⭐** | **Shell** | Updated: 2025-07-11
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,14 +74,14 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,581 ⭐** | **Python** | Updated: 2025-07-08
+**5,588 ⭐** | **Python** | Updated: 2025-07-11
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
 ---
 
 ### 7. [discover](https://github.com/leebaird/discover)
-**3,685 ⭐** | **Shell** | Updated: 2025-07-07
+**3,687 ⭐** | **Shell** | Updated: 2025-07-10
 
 Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.
 
@@ -90,7 +90,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,321 ⭐** | **Python** | Updated: 2025-07-08
+**2,323 ⭐** | **Python** | Updated: 2025-07-11
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -99,7 +99,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 9. [Sudomy](https://github.com/screetsec/Sudomy)
-**2,183 ⭐** | **Shell** | Updated: 2025-07-06
+**2,184 ⭐** | **Shell** | Updated: 2025-07-09
 
 Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
 
@@ -133,7 +133,7 @@ Semi-automated, feedback-driven tool to rapidly search through troves of public 
 ---
 
 ### 13. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**1,472 ⭐** | **Go** | Updated: 2025-07-08
+**1,479 ⭐** | **Go** | Updated: 2025-07-11
 
 A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
 
@@ -149,7 +149,7 @@ AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 ---
 
 ### 15. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
-**1,137 ⭐** | **None** | Updated: 2025-07-08
+**1,138 ⭐** | **None** | Updated: 2025-07-11
 
 A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
 
@@ -158,7 +158,7 @@ A curated collection of top-tier penetration testing tools and productivity util
 ---
 
 ### 16. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
-**1,090 ⭐** | **TypeScript** | Updated: 2025-07-09
+**1,094 ⭐** | **TypeScript** | Updated: 2025-07-10
 
 AI-Powered Penetration Testing Assistant for offensive security testing, focused on web applications and network penetration testing.
 
@@ -181,7 +181,7 @@ Legion is an open source, easy-to-use, super-extensible and semi-automated netwo
 ---
 
 ### 19. [mantis](https://github.com/PhonePe/mantis)
-**943 ⭐** | **Python** | Updated: 2025-07-07
+**944 ⭐** | **Python** | Updated: 2025-07-10
 
 Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
 
