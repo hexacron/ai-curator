@@ -1,11 +1,11 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-07-22 06:14:50*
+*Last updated: 2025-07-23 06:15:37*
 
 ## 📊 Collection Summary
 
 - **Total Repositories**: 185
-- **Total Stars**: 96,216
+- **Total Stars**: 96,342
 
 ### 🔥 Top Languages
 - **Python**: 73 repositories
@@ -29,7 +29,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**21,999 ⭐** | **Jupyter Notebook** | Updated: 2025-07-21
+**22,026 ⭐** | **Jupyter Notebook** | Updated: 2025-07-23
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -38,7 +38,7 @@ This repository is primarily maintained by Omar Santos (@santosomar) and include
 ---
 
 ### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,035 ⭐** | **HTML** | Updated: 2025-07-20
+**8,039 ⭐** | **HTML** | Updated: 2025-07-22
 
 reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,675 ⭐** | **None** | Updated: 2025-07-20
+**7,679 ⭐** | **None** | Updated: 2025-07-23
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,746 ⭐** | **Markdown** | Updated: 2025-07-21
+**6,749 ⭐** | **Markdown** | Updated: 2025-07-23
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,471 ⭐** | **Shell** | Updated: 2025-07-20
+**6,478 ⭐** | **Shell** | Updated: 2025-07-22
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,14 +74,14 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,603 ⭐** | **Python** | Updated: 2025-07-19
+**5,604 ⭐** | **Python** | Updated: 2025-07-23
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
 ---
 
 ### 7. [discover](https://github.com/leebaird/discover)
-**3,701 ⭐** | **Shell** | Updated: 2025-07-20
+**3,701 ⭐** | **Shell** | Updated: 2025-07-22
 
 Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.
 
@@ -90,7 +90,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,327 ⭐** | **Python** | Updated: 2025-07-19
+**2,330 ⭐** | **Python** | Updated: 2025-07-22
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -99,7 +99,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 9. [Sudomy](https://github.com/screetsec/Sudomy)
-**2,201 ⭐** | **Shell** | Updated: 2025-07-19
+**2,203 ⭐** | **Shell** | Updated: 2025-07-22
 
 Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
 
@@ -133,7 +133,7 @@ Semi-automated, feedback-driven tool to rapidly search through troves of public 
 ---
 
 ### 13. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**1,501 ⭐** | **Go** | Updated: 2025-07-21
+**1,507 ⭐** | **Go** | Updated: 2025-07-22
 
 A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.
 
@@ -158,14 +158,14 @@ A curated collection of top-tier penetration testing tools and productivity util
 ---
 
 ### 16. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
-**1,110 ⭐** | **TypeScript** | Updated: 2025-07-20
+**1,109 ⭐** | **TypeScript** | Updated: 2025-07-23
 
 AI-Powered Penetration Testing Assistant
 
 ---
 
 ### 17. [intelmq](https://github.com/certtools/intelmq)
-**1,068 ⭐** | **Python** | Updated: 2025-07-18
+**1,070 ⭐** | **Python** | Updated: 2025-07-22
 
 IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
 
@@ -190,7 +190,7 @@ Mantis is a security framework that automates the workflow of discovery, reconna
 ---
 
 ### 20. [karma_v2](https://github.com/Dheerajmadhukar/karma_v2)
-**865 ⭐** | **Shell** | Updated: 2025-07-20
+**869 ⭐** | **Shell** | Updated: 2025-07-22
 
 ⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾ is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
 
