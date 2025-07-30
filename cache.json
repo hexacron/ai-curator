@@ -1,14 +1,14 @@
 {
-  "timestamp": 1753683443.6243556,
+  "timestamp": 1753856216.5678494,
   "repositories": [
     {
       "name": "taranis-ai",
       "full_name": "taranis-ai/taranis-ai",
       "html_url": "https://github.com/taranis-ai/taranis-ai",
       "description": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
-      "stars": 759,
+      "stars": 763,
       "language": "Python",
-      "last_updated": "2025-07-26",
+      "last_updated": "2025-07-29",
       "topics": [
         "artificial-intelligence",
         "cybersecurity",
@@ -52,9 +52,9 @@
       "full_name": "atiilla/geospy",
       "html_url": "https://github.com/atiilla/geospy",
       "description": "Python tool using Google's Gemini API to uncover the location where photos were taken through AI-powered geo-location analysis.",
-      "stars": 389,
+      "stars": 439,
       "language": "Python",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "geolocation",
         "image",
@@ -67,9 +67,9 @@
       "full_name": "arxhr007/Aliens_eye",
       "html_url": "https://github.com/arxhr007/Aliens_eye",
       "description": "Hunt down 840+ social media accounts using AI",
-      "stars": 348,
+      "stars": 347,
       "language": "Python",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-29",
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -98,9 +98,9 @@
       "full_name": "ALW1EZ/PANO",
       "html_url": "https://github.com/ALW1EZ/PANO",
       "description": "\ud83d\udd0d PANO: Advanced OSINT investigation platform combining graph visualization, timeline analysis, and AI assistance to uncover hidden connections in data. Built with Python and modern Qt.",
-      "stars": 281,
+      "stars": 282,
       "language": "Python",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "cybersecurity",
         "investigation",
@@ -148,7 +148,7 @@
       "description": "Citizen Intelligence Agency. Comprehensive open-source intelligence platform analyzing Swedish political activities using AI and data visualization. Tracks politicians, government institutions, and parliamentary data, offering detailed insights, performance metrics, and advanced analytics.",
       "stars": 177,
       "language": "Java",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-28",
       "topics": [
         "ai",
         "civic-tech",
@@ -177,9 +177,9 @@
       "full_name": "apurvsinghgautam/robin",
       "html_url": "https://github.com/apurvsinghgautam/robin",
       "description": "AI-Powered Dark Web OSINT Tool",
-      "stars": 84,
+      "stars": 86,
       "language": "Python",
-      "last_updated": "2025-07-26",
+      "last_updated": "2025-07-30",
       "topics": [
         "ai-tool",
         "darkweb",
@@ -196,9 +196,9 @@
       "full_name": "sexettin78/sexettintool",
       "html_url": "https://github.com/sexettin78/sexettintool",
       "description": "\u0130\u00e7erisinde 100'den fazla mod\u00fcl ve \u00f6zelli\u011fi bar\u0131nd\u0131ran \u00e7ok ama\u00e7l\u0131 bir siber g\u00fcvenlik arac\u0131.",
-      "stars": 66,
+      "stars": 67,
       "language": "Python",
-      "last_updated": "2025-05-24",
+      "last_updated": "2025-07-29",
       "topics": [
         "ai",
         "cyber-security",
@@ -278,9 +278,9 @@
       "full_name": "LucaLuke13/TalkyBotty",
       "html_url": "https://github.com/LucaLuke13/TalkyBotty",
       "description": "Simply forward a video or voice message in any language to the bot, and it will reply with a translation.",
-      "stars": 41,
+      "stars": 42,
       "language": "Python",
-      "last_updated": "2025-05-23",
+      "last_updated": "2025-07-28",
       "topics": [
         "ai",
         "osint",
@@ -493,6 +493,39 @@
       "license_name": "MIT License"
     },
     {
+      "name": "osint-ai-guide",
+      "full_name": "atlas-bear/osint-ai-guide",
+      "html_url": "https://github.com/atlas-bear/osint-ai-guide",
+      "description": "Comprehensive guide to AI applications in OSINT workflows and intelligence analysis",
+      "stars": 15,
+      "language": null,
+      "last_updated": "2025-07-28",
+      "topics": [
+        "ai-tools",
+        "artificial-intelligence",
+        "automated-analysis",
+        "computer-vision",
+        "data-analysis",
+        "geospatial-intelligence",
+        "intelligence-automation",
+        "machine-learning",
+        "natural-language-processing",
+        "osint"
+      ],
+      "license_name": "Other"
+    },
+    {
+      "name": "Cyber-Jarvis",
+      "full_name": "kokatesaurabh/Cyber-Jarvis",
+      "html_url": "https://github.com/kokatesaurabh/Cyber-Jarvis",
+      "description": "Cyber-Jarvis is a versatile AI assistant for automation and cybersecurity. It handles tasks like playing videos, detecting objects, performing OSINT, scanning for vulnerabilities, cracking hashes, steganography, and AI jailbreak. Integrates various tools for enhanced digital management and security.",
+      "stars": 15,
+      "language": "Python",
+      "last_updated": "2025-07-29",
+      "topics": [],
+      "license_name": null
+    },
+    {
       "name": "Social-Net-SCrap",
       "full_name": "VictorLuc4/Social-Net-SCrap",
       "html_url": "https://github.com/VictorLuc4/Social-Net-SCrap",
@@ -538,39 +571,6 @@
         "retinaface",
         "sface",
         "vgg-face"
-      ],
-      "license_name": "Other"
-    },
-    {
-      "name": "Cyber-Jarvis",
-      "full_name": "kokatesaurabh/Cyber-Jarvis",
-      "html_url": "https://github.com/kokatesaurabh/Cyber-Jarvis",
-      "description": "Cyber-Jarvis is a versatile AI assistant for automation and cybersecurity. It handles tasks like playing videos, detecting objects, performing OSINT, scanning for vulnerabilities, cracking hashes, steganography, and AI jailbreak. Integrates various tools for enhanced digital management and security.",
-      "stars": 14,
-      "language": "Python",
-      "last_updated": "2025-07-09",
-      "topics": [],
-      "license_name": null
-    },
-    {
-      "name": "osint-ai-guide",
-      "full_name": "atlas-bear/osint-ai-guide",
-      "html_url": "https://github.com/atlas-bear/osint-ai-guide",
-      "description": "Comprehensive guide to AI applications in OSINT workflows and intelligence analysis",
-      "stars": 13,
-      "language": null,
-      "last_updated": "2025-07-26",
-      "topics": [
-        "ai-tools",
-        "artificial-intelligence",
-        "automated-analysis",
-        "computer-vision",
-        "data-analysis",
-        "geospatial-intelligence",
-        "intelligence-automation",
-        "machine-learning",
-        "natural-language-processing",
-        "osint"
       ],
       "license_name": "Other"
     },
@@ -634,9 +634,9 @@
       "full_name": "The-Art-of-Hacking/h4cker",
       "html_url": "https://github.com/The-Art-of-Hacking/h4cker",
       "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
-      "stars": 22135,
+      "stars": 22171,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "ai",
         "ai-security",
@@ -694,9 +694,9 @@
       "full_name": "ossf/ai-ml-security",
       "html_url": "https://github.com/ossf/ai-ml-security",
       "description": "Working Group on Artificial Intelligence and Machine Learning (AI/ML) Security",
-      "stars": 97,
+      "stars": 99,
       "language": null,
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": "Apache License 2.0"
     },
@@ -732,9 +732,9 @@
       "full_name": "sanusanth/javascript-basic-program",
       "html_url": "https://github.com/sanusanth/javascript-basic-program",
       "description": "What is JavaScript and what does it do?   Before you start learning something new, it\u2019s important to understand exactly what it is and what it does. This is especially useful when it comes to mastering a new programming language.  In simple terms, JavaScript is a programming language used to make websites interactive. If you think about the basic makeup of a website, you have HTML, which describes and defines the basic content and structure of the website, then you have CSS, which tells the browser how this HTML content should be displayed\u2014determining things like color and font. With just HTML and CSS, you have a website that looks good but doesn\u2019t actually do much. JavaScript brings the website to life by adding functionality. JavaScript is responsible for elements that the user can interact with, such as drop-down menus, modal windows, and contact forms. It is also used to create things like animations, video players, and interactive maps.  Nowadays, JavaScript is an all-purpose programming language\u2014meaning it runs across the entire software stack. The most popular application of JavaScript is on the client side (aka frontend), but since Node.js came on the scene, many people run JavaScript on the server side (aka backend) as well. When used on the client side, JavaScript code is read, interpreted, and executed in the user\u2019s web browser. When used on the server side, it is run on a remote computer. You can learn more about the difference between frontend and backend programming here.  JavaScript isn\u2019t only used to create websites. It can also be used to build browser-based games and, with the help of certain frameworks, mobile apps for different operating systems. The creation of new libraries and frameworks is also making it possible to build backend programs with JavaScript, such as web apps and server apps.   Is it still worth learning JavaScript in 2021? The world of web development is constantly moving. With so many new tools popping up all the time, it can be extremely difficult to know where you should focus your efforts. As an aspiring developer, you\u2019ll want to make sure that what you\u2019re learning is still relevant in today\u2019s industry.  If you\u2019re having doubts about JavaScript, it\u2019s important to know that, since its creation in 1995, JavaScript is pretty much everywhere on the web\u2014and that\u2019s not likely to change any time soon. According to the 2020 StackOverflow developer survey, JavaScript is the most commonly used programming language for the eighth year in a row. It is currently used by 94.5% of all websites and, despite originally being designed as a client-side language, JavaScript has now made its way to the server-side of websites (thanks to Node.js), mobile devices (thanks to React Native and Ionic) and desktop (courtesy of Electron).  As long as people are interacting with the web, you can assume that JavaScript is highly relevant\u2014there\u2019s no doubt that this is a language worth knowing! With that in mind, let\u2019s look at some of the key benefits of becoming a JavaScript expert.   Why learn JavaScript? The most obvious reason for learning JavaScript is if you have hopes of becoming a web developer. Even if you haven\u2019t got your heart set on a tech career, being proficient in JavaScript will enable you to build websites from scratch\u2014a pretty useful skill to have in today\u2019s job market!  If you do want to become a web developer, here are some of the main reasons why you should learn JavaScript:   JavaScript experts are versatile  JavaScript is an extremely versatile language. Once you\u2019ve mastered it, the possibilities are endless: you can code on the client-side (frontend) using Angular and on the server-side (backend) using Node.js. You can also develop web, mobile, and desktop apps using React, React Native, and Electron, and you can even get involved in machine learning.  If you want to become a frontend developer, JavaScript is a prerequisite. However, that\u2019s not the only career path open to you as a JavaScript expert. Mastering this key programming language could see you go on to work in full-stack development, games development, information security software engineering, machine learning, and artificial intelligence\u2014to name just a few!  Ultimately, if you want any kind of development or engineering career, proficiency in JavaScript is a must.  JavaScript experts are in-demand (and well-paid) JavaScript is the most popular programming language in the world, so it\u2019s no wonder that JavaScript is one of the most sought-after skills in the web development industry today.  According to the Devskiller IT Skills and Hiring Report 2020, 72% of companies are looking to hire JavaScript experts. Enter the search term \u201cJavaScript\u201d on job site Indeed and you\u2019ll find over 40,000 jobs requiring this skill (in the US). Run the same search on LinkedIn and the results are in excess of 125,000.   At the same time, the global demand for JavaScript seems to outweigh the expertise available on the market. According to this 2018 HackerRank report, 48% of employers worldwide need developers with JavaScript skills, while only 42% of student developers claim to be proficient in JavaScript. And, in their most recent report for 2020, HackerRank once again reports that JavaScript is the most popular language that hiring mangers look for in a web developer candidate.  Not only are JavaScript experts in demand\u2014they are also well-paid. In the United States, JavaScript developers earn an average yearly salary of $111,953 per year. We\u2019ve covered this topic in more detail in our JavaScript salary guide, but as you can see, learning JavaScript can really boost your earning potential as a developer.   JavaScript is beginner-friendly Compared to many other programming languages, JavaScript offers one of the more beginner-friendly entry points into the world of coding. The great thing about JavaScript is that it comes installed on every modern web browser\u2014there\u2019s no need to set up any kind of development environment, which means you can start coding with JavaScript right away!  Another advantage of learning JavaScript as your first programming language is that you get instant feedback; with a minimal amount of JavaScript code, you\u2019ll immediately see visible results. There\u2019s also a huge JavaScript community on sites like Stack Overflow, so you\u2019ll find plenty of support as you learn.  Not only is JavaScript beginner-friendly; it will also set you up with some extremely valuable transferable skills. JavaScript supports object-oriented, functional, and imperative styles of programming\u2014skills which can be transferred to any new language you might learn later on, such as Python, Java, or C++. JavaScript provides a crucial introduction to key principles and practices that you\u2019ll take with you throughout your career as a developer.   Should you learn plain JavaScript first or can you skip to frameworks and libraries?  When deciding whether or not to learn JavaScript, what you\u2019re really asking is whether or not you should learn \u201cvanilla\u201d JavaScript. Vanilla JavaScript just means plain JavaScript without any libraries or frameworks. Let\u2019s explore what this means in more detail now.  What is meant by vanilla JavaScript, libraries, and frameworks?  If you research the term \u201cvanilla JavaScript\u201d, you might run into some confusion; however, all you need to know is that vanilla JavaScript is used to refer to native, standards-based, non-extended JavaScript. There is no difference between vanilla JavaScript and JavaScript\u2014it\u2019s just there to emphasize the usage of plain JavaScript without the use of libraries and frameworks.  So what are libraries and frameworks? JavaScript libraries and frameworks both contain sets of prewritten, ready-to-use JavaScript code\u2014but they\u2019re not the same thing. You can think of a framework as your blueprint for building a website: it gives you a structure to work from, and contains ready-made components and tools that help you to build certain elements much quicker than if you were to code them from scratch. Some popular JavaScript frameworks include Angular, React, Vue, and Node.js.  Frameworks also contain libraries. Libraries are smaller than frameworks, and tend to be used for more specific cases. A JavaScript library contains sets of JavaScript code which can be called upon to implement certain functions and features. Let\u2019s imagine you want to code a particular element into your website. You could write, say, ten lines of JavaScript from scratch\u2014or you could take the condensed, ready-made version from your chosen JavaScript library. Some examples of JavaScript libraries include jQuery, Lodash, and Underscore.  The easiest way to understand how frameworks and libraries work together is to imagine you are building a house. The framework provides the foundation and the structure, while the library enables you to add in ready-made components (like furniture) rather than building your own from scratch.  You can learn more about the relationship between languages and libraries in this post explaining the main differences between JavaScript and jQuery. For now, let\u2019s go back to our original question: How important is it to learn vanilla JavaScript?  Should you learn vanilla JavaScript first? When it comes to learning JavaScript, it can be tempting to skip ahead to those time-saving frameworks and libraries we just talked about\u2014and many developers do. However, there are many compelling arguments for learning plain JavaScript first.  While JavaScript frameworks may help you get the job done quicker, there\u2019s only so far you can go if you don\u2019t understand the core concepts behind these frameworks. Frontend developer Abhishek Nagekar describes how not learning vanilla JavaScript came back to bite him when he started learning the JavaScript frameworks Node and Express:  \u201cAs I went to write more and more code in Node and Express, I began to get stuck at even the tiniest problems. Suddenly, I was surrounded with words like callbacks, closures, event loop and prototype. It felt like I got a reintroduction to JavaScript, but this time, it was not a toddler playing in its cradle, it was something of a mysterious monster, challenging me on every other step for not having taken it seriously.\u201d   The above Tweet references a long-running joke within the developer community, and although it dates way back to 2015, it\u2019s still highly relevant today. If you want to become a developer who can innovate, not just execute, you need to understand the underlying principles of the web\u2014not just the shortcuts. This means learning vanilla JavaScript before you move on to frameworks. In fact, understanding plain JavaScript will help you later on when it comes to deciding whether to use a framework for a certain project, and if so, which framework to use.     Why Study JavaScript?  JavaScript is one of the 3 languages all web developers must learn:     1. HTML to define the content of web pages     2. CSS to specify the layout of web pages     3. JavaScript to program the behavior of web pages   Learning Speed  In this tutorial, the learning speed is your choice.  Everything is up to you.  If you are struggling, take a break, or re-read the material.  Always make sure you understand all the \"Try-it-Yourself\" examples.  The only way to become a clever programmer is to: Practice. Practice. Practice. Code. Code. Code !  Commonly Asked Questions  How do I get JavaScript?  Where can I download JavaScript?  Is JavaScript Free?  You don't have to get or download JavaScript.  JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.  JavaScript is free to use for everyone.",
-      "stars": 54,
+      "stars": 55,
       "language": null,
-      "last_updated": "2025-06-07",
+      "last_updated": "2025-07-28",
       "topics": [],
       "license_name": null
     },
@@ -846,9 +846,9 @@
       "full_name": "jivoi/awesome-ml-for-cybersecurity",
       "html_url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
       "description": " :octocat: Machine Learning for Cyber Security",
-      "stars": 7687,
+      "stars": 7690,
       "language": null,
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "awesome-list",
         "cyber-security",
@@ -862,9 +862,9 @@
       "full_name": "JoseDeFreitas/awesome-youtubers",
       "html_url": "https://github.com/JoseDeFreitas/awesome-youtubers",
       "description": "An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.",
-      "stars": 6765,
+      "stars": 6770,
       "language": "Markdown",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-30",
       "topics": [
         "awesome",
         "awesome-list",
@@ -919,9 +919,9 @@
       "full_name": "UTSAVS26/PyVerse",
       "html_url": "https://github.com/UTSAVS26/PyVerse",
       "description": "PyVerse is an open-source collection of diverse Python projects, tools, and scripts, ranging from beginner to advanced, across various domains like machine learning, web development, and automation.",
-      "stars": 176,
+      "stars": 182,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-29",
       "topics": [
         "algorithms",
         "automation",
@@ -1032,9 +1032,9 @@
       "full_name": "Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
       "html_url": "https://github.com/Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
       "description": "Final Year Malware Detection Project with PPT, Research Paper, code and Synopsis. Malware detection project by Machine Learning ALgorithms.",
-      "stars": 140,
+      "stars": 141,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-07-29",
       "topics": [
         "btech",
         "btechfinalyear",
@@ -1145,9 +1145,9 @@
       "full_name": "JosephTLucas/HackThisAI",
       "html_url": "https://github.com/JosephTLucas/HackThisAI",
       "description": "Adversarial Machine Learning (AML) Capture the Flag (CTF)",
-      "stars": 102,
+      "stars": 103,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-05-04",
+      "last_updated": "2025-07-28",
       "topics": [
         "adversarial-machine-learning",
         "artificial-intelligence",
@@ -1167,7 +1167,7 @@
       "description": "A collection of AI-powered tools for phishing detection, adversarial machine learning, and cybersecurity research. Includes Streamlit/Flask apps, attack simulations, LoRA fine-tuning, and secure model evaluation for red teaming and defense.",
       "stars": 101,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-07-30",
       "topics": [
         "cybersecurity",
         "hacker",
@@ -1388,9 +1388,9 @@
       "full_name": "ezztahoun/attack_flow_detector",
       "html_url": "https://github.com/ezztahoun/attack_flow_detector",
       "description": "Find relevant incidents, logs, events, and alerts to all of your incidents. [Attack Flows, Attack Chains, & Root Cause Discovery - NO LLMs, NO Queries, Just Explainable Machine Learning] >> Use it for free here: https://app.cypienta.io",
-      "stars": 45,
+      "stars": 46,
       "language": "Python",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-29",
       "topics": [
         "correlation",
         "cyber-analytics",
@@ -1782,22 +1782,30 @@
       "license_name": null
     },
     {
-      "name": "malwares-ml",
-      "full_name": "SitinCloud/malwares-ml",
-      "html_url": "https://github.com/SitinCloud/malwares-ml",
-      "description": "Machine Learning and Datasets for Malwares Static Analysis.",
-      "stars": 18,
+      "name": "XSSGAI",
+      "full_name": "AnonKryptiQuz/XSSGAI",
+      "html_url": "https://github.com/AnonKryptiQuz/XSSGAI",
+      "description": "XSSGAI is the first-ever AI-powered XSS (Cross-Site Scripting) payload generator. It leverages machine learning and deep learning to create novel payloads based on patterns from real-world XSS attacks.",
+      "stars": 19,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-05-03",
+      "last_updated": "2025-07-29",
       "topics": [
+        "ai",
+        "ai-security",
+        "anonymous",
+        "artificial-intelligence",
         "cybersecurity",
-        "datasets",
         "deep-learning",
-        "machine-learning",
-        "malwares",
-        "ml"
+        "ethical-hacking",
+        "hacking",
+        "ml-security",
+        "payload-generation",
+        "penetration-testing",
+        "python",
+        "tensorflow",
+        "xss"
       ],
-      "license_name": "GNU General Public License v3.0"
+      "license_name": "MIT License"
     },
     {
       "name": "intelmq",
@@ -1833,8 +1841,8 @@
       "html_url": "https://github.com/prodaft/cradle",
       "description": "CRADLE is a collaborative platform for Cyber Threat Intelligence analysts. It streamlines threat investigations with integrated note-taking, automated data linking, interactive visualizations, and robust access control. Enhance your CTI workflow from analysis to reporting\u2014all in one secure space.",
       "stars": 252,
-      "language": "Python",
-      "last_updated": "2025-07-26",
+      "language": "JavaScript",
+      "last_updated": "2025-07-28",
       "topics": [
         "automation",
         "collaborative",
@@ -1938,9 +1946,9 @@
       "full_name": "Tencent/AI-Infra-Guard",
       "html_url": "https://github.com/Tencent/AI-Infra-Guard",
       "description": "A comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment and MCP Server Security Analysis Tool.",
-      "stars": 1520,
+      "stars": 1527,
       "language": "Go",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [],
       "license_name": "Other"
     },
@@ -1949,9 +1957,9 @@
       "full_name": "al-sultani/prokzee",
       "html_url": "https://github.com/al-sultani/prokzee",
       "description": "A cross-platform desktop application for HTTP/HTTPS traffic interception and analysis, built with Go. Features modern UI, traffic manipulation tools, request resending, fuzzing capabilities, and AI-powered analysis.",
-      "stars": 155,
+      "stars": 156,
       "language": "Go",
-      "last_updated": "2025-07-15",
+      "last_updated": "2025-07-29",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2061,9 +2069,9 @@
       "full_name": "yogeshojha/rengine",
       "html_url": "https://github.com/yogeshojha/rengine",
       "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-      "stars": 8049,
+      "stars": 8050,
       "language": "HTML",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2091,7 +2099,7 @@
       "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
       "stars": 6488,
       "language": "Shell",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-29",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2119,9 +2127,9 @@
       "full_name": "Tib3rius/AutoRecon",
       "html_url": "https://github.com/Tib3rius/AutoRecon",
       "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-      "stars": 5608,
+      "stars": 5612,
       "language": "Python",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -2130,9 +2138,9 @@
       "full_name": "leebaird/discover",
       "html_url": "https://github.com/leebaird/discover",
       "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.",
-      "stars": 3701,
+      "stars": 3703,
       "language": "Shell",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-29",
       "topics": [
         "bash",
         "enumeration",
@@ -2155,9 +2163,9 @@
       "full_name": "bhavsec/reconspider",
       "html_url": "https://github.com/bhavsec/reconspider",
       "description": "\ud83d\udd0e Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
-      "stars": 2334,
+      "stars": 2335,
       "language": "Python",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-30",
       "topics": [
         "automated",
         "cybersecurity",
@@ -2211,9 +2219,9 @@
       "full_name": "nahamsec/lazyrecon",
       "html_url": "https://github.com/nahamsec/lazyrecon",
       "description": "This script is intended to automate your reconnaissance process in an organized fashion",
-      "stars": 1988,
+      "stars": 1989,
       "language": "Shell",
-      "last_updated": "2025-07-20",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": null
     },
@@ -2246,9 +2254,9 @@
       "full_name": "superhedgy/AttackSurfaceMapper",
       "html_url": "https://github.com/superhedgy/AttackSurfaceMapper",
       "description": "AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.",
-      "stars": 1371,
+      "stars": 1372,
       "language": "Python",
-      "last_updated": "2025-07-04",
+      "last_updated": "2025-07-29",
       "topics": [
         "attack-surface",
         "attacksurfacemapper",
@@ -2276,9 +2284,9 @@
       "full_name": "PhonePe/mantis",
       "html_url": "https://github.com/PhonePe/mantis",
       "description": "Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.",
-      "stars": 945,
+      "stars": 946,
       "language": "Python",
-      "last_updated": "2025-07-23",
+      "last_updated": "2025-07-29",
       "topics": [
         "application-security",
         "attack-surface-management",
@@ -2298,9 +2306,9 @@
       "full_name": "Dheerajmadhukar/karma_v2",
       "html_url": "https://github.com/Dheerajmadhukar/karma_v2",
       "description": "\u2877\u2802\ud835\ude94\ud835\ude8a\ud835\ude9b\ud835\ude96\ud835\ude8a \ud835\ude9f\ud835\udff8\u2810\u28be is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)",
-      "stars": 875,
+      "stars": 876,
       "language": "Shell",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-29",
       "topics": [
         "automation",
         "bash-script",
@@ -2425,9 +2433,9 @@
       "full_name": "0xPugal/SubDomz",
       "html_url": "https://github.com/0xPugal/SubDomz",
       "description": "An Automated Subdomain Enumeration Tool",
-      "stars": 270,
+      "stars": 271,
       "language": "Shell",
-      "last_updated": "2025-07-21",
+      "last_updated": "2025-07-28",
       "topics": [
         "bugbounty",
         "recon",
@@ -2443,9 +2451,9 @@
       "full_name": "maldevel/intelspy",
       "html_url": "https://github.com/maldevel/intelspy",
       "description": "Perform automated network reconnaissance scans",
-      "stars": 231,
+      "stars": 232,
       "language": "Python",
-      "last_updated": "2025-06-17",
+      "last_updated": "2025-07-29",
       "topics": [
         "enumeration",
         "gathering",
@@ -2517,9 +2525,9 @@
       "full_name": "vergl4s/instarecon",
       "html_url": "https://github.com/vergl4s/instarecon",
       "description": "Automated digital reconnaissance",
-      "stars": 197,
+      "stars": 198,
       "language": "Python",
-      "last_updated": "2025-04-17",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -2629,9 +2637,9 @@
       "full_name": "mr-rizwan-syed/chomtesh",
       "html_url": "https://github.com/mr-rizwan-syed/chomtesh",
       "description": "CHOMTE.SH is a powerful shell script designed to automate reconnaissance tasks during penetration testing. It utilizes various Go-based tools to gather information and identify the attack surface, making it a valuable asset for bug bounty hunters and penetration testers.",
-      "stars": 128,
+      "stars": 129,
       "language": "Shell",
-      "last_updated": "2025-06-04",
+      "last_updated": "2025-07-28",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2653,9 +2661,9 @@
       "full_name": "Security-Tools-Alliance/rengine-ng",
       "html_url": "https://github.com/Security-Tools-Alliance/rengine-ng",
       "description": "reNgine-ng is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface.",
-      "stars": 112,
+      "stars": 113,
       "language": "Python",
-      "last_updated": "2025-07-24",
+      "last_updated": "2025-07-29",
       "topics": [
         "security",
         "security-scanner",
@@ -2691,28 +2699,6 @@
       "license_name": "GNU General Public License v3.0"
     },
     {
-      "name": "corptrace",
-      "full_name": "r1cksec/corptrace",
-      "html_url": "https://github.com/r1cksec/corptrace",
-      "description": "Automate Scoping, OSINT and Recon assessments.",
-      "stars": 96,
-      "language": "Shell",
-      "last_updated": "2025-06-28",
-      "topics": [
-        "domains",
-        "emails",
-        "enumeration",
-        "github-secrets",
-        "ip-address-ranges",
-        "osint",
-        "recon",
-        "reconnaissance",
-        "scoping",
-        "subdomains"
-      ],
-      "license_name": "GNU General Public License v3.0"
-    },
-    {
       "name": "AttackSurfaceManagement",
       "full_name": "1N3/AttackSurfaceManagement",
       "html_url": "https://github.com/1N3/AttackSurfaceManagement",
@@ -2740,6 +2726,28 @@
         "vulnerability-scanners"
       ],
       "license_name": "Other"
+    },
+    {
+      "name": "corptrace",
+      "full_name": "r1cksec/corptrace",
+      "html_url": "https://github.com/r1cksec/corptrace",
+      "description": "Automate Scoping, OSINT and Recon assessments.",
+      "stars": 95,
+      "language": "Shell",
+      "last_updated": "2025-07-29",
+      "topics": [
+        "domains",
+        "emails",
+        "enumeration",
+        "github-secrets",
+        "ip-address-ranges",
+        "osint",
+        "recon",
+        "reconnaissance",
+        "scoping",
+        "subdomains"
+      ],
+      "license_name": "GNU General Public License v3.0"
     },
     {
       "name": "mainRecon",
@@ -2857,7 +2865,7 @@
       "description": "An automated GitHub Actions-based crawler that fetches and updates public scopes from popular bug bounty platforms (like Hackerone/Bugcrowd/Intigriti/etc) (updates every 10 minutes)",
       "stars": 46,
       "language": "Shell",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2988,6 +2996,17 @@
       "license_name": null
     },
     {
+      "name": "ZoomeyeSearch",
+      "full_name": "RevoltSecurities/ZoomeyeSearch",
+      "html_url": "https://github.com/RevoltSecurities/ZoomeyeSearch",
+      "description": "A powerful CLI tool that uses ZoomEye to search exposed services, gather intelligence, and automate reconnaissance.",
+      "stars": 42,
+      "language": "Python",
+      "last_updated": "2025-07-29",
+      "topics": [],
+      "license_name": "MIT License"
+    },
+    {
       "name": "RustAutoRecon",
       "full_name": "spacialsec/RustAutoRecon",
       "html_url": "https://github.com/spacialsec/RustAutoRecon",
@@ -2997,17 +3016,6 @@
       "last_updated": "2025-04-27",
       "topics": [],
       "license_name": null
-    },
-    {
-      "name": "ZoomeyeSearch",
-      "full_name": "RevoltSecurities/ZoomeyeSearch",
-      "html_url": "https://github.com/RevoltSecurities/ZoomeyeSearch",
-      "description": "A powerful CLI tool that uses ZoomEye to search exposed services, gather intelligence, and automate reconnaissance.",
-      "stars": 42,
-      "language": "Python",
-      "last_updated": "2025-07-28",
-      "topics": [],
-      "license_name": "MIT License"
     },
     {
       "name": "website-passive-reconnaissance",
@@ -3082,9 +3090,9 @@
       "full_name": "hackerai-tech/PentestGPT",
       "html_url": "https://github.com/hackerai-tech/PentestGPT",
       "description": "AI-Powered Penetration Testing Assistant",
-      "stars": 1116,
+      "stars": 1121,
       "language": "TypeScript",
-      "last_updated": "2025-07-26",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3095,7 +3103,7 @@
       "description": "AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.",
       "stars": 660,
       "language": "Python",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-29",
       "topics": [
         "ai",
         "ai-powered-ethical-hacking-tool",
@@ -3120,9 +3128,9 @@
       "full_name": "vxcontrol/pentagi",
       "html_url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "stars": 446,
+      "stars": 452,
       "language": "Go",
-      "last_updated": "2025-07-28",
+      "last_updated": "2025-07-30",
       "topics": [
         "ai-agents",
         "ai-security-tool",
@@ -3180,7 +3188,7 @@
       "full_name": "cyproxio/mcp-for-security",
       "html_url": "https://github.com/cyproxio/mcp-for-security",
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 316,
+      "stars": 317,
       "language": "TypeScript",
       "last_updated": "2025-07-28",
       "topics": [
@@ -3207,9 +3215,9 @@
       "full_name": "aielte-research/HackSynth",
       "html_url": "https://github.com/aielte-research/HackSynth",
       "description": "LLM Agent and Evaluation Framework for Autonomous Penetration Testing ",
-      "stars": 181,
+      "stars": 183,
       "language": "Python",
-      "last_updated": "2025-07-27",
+      "last_updated": "2025-07-29",
       "topics": [
         "ai",
         "autonomous-pentesting",
@@ -3226,9 +3234,9 @@
       "full_name": "m-sec-org/ez-ai-agent",
       "html_url": "https://github.com/m-sec-org/ez-ai-agent",
       "description": "Automated Penetration Testing with EZ and Agents",
-      "stars": 106,
+      "stars": 109,
       "language": "JavaScript",
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-07-29",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3273,9 +3281,9 @@
       "full_name": "westonbrown/Cyber-AutoAgent",
       "html_url": "https://github.com/westonbrown/Cyber-AutoAgent",
       "description": "AI cybersecurity agent for automated penetration testing and vulnerability assessment",
-      "stars": 65,
+      "stars": 66,
       "language": "Python",
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-07-29",
       "topics": [
         "agents",
         "cybersecurity-tools",
@@ -3459,6 +3467,17 @@
       "license_name": "MIT License"
     },
     {
+      "name": "PentestGPT",
+      "full_name": "syedbilalalam1/PentestGPT",
+      "html_url": "https://github.com/syedbilalalam1/PentestGPT",
+      "description": "Penetration Testing via Nmap and Nikto, with a touch of AI.",
+      "stars": 8,
+      "language": "Python",
+      "last_updated": "2025-07-28",
+      "topics": [],
+      "license_name": "MIT License"
+    },
+    {
       "name": "PentestThinkingMCP",
       "full_name": "ibrahimsaleem/PentestThinkingMCP",
       "html_url": "https://github.com/ibrahimsaleem/PentestThinkingMCP",
@@ -3481,13 +3500,13 @@
       "license_name": "Other"
     },
     {
-      "name": "PentestGPT",
-      "full_name": "syedbilalalam1/PentestGPT",
-      "html_url": "https://github.com/syedbilalalam1/PentestGPT",
-      "description": "Penetration Testing via Nmap and Nikto, with a touch of AI.",
+      "name": "mcp-for-security-python",
+      "full_name": "f1tz/mcp-for-security-python",
+      "html_url": "https://github.com/f1tz/mcp-for-security-python",
+      "description": "\u4e00\u4e2a\u4e3a\u4e3b\u6d41\u6e17\u900f\u6d4b\u8bd5\u5de5\u5177\u6253\u9020\u7684MCP\u670d\u52a1\u5668\u96c6\u5408\u3002 | A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
       "stars": 7,
       "language": "Python",
-      "last_updated": "2025-07-02",
+      "last_updated": "2025-07-30",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -3515,17 +3534,6 @@
         "burpsuite-extension",
         "llm"
       ],
-      "license_name": "MIT License"
-    },
-    {
-      "name": "mcp-for-security-python",
-      "full_name": "f1tz/mcp-for-security-python",
-      "html_url": "https://github.com/f1tz/mcp-for-security-python",
-      "description": "\u4e00\u4e2a\u4e3a\u4e3b\u6d41\u6e17\u900f\u6d4b\u8bd5\u5de5\u5177\u6253\u9020\u7684MCP\u670d\u52a1\u5668\u96c6\u5408\u3002 | A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 6,
-      "language": "Python",
-      "last_updated": "2025-07-12",
-      "topics": [],
       "license_name": "MIT License"
     }
   ]
