@@ -1,11 +1,11 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-08-23 06:11:57*
+*Last updated: 2025-08-24 06:12:55*
 
 ## 📊 Collection Summary
 
 - **Total Repositories**: 186
-- **Total Stars**: 96,835
+- **Total Stars**: 96,869
 
 ### 🔥 Top Languages
 - **Python**: 72 repositories
@@ -29,7 +29,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**22,578 ⭐** | **Jupyter Notebook** | Updated: 2025-08-23
+**22,596 ⭐** | **Jupyter Notebook** | Updated: 2025-08-24
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -38,7 +38,7 @@ This repository is primarily maintained by Omar Santos (@santosomar) and include
 ---
 
 ### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,112 ⭐** | **HTML** | Updated: 2025-08-22
+**8,112 ⭐** | **HTML** | Updated: 2025-08-23
 
 reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,725 ⭐** | **None** | Updated: 2025-08-22
+**7,726 ⭐** | **None** | Updated: 2025-08-24
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,807 ⭐** | **Markdown** | Updated: 2025-08-23
+**6,808 ⭐** | **Markdown** | Updated: 2025-08-24
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,677 ⭐** | **Shell** | Updated: 2025-08-23
+**6,678 ⭐** | **Shell** | Updated: 2025-08-23
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,14 +74,14 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,654 ⭐** | **Python** | Updated: 2025-08-21
+**5,655 ⭐** | **Python** | Updated: 2025-08-23
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
 ---
 
 ### 7. [discover](https://github.com/leebaird/discover)
-**3,724 ⭐** | **Shell** | Updated: 2025-08-22
+**3,725 ⭐** | **Shell** | Updated: 2025-08-23
 
 Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.
 
@@ -174,7 +174,7 @@ Legion is an open source, easy-to-use, super-extensible and semi-automated netwo
 ---
 
 ### 18. [mantis](https://github.com/PhonePe/mantis)
-**989 ⭐** | **Python** | Updated: 2025-08-22
+**990 ⭐** | **Python** | Updated: 2025-08-23
 
 Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
 
@@ -183,7 +183,7 @@ Mantis is a security framework that automates the workflow of discovery, reconna
 ---
 
 ### 19. [karma_v2](https://github.com/Dheerajmadhukar/karma_v2)
-**879 ⭐** | **Shell** | Updated: 2025-08-19
+**880 ⭐** | **Shell** | Updated: 2025-08-23
 
 ⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾ is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
 
