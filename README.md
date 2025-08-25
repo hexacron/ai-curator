@@ -1,35 +1,35 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-08-24 06:12:55*
+*Last updated: 2025-08-25 06:15:15*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 186
-- **Total Stars**: 96,869
+- **Total Repositories**: 187
+- **Total Stars**: 96,922
 
 ### 🔥 Top Languages
-- **Python**: 72 repositories
+- **Python**: 73 repositories
 - **Jupyter Notebook**: 30 repositories
 - **None**: 29 repositories
-- **Shell**: 25 repositories
+- **Shell**: 26 repositories
 - **TypeScript**: 6 repositories
 
 ### 🏷️ Popular Topics
-- `cybersecurity` (47)
+- `cybersecurity` (48)
 - `osint` (38)
 - `reconnaissance` (36)
 - `machine-learning` (30)
-- `ai` (28)
+- `ai` (29)
 - `bugbounty` (27)
 - `recon` (26)
+- `pentesting` (21)
 - `python` (21)
-- `pentesting` (20)
 - `hacking` (20)
 
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**22,596 ⭐** | **Jupyter Notebook** | Updated: 2025-08-24
+**22,615 ⭐** | **Jupyter Notebook** | Updated: 2025-08-25
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,726 ⭐** | **None** | Updated: 2025-08-24
+**7,728 ⭐** | **None** | Updated: 2025-08-24
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,808 ⭐** | **Markdown** | Updated: 2025-08-24
+**6,809 ⭐** | **Markdown** | Updated: 2025-08-25
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,678 ⭐** | **Shell** | Updated: 2025-08-23
+**6,684 ⭐** | **Shell** | Updated: 2025-08-25
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,7 +74,7 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,655 ⭐** | **Python** | Updated: 2025-08-23
+**5,656 ⭐** | **Python** | Updated: 2025-08-24
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
@@ -90,7 +90,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,424 ⭐** | **Python** | Updated: 2025-08-23
+**2,427 ⭐** | **Python** | Updated: 2025-08-25
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -142,7 +142,7 @@ AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 ---
 
 ### 14. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
-**1,171 ⭐** | **None** | Updated: 2025-08-21
+**1,172 ⭐** | **None** | Updated: 2025-08-24
 
 A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
 
@@ -158,7 +158,7 @@ AI-Powered Penetration Testing Assistant
 ---
 
 ### 16. [intelmq](https://github.com/certtools/intelmq)
-**1,076 ⭐** | **Python** | Updated: 2025-08-21
+**1,076 ⭐** | **Python** | Updated: 2025-08-24
 
 IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
 
@@ -174,7 +174,7 @@ Legion is an open source, easy-to-use, super-extensible and semi-automated netwo
 ---
 
 ### 18. [mantis](https://github.com/PhonePe/mantis)
-**990 ⭐** | **Python** | Updated: 2025-08-23
+**992 ⭐** | **Python** | Updated: 2025-08-24
 
 Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
 
