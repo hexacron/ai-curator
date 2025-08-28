@@ -1,16 +1,16 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-08-27 06:13:29*
+*Last updated: 2025-08-28 06:14:05*
 
 ## 📊 Collection Summary
 
 - **Total Repositories**: 187
-- **Total Stars**: 97,191
+- **Total Stars**: 97,259
 
 ### 🔥 Top Languages
-- **Python**: 73 repositories
-- **Jupyter Notebook**: 30 repositories
+- **Python**: 74 repositories
 - **None**: 29 repositories
+- **Jupyter Notebook**: 29 repositories
 - **Shell**: 26 repositories
 - **TypeScript**: 6 repositories
 
@@ -18,8 +18,8 @@
 - `cybersecurity` (47)
 - `osint` (38)
 - `reconnaissance` (36)
+- `ai` (29)
 - `machine-learning` (29)
-- `ai` (28)
 - `bugbounty` (27)
 - `recon` (26)
 - `pentesting` (21)
@@ -29,7 +29,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**22,662 ⭐** | **Jupyter Notebook** | Updated: 2025-08-27
+**22,677 ⭐** | **Jupyter Notebook** | Updated: 2025-08-28
 
 This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
 
@@ -38,7 +38,7 @@ This repository is primarily maintained by Omar Santos (@santosomar) and include
 ---
 
 ### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,113 ⭐** | **HTML** | Updated: 2025-08-27
+**8,114 ⭐** | **HTML** | Updated: 2025-08-28
 
 reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
 
@@ -47,7 +47,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,731 ⭐** | **None** | Updated: 2025-08-26
+**7,730 ⭐** | **None** | Updated: 2025-08-27
 
  :octocat: Machine Learning for Cyber Security
 
@@ -56,7 +56,7 @@ reNgine is an automated reconnaissance framework for web applications with a foc
 ---
 
 ### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,816 ⭐** | **Markdown** | Updated: 2025-08-27
+**6,819 ⭐** | **Markdown** | Updated: 2025-08-28
 
 An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
 
@@ -65,7 +65,7 @@ An awesome list of awesome YouTubers that teach about technology. Tutorials abou
 ---
 
 ### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,688 ⭐** | **Shell** | Updated: 2025-08-26
+**6,689 ⭐** | **Shell** | Updated: 2025-08-27
 
 reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
 
@@ -74,14 +74,14 @@ reconFTW is a tool designed to perform automated recon on a target domain by run
 ---
 
 ### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,655 ⭐** | **Python** | Updated: 2025-08-26
+**5,656 ⭐** | **Python** | Updated: 2025-08-27
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
 ---
 
 ### 7. [discover](https://github.com/leebaird/discover)
-**3,729 ⭐** | **Shell** | Updated: 2025-08-27
+**3,730 ⭐** | **Shell** | Updated: 2025-08-28
 
 Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.
 
@@ -90,7 +90,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,432 ⭐** | **Python** | Updated: 2025-08-26
+**2,433 ⭐** | **Python** | Updated: 2025-08-27
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -99,7 +99,7 @@ Custom bash scripts used to automate various penetration testing tasks including
 ---
 
 ### 9. [Sudomy](https://github.com/screetsec/Sudomy)
-**2,216 ⭐** | **Shell** | Updated: 2025-08-25
+**2,215 ⭐** | **Shell** | Updated: 2025-08-27
 
 Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
 
@@ -124,7 +124,7 @@ This script is intended to automate your reconnaissance process in an organized 
 ---
 
 ### 12. [GitGot](https://github.com/BishopFox/GitGot)
-**1,524 ⭐** | **Python** | Updated: 2025-08-25
+**1,525 ⭐** | **Python** | Updated: 2025-08-27
 
 Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
 
@@ -133,7 +133,7 @@ Semi-automated, feedback-driven tool to rapidly search through troves of public 
 ---
 
 ### 13. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
-**1,376 ⭐** | **Python** | Updated: 2025-08-21
+**1,377 ⭐** | **Python** | Updated: 2025-08-27
 
 AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 
@@ -151,7 +151,7 @@ A curated collection of top-tier penetration testing tools and productivity util
 ---
 
 ### 15. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
-**1,140 ⭐** | **TypeScript** | Updated: 2025-08-26
+**1,141 ⭐** | **TypeScript** | Updated: 2025-08-27
 
 AI-Powered Penetration Testing Assistant
 
@@ -192,7 +192,7 @@ Mantis is a security framework that automates the workflow of discovery, reconna
 ---
 
 ### 20. [taranis-ai](https://github.com/taranis-ai/taranis-ai)
-**785 ⭐** | **Python** | Updated: 2025-08-26
+**786 ⭐** | **Python** | Updated: 2025-08-27
 
 Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.
 
