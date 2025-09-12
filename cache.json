@@ -1,14 +1,14 @@
 {
-  "timestamp": 1757484845.5634918,
+  "timestamp": 1757657620.9593463,
   "repositories": [
     {
       "name": "taranis-ai",
       "full_name": "taranis-ai/taranis-ai",
       "html_url": "https://github.com/taranis-ai/taranis-ai",
       "description": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
-      "stars": 794,
+      "stars": 795,
       "language": "Python",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "artificial-intelligence",
         "cybersecurity",
@@ -23,9 +23,9 @@
       "full_name": "blark/aiodnsbrute",
       "html_url": "https://github.com/blark/aiodnsbrute",
       "description": "Python 3.5+ DNS asynchronous brute force utility",
-      "stars": 659,
+      "stars": 660,
       "language": "Python",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "async",
         "brute-force",
@@ -52,7 +52,7 @@
       "full_name": "atiilla/GeoIntel",
       "html_url": "https://github.com/atiilla/GeoIntel",
       "description": "GeoIntel using Google's Gemini API to uncover the location where photos were taken through AI-powered geo-location analysis.",
-      "stars": 567,
+      "stars": 568,
       "language": "Python",
       "last_updated": "2025-09-10",
       "topics": [
@@ -67,9 +67,9 @@
       "full_name": "arxhr007/Aliens_eye",
       "html_url": "https://github.com/arxhr007/Aliens_eye",
       "description": "Hunt down 840+ social media accounts using AI",
-      "stars": 359,
+      "stars": 360,
       "language": "Python",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -98,9 +98,9 @@
       "full_name": "ALW1EZ/PANO",
       "html_url": "https://github.com/ALW1EZ/PANO",
       "description": "\ud83d\udd0d PANO: Advanced OSINT investigation platform combining graph visualization, timeline analysis, and AI assistance to uncover hidden connections in data. Built with Python and modern Qt.",
-      "stars": 304,
+      "stars": 305,
       "language": "Python",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-10",
       "topics": [
         "cybersecurity",
         "investigation",
@@ -146,9 +146,9 @@
       "full_name": "Hack23/cia",
       "html_url": "https://github.com/Hack23/cia",
       "description": "Citizen Intelligence Agency. Comprehensive open-source intelligence platform analyzing Swedish political activities using AI and data visualization. Tracks politicians, government institutions, and parliamentary data, offering detailed insights, performance metrics, and advanced analytics.",
-      "stars": 189,
+      "stars": 190,
       "language": "Java",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai",
         "civic-tech",
@@ -178,9 +178,9 @@
       "full_name": "apurvsinghgautam/robin",
       "html_url": "https://github.com/apurvsinghgautam/robin",
       "description": "AI-Powered Dark Web OSINT Tool",
-      "stars": 111,
+      "stars": 112,
       "language": "Python",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai-tool",
         "darkweb",
@@ -436,7 +436,7 @@
       "description": "OSINT Multi Recon Tool is an advanced open-source intelligence (OSINT) gathering tool designed for ethical hackers, penetration testers, and cybersecurity professionals. This tool automates reconnaissance by collecting valuable information from various sources, including GitHub, LinkedIn, WHOIS, subdomains, and phone number lookups.",
       "stars": 17,
       "language": "Python",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "ai",
         "automated",
@@ -626,7 +626,7 @@
       "description": "HTB (HackTheBox) write-ups and solutions for various challenges and machines, including CTF challenges in AI, Blockchain, Crypto, Hardware, OSINT, and Web categories. Each solution comes with detailed explanations and necessary resources.",
       "stars": 12,
       "language": "C",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [],
       "license_name": null
     },
@@ -674,9 +674,9 @@
       "full_name": "The-Art-of-Hacking/h4cker",
       "html_url": "https://github.com/The-Art-of-Hacking/h4cker",
       "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
-      "stars": 22937,
+      "stars": 22975,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "ai",
         "ai-security",
@@ -706,9 +706,9 @@
       "full_name": "zero-equals-false/awesome-programming-books",
       "html_url": "https://github.com/zero-equals-false/awesome-programming-books",
       "description": "\ud83d\udcda A curated list of awesome programming books (Algorithms and data structures, Artificial intelligence, Software Architecture, Human\u2013computer interaction, Operating Systems, Database Systems, IT Security, Concurrency, Interpreters and Compilers, High-Performance Computing, Distributed Systems, Game Development, Mathematical optimization)",
-      "stars": 2030,
+      "stars": 2032,
       "language": null,
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "awesome",
         "awesome-list",
@@ -734,9 +734,9 @@
       "full_name": "ossf/ai-ml-security",
       "html_url": "https://github.com/ossf/ai-ml-security",
       "description": "Working Group on Artificial Intelligence and Machine Learning (AI/ML) Security",
-      "stars": 107,
+      "stars": 108,
       "language": null,
-      "last_updated": "2025-09-03",
+      "last_updated": "2025-09-10",
       "topics": [],
       "license_name": "Apache License 2.0"
     },
@@ -875,9 +875,9 @@
       "full_name": "jivoi/awesome-ml-for-cybersecurity",
       "html_url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
       "description": " :octocat: Machine Learning for Cyber Security",
-      "stars": 7754,
+      "stars": 7755,
       "language": null,
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "awesome-list",
         "cyber-security",
@@ -891,9 +891,9 @@
       "full_name": "JoseDeFreitas/awesome-youtubers",
       "html_url": "https://github.com/JoseDeFreitas/awesome-youtubers",
       "description": "An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.",
-      "stars": 6853,
+      "stars": 6857,
       "language": "Markdown",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-11",
       "topics": [
         "awesome",
         "awesome-list",
@@ -908,9 +908,9 @@
       "full_name": "PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook",
       "html_url": "https://github.com/PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook",
       "description": "Machine Learning for Cybersecurity Cookbook, published by Packt",
-      "stars": 344,
+      "stars": 345,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-09-03",
+      "last_updated": "2025-09-10",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -948,9 +948,9 @@
       "full_name": "UTSAVS26/PyVerse",
       "html_url": "https://github.com/UTSAVS26/PyVerse",
       "description": "PyVerse is an open-source collection of diverse Python projects, tools, and scripts, ranging from beginner to advanced, across various domains like machine learning, web development, and automation.",
-      "stars": 191,
+      "stars": 192,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "algorithms",
         "automation",
@@ -978,9 +978,9 @@
       "full_name": "abhinav-bhardwaj/IoT-Network-Intrusion-Detection-System-UNSW-NB15",
       "html_url": "https://github.com/abhinav-bhardwaj/IoT-Network-Intrusion-Detection-System-UNSW-NB15",
       "description": "Network Intrusion Detection based on various machine learning and deep learning algorithms using UNSW-NB15 Dataset",
-      "stars": 176,
+      "stars": 177,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "classification",
         "cybersecurity",
@@ -1061,9 +1061,9 @@
       "full_name": "Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
       "html_url": "https://github.com/Vatshayan/MALWARE-DETECTION-FINAL-YEAR-PROJECT",
       "description": "Final Year Malware Detection Project with PPT, Research Paper, code and Synopsis. Malware detection project by Machine Learning ALgorithms.",
-      "stars": 145,
+      "stars": 148,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-11",
       "topics": [
         "btech",
         "btechfinalyear",
@@ -1093,9 +1093,9 @@
       "full_name": "abhinav-bhardwaj/Network-Intrusion-Detection-Using-Machine-Learning",
       "html_url": "https://github.com/abhinav-bhardwaj/Network-Intrusion-Detection-Using-Machine-Learning",
       "description": "A Novel Statistical Analysis and Autoencoder Driven Intelligent Intrusion Detection Approach",
-      "stars": 138,
+      "stars": 139,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-08-19",
+      "last_updated": "2025-09-11",
       "topics": [
         "autoencoder",
         "classification",
@@ -1201,6 +1201,24 @@
       "license_name": "GNU General Public License v3.0"
     },
     {
+      "name": "HackGpt",
+      "full_name": "yashab-cyber/HackGpt",
+      "html_url": "https://github.com/yashab-cyber/HackGpt",
+      "description": "HackGPT Enterprise is a production-ready, cloud-native AI-powered penetration testing platform designed for enterprise security teams. It combines advanced AI, machine learning, microservices architecture, and comprehensive security frameworks to deliver professional-grade cybersecurity assessments.",
+      "stars": 103,
+      "language": "Python",
+      "last_updated": "2025-09-12",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "ethical-hacking",
+        "pentest-tool",
+        "pentesting",
+        "research"
+      ],
+      "license_name": "Other"
+    },
+    {
       "name": "WhiteHat",
       "full_name": "urcuqui/WhiteHat",
       "html_url": "https://github.com/urcuqui/WhiteHat",
@@ -1222,24 +1240,6 @@
         "whitehat"
       ],
       "license_name": null
-    },
-    {
-      "name": "HackGpt",
-      "full_name": "yashab-cyber/HackGpt",
-      "html_url": "https://github.com/yashab-cyber/HackGpt",
-      "description": "HackGPT Enterprise is a production-ready, cloud-native AI-powered penetration testing platform designed for enterprise security teams. It combines advanced AI, machine learning, microservices architecture, and comprehensive security frameworks to deliver professional-grade cybersecurity assessments.",
-      "stars": 100,
-      "language": "Python",
-      "last_updated": "2025-09-10",
-      "topics": [
-        "ai",
-        "cybersecurity",
-        "ethical-hacking",
-        "pentest-tool",
-        "pentesting",
-        "research"
-      ],
-      "license_name": "Other"
     },
     {
       "name": "ml-cybersecurity",
@@ -1454,9 +1454,9 @@
       "full_name": "Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning",
       "html_url": "https://github.com/Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning",
       "description": " Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning (RNN) models, MERN web I/O System.",
-      "stars": 44,
+      "stars": 45,
       "language": "EJS",
-      "last_updated": "2025-08-26",
+      "last_updated": "2025-09-11",
       "topics": [
         "classification",
         "cybersecurity",
@@ -1534,9 +1534,9 @@
       "full_name": "AnonKryptiQuz/XSSGAI",
       "html_url": "https://github.com/AnonKryptiQuz/XSSGAI",
       "description": "XSSGAI is the first-ever AI-powered XSS (Cross-Site Scripting) payload generator. It leverages machine learning and deep learning to create novel payloads based on patterns from real-world XSS attacks.",
-      "stars": 28,
+      "stars": 29,
       "language": "Jupyter Notebook",
-      "last_updated": "2025-08-28",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai",
         "ai-security",
@@ -1612,6 +1612,33 @@
       "license_name": null
     },
     {
+      "name": "Advanced-WAF-WAFinity",
+      "full_name": "Piyush-2975/Advanced-WAF-WAFinity",
+      "html_url": "https://github.com/Piyush-2975/Advanced-WAF-WAFinity",
+      "description": "An Advanced Web Application Firewall that protects against threats like SQL injection and XSS by filtering HTTP traffic. It combines signature-based detection and machine learning-based anomaly detection to identify obfuscated, zero-day, and unknown attacks through behavioral analysis.",
+      "stars": 26,
+      "language": "Python",
+      "last_updated": "2025-09-11",
+      "topics": [
+        "ai",
+        "cyber-security",
+        "cybersecurity",
+        "cybersecurity-projects",
+        "firewall",
+        "lgbm",
+        "machine-learning",
+        "python",
+        "security",
+        "sql-injection",
+        "waf",
+        "web-application-firewall",
+        "web-application-security",
+        "web-security",
+        "xss"
+      ],
+      "license_name": null
+    },
+    {
       "name": "Ransome-killer",
       "full_name": "gau820827/Ransome-killer",
       "html_url": "https://github.com/gau820827/Ransome-killer",
@@ -1657,33 +1684,6 @@
         "spam-detection"
       ],
       "license_name": "MIT License"
-    },
-    {
-      "name": "Advanced-WAF-WAFinity",
-      "full_name": "Piyush-2975/Advanced-WAF-WAFinity",
-      "html_url": "https://github.com/Piyush-2975/Advanced-WAF-WAFinity",
-      "description": "An Advanced Web Application Firewall that protects against threats like SQL injection and XSS by filtering HTTP traffic. It combines signature-based detection and machine learning-based anomaly detection to identify obfuscated, zero-day, and unknown attacks through behavioral analysis.",
-      "stars": 25,
-      "language": "Python",
-      "last_updated": "2025-09-05",
-      "topics": [
-        "ai",
-        "cyber-security",
-        "cybersecurity",
-        "cybersecurity-projects",
-        "firewall",
-        "lgbm",
-        "machine-learning",
-        "python",
-        "security",
-        "sql-injection",
-        "waf",
-        "web-application-firewall",
-        "web-application-security",
-        "web-security",
-        "xss"
-      ],
-      "license_name": null
     },
     {
       "name": "OK-",
@@ -1847,9 +1847,9 @@
       "full_name": "certtools/intelmq",
       "html_url": "https://github.com/certtools/intelmq",
       "description": "IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.",
-      "stars": 1077,
+      "stars": 1080,
       "language": "Python",
-      "last_updated": "2025-09-07",
+      "last_updated": "2025-09-11",
       "topics": [
         "alerts",
         "automation",
@@ -2059,6 +2059,23 @@
       "license_name": null
     },
     {
+      "name": "lighthouse-mcp-server",
+      "full_name": "danielsogl/lighthouse-mcp-server",
+      "html_url": "https://github.com/danielsogl/lighthouse-mcp-server",
+      "description": "MCP server that enables AI agents to perform comprehensive web audits using Google Lighthouse with 13+ tools for performance, accessibility, SEO, and security analysis.",
+      "stars": 20,
+      "language": "TypeScript",
+      "last_updated": "2025-09-12",
+      "topics": [
+        "lighthouse",
+        "lighthouse-audits",
+        "lighthouse-score",
+        "mcp",
+        "mcp-server"
+      ],
+      "license_name": "MIT License"
+    },
+    {
       "name": "mcp-server-semgrep",
       "full_name": "Szowesgad/mcp-server-semgrep",
       "html_url": "https://github.com/Szowesgad/mcp-server-semgrep",
@@ -2070,23 +2087,6 @@
         "anthropic-claude",
         "modelcontextprotocol",
         "semgrep"
-      ],
-      "license_name": "MIT License"
-    },
-    {
-      "name": "lighthouse-mcp-server",
-      "full_name": "danielsogl/lighthouse-mcp-server",
-      "html_url": "https://github.com/danielsogl/lighthouse-mcp-server",
-      "description": "MCP server that enables AI agents to perform comprehensive web audits using Google Lighthouse with 13+ tools for performance, accessibility, SEO, and security analysis.",
-      "stars": 17,
-      "language": "TypeScript",
-      "last_updated": "2025-09-08",
-      "topics": [
-        "lighthouse",
-        "lighthouse-audits",
-        "lighthouse-score",
-        "mcp",
-        "mcp-server"
       ],
       "license_name": "MIT License"
     },
@@ -2132,9 +2132,9 @@
       "full_name": "yogeshojha/rengine",
       "html_url": "https://github.com/yogeshojha/rengine",
       "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-      "stars": 8131,
+      "stars": 8136,
       "language": "HTML",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2160,9 +2160,9 @@
       "full_name": "six2dez/reconftw",
       "html_url": "https://github.com/six2dez/reconftw",
       "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-      "stars": 6727,
+      "stars": 6736,
       "language": "Shell",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2190,9 +2190,9 @@
       "full_name": "Tib3rius/AutoRecon",
       "html_url": "https://github.com/Tib3rius/AutoRecon",
       "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-      "stars": 5679,
+      "stars": 5688,
       "language": "Python",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-11",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -2201,9 +2201,9 @@
       "full_name": "leebaird/discover",
       "html_url": "https://github.com/leebaird/discover",
       "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.",
-      "stars": 3735,
+      "stars": 3739,
       "language": "Shell",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "bash",
         "enumeration",
@@ -2226,9 +2226,9 @@
       "full_name": "bhavsec/reconspider",
       "html_url": "https://github.com/bhavsec/reconspider",
       "description": "\ud83d\udd0e Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
-      "stars": 2444,
+      "stars": 2447,
       "language": "Python",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-12",
       "topics": [
         "automated",
         "cybersecurity",
@@ -2251,9 +2251,9 @@
       "full_name": "screetsec/Sudomy",
       "html_url": "https://github.com/screetsec/Sudomy",
       "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
-      "stars": 2246,
+      "stars": 2250,
       "language": "Shell",
-      "last_updated": "2025-09-08",
+      "last_updated": "2025-09-11",
       "topics": [
         "bash",
         "bugbounty",
@@ -2293,9 +2293,9 @@
       "full_name": "BishopFox/GitGot",
       "html_url": "https://github.com/BishopFox/GitGot",
       "description": "Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.",
-      "stars": 1528,
+      "stars": 1530,
       "language": "Python",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [
         "fuzzy-matching",
         "gist-search",
@@ -2317,9 +2317,9 @@
       "full_name": "superhedgy/AttackSurfaceMapper",
       "html_url": "https://github.com/superhedgy/AttackSurfaceMapper",
       "description": "AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.",
-      "stars": 1379,
+      "stars": 1381,
       "language": "Python",
-      "last_updated": "2025-09-03",
+      "last_updated": "2025-09-11",
       "topics": [
         "attack-surface",
         "attacksurfacemapper",
@@ -2349,7 +2349,7 @@
       "description": "Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.",
       "stars": 1001,
       "language": "Python",
-      "last_updated": "2025-09-02",
+      "last_updated": "2025-09-10",
       "topics": [
         "application-security",
         "attack-surface-management",
@@ -2369,9 +2369,9 @@
       "full_name": "Dheerajmadhukar/karma_v2",
       "html_url": "https://github.com/Dheerajmadhukar/karma_v2",
       "description": "\u2877\u2802\ud835\ude94\ud835\ude8a\ud835\ude9b\ud835\ude96\ud835\ude8a \ud835\ude9f\ud835\udff8\u2810\u28be is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)",
-      "stars": 885,
+      "stars": 889,
       "language": "Shell",
-      "last_updated": "2025-09-06",
+      "last_updated": "2025-09-11",
       "topics": [
         "automation",
         "bash-script",
@@ -2458,9 +2458,9 @@
       "full_name": "JoshuaMart/AutoRecon",
       "html_url": "https://github.com/JoshuaMart/AutoRecon",
       "description": "Simple shell script for automated domain recognition with some tools",
-      "stars": 302,
+      "stars": 304,
       "language": "Shell",
-      "last_updated": "2025-08-18",
+      "last_updated": "2025-09-11",
       "topics": [
         "automated",
         "bugbounty",
@@ -2514,9 +2514,9 @@
       "full_name": "maldevel/intelspy",
       "html_url": "https://github.com/maldevel/intelspy",
       "description": "Perform automated network reconnaissance scans",
-      "stars": 234,
+      "stars": 233,
       "language": "Python",
-      "last_updated": "2025-09-06",
+      "last_updated": "2025-09-11",
       "topics": [
         "enumeration",
         "gathering",
@@ -2560,9 +2560,9 @@
       "full_name": "ShivamRai2003/Reconky-Automated_Bash_Script",
       "html_url": "https://github.com/ShivamRai2003/Reconky-Automated_Bash_Script",
       "description": "Reconky is an great Content Discovery bash script for bug bounty hunters which automate lot of task and organized in the well mannered form  which help them to look forward.",
-      "stars": 203,
+      "stars": 204,
       "language": "Shell",
-      "last_updated": "2025-08-28",
+      "last_updated": "2025-09-11",
       "topics": [
         "automated-testing",
         "bash-script",
@@ -2650,9 +2650,9 @@
       "full_name": "devanshbatham/CertEagle",
       "html_url": "https://github.com/devanshbatham/CertEagle",
       "description": "Weaponizing Live CT logs for automated monitoring of\u00a0assets",
-      "stars": 135,
+      "stars": 134,
       "language": "Python",
-      "last_updated": "2025-07-25",
+      "last_updated": "2025-09-11",
       "topics": [
         "asset-monitoring",
         "bughunting",
@@ -2838,9 +2838,9 @@
       "full_name": "rix4uni/GarudRecon",
       "html_url": "https://github.com/rix4uni/GarudRecon",
       "description": "An automated recon tool for asset discovery and vulnerability scanning using open-source tools. Supports XSS, SQLi, LFI, RCE, IIS, Open Redirect, Swagger UI, .git exposures and more.",
-      "stars": 83,
+      "stars": 89,
       "language": "Shell",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -2962,7 +2962,7 @@
       "description": "An automated GitHub Actions-based crawler that fetches and updates public scopes from popular bug bounty platforms (like Hackerone/Bugcrowd/Intigriti/etc) (updates every 10 minutes)",
       "stars": 54,
       "language": "Shell",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [
         "bug-bounty",
         "bugbounty",
@@ -3131,9 +3131,9 @@
       "full_name": "taielab/awesome-hacking-lists",
       "html_url": "https://github.com/taielab/awesome-hacking-lists",
       "description": "A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!",
-      "stars": 1184,
+      "stars": 1187,
       "language": null,
-      "last_updated": "2025-09-07",
+      "last_updated": "2025-09-12",
       "topics": [
         "agents",
         "ai",
@@ -3163,9 +3163,9 @@
       "full_name": "hackerai-tech/PentestGPT",
       "html_url": "https://github.com/hackerai-tech/PentestGPT",
       "description": "AI-Powered Penetration Testing Assistant",
-      "stars": 1148,
+      "stars": 1150,
       "language": "TypeScript",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3174,9 +3174,9 @@
       "full_name": "berylliumsec/nebula",
       "html_url": "https://github.com/berylliumsec/nebula",
       "description": "AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.",
-      "stars": 687,
+      "stars": 689,
       "language": "Python",
-      "last_updated": "2025-09-10",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai",
         "ai-powered-ethical-hacking-tool",
@@ -3201,9 +3201,9 @@
       "full_name": "vxcontrol/pentagi",
       "html_url": "https://github.com/vxcontrol/pentagi",
       "description": "\u2728 Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "stars": 528,
+      "stars": 532,
       "language": "Go",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai-agents",
         "ai-security-tool",
@@ -3231,9 +3231,9 @@
       "full_name": "cyproxio/mcp-for-security",
       "html_url": "https://github.com/cyproxio/mcp-for-security",
       "description": "MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 381,
+      "stars": 388,
       "language": "TypeScript",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-12",
       "topics": [
         "ai-assistants",
         "ai-security",
@@ -3269,9 +3269,9 @@
       "full_name": "tehw0lf/airbash",
       "html_url": "https://github.com/tehw0lf/airbash",
       "description": "A POSIX-compliant, fully automated WPA PSK PMKID and handshake capture script aimed at penetration testing",
-      "stars": 356,
+      "stars": 357,
       "language": "Shell",
-      "last_updated": "2025-08-24",
+      "last_updated": "2025-09-11",
       "topics": [
         "capture",
         "cross-platform",
@@ -3288,9 +3288,9 @@
       "full_name": "aielte-research/HackSynth",
       "html_url": "https://github.com/aielte-research/HackSynth",
       "description": "LLM Agent and Evaluation Framework for Autonomous Penetration Testing ",
-      "stars": 221,
+      "stars": 223,
       "language": "Python",
-      "last_updated": "2025-09-07",
+      "last_updated": "2025-09-11",
       "topics": [
         "ai",
         "autonomous-pentesting",
@@ -3307,9 +3307,9 @@
       "full_name": "m-sec-org/ez-ai-agent",
       "html_url": "https://github.com/m-sec-org/ez-ai-agent",
       "description": "Automated Penetration Testing with EZ and Agents",
-      "stars": 127,
+      "stars": 130,
       "language": "JavaScript",
-      "last_updated": "2025-09-07",
+      "last_updated": "2025-09-10",
       "topics": [],
       "license_name": "GNU General Public License v3.0"
     },
@@ -3427,6 +3427,17 @@
       "license_name": null
     },
     {
+      "name": "PentestThinkingMCP",
+      "full_name": "ibrahimsaleem/PentestThinkingMCP",
+      "html_url": "https://github.com/ibrahimsaleem/PentestThinkingMCP",
+      "description": "A systematic, AI-powered penetration testing reasoning engine (MCP server) for attack path planning, CTF/HTB solving, and automated pentest workflows. Features Beam Search, MCTS, attack step scoring, and tool recommendations.",
+      "stars": 17,
+      "language": "JavaScript",
+      "last_updated": "2025-09-11",
+      "topics": [],
+      "license_name": "MIT License"
+    },
+    {
       "name": "mcp-for-security",
       "full_name": "StanLeyJ03/mcp-for-security",
       "html_url": "https://github.com/StanLeyJ03/mcp-for-security",
@@ -3453,24 +3464,13 @@
       "license_name": null
     },
     {
-      "name": "PentestThinkingMCP",
-      "full_name": "ibrahimsaleem/PentestThinkingMCP",
-      "html_url": "https://github.com/ibrahimsaleem/PentestThinkingMCP",
-      "description": "A systematic, AI-powered penetration testing reasoning engine (MCP server) for attack path planning, CTF/HTB solving, and automated pentest workflows. Features Beam Search, MCTS, attack step scoring, and tool recommendations.",
-      "stars": 16,
-      "language": "JavaScript",
-      "last_updated": "2025-09-10",
-      "topics": [],
-      "license_name": "MIT License"
-    },
-    {
       "name": "mcp-for-security-python",
       "full_name": "f1tz/mcp-for-security-python",
       "html_url": "https://github.com/f1tz/mcp-for-security-python",
       "description": "\u4e00\u4e2a\u4e3a\u4e3b\u6d41\u6e17\u900f\u6d4b\u8bd5\u5de5\u5177\u6253\u9020\u7684MCP\u670d\u52a1\u5668\u96c6\u5408\u3002 | A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.",
-      "stars": 14,
+      "stars": 15,
       "language": "Python",
-      "last_updated": "2025-09-07",
+      "last_updated": "2025-09-12",
       "topics": [],
       "license_name": "MIT License"
     },
@@ -3564,7 +3564,7 @@
       "description": "AI-Powered Penetration Testing Assistant",
       "stars": 8,
       "language": "TypeScript",
-      "last_updated": "2025-09-09",
+      "last_updated": "2025-09-10",
       "topics": [
         "ai-agents",
         "ai-tools",
