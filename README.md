@@ -1,33 +1,123 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-03-25 23:46:16*
+*Last updated: 2026-03-25 23:50:08*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 134
-- **Total Stars**: 48,538
+- **Total Repositories**: 256
+- **Total Stars**: 388,820
 
 ### 🔥 Top Languages
-- **Python**: 111 repositories
-- **JavaScript**: 11 repositories
-- **Go**: 9 repositories
-- **Rust**: 3 repositories
+- **Python**: 176 repositories
+- **Go**: 39 repositories
+- **JavaScript**: 25 repositories
+- **Rust**: 16 repositories
 
 ### 🏷️ Popular Topics
-- `cybersecurity` (41)
-- `osint` (33)
-- `python` (31)
-- `ai` (30)
-- `security` (26)
-- `pentesting` (20)
-- `automation` (19)
-- `penetration-testing` (18)
-- `llm` (16)
-- `security-tools` (16)
+- `security` (95)
+- `llm` (89)
+- `ai` (79)
+- `cybersecurity` (76)
+- `mcp` (58)
+- `python` (47)
+- `ai-agents` (46)
+- `osint` (36)
+- `ai-security` (31)
+- `security-tools` (30)
 
 ## ⭐ Top Starred Repositories
 
-### 1. [Crucix](https://github.com/calesthio/Crucix)
+### 1. [everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+**107,941 ⭐** | **JavaScript** | Updated: 2026-03-25
+
+The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+**Topics**: `ai-agents` `anthropic` `claude` `claude-code` `developer-tools`
+
+---
+
+### 2. [quivr](https://github.com/QuivrHQ/quivr)
+**39,057 ⭐** | **Python** | Updated: 2026-03-25
+
+Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.
+
+**Topics**: `ai` `api` `chatbot` `chatgpt` `database`
+
+---
+
+### 3. [gitleaks](https://github.com/gitleaks/gitleaks)
+**25,549 ⭐** | **Go** | Updated: 2026-03-25
+
+Find secrets with Gitleaks 🔑
+
+**Topics**: `ai-powered` `ci-cd` `cicd` `cli` `data-loss-prevention`
+
+---
+
+### 4. [strix](https://github.com/usestrix/strix)
+**21,717 ⭐** | **Python** | Updated: 2026-03-25
+
+Open-source AI hackers to find and fix your app’s vulnerabilities.
+
+**Topics**: `agents` `artificial-intelligence` `cybersecurity` `generative-ai` `llm`
+
+---
+
+### 5. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
+**18,845 ⭐** | **Python** | Updated: 2026-03-25
+
+SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
+
+**Topics**: `agent` `agent-based-model` `ai` `cybersecurity` `developer-tools`
+
+---
+
+### 6. [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
+**18,366 ⭐** | **Python** | Updated: 2026-03-25
+
+open-source agentic AI data assistant for the next generation of AI + Data products.
+
+**Topics**: `agents` `bgi` `database` `deepseek` `gpt`
+
+---
+
+### 7. [vuls](https://github.com/future-architect/vuls)
+**12,078 ⭐** | **Go** | Updated: 2026-03-25
+
+Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
+
+**Topics**: `administrator` `cybersecurity` `freebsd` `go` `golang`
+
+---
+
+### 8. [lamda](https://github.com/firerpa/lamda)
+**7,692 ⭐** | **Python** | Updated: 2026-03-25
+
+ The most powerful Android RPA agent framework, next generation of mobile automation robots.
+
+**Topics**: `adb` `agents` `ai` `android` `appium`
+
+---
+
+### 9. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
+**7,679 ⭐** | **Python** | Updated: 2026-03-25
+
+HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
+
+**Topics**: `0x4m4` `ai` `ai-agents` `ai-cybersecurity` `ai-hacking`
+
+---
+
+### 10. [cai](https://github.com/aliasrobotics/cai)
+**7,533 ⭐** | **Python** | Updated: 2026-03-25
+
+Cybersecurity AI (CAI), the framework for AI Security
+
+**Topics**: `artificial-intelligence` `cybersecurity` `framework` `generative-ai` `llm`
+
+---
+
+### 11. [Crucix](https://github.com/calesthio/Crucix)
 **6,873 ⭐** | **JavaScript** | Updated: 2026-03-25
 
 Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
@@ -36,14 +126,34 @@ Your personal intelligence agent. Watches the world from multiple data sources a
 
 ---
 
-### 2. [AutoRecon](https://github.com/AutoRecon/AutoRecon)
-**5,954 ⭐** | **Python** | Updated: 2026-03-25
+### 12. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
+**6,677 ⭐** | **JavaScript** | Updated: 2026-03-25
 
-AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
+All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.
+
+**Topics**: `claude-code` `claude-code-system-prompts` `system-prompts`
 
 ---
 
-### 3. [robin](https://github.com/apurvsinghgautam/robin)
+### 13. [osmedeus](https://github.com/j3ssie/osmedeus)
+**6,158 ⭐** | **Go** | Updated: 2026-03-25
+
+A Modern Orchestration Engine for Security
+
+**Topics**: `agentic-ai` `attack-surface-management` `bugbounty` `go` `hacking`
+
+---
+
+### 14. [microsandbox](https://github.com/zerocore-ai/microsandbox)
+**5,151 ⭐** | **Rust** | Updated: 2026-03-25
+
+opensource secure local-first sandboxes for ai agents
+
+**Topics**: `agents` `ai` `container` `docker` `fly`
+
+---
+
+### 15. [robin](https://github.com/apurvsinghgautam/robin)
 **4,567 ⭐** | **Python** | Updated: 2026-03-25
 
 AI-Powered Dark Web OSINT Tool
@@ -52,7 +162,14 @@ AI-Powered Dark Web OSINT Tool
 
 ---
 
-### 4. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+### 16. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
+**4,084 ⭐** | **Python** | Updated: 2026-03-25
+
+Set of tools to assess and improve LLM security.
+
+---
+
+### 17. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 **3,719 ⭐** | **Python** | Updated: 2026-03-25
 
 734+ structured cybersecurity skills for AI agents · MITRE ATT&CK mapped · agentskills.io open standard · Works with Claude Code, GitHub Copilot, OpenAI Codex CLI, Cursor, Gemini CLI & 20+ platforms · Penetration testing, DFIR, threat intel, cloud security & more · Apache 2.0
@@ -61,145 +178,30 @@ AI-Powered Dark Web OSINT Tool
 
 ---
 
-### 5. [reconspider](https://github.com/bhavsec/reconspider)
-**2,625 ⭐** | **Python** | Updated: 2026-03-25
+### 18. [malwoverview](https://github.com/alexandreborges/malwoverview)
+**3,709 ⭐** | **Python** | Updated: 2026-03-25
 
-🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
+Malwoverview is a first response tool for threat hunting across VirusTotal, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, IPInfo, Shodan, AbuseIPDB, GreyNoise, URLScan.io, Whois/RDAP, NIST, and VulnCheck. Supports LLM enrichment, IOC extraction, YARA scanning, and Android analysis.
 
-**Topics**: `automated` `cybersecurity` `framework` `hacking` `information-gathering`
-
----
-
-### 6. [pentestagent](https://github.com/GH05TCREW/pentestagent)
-**1,796 ⭐** | **Python** | Updated: 2026-03-25
-
-PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration testing workflows.
-
-**Topics**: `ai` `ai-agents` `ai-assistant` `ai-cybersecurity` `ai-hacking`
+**Topics**: `alienvault` `cve` `cve-search` `cybersecurity` `malpedia`
 
 ---
 
-### 7. [redamon](https://github.com/samugit83/redamon)
-**1,645 ⭐** | **Python** | Updated: 2026-03-25
+### 19. [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
+**3,700 ⭐** | **Python** | Updated: 2026-03-25
 
-An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.
+CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.
 
-**Topics**: `agentic-ai` `ai` `cybersecurity` `ethical-hacking` `ethical-hacking-tools`
-
----
-
-### 8. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
-**1,402 ⭐** | **Python** | Updated: 2026-03-17
-
-AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
-
-**Topics**: `attack-surface` `attacksurfacemapper` `linkedin` `osint` `python`
+**Topics**: `audit` `automation` `bsi` `cis` `compliance`
 
 ---
 
-### 9. [Watcher](https://github.com/thalesgroup-cert/Watcher)
-**1,255 ⭐** | **JavaScript** | Updated: 2026-03-24
+### 20. [tracecat](https://github.com/TracecatHQ/tracecat)
+**3,538 ⭐** | **Python** | Updated: 2026-03-25
 
-Watcher - Open Source AI-powered Cyber Threat Intelligence & Hunting Platform. Developed with Django & React JS.
+The AI automation platform built for security teams and agents.
 
-**Topics**: `ai` `ai-threat-intelligence` `certificate-transparency` `certstream` `cyber-ai`
-
----
-
-### 10. [intelmq](https://github.com/certtools/intelmq)
-**1,117 ⭐** | **Python** | Updated: 2026-03-21
-
-IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
-
-**Topics**: `alerts` `automation` `cert` `csirt` `cybersecurity`
-
----
-
-### 11. [legion](https://github.com/Abacus-Group-RTO/legion)
-**1,053 ⭐** | **Python** | Updated: 2026-03-25
-
-Legion is an open source, easy-to-use, super-extensible and semi-automated network penetration testing tool that aids in discovery, reconnaissance and exploitation of information systems.
-
----
-
-### 12. [mantis](https://github.com/PhonePe/mantis)
-**1,021 ⭐** | **Python** | Updated: 2026-03-04
-
-Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
-
-**Topics**: `application-security` `attack-surface-management` `bugbounty` `caasm` `hacktoberfest`
-
----
-
-### 13. [taranis-ai](https://github.com/taranis-ai/taranis-ai)
-**981 ⭐** | **Python** | Updated: 2026-03-25
-
-Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.
-
-**Topics**: `artificial-intelligence` `cybersecurity` `nlp` `osint` `secops`
-
----
-
-### 14. [NeuroSploit](https://github.com/JoasASantos/NeuroSploit)
-**972 ⭐** | **Python** | Updated: 2026-03-24
-
-NeuroSploit is an advanced, AI-powered penetration testing framework designed to automate and augment various aspects of offensive security operations. Leveraging the capabilities of large language models (LLMs).
-
-**Topics**: `ai-agents` `cybersecurity` `framework` `hacking` `llm`
-
----
-
-### 15. [nebula](https://github.com/berylliumsec/nebula)
-**909 ⭐** | **Python** | Updated: 2026-03-23
-
-AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.
-
-**Topics**: `ai` `ai-powered-ethical-hacking-tool` `ai-powered-penetration-testing-tool` `cybersecurity` `cybersecurity-tools`
-
----
-
-### 16. [HackGpt](https://github.com/yashab-cyber/HackGpt)
-**809 ⭐** | **Python** | Updated: 2026-03-23
-
-HackGPT Enterprise is a production-ready, cloud-native AI-powered penetration testing platform designed for enterprise security teams. It combines advanced AI, machine learning, microservices architecture, and comprehensive security frameworks to deliver professional-grade cybersecurity assessments.
-
-**Topics**: `ai` `cybersecurity` `ethical-hacking` `pentest-tool` `pentesting`
-
----
-
-### 17. [fuzzforge_ai](https://github.com/FuzzingLabs/fuzzforge_ai)
-**774 ⭐** | **Python** | Updated: 2026-03-25
-
-AI-powered workflow automation and AI Agents platform for AppSec, Fuzzing & Offensive Security. Automate vulnerability discovery with intelligent fuzzing, AI-driven analysis, and a marketplace of security tools.
-
-**Topics**: `agent` `ai` `appsec` `automation` `dast`
-
----
-
-### 18. [aiodnsbrute](https://github.com/blark/aiodnsbrute)
-**670 ⭐** | **Python** | Updated: 2026-03-04
-
-Python 3.5+ DNS asynchronous brute force utility
-
-**Topics**: `async` `brute-force` `bruteforcing` `dns` `enumeration`
-
----
-
-### 19. [ODIN](https://github.com/chrismaddalena/ODIN)
-**657 ⭐** | **Python** | Updated: 2026-03-20
-
-Automated network asset, email, and social media profile discovery and cataloguing.
-
-**Topics**: `asset-discovery` `neo4j` `osint` `recon` `reconnaissance`
-
----
-
-### 20. [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent)
-**600 ⭐** | **Python** | Updated: 2026-03-25
-
-LuaN1aoAgent is a cognitive-driven AI hacker. It is a fully autonomous AI penetration testing agent powered by DeepSeek V3.2. Using dual-graph reasoning, LuaN1ao achieves a success rate of over 90% on the XBOW Benchmark, with a median exploit cost of just $0.09.
-
-**Topics**: `agents` `ai` `ai-agents` `ai-security-tool` `autonomous-agents`
+**Topics**: `agents` `automation` `event-driven` `fastapi` `llm`
 
 ---
 
