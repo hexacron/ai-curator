@@ -1,96 +1,68 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2025-09-25 06:13:48*
+*Last updated: 2026-03-25 23:36:58*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 197
-- **Total Stars**: 99,011
+- **Total Repositories**: 134
+- **Total Stars**: 48,536
 
 ### 🔥 Top Languages
-- **Python**: 79 repositories
-- **None**: 30 repositories
-- **Jupyter Notebook**: 29 repositories
-- **Shell**: 26 repositories
-- **TypeScript**: 7 repositories
+- **Python**: 111 repositories
+- **JavaScript**: 11 repositories
+- **Go**: 9 repositories
+- **Rust**: 3 repositories
 
 ### 🏷️ Popular Topics
-- `cybersecurity` (50)
-- `osint` (41)
-- `reconnaissance` (37)
-- `ai` (32)
-- `recon` (29)
-- `machine-learning` (29)
-- `bugbounty` (29)
-- `python` (23)
-- `pentesting` (22)
-- `hacking` (20)
+- `cybersecurity` (41)
+- `osint` (33)
+- `python` (31)
+- `ai` (30)
+- `security` (26)
+- `pentesting` (20)
+- `automation` (19)
+- `penetration-testing` (18)
+- `llm` (16)
+- `security-tools` (16)
 
 ## ⭐ Top Starred Repositories
 
-### 1. [h4cker](https://github.com/The-Art-of-Hacking/h4cker)
-**23,247 ⭐** | **Jupyter Notebook** | Updated: 2025-09-24
+### 1. [Crucix](https://github.com/calesthio/Crucix)
+**6,871 ⭐** | **JavaScript** | Updated: 2026-03-25
 
-This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
+Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
 
-**Topics**: `ai` `ai-security` `artificial-intelligence` `awesome-list` `awesome-lists`
-
----
-
-### 2. [rengine](https://github.com/yogeshojha/rengine)
-**8,146 ⭐** | **HTML** | Updated: 2025-09-23
-
-reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
-
-**Topics**: `bug-bounty` `bugbounty` `hacking` `information-gathering` `infosec`
+**Topics**: `ai` `intelligence` `osint`
 
 ---
 
-### 3. [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
-**7,794 ⭐** | **None** | Updated: 2025-09-24
-
- :octocat: Machine Learning for Cyber Security
-
-**Topics**: `awesome-list` `cyber-security` `data-mining` `machine-learning`
-
----
-
-### 4. [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-**6,887 ⭐** | **Markdown** | Updated: 2025-09-24
-
-An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
-
-**Topics**: `awesome` `awesome-list` `list` `youtube` `youtubers`
-
----
-
-### 5. [reconftw](https://github.com/six2dez/reconftw)
-**6,771 ⭐** | **Shell** | Updated: 2025-09-24
-
-reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
-
-**Topics**: `bug-bounty` `bugbounty` `dns` `fuzzing` `hacking`
-
----
-
-### 6. [AutoRecon](https://github.com/Tib3rius/AutoRecon)
-**5,706 ⭐** | **Python** | Updated: 2025-09-23
+### 2. [AutoRecon](https://github.com/AutoRecon/AutoRecon)
+**5,954 ⭐** | **Python** | Updated: 2026-03-25
 
 AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
 
 ---
 
-### 7. [discover](https://github.com/leebaird/discover)
-**3,744 ⭐** | **Shell** | Updated: 2025-09-23
+### 3. [robin](https://github.com/apurvsinghgautam/robin)
+**4,567 ⭐** | **Python** | Updated: 2026-03-25
 
-Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.
+AI-Powered Dark Web OSINT Tool
 
-**Topics**: `bash` `enumeration` `information-gathering` `kali-linux` `metasploit`
+**Topics**: `ai-tool` `darkweb` `darkweb-osint` `investigation-tool` `llm-powered`
 
 ---
 
-### 8. [reconspider](https://github.com/bhavsec/reconspider)
-**2,461 ⭐** | **Python** | Updated: 2025-09-23
+### 4. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+**3,719 ⭐** | **Python** | Updated: 2026-03-25
+
+734+ structured cybersecurity skills for AI agents · MITRE ATT&CK mapped · agentskills.io open standard · Works with Claude Code, GitHub Copilot, OpenAI Codex CLI, Cursor, Gemini CLI & 20+ platforms · Penetration testing, DFIR, threat intel, cloud security & more · Apache 2.0
+
+**Topics**: `ai-agents` `claude` `claude-code` `cloud-security` `cybersecurity`
+
+---
+
+### 5. [reconspider](https://github.com/bhavsec/reconspider)
+**2,625 ⭐** | **Python** | Updated: 2026-03-25
 
 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.
 
@@ -98,42 +70,26 @@ Custom bash scripts used to automate various penetration testing tasks including
 
 ---
 
-### 9. [Sudomy](https://github.com/screetsec/Sudomy)
-**2,252 ⭐** | **Shell** | Updated: 2025-09-22
+### 6. [pentestagent](https://github.com/GH05TCREW/pentestagent)
+**1,796 ⭐** | **Python** | Updated: 2026-03-25
 
-Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
+PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration testing workflows.
 
-**Topics**: `bash` `bugbounty` `bugcrowd` `collected-subdomains` `enumeration`
-
----
-
-### 10. [awesome-programming-books](https://github.com/zero-equals-false/awesome-programming-books)
-**2,032 ⭐** | **None** | Updated: 2025-09-24
-
-📚 A curated list of awesome programming books (Algorithms and data structures, Artificial intelligence, Software Architecture, Human–computer interaction, Operating Systems, Database Systems, IT Security, Concurrency, Interpreters and Compilers, High-Performance Computing, Distributed Systems, Game Development, Mathematical optimization)
-
-**Topics**: `awesome` `awesome-list` `books` `learning-resources` `programming`
+**Topics**: `ai` `ai-agents` `ai-assistant` `ai-cybersecurity` `ai-hacking`
 
 ---
 
-### 11. [lazyrecon](https://github.com/nahamsec/lazyrecon)
-**1,997 ⭐** | **Shell** | Updated: 2025-09-24
+### 7. [redamon](https://github.com/samugit83/redamon)
+**1,645 ⭐** | **Python** | Updated: 2026-03-25
 
-This script is intended to automate your reconnaissance process in an organized fashion
+An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.
 
----
-
-### 12. [GitGot](https://github.com/BishopFox/GitGot)
-**1,533 ⭐** | **Python** | Updated: 2025-09-24
-
-Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
-
-**Topics**: `fuzzy-matching` `gist-search` `gists` `github-api` `osint`
+**Topics**: `agentic-ai` `ai` `cybersecurity` `ethical-hacking` `ethical-hacking-tools`
 
 ---
 
-### 13. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
-**1,382 ⭐** | **Python** | Updated: 2025-09-12
+### 8. [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
+**1,402 ⭐** | **Python** | Updated: 2026-03-17
 
 AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 
@@ -141,24 +97,17 @@ AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.
 
 ---
 
-### 14. [awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists)
-**1,197 ⭐** | **None** | Updated: 2025-09-23
+### 9. [Watcher](https://github.com/thalesgroup-cert/Watcher)
+**1,255 ⭐** | **JavaScript** | Updated: 2026-03-24
 
-A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join us to explore, contribute, and enhance your hacking toolkit!
+Watcher - Open Source AI-powered Cyber Threat Intelligence & Hunting Platform. Developed with Django & React JS.
 
-**Topics**: `agents` `ai` `aiagent` `awesome-list` `bounty-hunters`
-
----
-
-### 15. [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
-**1,159 ⭐** | **TypeScript** | Updated: 2025-09-23
-
-AI-Powered Penetration Testing Assistant
+**Topics**: `ai` `ai-threat-intelligence` `certificate-transparency` `certstream` `cyber-ai`
 
 ---
 
-### 16. [intelmq](https://github.com/certtools/intelmq)
-**1,082 ⭐** | **Python** | Updated: 2025-09-21
+### 10. [intelmq](https://github.com/certtools/intelmq)
+**1,117 ⭐** | **Python** | Updated: 2026-03-21
 
 IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
 
@@ -166,15 +115,15 @@ IntelMQ is a solution for IT security teams for collecting and processing securi
 
 ---
 
-### 17. [legion](https://github.com/Abacus-Group-RTO/legion)
-**1,045 ⭐** | **Python** | Updated: 2025-08-29
+### 11. [legion](https://github.com/Abacus-Group-RTO/legion)
+**1,053 ⭐** | **Python** | Updated: 2026-03-25
 
 Legion is an open source, easy-to-use, super-extensible and semi-automated network penetration testing tool that aids in discovery, reconnaissance and exploitation of information systems.
 
 ---
 
-### 18. [mantis](https://github.com/PhonePe/mantis)
-**1,003 ⭐** | **Python** | Updated: 2025-09-18
+### 12. [mantis](https://github.com/PhonePe/mantis)
+**1,021 ⭐** | **Python** | Updated: 2026-03-04
 
 Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.
 
@@ -182,21 +131,75 @@ Mantis is a security framework that automates the workflow of discovery, reconna
 
 ---
 
-### 19. [karma_v2](https://github.com/Dheerajmadhukar/karma_v2)
-**895 ⭐** | **Shell** | Updated: 2025-09-22
-
-⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾ is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
-
-**Topics**: `automation` `bash-script` `bugbounty` `infrastructure` `intelligence`
-
----
-
-### 20. [taranis-ai](https://github.com/taranis-ai/taranis-ai)
-**805 ⭐** | **Python** | Updated: 2025-09-23
+### 13. [taranis-ai](https://github.com/taranis-ai/taranis-ai)
+**981 ⭐** | **Python** | Updated: 2026-03-25
 
 Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.
 
 **Topics**: `artificial-intelligence` `cybersecurity` `nlp` `osint` `secops`
+
+---
+
+### 14. [NeuroSploit](https://github.com/JoasASantos/NeuroSploit)
+**972 ⭐** | **Python** | Updated: 2026-03-24
+
+NeuroSploit is an advanced, AI-powered penetration testing framework designed to automate and augment various aspects of offensive security operations. Leveraging the capabilities of large language models (LLMs).
+
+**Topics**: `ai-agents` `cybersecurity` `framework` `hacking` `llm`
+
+---
+
+### 15. [nebula](https://github.com/berylliumsec/nebula)
+**909 ⭐** | **Python** | Updated: 2026-03-23
+
+AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.
+
+**Topics**: `ai` `ai-powered-ethical-hacking-tool` `ai-powered-penetration-testing-tool` `cybersecurity` `cybersecurity-tools`
+
+---
+
+### 16. [HackGpt](https://github.com/yashab-cyber/HackGpt)
+**809 ⭐** | **Python** | Updated: 2026-03-23
+
+HackGPT Enterprise is a production-ready, cloud-native AI-powered penetration testing platform designed for enterprise security teams. It combines advanced AI, machine learning, microservices architecture, and comprehensive security frameworks to deliver professional-grade cybersecurity assessments.
+
+**Topics**: `ai` `cybersecurity` `ethical-hacking` `pentest-tool` `pentesting`
+
+---
+
+### 17. [fuzzforge_ai](https://github.com/FuzzingLabs/fuzzforge_ai)
+**774 ⭐** | **Python** | Updated: 2026-03-25
+
+AI-powered workflow automation and AI Agents platform for AppSec, Fuzzing & Offensive Security. Automate vulnerability discovery with intelligent fuzzing, AI-driven analysis, and a marketplace of security tools.
+
+**Topics**: `agent` `ai` `appsec` `automation` `dast`
+
+---
+
+### 18. [aiodnsbrute](https://github.com/blark/aiodnsbrute)
+**670 ⭐** | **Python** | Updated: 2026-03-04
+
+Python 3.5+ DNS asynchronous brute force utility
+
+**Topics**: `async` `brute-force` `bruteforcing` `dns` `enumeration`
+
+---
+
+### 19. [ODIN](https://github.com/chrismaddalena/ODIN)
+**657 ⭐** | **Python** | Updated: 2026-03-20
+
+Automated network asset, email, and social media profile discovery and cataloguing.
+
+**Topics**: `asset-discovery` `neo4j` `osint` `recon` `reconnaissance`
+
+---
+
+### 20. [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent)
+**600 ⭐** | **Python** | Updated: 2026-03-25
+
+LuaN1aoAgent is a cognitive-driven AI hacker. It is a fully autonomous AI penetration testing agent powered by DeepSeek V3.2. Using dual-graph reasoning, LuaN1ao achieves a success rate of over 90% on the XBOW Benchmark, with a median exploit cost of just $0.09.
+
+**Topics**: `agents` `ai` `ai-agents` `ai-security-tool` `autonomous-agents`
 
 ---
 
