@@ -51,7 +51,7 @@ jobs:
 
     - name: Run Curator Script
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
       run: python curator_v7.py
 
     - name: Generate Website Files
