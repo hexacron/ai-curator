@@ -1,5 +1,4 @@
 import requests
-import base64
 import os
 import json
 import time
@@ -67,6 +66,8 @@ class GitHubCurator:
             "Authorization": f"token {self.config['github_token']}",
             "Accept": "application/vnd.github.v3+json"
         }
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
         self.rate_limit_remaining = 5000  # GitHub default
         self.rate_limit_reset = time.time()
         
@@ -81,19 +82,19 @@ class GitHubCurator:
             'file_path': 'README.md',
             'branch': 'main',
             'search_queries': [
-                "OSINT AI stars:>10",
-                "artificial intelligence security stars:>15", 
-                "machine learning cybersecurity stars:>10",
-                "threat intelligence automation stars:>5",
-                "security analysis tools AI stars:>8",
-                "automated reconnaissance stars:>10",
-                "AI penetration testing stars:>5",
-                "cybersecurity machine learning stars:>12",
-                "claude cybersecurity osint stars:>5",
-                "codex cybersecurity osint stars:>5",
-                "anthropic cybersecurity osint stars:>5",
-                "openai cybersecurity osint stars:>5",
-                "agentic security osint stars:>5"
+                "topic:osint ai stars:>5",
+                "topic:cybersecurity llm stars:>5",
+                "topic:threat-intelligence ai stars:>5",
+                "mcp security stars:>5",
+                "mcp osint stars:>5",
+                "agentic osint stars:>5",
+                "agent security stars:>5",
+                "llm security stars:>5",
+                "prompt injection security stars:>5",
+                "attack surface ai stars:>5",
+                "reconnaissance ai stars:>5",
+                "claude security agent stars:>5",
+                "codex security stars:>5"
             ],
             'filters': {
                 'min_stars': 5,
@@ -125,13 +126,16 @@ class GitHubCurator:
         
         if not default_config['github_token']:
             raise ValueError("GitHub token not found. Set GITHUB_TOKEN environment variable or add to config.json")
+
+        search_queries = default_config.get('search_queries', [])
+        default_config['search_queries'] = list(dict.fromkeys(query.strip() for query in search_queries if query.strip()))
             
         return default_config
     
     def _validate_token(self):
         """Validate GitHub token before proceeding"""
         try:
-            response = requests.get(f"{self.api_url}/user", headers=self.headers)
+            response = self.session.get(f"{self.api_url}/user", timeout=30)
             if response.status_code == 200:
                 user_data = response.json()
                 logger.info(f"✅ Authenticated as: {user_data.get('login')}")
@@ -146,7 +150,7 @@ class GitHubCurator:
     def _make_api_request(self, url: str, params: Dict = None) -> Optional[Dict]:
         """Make API request with rate limiting and error handling"""
         try:
-            response = requests.get(url, headers=self.headers, params=params)
+            response = self.session.get(url, params=params, timeout=30)
             
             self.rate_limit_remaining = int(response.headers.get('X-RateLimit-Remaining', 0))
             self.rate_limit_reset = int(response.headers.get('X-RateLimit-Reset', time.time()))
@@ -159,23 +163,55 @@ class GitHubCurator:
         except requests.exceptions.RequestException as e:
             logger.error(f"API request failed: {e}")
             return None
+
+    def _build_search_query(self, query: str) -> str:
+        """Push supported filters into the GitHub search query to reduce wasted pages."""
+        filters = self.config.get('filters', {})
+        advanced = self.config.get('advanced_options', {})
+        effective_query = query.strip()
+        query_lower = effective_query.lower()
+
+        min_stars = int(filters.get('min_stars', 0))
+        if min_stars > 0 and 'stars:' not in query_lower:
+            effective_query += f" stars:>={min_stars}"
+
+        min_size_kb = int(filters.get('min_size', 0))
+        if min_size_kb > 0 and 'size:' not in query_lower:
+            effective_query += f" size:>={min_size_kb}"
+
+        if not advanced.get('include_forks', False) and 'fork:' not in query_lower:
+            effective_query += " fork:false"
+
+        if 'archived:' not in query_lower:
+            effective_query += " archived:false"
+
+        max_age_days = int(advanced.get('min_last_update_days', 365))
+        if max_age_days > 0 and 'pushed:' not in query_lower:
+            pushed_after = datetime.utcnow().date().fromordinal(
+                datetime.utcnow().date().toordinal() - max_age_days
+            )
+            effective_query += f" pushed:>={pushed_after.isoformat()}"
+
+        return effective_query
     
     def search_repositories(self, query: str) -> List[RepoInfo]:
         """Search GitHub repositories with enhanced filtering"""
         repos = []
+        seen_urls = set()
         page = 1
         max_pages = 5
         api_delay = float(self.config.get('advanced_options', {}).get('api_delay_seconds', 1.0))
+        effective_query = self._build_search_query(query)
         
         while page <= max_pages:
             params = {
-                'q': query,
+                'q': effective_query,
                 'sort': 'stars',
                 'order': 'desc',
                 'page': page,
                 'per_page': 100
             }
-            logger.info(f"Searching repositories: page {page}, query: {query}")
+            logger.info(f"Searching repositories: page {page}, query: {effective_query}")
             
             data = self._make_api_request(f"{self.api_url}/search/repositories", params)
             
@@ -184,8 +220,14 @@ class GitHubCurator:
                 
             for item in data['items']:
                 repo_info = RepoInfo.from_github_api(item)
+                if repo_info.html_url in seen_urls:
+                    continue
                 if self._should_include_repo(repo_info):
+                    seen_urls.add(repo_info.html_url)
                     repos.append(repo_info)
+
+            if len(data['items']) < params['per_page']:
+                break
             
             if len(repos) >= self.config['max_repos_per_query']:
                 break
@@ -347,20 +389,22 @@ class GitHubCurator:
             all_repos = []
             queries = self.config.get('search_queries', [])
             api_delay = float(self.config.get('advanced_options', {}).get('api_delay_seconds', 1.0))
-            for query in queries:
-                all_repos.extend(self.search_repositories(query))
-                time.sleep(api_delay)
-            
             seen_urls = set()
-            unique_repos = [repo for repo in all_repos if not (repo.html_url in seen_urls or seen_urls.add(repo.html_url))]
-            unique_repos.sort(
+            for query in queries:
+                for repo in self.search_repositories(query):
+                    if repo.html_url in seen_urls:
+                        continue
+                    seen_urls.add(repo.html_url)
+                    all_repos.append(repo)
+                time.sleep(api_delay)
+
+            all_repos.sort(
                 key=lambda repo: (self._preference_score(repo), repo.stars),
                 reverse=True
             )
             
-            logger.info(f"Found {len(unique_repos)} unique repositories")
-            self.save_cache(unique_repos)
-            all_repos = unique_repos
+            logger.info(f"Found {len(all_repos)} unique repositories")
+            self.save_cache(all_repos)
         
         analysis = self.analyze_repositories(all_repos)
         formatted_content = self.format_output(all_repos, analysis)

@@ -6,19 +6,19 @@
   "branch": "main",
   
   "search_queries": [
-    "OSINT AI artificial intelligence security",
-    "machine learning cybersecurity threat intelligence",
-    "automated reconnaissance AI tools",
-    "AI security analysis frameworks",
-    "open source intelligence automation",
-    "artificial intelligence penetration testing",
-    "ML security research tools",
-    "AI-powered threat detection",
-    "claude cybersecurity osint",
-    "codex cybersecurity osint",
-    "anthropic cybersecurity osint",
-    "openai cybersecurity osint",
-    "agentic security osint"
+    "topic:osint ai",
+    "topic:cybersecurity llm",
+    "topic:threat-intelligence ai",
+    "mcp security",
+    "mcp osint",
+    "agentic osint",
+    "agent security",
+    "llm security",
+    "prompt injection security",
+    "attack surface ai",
+    "reconnaissance ai",
+    "claude security agent",
+    "codex security"
   ],
   
   "filters": {
