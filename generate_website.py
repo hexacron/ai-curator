@@ -2,6 +2,51 @@ import json
 import os
 from datetime import datetime
 
+
+def _normalize_repo(raw_repo):
+    """Normalize repository schema from cache.json and repositories.json."""
+    topics = raw_repo.get('topics', [])
+    if not isinstance(topics, list):
+        topics = []
+
+    return {
+        'name': raw_repo.get('name', 'Unknown'),
+        'full_name': raw_repo.get('full_name', raw_repo.get('name', 'Unknown')),
+        'html_url': raw_repo.get('html_url') or raw_repo.get('url') or '#',
+        'description': raw_repo.get('description') or 'No description available.',
+        'stars': int(raw_repo.get('stars', 0) or 0),
+        'language': raw_repo.get('language') or 'N/A',
+        'last_updated': raw_repo.get('last_updated') or raw_repo.get('updated') or 'N/A',
+        'topics': topics,
+    }
+
+
+def _merge_repo_lists(cache_repos, fallback_repos):
+    """Merge repository sources with URL-based deduplication."""
+    merged = {}
+
+    for source in (cache_repos, fallback_repos):
+        for raw_repo in source:
+            repo = _normalize_repo(raw_repo)
+            key = repo['html_url'] if repo['html_url'] != '#' else repo['full_name']
+            existing = merged.get(key)
+            if existing is None:
+                merged[key] = repo
+                continue
+
+            # Prefer entry with more stars, then with more topics.
+            is_better = (
+                repo['stars'] > existing['stars']
+                or (
+                    repo['stars'] == existing['stars']
+                    and len(repo['topics']) > len(existing['topics'])
+                )
+            )
+            if is_better:
+                merged[key] = repo
+
+    return sorted(merged.values(), key=lambda repo: repo.get('stars', 0), reverse=True)
+
 def generate_website():
     """
     Generates a clean, self-contained HTML website from repository data,
@@ -14,27 +59,28 @@ def generate_website():
         os.makedirs(docs_dir)
 
     cache_file = 'cache.json'
-    repos = []
+    cache_repos = []
+    fallback_repos = []
+
     if os.path.exists(cache_file):
         try:
             with open(cache_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                repos = data.get('repositories', [])
-            print(f"✅ Found {len(repos)} repositories in {cache_file}.")
+                cache_repos = data.get('repositories', [])
+            print(f"✅ Found {len(cache_repos)} repositories in {cache_file}.")
         except (json.JSONDecodeError, IOError) as e:
             print(f"⚠️ Could not read or parse {cache_file}: {e}")
             
-    # Fallback to repositories.json if cache is empty or invalid
-    if not repos and os.path.exists('repositories.json'):
+    if os.path.exists('repositories.json'):
         try:
             with open('repositories.json', 'r', encoding='utf-8') as f:
-                repos = json.load(f)
-            print(f"✅ Used fallback repositories.json, found {len(repos)} repositories.")
+                fallback_repos = json.load(f)
+            print(f"✅ Found {len(fallback_repos)} repositories in repositories.json.")
         except (json.JSONDecodeError, IOError) as e:
             print(f"⚠️ Could not read or parse repositories.json: {e}")
 
-
-    repos.sort(key=lambda r: r.get('stars', 0), reverse=True)
+    repos = _merge_repo_lists(cache_repos, fallback_repos)
+    print(f"✅ Using {len(repos)} merged repositories after normalization and deduplication.")
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
@@ -116,7 +162,7 @@ def generate_website():
                     <div class="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
                         <span class="font-semibold">⭐ {repo.get('stars', 0):,}</span>
                         <span class="font-semibold text-purple-600 dark:text-purple-400">{repo.get('language', 'N/A')}</span>
-                        <span>Updated: {repo.get('updated', 'N/A')}</span>
+                        <span>Updated: {repo.get('last_updated', 'N/A')}</span>
                     </div>
                 </div>
             </div>

@@ -36,6 +36,8 @@ class RepoInfo:
     last_updated: str
     topics: List[str]
     license_name: Optional[str]
+    is_fork: bool = False
+    size_kb: int = 0
 
     @classmethod
     def from_github_api(cls, repo_data: Dict) -> 'RepoInfo':
@@ -49,7 +51,9 @@ class RepoInfo:
             language=repo_data.get('language', 'Unknown'),
             last_updated=repo_data.get('updated_at', '')[:10],
             topics=repo_data.get('topics', []),
-            license_name=repo_data.get('license', {}).get('name') if repo_data.get('license') else None
+            license_name=repo_data.get('license', {}).get('name') if repo_data.get('license') else None,
+            is_fork=repo_data.get('fork', False),
+            size_kb=repo_data.get('size', 0)
         )
 
 class GitHubCurator:
@@ -102,7 +106,15 @@ class GitHubCurator:
             with open(config_path, 'r') as f:
                 try:
                     file_config = json.load(f)
-                    default_config.update(file_config)
+                    for key, value in file_config.items():
+                        if (
+                            key in default_config
+                            and isinstance(default_config[key], dict)
+                            and isinstance(value, dict)
+                        ):
+                            default_config[key].update(value)
+                        else:
+                            default_config[key] = value
                 except json.JSONDecodeError:
                     logger.warning(f"Could not decode {config_path}. Using defaults.")
         
@@ -148,6 +160,7 @@ class GitHubCurator:
         repos = []
         page = 1
         max_pages = 5
+        api_delay = float(self.config.get('advanced_options', {}).get('api_delay_seconds', 1.0))
         
         while page <= max_pages:
             params = {
@@ -173,12 +186,61 @@ class GitHubCurator:
                 break
                 
             page += 1
-            time.sleep(1)
+            time.sleep(api_delay)
             
         return repos[:self.config['max_repos_per_query']]
+
+    def _is_recent_enough(self, last_updated: str) -> bool:
+        """Check if repository was updated within configured recency window."""
+        max_age_days = int(self.config.get('advanced_options', {}).get('min_last_update_days', 365))
+        if not last_updated:
+            return False
+        try:
+            updated_dt = datetime.strptime(last_updated, "%Y-%m-%d")
+        except ValueError:
+            return False
+        age_days = (datetime.utcnow() - updated_dt).days
+        return age_days <= max_age_days
+
+    def _preference_score(self, repo: RepoInfo) -> int:
+        """Compute score boost for preferred topics from configuration."""
+        preferred_topics = self.config.get('advanced_options', {}).get('prefer_topics', [])
+        if not preferred_topics:
+            return 0
+        repo_topics = {topic.lower() for topic in repo.topics}
+        return sum(1 for topic in preferred_topics if topic.lower() in repo_topics)
     
     def _should_include_repo(self, repo: RepoInfo) -> bool:
         """Additional filtering logic for repositories, now handles None descriptions."""
+        filters = self.config.get('filters', {})
+        advanced = self.config.get('advanced_options', {})
+
+        min_stars = int(filters.get('min_stars', 0))
+        if repo.stars < min_stars:
+            return False
+
+        min_size_kb = int(filters.get('min_size', 0))
+        if repo.size_kb < min_size_kb:
+            return False
+
+        languages = filters.get('languages', [])
+        if languages and repo.language not in languages:
+            return False
+
+        if not advanced.get('include_forks', False) and repo.is_fork:
+            return False
+
+        if advanced.get('require_license', False) and not repo.license_name:
+            return False
+
+        if not self._is_recent_enough(repo.last_updated):
+            return False
+
+        exclude_keywords = filters.get('exclude_keywords', [])
+        searchable_text = f"{repo.name} {repo.description or ''}".lower()
+        if any(keyword.lower() in searchable_text for keyword in exclude_keywords):
+            return False
+
         generic_names = ['awesome', 'list', 'collection', 'resources']
         if any(name in repo.name.lower() for name in generic_names):
             return repo.stars > 1000
@@ -279,12 +341,17 @@ class GitHubCurator:
         if not all_repos:
             all_repos = []
             queries = self.config.get('search_queries', [])
+            api_delay = float(self.config.get('advanced_options', {}).get('api_delay_seconds', 1.0))
             for query in queries:
                 all_repos.extend(self.search_repositories(query))
-                time.sleep(2)
+                time.sleep(api_delay)
             
             seen_urls = set()
             unique_repos = [repo for repo in all_repos if not (repo.html_url in seen_urls or seen_urls.add(repo.html_url))]
+            unique_repos.sort(
+                key=lambda repo: (self._preference_score(repo), repo.stars),
+                reverse=True
+            )
             
             logger.info(f"Found {len(unique_repos)} unique repositories")
             self.save_cache(unique_repos)
