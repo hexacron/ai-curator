@@ -88,7 +88,12 @@ class GitHubCurator:
                 "security analysis tools AI stars:>8",
                 "automated reconnaissance stars:>10",
                 "AI penetration testing stars:>5",
-                "cybersecurity machine learning stars:>12"
+                "cybersecurity machine learning stars:>12",
+                "claude cybersecurity osint stars:>5",
+                "codex cybersecurity osint stars:>5",
+                "anthropic cybersecurity osint stars:>5",
+                "openai cybersecurity osint stars:>5",
+                "agentic security osint stars:>5"
             ],
             'filters': {
                 'min_stars': 5,
