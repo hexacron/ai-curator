@@ -1,23 +1,23 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-04-30 08:00:42*
+*Last updated: 2026-05-01 07:58:59*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 291
-- **Total Stars**: 492,658
+- **Total Repositories**: 290
+- **Total Stars**: 505,606
 
 ### 🔥 Top Languages
-- **Python**: 192 repositories
-- **Go**: 46 repositories
+- **Python**: 191 repositories
+- **Go**: 45 repositories
 - **JavaScript**: 31 repositories
-- **Rust**: 22 repositories
+- **Rust**: 23 repositories
 
 ### 🏷️ Popular Topics
-- `security` (112)
+- `security` (111)
 - `llm` (90)
 - `cybersecurity` (81)
-- `ai` (80)
+- `ai` (79)
 - `mcp` (68)
 - `ai-agents` (62)
 - `python` (54)
@@ -28,7 +28,7 @@
 ## ⭐ Top Starred Repositories
 
 ### 1. [everything-claude-code](https://github.com/affaan-m/everything-claude-code)
-**170,493 ⭐** | **JavaScript** | Updated: 2026-04-30
+**171,128 ⭐** | **JavaScript** | Updated: 2026-05-01
 
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
@@ -37,7 +37,7 @@ The agent harness performance optimization system. Skills, instincts, memory, se
 ---
 
 ### 2. [quivr](https://github.com/QuivrHQ/quivr)
-**39,120 ⭐** | **Python** | Updated: 2026-04-30
+**39,121 ⭐** | **Python** | Updated: 2026-05-01
 
 Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.
 
@@ -46,7 +46,7 @@ Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product ra
 ---
 
 ### 3. [gitleaks](https://github.com/gitleaks/gitleaks)
-**26,377 ⭐** | **Go** | Updated: 2026-04-30
+**26,393 ⭐** | **Go** | Updated: 2026-05-01
 
 Find secrets with Gitleaks 🔑
 
@@ -55,7 +55,7 @@ Find secrets with Gitleaks 🔑
 ---
 
 ### 4. [strix](https://github.com/usestrix/strix)
-**24,695 ⭐** | **Python** | Updated: 2026-04-30
+**24,739 ⭐** | **Python** | Updated: 2026-05-01
 
 Open-source AI hackers to find and fix your app’s vulnerabilities.
 
@@ -64,7 +64,7 @@ Open-source AI hackers to find and fix your app’s vulnerabilities.
 ---
 
 ### 5. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**19,103 ⭐** | **Python** | Updated: 2026-04-30
+**19,111 ⭐** | **Python** | Updated: 2026-04-30
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
@@ -73,7 +73,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 ---
 
 ### 6. [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
-**18,641 ⭐** | **Python** | Updated: 2026-04-30
+**18,643 ⭐** | **Python** | Updated: 2026-05-01
 
 open-source agentic AI data assistant for the next generation of AI + Data products.
 
@@ -82,7 +82,7 @@ open-source agentic AI data assistant for the next generation of AI + Data produ
 ---
 
 ### 7. [vuls](https://github.com/future-architect/vuls)
-**12,127 ⭐** | **Go** | Updated: 2026-04-30
+**12,126 ⭐** | **Go** | Updated: 2026-05-01
 
 Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
 
@@ -90,8 +90,17 @@ Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Progr
 
 ---
 
-### 8. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
-**9,741 ⭐** | **JavaScript** | Updated: 2026-04-30
+### 8. [ironclaw](https://github.com/nearai/ironclaw)
+**12,083 ⭐** | **Rust** | Updated: 2026-05-01
+
+IronClaw is an Agent OS focused on privacy, security and extensibility
+
+**Topics**: `codeact` `openclaw` `rlm` `rust` `wasm`
+
+---
+
+### 9. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
+**9,791 ⭐** | **JavaScript** | Updated: 2026-05-01
 
 All parts of Claude Code's system prompt, 24 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.
 
@@ -99,8 +108,8 @@ All parts of Claude Code's system prompt, 24 builtin tool descriptions, sub agen
 
 ---
 
-### 9. [Crucix](https://github.com/calesthio/Crucix)
-**9,146 ⭐** | **JavaScript** | Updated: 2026-04-30
+### 10. [Crucix](https://github.com/calesthio/Crucix)
+**9,168 ⭐** | **JavaScript** | Updated: 2026-05-01
 
 Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
 
@@ -108,8 +117,8 @@ Your personal intelligence agent. Watches the world from multiple data sources a
 
 ---
 
-### 10. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**8,409 ⭐** | **Python** | Updated: 2026-04-30
+### 11. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
+**8,438 ⭐** | **Python** | Updated: 2026-05-01
 
 HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
 
@@ -117,8 +126,8 @@ HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, G
 
 ---
 
-### 11. [cai](https://github.com/aliasrobotics/cai)
-**8,337 ⭐** | **Python** | Updated: 2026-04-30
+### 12. [cai](https://github.com/aliasrobotics/cai)
+**8,347 ⭐** | **Python** | Updated: 2026-05-01
 
 Cybersecurity AI (CAI), the framework for AI Security
 
@@ -126,8 +135,8 @@ Cybersecurity AI (CAI), the framework for AI Security
 
 ---
 
-### 12. [lamda](https://github.com/firerpa/lamda)
-**7,763 ⭐** | **Python** | Updated: 2026-04-30
+### 13. [lamda](https://github.com/firerpa/lamda)
+**7,765 ⭐** | **Python** | Updated: 2026-05-01
 
  The most powerful Android RPA agent framework, next generation mobile automation.
 
@@ -135,8 +144,8 @@ Cybersecurity AI (CAI), the framework for AI Security
 
 ---
 
-### 13. [osmedeus](https://github.com/j3ssie/osmedeus)
-**6,217 ⭐** | **Go** | Updated: 2026-04-29
+### 14. [osmedeus](https://github.com/j3ssie/osmedeus)
+**6,219 ⭐** | **Go** | Updated: 2026-04-30
 
 A Modern Orchestration Engine for Security
 
@@ -144,17 +153,8 @@ A Modern Orchestration Engine for Security
 
 ---
 
-### 14. [microsandbox](https://github.com/superradcompany/microsandbox)
-**5,893 ⭐** | **Rust** | Updated: 2026-04-30
-
-🧱 secure, local and programmable sandboxes for AI agents
-
-**Topics**: `agents` `ai` `container` `docker` `linux`
-
----
-
 ### 15. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**5,881 ⭐** | **Python** | Updated: 2026-04-30
+**5,906 ⭐** | **Python** | Updated: 2026-05-01
 
 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0
 
@@ -162,8 +162,17 @@ A Modern Orchestration Engine for Security
 
 ---
 
-### 16. [robin](https://github.com/apurvsinghgautam/robin)
-**4,913 ⭐** | **Python** | Updated: 2026-04-30
+### 16. [microsandbox](https://github.com/superradcompany/microsandbox)
+**5,904 ⭐** | **Rust** | Updated: 2026-05-01
+
+🧱 secure, local and programmable sandboxes for AI agents
+
+**Topics**: `agents` `ai` `container` `docker` `linux`
+
+---
+
+### 17. [robin](https://github.com/apurvsinghgautam/robin)
+**4,921 ⭐** | **Python** | Updated: 2026-05-01
 
 AI-Powered Dark Web OSINT Tool
 
@@ -171,15 +180,15 @@ AI-Powered Dark Web OSINT Tool
 
 ---
 
-### 17. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
-**4,154 ⭐** | **Python** | Updated: 2026-04-30
+### 18. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
+**4,157 ⭐** | **Python** | Updated: 2026-05-01
 
 Set of tools to assess and improve LLM security.
 
 ---
 
-### 18. [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
-**4,002 ⭐** | **Python** | Updated: 2026-04-29
+### 19. [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
+**4,005 ⭐** | **Python** | Updated: 2026-04-30
 
 CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 130+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.
 
@@ -187,21 +196,12 @@ CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Comp
 
 ---
 
-### 19. [malwoverview](https://github.com/alexandreborges/malwoverview)
-**3,765 ⭐** | **Python** | Updated: 2026-04-30
+### 20. [malwoverview](https://github.com/alexandreborges/malwoverview)
+**3,768 ⭐** | **Python** | Updated: 2026-05-01
 
 Malwoverview is a first response tool for threat hunting across VirusTotal, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, IPInfo, Shodan, AbuseIPDB, GreyNoise, URLScan.io, Whois/RDAP, NIST, and VulnCheck. Supports LLM enrichment, IOC extraction, YARA scanning, and Android analysis.
 
 **Topics**: `alienvault` `cve` `cve-search` `cybersecurity` `malpedia`
-
----
-
-### 20. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**3,601 ⭐** | **Python** | Updated: 2026-04-30
-
-A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
-
-**Topics**: `agent` `agent-security` `ai-infra` `ai-red-teaming` `ai-security`
 
 ---
 
