@@ -1,34 +1,34 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-06-13 08:44:40*
+*Last updated: 2026-06-14 08:59:29*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 327
-- **Total Stars**: 593,592
+- **Total Repositories**: 329
+- **Total Stars**: 594,795
 
 ### 🔥 Top Languages
-- **Python**: 223 repositories
+- **Python**: 224 repositories
 - **Go**: 45 repositories
-- **JavaScript**: 35 repositories
+- **JavaScript**: 36 repositories
 - **Rust**: 24 repositories
 
 ### 🏷️ Popular Topics
-- `security` (122)
-- `llm` (95)
-- `cybersecurity` (90)
-- `ai` (84)
+- `security` (125)
+- `llm` (97)
+- `cybersecurity` (91)
+- `ai` (86)
 - `mcp` (77)
-- `ai-agents` (69)
-- `python` (68)
+- `ai-agents` (70)
+- `python` (69)
+- `claude-code` (57)
 - `osint` (56)
-- `claude-code` (55)
-- `ai-security` (45)
+- `ai-security` (46)
 
 ## ⭐ Top Starred Repositories
 
 ### 1. [ECC](https://github.com/affaan-m/ECC)
-**214,478 ⭐** | **JavaScript** | Updated: 2026-06-13
+**215,114 ⭐** | **JavaScript** | Updated: 2026-06-14
 
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
@@ -37,7 +37,7 @@ The agent harness performance optimization system. Skills, instincts, memory, se
 ---
 
 ### 2. [quivr](https://github.com/QuivrHQ/quivr)
-**39,158 ⭐** | **Python** | Updated: 2026-06-13
+**39,159 ⭐** | **Python** | Updated: 2026-06-14
 
 Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.
 
@@ -46,7 +46,7 @@ Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product ra
 ---
 
 ### 3. [gitleaks](https://github.com/gitleaks/gitleaks)
-**27,671 ⭐** | **Go** | Updated: 2026-06-13
+**27,679 ⭐** | **Go** | Updated: 2026-06-14
 
 Find secrets with Gitleaks 🔑
 
@@ -55,7 +55,7 @@ Find secrets with Gitleaks 🔑
 ---
 
 ### 4. [strix](https://github.com/usestrix/strix)
-**25,973 ⭐** | **Python** | Updated: 2026-06-13
+**25,980 ⭐** | **Python** | Updated: 2026-06-14
 
 Open-source AI hackers to find and fix your app’s vulnerabilities.
 
@@ -64,7 +64,7 @@ Open-source AI hackers to find and fix your app’s vulnerabilities.
 ---
 
 ### 5. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**19,497 ⭐** | **Python** | Updated: 2026-06-13
+**19,503 ⭐** | **Python** | Updated: 2026-06-14
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
@@ -73,7 +73,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 ---
 
 ### 6. [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
-**18,977 ⭐** | **Python** | Updated: 2026-06-12
+**18,981 ⭐** | **Python** | Updated: 2026-06-14
 
 open-source agentic AI data assistant for the next generation of AI + Data products.
 
@@ -82,7 +82,7 @@ open-source agentic AI data assistant for the next generation of AI + Data produ
 ---
 
 ### 7. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**15,556 ⭐** | **Python** | Updated: 2026-06-13
+**15,643 ⭐** | **Python** | Updated: 2026-06-14
 
 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0
 
@@ -91,7 +91,7 @@ open-source agentic AI data assistant for the next generation of AI + Data produ
 ---
 
 ### 8. [ironclaw](https://github.com/nearai/ironclaw)
-**12,446 ⭐** | **Rust** | Updated: 2026-06-13
+**12,450 ⭐** | **Rust** | Updated: 2026-06-14
 
 IronClaw is an Agent OS focused on privacy, security and extensibility
 
@@ -109,7 +109,7 @@ Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Progr
 ---
 
 ### 10. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
-**11,009 ⭐** | **JavaScript** | Updated: 2026-06-13
+**11,035 ⭐** | **JavaScript** | Updated: 2026-06-14
 
 All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.
 
@@ -118,7 +118,7 @@ All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agen
 ---
 
 ### 11. [Crucix](https://github.com/calesthio/Crucix)
-**10,228 ⭐** | **JavaScript** | Updated: 2026-06-13
+**10,237 ⭐** | **JavaScript** | Updated: 2026-06-14
 
 Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
 
@@ -127,7 +127,7 @@ Your personal intelligence agent. Watches the world from multiple data sources a
 ---
 
 ### 12. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**9,545 ⭐** | **Python** | Updated: 2026-06-13
+**9,560 ⭐** | **Python** | Updated: 2026-06-14
 
 HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
 
@@ -136,7 +136,7 @@ HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, G
 ---
 
 ### 13. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**9,204 ⭐** | **Python** | Updated: 2026-06-13
+**9,224 ⭐** | **Python** | Updated: 2026-06-14
 
 Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.
 
@@ -145,7 +145,7 @@ Open-source intelligence for the global theater. Track everything from the corpo
 ---
 
 ### 14. [cai](https://github.com/aliasrobotics/cai)
-**9,101 ⭐** | **Python** | Updated: 2026-06-13
+**9,108 ⭐** | **Python** | Updated: 2026-06-14
 
 Cybersecurity AI (CAI), the framework for AI Security
 
@@ -163,7 +163,7 @@ Cybersecurity AI (CAI), the framework for AI Security
 ---
 
 ### 16. [osmedeus](https://github.com/j3ssie/osmedeus)
-**6,412 ⭐** | **Go** | Updated: 2026-06-12
+**6,415 ⭐** | **Go** | Updated: 2026-06-14
 
 A Modern Orchestration Engine for Security
 
@@ -172,7 +172,7 @@ A Modern Orchestration Engine for Security
 ---
 
 ### 17. [robin](https://github.com/apurvsinghgautam/robin)
-**5,458 ⭐** | **Python** | Updated: 2026-06-13
+**5,470 ⭐** | **Python** | Updated: 2026-06-14
 
 AI-Powered Dark Web OSINT Tool
 
@@ -181,7 +181,7 @@ AI-Powered Dark Web OSINT Tool
 ---
 
 ### 18. [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI)
-**4,458 ⭐** | **Go** | Updated: 2026-06-13
+**4,487 ⭐** | **Go** | Updated: 2026-06-14
 
 CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.
 
@@ -190,7 +190,7 @@ CyberStrikeAI is an AI-native security testing platform built in Go. It integrat
 ---
 
 ### 19. [Decepticon](https://github.com/PurpleAILAB/Decepticon)
-**4,351 ⭐** | **Python** | Updated: 2026-06-13
+**4,361 ⭐** | **Python** | Updated: 2026-06-14
 
 Autonomous Hacking Agent for Red Team
 
@@ -199,7 +199,7 @@ Autonomous Hacking Agent for Red Team
 ---
 
 ### 20. [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
-**4,263 ⭐** | **Python** | Updated: 2026-06-13
+**4,274 ⭐** | **Python** | Updated: 2026-06-14
 
 AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
 
