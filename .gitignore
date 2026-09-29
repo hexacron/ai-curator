@@ -10,6 +10,7 @@ venv/
 # Cache and Logs
 cache.json
 curator.log
+.env
 
 # IDE and OS files
 .idea/

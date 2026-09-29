@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'curator_v7.py'
+      - 'curator.py'
       - 'generate_website.py'
       - 'config.json'
       - '.github/workflows/curator.yml'
@@ -31,8 +31,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
-      with:
-        fetch-depth: 0
 
     - name: Set up Python 3.13
       uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6
@@ -52,7 +50,7 @@ jobs:
     - name: Run Curator Script
       env:
         GITHUB_TOKEN: ${{ github.token }}
-      run: python curator_v7.py
+      run: python curator.py
 
     - name: Generate Website Files
       run: python generate_website.py
@@ -72,25 +70,18 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
 
-    # --- FIX IS HERE ---
-    # The order of operations has been corrected.
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
-        # Pull the latest changes from the remote to avoid conflicts
-        # This now happens BEFORE adding any new files.
-        git pull
-        
-        # Add the generated files
-        git add -A
-        
-        # Check if there are any changes to commit
+
+        git add README.md docs
+
         if git diff --staged --quiet; then
           echo "No changes to commit."
         else
-          # Commit and push the changes
           git commit -m "Chore: Auto-update curator results and website"
+          # Replay our commit on top of any newer remote commits; on conflict keep our freshly generated files.
+          git pull --rebase -X theirs
           git push
         fi
