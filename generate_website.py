@@ -118,6 +118,7 @@ def generate_website():
 <h1>AI &amp; OSINT Repository Curator</h1>
 <p>A curated list of top-tier projects in AI, OSINT, and Cybersecurity.</p>
 <p class="stamp">Last updated: {timestamp}</p>
+<p><a href="osint/" style="color:var(--link)">Emerging OSINT Radar: newly created projects, ranked &rarr;</a></p>
 <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
 </header>
 <main>

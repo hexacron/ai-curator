@@ -32,5 +32,56 @@
     "require_license": false,
     "prefer_topics": ["ai", "machine-learning", "osint", "security", "cybersecurity"],
     "api_delay_seconds": 1.5
+  },
+
+  "osint": {
+    "window_days": 90,
+    "topics": [
+      "osint", "osint-tools", "osint-tool", "osint-framework", "osint-python",
+      "osint-resources", "osint-reconnaissance", "open-source-intelligence",
+      "geoint", "socmint", "imint"
+    ],
+    "search_delay_seconds": 2.2,
+    "triage": {
+      "floor_days_per_star": 15,
+      "batch_publisher_threshold": 5
+    },
+    "retention": {
+      "prune_grace_days": 7
+    },
+    "enrich": {
+      "max_history_lookups_per_run": 400
+    },
+    "scoring": {
+      "profiles": {
+        "rising":  { "momentum": 0.45, "activity": 0.20, "maturity": 0.15, "community": 0.10, "utility": 0.10 },
+        "overall": { "momentum": 0.20, "activity": 0.20, "maturity": 0.25, "community": 0.20, "utility": 0.15 }
+      },
+      "relevance": { "core": 1.0, "adjacent": 0.6 },
+      "confidence_penalty": 15,
+      "unverified_below": 0.7
+    },
+    "boards": {
+      "size": 25,
+      "domain_size": 10,
+      "owner_cap": 2,
+      "min_confidence_rising": 0.5,
+      "new_days": 7
+    },
+    "llm": {
+      "enabled": true,
+      "model": "claude-haiku-5-5",
+      "escalation_model": "claude-sonnet-5-5",
+      "escalate_below_confidence": 0.6,
+      "effort": "low",
+      "max_calls_per_run": 120,
+      "max_tokens": 4000,
+      "timeout_seconds": 90,
+      "min_confidence_to_override": 0.5,
+      "review_skip_out_confidence": 0.5
+    },
+    "privacy": {
+      "redact_high_sensitivity": true
+    }
   }
 }

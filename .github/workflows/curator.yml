@@ -9,24 +9,25 @@ on:
     branches: [ main ]
     paths:
       - 'curator.py'
+      - 'github_client.py'
+      - 'osint_tracker/**'
       - 'generate_website.py'
       - 'config.json'
       - '.github/workflows/curator.yml'
       - 'requirements.txt'
 
+# State files are rewritten by every run; never let two runs overlap.
+concurrency:
+  group: curator
+  cancel-in-progress: false
+
 jobs:
-  curate-and-deploy:
+  curate:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
-      pages: write
-      id-token: write
-    
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout repository
@@ -58,18 +59,6 @@ jobs:
     - name: Disable Jekyll
       run: touch ./docs/.nojekyll
 
-    - name: Setup GitHub Pages
-      uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
-
-    - name: Upload GitHub Pages artifact
-      uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
-      with:
-        path: './docs'
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
-
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
@@ -85,3 +74,92 @@ jobs:
           git pull --rebase -X theirs
           git push
         fi
+
+  track-osint:
+    # Runs even when the AI-collection job failed: snapshot history cannot be re-collected later.
+    needs: curate
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+      with:
+        # Branch head, not the triggering commit: the previous job pushed a commit after this run started.
+        ref: ${{ github.ref }}
+
+    - name: Set up Python 3.13
+      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6
+      with:
+        python-version: '3.13'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Record OSINT tracker snapshot
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+        # Only this step sees the key. Empty (secret unset, e.g. on a fork) means the tracker runs rules-only.
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: python -m osint_tracker
+
+    - name: Build OSINT page
+      run: python -m osint_tracker.site
+
+    - name: Commit and push tracker state and page
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        git add data docs/osint
+
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Chore: Auto-update OSINT tracker state and page"
+          git pull --rebase -X theirs
+          git push
+        fi
+
+  deploy:
+    # Publishes docs/ after both jobs have pushed, so one run updates both pages. Runs even if either job failed:
+    # the last good pages stay up to date with whatever did succeed.
+    needs: [curate, track-osint]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+      with:
+        # Branch head: the previous jobs pushed commits after this run started.
+        ref: ${{ github.ref }}
+
+    - name: Disable Jekyll
+      run: touch ./docs/.nojekyll
+
+    - name: Setup GitHub Pages
+      uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+      with:
+        path: './docs'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

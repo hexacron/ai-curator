@@ -1,0 +1,1322 @@
+[
+ {
+  "full_name": "Oldcircle/geo-sleuth",
+  "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "computer-vision",
+   "cursor",
+   "gemini-cli",
+   "geoguessr",
+   "geoint",
+   "geolocation",
+   "github-copilot",
+   "image-geolocation",
+   "opencode",
+   "openstreetmap",
+   "osint",
+   "photo-geolocation",
+   "reverse-image-search",
+   "satellite-imagery"
+  ]
+ },
+ {
+  "full_name": "0x6rss/instagram-private-graph",
+  "description": "Analyze the followers and following accounts that a private (hidden) Instagram account interacts with.",
+  "topics": [
+   "osint",
+   "osint-python",
+   "osint-tool"
+  ]
+ },
+ {
+  "full_name": "glaz-boga-poisk-bot/glaz-boga",
+  "description": "Глаз Бога: поиск по телефону, email, нику и Telegram ID. Открытые, архивные и ранее утёкшие записи; совпадения зависят от доступных данных.",
+  "topics": [
+   "digital-footprint",
+   "glaz-boga",
+   "godeye",
+   "osint",
+   "people-search"
+  ]
+ },
+ {
+  "full_name": "socai-io/jev-social",
+  "description": "Open-source, local-first social media research agent for Instagram, TikTok, and LinkedIn. Jev routes read-only steps; socai CLI captures cited browser evidence.",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "browser-agent",
+   "browser-automation",
+   "decision-model",
+   "deep-research",
+   "instagram",
+   "jev",
+   "linkedin",
+   "local-first",
+   "open-source",
+   "osint",
+   "research-agent",
+   "socai",
+   "social-listening",
+   "social-media",
+   "social-media-research",
+   "socmint",
+   "system-one",
+   "tiktok"
+  ]
+ },
+ {
+  "full_name": "probit-vk/probiv-vk",
+  "description": "Основной репозиторий «Пробив ВК»: поиск по VK ID, username и ссылке, собственный индекс и история профиля.",
+  "topics": [
+   "check-vk",
+   "osint",
+   "probiv",
+   "probiv-vk",
+   "telegram-bot",
+   "vk-api",
+   "vk-bot",
+   "vk-osint",
+   "vk-probiv"
+  ]
+ },
+ {
+  "full_name": "M4elstr0m/gophoner",
+  "description": "Check simultaneously if a phone number is registered on popular apps & websites, without any prerequisite 📞",
+  "topics": [
+   "bubbletea",
+   "cli",
+   "cobra",
+   "cobra-cli",
+   "crossplatform",
+   "cybersecurity",
+   "cybersecurity-tools",
+   "go",
+   "golang",
+   "gopher",
+   "osint",
+   "osint-phonenumbers",
+   "osint-tool",
+   "osint-tools",
+   "phone",
+   "phone-lookup",
+   "phone-number",
+   "socmint",
+   "tui"
+  ]
+ },
+ {
+  "full_name": "4x3/nulltrace",
+  "description": "Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check password dumps — the vault never leaves your PC.",
+  "topics": [
+   "ccpa",
+   "cli",
+   "cybersecurity",
+   "data-broker",
+   "gdpr",
+   "golang",
+   "linux",
+   "local-first",
+   "macos",
+   "opsec",
+   "osint",
+   "personal-data",
+   "privacy",
+   "privacy-tools",
+   "security",
+   "tui",
+   "windows"
+  ]
+ },
+ {
+  "full_name": "osintshifu/awesome-osint-repos",
+  "description": "Continuously updated catalogue of open-source OSINT tools, skills, plugins, MCP servers, and agentic integrations.",
+  "topics": [
+   "ai-osint",
+   "ai-scraping",
+   "awesome",
+   "awesome-list",
+   "deep-research",
+   "deep-research-agent",
+   "forensics",
+   "investigation",
+   "osint",
+   "osint-framework",
+   "osint-mcp",
+   "osint-skills",
+   "osint-tools",
+   "recon",
+   "resources",
+   "social-media"
+  ]
+ },
+ {
+  "full_name": "UseOSINT/Skills",
+  "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude",
+   "claude-skills",
+   "cursor",
+   "cursor-skills",
+   "cybersecurity",
+   "digital-forensics",
+   "due-diligence",
+   "geoint",
+   "information-gathering",
+   "infosec",
+   "investigation",
+   "open-source-intelligence",
+   "osint",
+   "osint-tools",
+   "pentesting",
+   "reconnaissance",
+   "socmint",
+   "threat-intelligence"
+  ]
+ },
+ {
+  "full_name": "AnuragRoy485/Telegram-OSINT-Toolkit",
+  "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
+  "topics": [
+   "cybersecurity",
+   "osint",
+   "telegram",
+   "telethon"
+  ]
+ },
+ {
+  "full_name": "yingfff123/AtlasX",
+  "description": "企业暴露面收集与持续监控（ASM）自托管系统：多源采集、存活与指纹富化、风险线索与变更对照。支持 Linux/Docker 一键部署。",
+  "topics": [
+   "asm",
+   "asset-discovery",
+   "attack-surface",
+   "attack-surface-management",
+   "cybersecurity",
+   "docker",
+   "osint",
+   "recon",
+   "self-hosted",
+   "subdomain-enumeration"
+  ]
+ },
+ {
+  "full_name": "boty-po-probivu/probiv-informacii",
+  "description": "Пробив информации: поиск и сопоставление открытых упоминаний по телефону, username, email, ФИО и профилям.",
+  "topics": [
+   "information-gathering",
+   "osint",
+   "people-search",
+   "public-data",
+   "telegram-bot"
+  ]
+ },
+ {
+  "full_name": "DevCop95/shodan_reconsx",
+  "description": "Portable passive hostname reconnaissance through Shodan CTL",
+  "topics": [
+   "cybersecurity",
+   "osint",
+   "python",
+   "reconnaissance",
+   "shodan",
+   "subdomains"
+  ]
+ },
+ {
+  "full_name": "FadeHack/strypt",
+  "description": "Remove metadata from photos, PDFs, Office documents, audio and video. Strips EXIF, GPS location, camera serial numbers, author names and timestamps. A desktop app and command-line tool, written in Rust, that works offline.",
+  "topics": [
+   "anonymity",
+   "cli",
+   "command-line-tool",
+   "desktop-app",
+   "egui",
+   "exif",
+   "exif-remover",
+   "gps",
+   "gui",
+   "journalism",
+   "metadata",
+   "metadata-removal",
+   "offline",
+   "osint",
+   "pdf",
+   "privacy",
+   "privacy-tools",
+   "remove-metadata",
+   "rust",
+   "security"
+  ]
+ },
+ {
+  "full_name": "wongedyan/ckelepel-threads",
+  "description": "Pure standalone, zero-browser Meta Threads intelligence engine & CLI. Cloud API & SaaS at https://skelepel.id",
+  "topics": [
+   "data-extraction",
+   "meta-threads",
+   "osint",
+   "scraper",
+   "threads-api",
+   "threads-scraper"
+  ]
+ },
+ {
+  "full_name": "Gacut/OpenTrace",
+  "description": "Offline desktop workspace for organizing OSINT investigations.",
+  "topics": [
+   "desktop-application",
+   "investigation",
+   "offline",
+   "osint",
+   "pyside6",
+   "python"
+  ]
+ },
+ {
+  "full_name": "kaifcodec/phonsint",
+  "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+  "topics": [
+   "cybersecurity",
+   "cybersecurity-tools",
+   "osint",
+   "osint-tool",
+   "osint-tools",
+   "phone-osint",
+   "reconnaissance",
+   "threat-detection",
+   "threat-intelligence"
+  ]
+ },
+ {
+  "full_name": "soxoj/claude-osint-deploy",
+  "description": "Install, run and verify OSINT tools from GitHub automatically, on any OS",
+  "topics": [
+   "ai-agent",
+   "anthropic",
+   "claude",
+   "claude-code",
+   "claude-code-plugin",
+   "claude-skill",
+   "cybersecurity",
+   "information-gathering",
+   "osint",
+   "osint-tools",
+   "recon",
+   "reconnaissance",
+   "security-tools"
+  ]
+ },
+ {
+  "full_name": "bobslayerX/crypttrace",
+  "description": "OSINT toolkit for crypto investigations: trace stolen funds on Ethereum, Bitcoin, Tron and Solana — CLI and local web UI",
+  "topics": [
+   "bitcoin",
+   "blockchain",
+   "blockchain-forensics",
+   "cli",
+   "cryptocurrency",
+   "ethereum",
+   "osint",
+   "osint-python",
+   "osint-tool",
+   "osint-tools",
+   "python",
+   "scam",
+   "solana",
+   "tron",
+   "usdt"
+  ]
+ },
+ {
+  "full_name": "Drotfix/ghunt-panel",
+  "description": "A local, self-hosted web UI for GHunt — mxrch's OSINT framework for investigating Google accounts. ghunt-panel wraps the ghunt CLI in a small Flask app so you can run lookups, read the results, and manage your login session from a browser tab instead of a terminal.",
+  "topics": [
+   "flask",
+   "ghunt",
+   "google",
+   "investigation",
+   "osint",
+   "pentesting",
+   "security-tools",
+   "web-ui"
+  ]
+ },
+ {
+  "full_name": "Ringmast4r/Surveillance-Industry",
+  "description": "`GitHub` `Markdown` `OSINT` `Research` - Country-by-country dossiers on the global surveillance industry, spyware vendors, state agencies and Palantir.",
+  "topics": [
+   "alpr",
+   "cellebrite",
+   "facial-recognition",
+   "github",
+   "intelligence",
+   "markdown",
+   "mass-surveillance",
+   "national-security",
+   "nso-group",
+   "osint",
+   "palantir",
+   "pegasus",
+   "privacy",
+   "research",
+   "spytech",
+   "spyware",
+   "surveillance",
+   "surveillance-companies",
+   "surveillance-industry"
+  ]
+ },
+ {
+  "full_name": "v0l/waveshark",
+  "description": "Wireshark for the radio spectrum: channelize a wide span once, decode every signal in it at once",
+  "topics": [
+   "aprs",
+   "dmr",
+   "hackrf",
+   "limesdr",
+   "lora",
+   "osint",
+   "pocsag",
+   "radio",
+   "rtl-sdr",
+   "sdr",
+   "tetra"
+  ]
+ },
+ {
+  "full_name": "HackUnderway/CyberLeaks",
+  "description": "An OSINT tool to check if your emails have been compromised in data breaches using dual engines (Apify & RapidAPI). Includes an interactive menu, risk scoring, and report generation.",
+  "topics": [
+   "cybersecurity",
+   "email-osint",
+   "ethical-hacking",
+   "osint",
+   "python",
+   "threat-intelligence",
+   "tool"
+  ]
+ },
+ {
+  "full_name": "Ringmast4r/Ad-Tech-Surveillance",
+  "description": "`GitHub` `Markdown` `ADINT` `Research` - ADINT: a field guide to ad-tech surveillance. How advertising data (MAID, RTB bidstream, SDK location) becomes warrantless intelligence.",
+  "topics": [
+   "ad-tech",
+   "adint",
+   "adtech",
+   "bidstream",
+   "data-brokers",
+   "data-privacy",
+   "fourth-amendment",
+   "ftc",
+   "geolocation",
+   "location-data",
+   "maid",
+   "mass-surveillance",
+   "osint",
+   "privacy",
+   "programmatic-advertising",
+   "real-time-bidding",
+   "rtb",
+   "sdk",
+   "surveillance",
+   "tracking"
+  ]
+ },
+ {
+  "full_name": "Cyruschu430/hk-city-monitor",
+  "description": "Real-time situational-awareness dashboard for Hong Kong - one map, many official open data sources, no API keys in the client. Open source (AGPL-3.0); not a government system.",
+  "topics": [
+   "agpl",
+   "cloudflare-workers",
+   "dashboard",
+   "deckgl",
+   "geospatial",
+   "gis",
+   "hong-kong",
+   "maplibre",
+   "open-data",
+   "osint",
+   "typescript",
+   "vite"
+  ]
+ },
+ {
+  "full_name": "gorkemguler/MetaScout",
+  "description": "Open-source, cross-platform document discovery & metadata reconnaissance tool  a modern, Windows-free alternative to FOCA.",
+  "topics": [
+   "cybersecurity",
+   "document-analysis",
+   "exiftool",
+   "information-gathering",
+   "metadata",
+   "metadata-analysis",
+   "osint",
+   "security-tools"
+  ]
+ },
+ {
+  "full_name": "jollncoelho/OsintGodseye",
+  "description": "Real-time tactical OSINT & GEOINT dashboard. Live flight tracking (ADS-B), maritime vessels, satellites, undersea telecom cables & HUD shaders powered by free, keyless open APIs.",
+  "topics": [
+   "ads-b",
+   "cybersecurity",
+   "geoint",
+   "leaflet",
+   "maplibre",
+   "osint",
+   "osint-tools",
+   "react",
+   "tactical-dashboard",
+   "tracking",
+   "vite"
+  ]
+ },
+ {
+  "full_name": "BillyBobMcgee/footprint-osint",
+  "description": "Defensive OSINT exposure checker: see what an email, password, domain or username leaks in public breach data. No API keys. CLI + local web GUI.",
+  "topics": [
+   "cli",
+   "data-breach",
+   "dmarc",
+   "hibp",
+   "opsec",
+   "osint",
+   "privacy",
+   "python",
+   "security",
+   "security-tools",
+   "subdomain-takeover",
+   "threat-intelligence",
+   "username-search"
+  ]
+ },
+ {
+  "full_name": "amoghbalapurepy-cmd/Omen-Osint",
+  "description": "A local-first personal exposure and network security console with real public-web OSINT and defensive security tools.",
+  "topics": [
+   "cybersecurity",
+   "network-security",
+   "nextjs",
+   "osint",
+   "privacy",
+   "react",
+   "security",
+   "security-tools",
+   "self-hosted",
+   "typescript"
+  ]
+ },
+ {
+  "full_name": "NagaSivaGunturu/ioc-insight",
+  "description": "An explainable multi-source threat intelligence assessment tool for IOC analysis.",
+  "topics": [
+   "cti-tool",
+   "cyber-threat-intelligence",
+   "cybersecurity",
+   "ioc",
+   "ioc-analysis",
+   "malware-analysis",
+   "open-source-project",
+   "osint",
+   "python",
+   "security-tools",
+   "threat-hunting",
+   "threat-intelligence"
+  ]
+ },
+ {
+  "full_name": "adulau/ptrclassify",
+  "description": " ptrclassify is a small, dependency-free Python library and CLI that infers likely IP usage and location from reverse-DNS PTR hostnames",
+  "topics": [
+   "cybersecurity",
+   "osint",
+   "ptrclassify",
+   "threatintel"
+  ]
+ },
+ {
+  "full_name": "Not-SockPuppet/anakrisis",
+  "description": "Ethics-aware OSINT investigation planning, collection, and risk evaluation, delivered as an MCP server. Classification, risk tiers, hard stops, and defensible documentation — driven by local YAML doctrine.",
+  "topics": [
+   "ai",
+   "ai-agent",
+   "automation",
+   "cli",
+   "cybersecurity",
+   "data-science",
+   "database",
+   "demo",
+   "docker",
+   "investigation",
+   "library",
+   "llm",
+   "machine-learning",
+   "mcp",
+   "osint",
+   "productivity",
+   "python",
+   "security-tools",
+   "self-hosted",
+   "template"
+  ]
+ },
+ {
+  "full_name": "mathdroid/karnak",
+  "description": "Karnak — a live OSINT situational monitor: a wall of live streams, an AI situation brief, a fused news timeline, market indicators, and a network-reachability watch. Named for Ozymandias's monitor wall in Watchmen.",
+  "topics": [
+   "censorship",
+   "fastapi",
+   "indonesia",
+   "monitoring",
+   "osint",
+   "situational-awareness"
+  ]
+ },
+ {
+  "full_name": "Houseofmvps/opentechalyzer",
+  "description": "Free, open source website technology detection. Identify any site's full tech stack from its URL — CLI, library and MCP server for Claude, Claude Code, Codex and ChatGPT. No API key, no credits, no subscription.",
+  "topics": [
+   "builtwith-alternative",
+   "claude",
+   "cli",
+   "competitive-intelligence",
+   "fingerprinting",
+   "mcp",
+   "mcp-server",
+   "osint",
+   "tech-stack",
+   "technology-detection",
+   "typescript",
+   "wappalyzer-alternative"
+  ]
+ },
+ {
+  "full_name": "FadeHack/instagram-username-finder",
+  "description": "A responsible, open-source Instagram username availability scanner. Async CLI with bounded concurrency, rate-limit backoff, resumable scans, Docker and GitHub Actions support.",
+  "topics": [
+   "aiohttp",
+   "asyncio",
+   "asyncio-python",
+   "cli",
+   "cli-tool",
+   "docker",
+   "instagram",
+   "instagram-api",
+   "instagram-client",
+   "open-source",
+   "osint",
+   "osint-tool",
+   "python",
+   "scanner",
+   "scanning-tool",
+   "username-extraction",
+   "usernamelookup",
+   "usernamesearch"
+  ]
+ },
+ {
+  "full_name": "andikaputradev/nik-checker",
+  "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
+  "topics": [
+   "checker",
+   "cybersecurity",
+   "golang",
+   "hacking-tools",
+   "ktp",
+   "nik-checker",
+   "open-source",
+   "osint",
+   "osint-tool"
+  ]
+ },
+ {
+  "full_name": "dRafaleD/The-Trackher",
+  "description": "Open-source digital footprint cleaner and OSINT tool",
+  "topics": [
+   "cli",
+   "cross-platform",
+   "cybersecurity",
+   "data-cleanup",
+   "digital-footprint",
+   "email-security",
+   "osint",
+   "privacy-tools",
+   "python",
+   "secure-file-deletion",
+   "tkinter",
+   "username-search"
+  ]
+ },
+ {
+  "full_name": "KillaMeep/waypoint-osint",
+  "description": "Free, open-source desktop app that estimates where a photo was taken. Self-contained, Windows, no paid APIs.",
+  "topics": [
+   "computer-vision",
+   "desktop-app",
+   "directml",
+   "geoguessr",
+   "geoint",
+   "geolocation",
+   "geospatial",
+   "image-geolocation",
+   "mapillary",
+   "onnx",
+   "onnxruntime",
+   "openstreetmap",
+   "osint",
+   "osint-tool",
+   "panoramax",
+   "rust",
+   "street-view",
+   "tauri"
+  ]
+ },
+ {
+  "full_name": "TrueFurina/passive-recon",
+  "description": "🕵️ Purely passive OSINT/EASM/CTEM platform — 15+ data sources, zero-touch asset discovery, risk detection",
+  "topics": [
+   "attack-surface-management",
+   "ctem",
+   "cybersecurity",
+   "easm",
+   "external-asset-management",
+   "fastapi",
+   "infosec",
+   "open-source-intelligence",
+   "osint",
+   "passive-recon",
+   "python",
+   "reconnaissance",
+   "security",
+   "subdomain-enumeration",
+   "threat-intelligence"
+  ]
+ },
+ {
+  "full_name": "n11xY/n1xYosint",
+  "description": "Async, plugin-based OSINT recon for usernames, emails & names — 90+ sources, confidence-scored, built for Kali Linux",
+  "topics": [
+   "asyncio",
+   "cli",
+   "email-osint",
+   "kali-linux",
+   "osint",
+   "osint-python",
+   "osint-tool",
+   "pentest-tool",
+   "pentesting",
+   "python3",
+   "recon",
+   "reconnaissance",
+   "security-tools",
+   "username-search-tools"
+  ]
+ },
+ {
+  "full_name": "osintshifu/filegrail",
+  "description": "Trace file provenance, metadata, telemetry, investigative pivots and relationships across files, browser history, OS traces and archives. Local, read-only, no network requests.",
+  "topics": [
+   "c2pa",
+   "cli",
+   "content-credentials",
+   "cybersecurity",
+   "dfir",
+   "digital-forensics",
+   "exif",
+   "file-analysis",
+   "file-metadata",
+   "file-provenance",
+   "forensic-analysis",
+   "forensics",
+   "investigation",
+   "iptc",
+   "metadata",
+   "metadata-analysis",
+   "osint",
+   "provenance",
+   "python",
+   "xmp"
+  ]
+ },
+ {
+  "full_name": "OWASP/OWASP-Open-Source-Intelligence-Standard",
+  "description": "OOVS, the OWASP OSINT Verification Standard. Ten requirements, one acceptance test each, in prose and machine-readable form.",
+  "topics": [
+   "ai-risk",
+   "open-standards",
+   "osint",
+   "owasp",
+   "provenance",
+   "standards",
+   "threat-intelligence",
+   "verification"
+  ]
+ },
+ {
+  "full_name": "k0nrd/COSINT",
+  "description": "Collaborative peer-to-peer OSINT investigation board — end-to-end encrypted, no server-side data, works offline. Desktop app for Windows & Linux.",
+  "topics": [
+   "crdt",
+   "desktop-app",
+   "electron",
+   "end-to-end-encryption",
+   "investigation",
+   "link-analysis",
+   "offline-first",
+   "osint",
+   "p2p",
+   "react",
+   "webrtc",
+   "yjs"
+  ]
+ },
+ {
+  "full_name": "afsh4ck/panoptes",
+  "description": "Open Source Spy Satellite Emulator",
+  "topics": [
+   "map",
+   "osint",
+   "panoptes",
+   "satellite"
+  ]
+ },
+ {
+  "full_name": "ail-project/CCWget",
+  "description": "Common Crawl Wget",
+  "topics": [
+   "cti",
+   "osint"
+  ]
+ },
+ {
+  "full_name": "Mosimann-adv/tarrafa_scraper",
+  "description": "Tarrafa — multi-source CLI for open-web capture and legal inventory (page, site, feed, shot, video, IG, CNPJ, DJEN, Datajud, PDF)",
+  "topics": [
+   "brazil",
+   "cli",
+   "datajud",
+   "digital-evidence",
+   "djen",
+   "legal-tech",
+   "osint",
+   "playwright",
+   "python",
+   "web-archiving",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "prettydeath/wallet-attribution",
+  "description": "Aggregated, multi-chain crypto wallet attribution dataset — exchanges, sanctioned entities, scams, mixers — from free public sources, as CSV + JSON, with live API enrichment.",
+  "topics": [
+   "aml",
+   "bitcoin",
+   "blockchain",
+   "blockchain-forensics",
+   "compliance",
+   "cryptocurrency",
+   "dataset",
+   "ethereum",
+   "exchange-wallets",
+   "ofac",
+   "osint",
+   "proof-of-reserves",
+   "tron",
+   "wallet-attribution"
+  ]
+ },
+ {
+  "full_name": "mcasrom/hybrid-fimi-radar",
+  "description": "Observatorio OSINT de señales de coordinación y amplificación (FIMI como ámbito). Dashboard y API pública, AGPL-3.0.",
+  "topics": [
+   "agpl",
+   "coordination",
+   "disinformation",
+   "fimi",
+   "osint",
+   "python"
+  ]
+ },
+ {
+  "full_name": "abognar-git/poisoned-well",
+  "description": "A Russian propaganda network runs one site per target country - which makes its siblings a control group. Pointed at Hungary's 2026 election, the instrument took away four of my own published findings and left one number standing.",
+  "topics": [
+   "data-journalism",
+   "disinformation",
+   "elections",
+   "hungary",
+   "influence-operations",
+   "information-operations",
+   "investigative-journalism",
+   "media-analysis",
+   "misinformation",
+   "open-source-intelligence",
+   "osint",
+   "propaganda",
+   "python",
+   "threat-intelligence",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "5h4d0wn1k/se2-osint",
+  "description": "OSINT open-source intelligence toolkit - public-source collection and analysis for research.",
+  "topics": [
+   "automation",
+   "cybersecurity",
+   "educational",
+   "infosec",
+   "osint",
+   "phishing-awareness",
+   "python",
+   "security-awareness",
+   "social-engineering"
+  ]
+ },
+ {
+  "full_name": "darama22/Malware-Research-Hub",
+  "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,764 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
+  "topics": [
+   "cybersecurity",
+   "infosec",
+   "malware-analysis",
+   "malware-database",
+   "osint",
+   "security-research",
+   "threat-intelligence"
+  ]
+ },
+ {
+  "full_name": "pazo01/awesome-cyber-ai-arsenal",
+  "description": "A curated collection of offensive, defensive and AI/LLM security tools.",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-security",
+   "blue-team",
+   "bug-bounty",
+   "cybersecurity",
+   "hacking-tools",
+   "infosec",
+   "llm-security",
+   "llm-tools",
+   "osint",
+   "pentesting",
+   "red-team",
+   "security"
+  ]
+ },
+ {
+  "full_name": "scottalt/senior-securityengineer-cybersecuritybookmarks",
+  "description": "A senior security engineer's actual browser bookmarks. 40+ curated cybersecurity resources for recon, OSINT, exploitation, privilege escalation, and malware analysis.",
+  "topics": [
+   "awesome-list",
+   "cybersecurity",
+   "ethical-hacking",
+   "infosec",
+   "malware-analysis",
+   "osint",
+   "pentesting",
+   "privilege-escalation",
+   "red-team",
+   "security-tools"
+  ]
+ },
+ {
+  "full_name": "xXLoneWolf589Xx/snoop-recon-suite",
+  "description": "40+ Modular Security Research and Pentesting Toolkit for OSINT Payload Generation 2026",
+  "topics": [
+   "builder",
+   "cyber-security",
+   "discord-tools",
+   "multi-tools",
+   "multitool",
+   "multitools",
+   "osint",
+   "roblox",
+   "tools"
+  ]
+ },
+ {
+  "full_name": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+  "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
+  "topics": [
+   "active-directory",
+   "bug-bounty",
+   "ctf",
+   "cybersecurity",
+   "ethical-hacking",
+   "hacking",
+   "infosec",
+   "kali-linux",
+   "malware",
+   "mitre-attack",
+   "network-security",
+   "osint",
+   "penetration-testing",
+   "pentesting",
+   "red-team",
+   "reverse-engineering",
+   "roadmap",
+   "security",
+   "security-tools",
+   "web-security"
+  ]
+ },
+ {
+  "full_name": "armourinfosec/Python-for-Security-Professionals",
+  "description": "Python for Security Professionals — lab-driven study notes: language fundamentals, the standard library, concurrency and packaging, then building port scanners, log analysers, and recon tooling. 14 modules, 8 labs, 16 projects, 138 flashcards. CC BY 4.0.",
+  "topics": [
+   "cybersecurity",
+   "ethical-hacking",
+   "infosec",
+   "knowledge-base",
+   "network-security",
+   "obsidian",
+   "osint",
+   "penetration-testing",
+   "port-scanner",
+   "python",
+   "python3",
+   "scapy",
+   "security-automation",
+   "security-tools",
+   "study-notes"
+  ]
+ },
+ {
+  "full_name": "Krishita17/PhantomTap",
+  "description": "A Flipper Zero that stops guessing and starts reasoning: ML-guided RFID/NFC fuzzing & access-control auditing that turns raw card reads into a prioritized, explainable security assessment. Defensive-use only.",
+  "topics": [
+   "access-control",
+   "active-learning",
+   "anomaly-detection",
+   "attack-graph",
+   "bayesian",
+   "counter-surveillance",
+   "defensive-security",
+   "flipper-zero",
+   "hardware-hacking",
+   "information-theory",
+   "mifare",
+   "nfc",
+   "osint",
+   "physical-security",
+   "privacy",
+   "purple-team",
+   "rfid",
+   "security-audit",
+   "threat-detection",
+   "wiegand"
+  ]
+ },
+ {
+  "full_name": "handnewb/hermes-cybersec-lab",
+  "description": "🛡️ Turnkey cybersecurity lab for Hermes Agent — 397 CVE-driven skills, 152 tools, 28 frameworks (MITRE ATT&CK, MISP, CVSS, EPSS, OWASP, NIST, Sigma, YARA). Real exploits 2015–2026.",
+  "topics": [
+   "blue-team",
+   "cisa-kev",
+   "cve",
+   "cybersecurity",
+   "exploit",
+   "hermes",
+   "incident-response",
+   "llm",
+   "mitre-attack",
+   "ollama",
+   "osint",
+   "pentesting",
+   "red-team",
+   "skills",
+   "threat-hunting"
+  ]
+ },
+ {
+  "full_name": "Quincunx33/penbox",
+  "description": "72-in-1 Python CLI penetration testing toolbox — nmap-grade scanning, WPA2 handshake analysis, shellcode engine, hash cracking, OSINT & more. Zero dependencies, cross-platform.",
+  "topics": [
+   "cli",
+   "ctf",
+   "cybersecurity",
+   "ethical-hacking",
+   "forensics",
+   "hacking-tool",
+   "network-scanner",
+   "osint",
+   "password-cracking",
+   "penetration-testing",
+   "pentesting-toolbox",
+   "python",
+   "security",
+   "shellcode",
+   "wireless-audit",
+   "wpa2"
+  ]
+ },
+ {
+  "full_name": "Yaman-RedTeam/ghostphish",
+  "description": "Modern Docker-based phishing framework for authorized red team engagements. 8 pixel-perfect templates (Instagram, Facebook, Netflix, Twitter/X, LinkedIn, Snapchat, Microsoft, Gmail) + Cloudflare tunnel + SQLite capture.",
+  "topics": [
+   "cloudflared",
+   "docker",
+   "fastapi",
+   "osint",
+   "pentesting",
+   "phishing",
+   "red-team",
+   "security-research",
+   "security-tools"
+  ]
+ },
+ {
+  "full_name": "rootbytex/admin-panel-finder",
+  "description": "Authorized admin panel finder and login scanner for WordPress, cPanel, Plesk, Joomla and CMS targets. GET/HEAD only. Python bug-bounty recon.",
+  "topics": [
+   "admin-finder",
+   "admin-panel-finder",
+   "authorized-scanning",
+   "bug-bounty",
+   "cms-detection",
+   "cpanel-finder",
+   "favicon-fingerprinting",
+   "login-finder",
+   "osint",
+   "pentest-tools",
+   "phpmyadmin",
+   "plesk",
+   "python",
+   "recon",
+   "security-tools",
+   "subdomain-scanner",
+   "web-scanner",
+   "web-security",
+   "wordpress-admin-finder",
+   "wp-admin"
+  ]
+ },
+ {
+  "full_name": "hannesegi/tools-google-maps",
+  "description": "🗺️ Free open-source Google Maps scraper — extract business leads (name, phone, email, website, rating, reviews) ranked nearest-first with distance. Web UI + REST API + CLI, written in Go.",
+  "topics": [
+   "business-leads",
+   "crawler",
+   "data-extraction",
+   "email-extractor",
+   "go",
+   "golang",
+   "google-maps",
+   "google-maps-scraper",
+   "lead-generation",
+   "leads",
+   "local-seo",
+   "maps",
+   "osint",
+   "rest-api",
+   "sales-prospecting",
+   "scraper",
+   "web-scraper",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "zyrexdz/proxy-scraper-checker",
+  "description": "Scrapes and checks 1.7M+ free HTTP, SOCKS4, and SOCKS5 proxies from 235 live APIs.",
+  "topics": [
+   "automation",
+   "cli",
+   "cybersecurity",
+   "free-proxy",
+   "http-proxy",
+   "multiprocessing",
+   "osint",
+   "proxies",
+   "proxy-checker",
+   "proxy-list",
+   "proxy-scraper",
+   "python",
+   "rich",
+   "scraping-tool",
+   "socks4",
+   "socks5",
+   "terminal-ui",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "0xgetz/0x-cookies",
+  "description": "OpenBullet-style bulk cookie & session checker powered by real headless Chromium (Playwright). 139 platform configs, web control panel, CLI, proxy rotation.",
+  "topics": [
+   "automation",
+   "bulk-checker",
+   "chromium",
+   "cookie-checker",
+   "credential-checker",
+   "headless-browser",
+   "openbullet",
+   "osint",
+   "playwright",
+   "proxy-rotation",
+   "python",
+   "security-tools",
+   "session-checker",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "5h4d0wn1k/se1-phishing",
+  "description": "Phishing awareness lab - campaign creator, payload sims and end-user training scenarios.",
+  "topics": [
+   "cybersecurity",
+   "educational",
+   "hacking-education",
+   "infosec",
+   "osint",
+   "phishing-awareness",
+   "security-awareness",
+   "social-engineering"
+  ]
+ },
+ {
+  "full_name": "5h4d0wn1k/se4-vishing",
+  "description": "Vishing drill simulator - voice-phishing call scenarios for security-awareness training.",
+  "topics": [
+   "awareness-security",
+   "cybersecurity",
+   "educational",
+   "hacking-education",
+   "osint",
+   "phishing-awareness",
+   "red-team",
+   "security-awareness",
+   "social-engineering"
+  ]
+ },
+ {
+  "full_name": "S1N6H/Bug-Bounty-Skills",
+  "description": "Every great bug bounty skill on GitHub, one repo, refreshed daily — auto-harvested, deduplicated, and credited to every source author",
+  "topics": [
+   "agent-skills",
+   "bugbounty",
+   "claude-code",
+   "claude-skills",
+   "osint",
+   "pentesting",
+   "red-team",
+   "security"
+  ]
+ },
+ {
+  "full_name": "rootdr-backup/Reconner",
+  "description": "Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on your machine.",
+  "topics": [
+   "bug-bounty",
+   "dast",
+   "golang",
+   "osint",
+   "recon",
+   "security",
+   "self-hosted",
+   "vulnerability-scanner"
+  ]
+ },
+ {
+  "full_name": "Ringmast4r/Albania-AI-Diella",
+  "description": "`Web` `HTML` `OSINT` `Archive` - Albania AI Diella OSINT archive: corruption arrests, Iranian cyberattacks, 1.5M+ citizen data leaks, 54k+ documents. Download: https://odint.io/pages/tours/albania https://ringmast4r.github.io/Albania-AI-Diella/MP-PII-VIEWER.html",
+  "topics": [
+   "ai-minister",
+   "albania",
+   "archive",
+   "corruption",
+   "cyberattack",
+   "data-breach",
+   "diella",
+   "government-documents",
+   "html",
+   "investigation",
+   "osint",
+   "web"
+  ]
+ },
+ {
+  "full_name": "Ahmet-Dedeler/free-north-korea",
+  "description": "Open-source intelligence and human-rights hub on North Korea: intel map, missile test explorer, leadership graph, camps and verified data.",
+  "topics": [
+   "collaborate",
+   "community-exchange",
+   "education",
+   "geospatial",
+   "github-copilot",
+   "human-rights",
+   "learn",
+   "maplibre",
+   "north-korea",
+   "open-data",
+   "osint",
+   "sanctions",
+   "student-project"
+  ]
+ },
+ {
+  "full_name": "hannesegi/tools-google-maps",
+  "description": "🗺️ Free open-source Google Maps scraper — extract business leads (name, phone, email, website, rating, reviews) ranked nearest-first with distance. Web UI + REST API + CLI, written in Go.",
+  "topics": [
+   "business-leads",
+   "crawler",
+   "data-extraction",
+   "email-extractor",
+   "go",
+   "golang",
+   "google-maps",
+   "google-maps-scraper",
+   "lead-generation",
+   "leads",
+   "local-seo",
+   "maps",
+   "osint",
+   "rest-api",
+   "sales-prospecting",
+   "scraper",
+   "web-scraper",
+   "web-scraping"
+  ]
+ },
+ {
+  "full_name": "5h4d0wn1k/web5-subdomain",
+  "description": "Web subdomain sweeper - name resolution, wildcard detection and takeover checks.",
+  "topics": [
+   "automation",
+   "csrf",
+   "cybersecurity",
+   "dns-recon",
+   "educational",
+   "network-security",
+   "osint",
+   "owasp-top-10",
+   "sqli",
+   "web-security",
+   "webexploitation",
+   "xss"
+  ]
+ },
+ {
+  "full_name": "cukierrro/Straznik",
+  "description": "Strażnik — nieoficjalne wczesne ostrzeganie o zagrożeniach powietrznych dla Polski. Fuzja sygnałów NEPTUN, mediów, RCB, ADS-B i PAŻP + aplikacja Android.",
+  "topics": [
+   "adsb",
+   "android",
+   "capacitor",
+   "early-warning",
+   "fastapi",
+   "maplibre",
+   "osint",
+   "poland"
+  ]
+ }
+]

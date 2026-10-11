@@ -8,8 +8,9 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
-import requests
 from dotenv import load_dotenv
+
+from github_client import GitHubAPIError, GitHubClient
 
 # Load environment variables from .env file
 load_dotenv()
@@ -17,12 +18,6 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 CACHE_FILE = 'cache.json'
-MAX_RETRIES = 3
-MAX_RATE_LIMIT_WAIT_SECONDS = 120
-
-
-class GitHubAPIError(RuntimeError):
-    """Raised when the GitHub API keeps failing; a partial result must never be published."""
 
 
 @dataclass
@@ -65,14 +60,8 @@ class GitHubCurator:
     def __init__(self, config_path: str = 'config.json'):
         """Initialize curator with configuration"""
         self.config = self._load_config(config_path)
-        self.api_url = "https://api.github.com"
-        self.session = requests.Session()
-        self.session.headers.update({
-            "Authorization": f"token {self.token}",
-            "Accept": "application/vnd.github.v3+json"
-        })
-
-        self._validate_token()
+        self.client = GitHubClient(self.token)
+        self.client.validate_token()
 
     def _load_config(self, config_path: str) -> Dict:
         """Load configuration from file. The token is read from the environment only."""
@@ -138,65 +127,6 @@ class GitHubCurator:
 
         return default_config
 
-    def _validate_token(self):
-        """Validate GitHub token before proceeding (the /rate_limit endpoint works for any token type)"""
-        try:
-            response = self.session.get(f"{self.api_url}/rate_limit", timeout=30)
-        except requests.exceptions.RequestException as e:
-            raise ValueError(f"Failed to validate GitHub token: {e}")
-
-        if response.status_code == 401:
-            raise ValueError("Invalid GitHub token. Please check your token and permissions.")
-        if response.status_code == 200:
-            search_limit = response.json().get('resources', {}).get('search', {})
-            logger.info(f"Token OK. Search rate limit: {search_limit.get('remaining')}/{search_limit.get('limit')}")
-        else:
-            logger.warning(f"Token validation returned: {response.status_code}")
-
-    @staticmethod
-    def _retry_delay(response: requests.Response, attempt: int) -> Optional[float]:
-        """Seconds to wait before retrying a failed response, or None if the failure is not retryable."""
-        status = response.status_code
-        backoff = 2.0 ** (attempt + 1)
-
-        if status >= 500:
-            return backoff
-
-        if status in (403, 429):
-            retry_after = response.headers.get('Retry-After')
-            if retry_after and retry_after.isdigit():
-                wait = float(retry_after)
-            elif response.headers.get('X-RateLimit-Remaining') == '0':
-                reset = int(response.headers.get('X-RateLimit-Reset', 0))
-                wait = max(reset - time.time(), 0) + 1
-            elif status == 429 or any(word in response.text.lower() for word in ('rate limit', 'abuse')):
-                wait = backoff * 5  # secondary rate limit, no timing hint
-            else:
-                return None  # genuine permission error
-            return wait if wait <= MAX_RATE_LIMIT_WAIT_SECONDS else None
-
-        return None
-
-    def _make_api_request(self, url: str, params: Dict = None) -> Dict:
-        """GET a JSON resource, retrying on rate limits, 5xx and network errors. Raises GitHubAPIError on failure."""
-        for attempt in range(MAX_RETRIES + 1):
-            try:
-                response = self.session.get(url, params=params, timeout=30)
-            except requests.exceptions.RequestException as e:
-                error = f"request failed: {e}"
-                delay = 2.0 ** (attempt + 1)
-            else:
-                if response.status_code == 200:
-                    return response.json()
-                error = f"status {response.status_code}: {response.text[:200]}"
-                delay = self._retry_delay(response, attempt)
-
-            if delay is None or attempt == MAX_RETRIES:
-                raise GitHubAPIError(f"API request to {url} failed ({error})")
-            logger.warning(f"API request failed ({error}); retrying in {delay:.0f}s "
-                           f"({attempt + 1}/{MAX_RETRIES})")
-            time.sleep(delay)
-
     def _cutoff_date(self) -> Optional[date]:
         """Oldest acceptable last-push date, or None when the recency filter is disabled."""
         max_age_days = int(self.config['advanced_options'].get('max_age_days', 0))
@@ -250,7 +180,7 @@ class GitHubCurator:
             }
             logger.info(f"Searching repositories: page {page}, query: {effective_query}")
 
-            data = self._make_api_request(f"{self.api_url}/search/repositories", params)
+            data = self.client.get_json(f"{self.client.api_url}/search/repositories", params)
 
             if not data.get('items'):
                 break
