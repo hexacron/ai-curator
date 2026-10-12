@@ -165,6 +165,9 @@ def validate(raw: dict, evidence_text: str) -> Optional[dict]:
     except (KeyError, TypeError, ValueError):
         return None
 
+    if not summary:  # the summary is what the site shows; a reply without one is not a usable review
+        return None
+
     haystack = _normalise(evidence_text)
     verified = [q for q in quotes if _normalise(q) and _normalise(q) in haystack]
     review.update({
@@ -276,6 +279,13 @@ def _review_one(item: dict, client, settings: dict, counts: Counter) -> Optional
     return {'result': result, 'model': used, 'escalated': escalated}
 
 
+def _intact(stored: dict) -> bool:
+    """A stored review is usable unless its text was lost by accident: a blank summary without the deliberate
+    `redacted` marker means damage, and the repository is reviewed again."""
+    result = stored.get('result') or {}
+    return bool(result.get('summary') or result.get('redacted'))
+
+
 def run_reviews(work: List[dict], client, settings: dict, today) -> Counter:
     """Review what needs it, within the per-run call budget, most-starred first.
 
@@ -287,7 +297,7 @@ def run_reviews(work: List[dict], client, settings: dict, today) -> Counter:
     for item in work:
         item['key'] = cache_key(item['record'], item['block'], settings['model'])
         existing = item['record'].get('review')
-        if existing and existing.get('key') == item['key']:
+        if existing and existing.get('key') == item['key'] and _intact(existing):
             counts['cached'] += 1
         elif not needs_review(item['rules'], settings):
             counts['skipped'] += 1

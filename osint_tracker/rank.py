@@ -4,7 +4,8 @@ Gates (a repository failing any is absent from every board):
   - tracked, not gone, not archived, scored, not a clone, not `high` sensitivity
   - scope `core` for every board except `adjacent`; `out` is never scored
   - integrity multiplier at or above `unverified_below`
-`rising` additionally needs sensitivity `none`, emerging status and enough confidence.
+`rising` additionally needs emerging status and enough confidence. `caution`-labelled repositories are included
+(the label stays visible on the page); `high` ones never reach any board.
 """
 from __future__ import annotations
 
@@ -157,8 +158,7 @@ def build_boards(records: List[dict], now: datetime, config: dict, previous_rank
     core = [r for r in eligible if r['class']['scope'] == 'core']
     emerging = [r for r in core if r['score']['status'] == 'emerging']
 
-    rising = [r for r in emerging
-              if r['class']['sensitivity'] == 'none' and r['score']['confidence'] >= settings['min_confidence_rising']]
+    rising = [r for r in emerging if r['score']['confidence'] >= settings['min_confidence_rising']]
     fresh = [r for r in emerging if age_days(r['created_at'], now) <= settings['new_days']]
 
     by_domain = defaultdict(list)

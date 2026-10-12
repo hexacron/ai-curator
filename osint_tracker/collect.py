@@ -161,9 +161,12 @@ def _redact_high_sensitivity(repos: state.Repos) -> None:
     """state.jsonl is public. For repositories of `high` sensitivity keep only identity, labels and counters:
     no description, topics, homepage or model-written text. (Their owner/name remains: it is the identity the
     history is keyed to.) Repositories that never got past triage have no classification, so the rules over
-    their description decide; and because lookup-bot accounts publish many near-identical repositories whose
-    wording the rules do not all recognise, every candidate of an owner with a `high` repository is redacted
-    too. The next run repopulates these fields in memory and redacts again."""
+    their description decide. Lookup-bot accounts publish many near-identical repositories whose wording the
+    rules do not all recognise, so the other repositories of an owner with a `high` repository are redacted
+    too, except ones that are publishable (core or adjacent and not `high`): their text is shown on the site
+    anyway, and wiping their stored model review would cost the summary for good. Redacted reviews carry
+    `redacted: True` so they are not mistaken for damaged ones. The next run repopulates these fields in
+    memory and redacts again."""
     high_ids, high_owners = set(), set()
     for record in repos.values():
         klass = record.get('class')
@@ -177,8 +180,12 @@ def _redact_high_sensitivity(repos: state.Repos) -> None:
             high_ids.add(record['id'])
             high_owners.add(record['owner'].lower())
 
+    def publishable(record: dict) -> bool:
+        klass = record.get('class')
+        return klass is not None and klass['scope'] in ('core', 'adjacent') and klass['sensitivity'] != 'high'
+
     for record in repos.values():
-        if record['id'] not in high_ids and record['owner'].lower() not in high_owners:
+        if record['id'] not in high_ids and (record['owner'].lower() not in high_owners or publishable(record)):
             continue
         record.update({'description': None, 'topics': [], 'homepage': None})
         klass = record.get('class')
@@ -186,7 +193,8 @@ def _redact_high_sensitivity(repos: state.Repos) -> None:
             klass.update({'summary': None, 'strengths': [], 'risks': [], 'llm_reason': None})
         result = (record.get('review') or {}).get('result')
         if result:
-            result.update({'summary': '', 'scope_reason': '', 'strengths': [], 'risks': [], 'utility_evidence': []})
+            result.update({'summary': '', 'scope_reason': '', 'strengths': [], 'risks': [], 'utility_evidence': [],
+                           'redacted': True})
 
 
 def _set_full_name(record: dict, full_name: str) -> None:

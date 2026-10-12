@@ -46,7 +46,7 @@ hole in the history. README text is analysed in memory and never stored.
 | `scope` | `core` (collects/analyzes public information), `adjacent` (infrastructure/ASM, threat intel, or unclassifiable), `out` (offensive kits, training, unrelated scrapers) |
 | `domain` | identity-lookup, breach-exposure, crypto-financial, media-forensics, disinformation, dark-web, knowledge, workspace-analysis, web-capture, transport-sensor, geospatial-imagery, situational-awareness, social-media, infrastructure-asm, threat-intel, `general` (suite spanning several domains or generic OSINT) |
 | `form`, `ai_role` | cli, web-app, bot, mcp-server, agent-skill, ... / none, llm-assisted, agentic, skill-mcp-native |
-| `sensitivity` | `none`, `caution` (listed with a label, kept off Rising), `high` (never published on any board) |
+| `sensitivity` | `none`, `caution` (listed everywhere with a visible label), `high` (never published on any board) |
 
 **Rules** count evidence per pattern as distinct matches (name/description double, README head once,
 author-chosen topics at most one point per domain, so topics can confirm but never decide). README text can
@@ -134,8 +134,8 @@ a blocked repository is out of scope. Repositories match by current or former na
 file raises instead of being ignored.
 
 Board gates: tracked, not gone/archived, scored, not a clone, not `high` sensitivity, integrity at or
-above `unverified_below`. `rising` also needs `sensitivity: none`, emerging status and confidence
->= `min_confidence_rising`; every board allows at most `owner_cap` repositories per owner.
+above `unverified_below`. `rising` also needs emerging status and confidence >= `min_confidence_rising`
+(`caution`-labelled repositories are included); every board allows at most `owner_cap` repositories per owner.
 
 ## Site
 

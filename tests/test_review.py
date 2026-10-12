@@ -328,3 +328,22 @@ def test_three_failures_in_a_row_stop_the_run_instead_of_burning_the_remaining_b
 
     assert len(llm.calls) == review.MAX_CONSECUTIVE_FAILURES == 3
     assert counts['failed'] == 3 and counts['pending'] == 5
+
+
+def test_a_reply_without_a_summary_is_not_a_usable_review():
+    assert review.validate({**VALID_REPLY, 'summary': '   '}, BLOCK) is None
+
+
+def test_a_stored_review_whose_text_was_lost_by_accident_is_reviewed_again_but_a_redacted_one_is_not():
+    damaged = item(1)
+    damaged['record']['review'] = {'key': review.cache_key(damaged['record'], BLOCK, SETTINGS['model']),
+                                   'result': {**valid(), 'summary': ''}}
+    redacted = item(2)
+    redacted['record']['review'] = {'key': review.cache_key(redacted['record'], BLOCK, SETTINGS['model']),
+                                    'result': {**valid(), 'summary': '', 'redacted': True}}
+    llm = FakeLLM()
+
+    counts = run([damaged, redacted], llm)
+
+    assert len(llm.calls) == 1 and counts['cached'] == 1 and counts['reviewed'] == 1
+    assert damaged['record']['review']['result']['summary'] == VALID_REPLY['summary']

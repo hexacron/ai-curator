@@ -373,3 +373,46 @@ def test_redaction_extends_to_every_candidate_of_an_owner_with_a_high_sensitivit
     repos = state.load(str(tmp_path))
     assert repos[1]['description'] is None and repos[2]['description'] is None and repos[2]['homepage'] is None
     assert repos[3]['description'] == 'Generic wording the rules do not recognise'
+
+
+def test_publishable_repos_of_an_owner_with_a_high_sensitivity_repo_keep_their_text_and_their_review(tmp_path):
+    fake = FakeGitHub([
+        make_repo(1, days_ago(40), stars=20, owner='mixed', description='Пробив по номеру телефона: поиск по базам'),
+        make_repo(2, days_ago(40), stars=20, owner='mixed'),             # a legitimate tool by the same owner
+        make_repo(3, days_ago(40), stars=1, owner='mixed', description='Generic wording the rules do not recognise'),
+    ])
+    llm = FakeLLM(reply=lambda user: {**VALID_REPLY, 'summary': 'KEEP-THIS-SUMMARY'})
+
+    run_llm(fake, tmp_path, llm)
+
+    repos = state.load(str(tmp_path))
+    assert repos[1]['class']['sensitivity'] == 'high' and repos[1]['description'] is None
+    assert repos[1]['review']['result']['summary'] == '' and repos[1]['review']['result']['redacted'] is True
+    assert repos[2]['description'] and repos[2]['class']['summary'] == 'KEEP-THIS-SUMMARY'
+    assert repos[2]['review']['result']['summary'] == 'KEEP-THIS-SUMMARY' and 'redacted' not in repos[2]['review']['result']
+    assert repos[3]['description'] is None  # never classified, so it stays redacted
+
+
+def test_redacted_repositories_are_not_reviewed_again_every_run(tmp_path):
+    fake = FakeGitHub([make_repo(1, days_ago(40), stars=20, description='Пробив по номеру телефона: поиск по базам')])
+    llm = FakeLLM()
+    run_llm(fake, tmp_path, llm)
+
+    summary = run_llm(fake, tmp_path, llm, now=NOW + timedelta(days=1))
+
+    assert len(llm.calls) == 1 and summary['llm_calls'] == 0 and summary['review_cached'] == 1
+
+
+def test_a_review_whose_text_was_wiped_by_accident_is_restored_on_the_next_run(tmp_path):
+    fake = FakeGitHub([make_repo(1, days_ago(40), stars=20)])
+    llm = FakeLLM()
+    run_llm(fake, tmp_path, llm)
+    repos = state.load(str(tmp_path))
+    repos[1]['review']['result'].update({'summary': '', 'strengths': [], 'risks': []})   # the old redaction bug
+    state.save(str(tmp_path), repos, NOW)
+
+    summary = run_llm(fake, tmp_path, llm, now=NOW + timedelta(days=1))
+
+    healed = state.load(str(tmp_path))[1]
+    assert summary['llm_calls'] == 1 and healed['review']['result']['summary'] == VALID_REPLY['summary']
+    assert healed['class']['summary'] == VALID_REPLY['summary']

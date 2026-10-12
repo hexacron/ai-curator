@@ -54,11 +54,12 @@ def test_high_sensitivity_is_on_no_board_but_is_counted():
     assert result['excluded']['sensitivity_high_hidden'] == 1
 
 
-def test_caution_is_kept_off_rising_but_listed_elsewhere_with_its_label():
-    result = build([scored(1, sensitivity='caution', age=3)])
+def test_caution_repositories_are_on_rising_and_every_other_board_with_their_label_but_high_never_is():
+    result = build([scored(1, sensitivity='caution', age=3), scored(2, sensitivity='high', age=3)])
 
-    assert ids(result['boards']['rising']) == []
+    assert ids(result['boards']['rising']) == [1]
     assert ids(result['boards']['new']) == [1]
+    assert result['boards']['rising'][0]['sensitivity'] == 'caution'
     assert result['boards']['domains']['social-media'][0]['sensitivity'] == 'caution'
 
 
