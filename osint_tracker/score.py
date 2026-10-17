@@ -38,14 +38,17 @@ def is_scorable(record: dict) -> bool:
                 and (record.get('class') or {}).get('scope') in SCORED_SCOPES)
 
 
-def is_emerging(record: dict, now: datetime, window_days: int) -> bool:
+def is_emerging(record: dict, now: datetime, window_days: int, grace_days: int = 0) -> bool:
     """Created within the window and not carrying older history (mirrors and re-uploads are not emerging).
-    A repository whose first commit could not be looked up yet is given the benefit of the doubt."""
+    The first commit must be inside the window or at most `grace_days` before the repository was created, so a
+    project that published right after a short stretch of private work still counts. A repository whose first
+    commit could not be looked up yet is given the benefit of the doubt."""
     cutoff = now - timedelta(days=window_days)
-    if parse_ts(record['created_at']) < cutoff:
+    created = parse_ts(record['created_at'])
+    if created < cutoff:
         return False
     first_commit = record.get('earliest_commit')
-    return first_commit is None or parse_ts(first_commit) >= cutoff
+    return first_commit is None or parse_ts(first_commit) >= min(cutoff, created - timedelta(days=grace_days))
 
 
 def percentile_ranks(values: List[float]) -> List[float]:
@@ -181,7 +184,8 @@ def score_all(records: List[dict], now: datetime, config: dict) -> int:
     own cohort (emerging vs established) so a viral outlier cannot compress everyone else. Returns the count."""
     scoring = config['scoring']
     scorable = [r for r in records if is_scorable(r)]
-    status = {r['id']: 'emerging' if is_emerging(r, now, config['window_days']) else 'established' for r in scorable}
+    status = {r['id']: 'emerging' if is_emerging(r, now, config['window_days'], config['first_commit_grace_days'])
+              else 'established' for r in scorable}
 
     momentum = {}
     for cohort in ('emerging', 'established'):

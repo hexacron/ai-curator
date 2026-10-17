@@ -51,9 +51,22 @@ def test_the_schema_uses_the_taxonomy_vocabularies_and_only_supported_keywords()
     walk(review.SCHEMA)
 
 
-def test_every_domain_is_described_in_the_prompt():
+def test_every_domain_is_described_in_the_prompt_with_the_scope_tier_the_taxonomy_gives_it():
+    from osint_tracker.classify import DOMAINS
+
     assert set(review.DOMAIN_HELP) == set(DOMAIN_NAMES)
-    assert all(f"- {name}:" in review.SYSTEM for name in DOMAIN_NAMES)
+    for name in DOMAIN_NAMES:
+        tier = DOMAINS[name][0] if name in DOMAINS else 'core'   # "general" has no rules tier: broad OSINT suites are core
+        assert f"- {name} ({tier}):" in review.SYSTEM, name
+
+
+def test_a_new_prompt_version_invalidates_every_stored_review(monkeypatch):
+    record = {'id': 1}
+    before = review.cache_key(record, BLOCK, 'claude-haiku-5-5')
+
+    monkeypatch.setattr(review, 'PROMPT_VERSION', review.PROMPT_VERSION + 1)
+
+    assert review.cache_key(record, BLOCK, 'claude-haiku-5-5') != before
 
 
 def test_repository_text_is_sanitised_and_cannot_close_the_data_block():
@@ -347,3 +360,18 @@ def test_a_stored_review_whose_text_was_lost_by_accident_is_reviewed_again_but_a
 
     assert len(llm.calls) == 1 and counts['cached'] == 1 and counts['reviewed'] == 1
     assert damaged['record']['review']['result']['summary'] == VALID_REPLY['summary']
+
+
+def test_a_domains_tier_caps_the_scope_the_model_attached_to_it():
+    asm = review.merge(rules('adjacent', domain=None, confidence=0.1), valid(scope='core', domain='infrastructure-asm'), SETTINGS)
+    intel = review.merge(rules('core', domain='social-media'), valid(scope='core', domain='threat-intel'), SETTINGS)
+
+    assert (asm['scope'], asm['domain']) == ('adjacent', 'infrastructure-asm')
+    assert (intel['scope'], intel['domain']) == ('adjacent', 'threat-intel')
+
+
+def test_the_tier_cap_leaves_core_domains_general_and_narrower_scopes_alone():
+    assert review.merge(rules('core'), valid(scope='core', domain='media-forensics'), SETTINGS)['scope'] == 'core'
+    assert review.merge(rules('core'), valid(scope='core', domain='general'), SETTINGS)['scope'] == 'core'
+    assert review.merge(rules('core'), valid(scope='out', domain='none'), SETTINGS)['scope'] == 'out'
+    assert review.merge(rules('core'), valid(scope='adjacent', domain='knowledge'), SETTINGS)['scope'] == 'adjacent'

@@ -26,3 +26,14 @@ def test_llm_and_privacy_defaults_are_valid_and_overridable(tmp_path):
 def test_bad_llm_settings_raise(tmp_path, llm):
     with pytest.raises(ValueError):
         load(tmp_path, {'llm': llm})
+
+
+@pytest.mark.parametrize('value', [-1, 'two weeks', 1.5])
+def test_a_bad_first_commit_grace_raises(tmp_path, value):
+    with pytest.raises(ValueError):
+        load(tmp_path, {'first_commit_grace_days': value})
+
+
+def test_the_grace_period_defaults_to_two_weeks_and_can_be_overridden(tmp_path):
+    assert load_config('does-not-exist.json')['first_commit_grace_days'] == 14
+    assert load(tmp_path, {'first_commit_grace_days': 0})['first_commit_grace_days'] == 0

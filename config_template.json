@@ -36,6 +36,7 @@
 
   "osint": {
     "window_days": 90,
+    "first_commit_grace_days": 14,
     "topics": [
       "osint", "osint-tools", "osint-tool", "osint-framework", "osint-python",
       "osint-resources", "osint-reconnaissance", "open-source-intelligence",

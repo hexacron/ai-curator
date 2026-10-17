@@ -1,7 +1,8 @@
 # osint_tracker
 
-Tracks **emerging** OSINT repositories: those created within the last `window_days` (default 90), and
-whose first commit is also inside that window. Each daily run records every candidate's star and fork
+Tracks **emerging** OSINT repositories: those created within the last `window_days` (default 90), whose
+first commit is also recent (at most `first_commit_grace_days`, default 14, before creation, so a short stretch
+of private work does not disqualify a project; a longer history means a mirror or re-upload). Each daily run records every candidate's star and fork
 counts, enriches and classifies the promising ones (rules, then an optional LLM review), scores them, and
 writes ranked boards. Star history cannot be back-filled (GitHub's stargazer endpoints are not available),
 so the earlier this runs, the better the momentum data.
@@ -74,8 +75,8 @@ neutralised). It can only *reduce* exposure:
 - stars, license and activity never come from the model
 
 **Budget and failure.** At most `max_calls_per_run` API requests per run (escalations count), most-starred
-repositories first; the rest wait for the next run. Reviews are cached by a key over the prompt version,
-model, repository id and everything the model saw, so unchanged repositories cost nothing. A stored review
+repositories first; the rest wait for the next run. Reviews are cached by a key over the prompt version
+(`PROMPT_VERSION` in `review.py`; raising it re-reviews everything, which costs cents), model, repository id and everything the model saw, so unchanged repositories cost nothing. A stored review
 keeps applying until a new one replaces it. A rejected key stops LLM use for the run; three failures in a
 row do the same; neither fails the run. Repositories the rules reject with confidence are never sent.
 

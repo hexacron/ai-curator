@@ -68,6 +68,32 @@ def test_emerging_requires_creation_and_first_commit_inside_the_window():
     assert score.is_emerging(record(age=30, earliest_commit=None), NOW, 90)  # not looked up yet
 
 
+def test_a_short_stretch_of_private_work_before_publishing_does_not_make_a_repo_established():
+    just_outside_window = ts(days_ago(93))   # created 80 days ago: first commit 13 days before creation
+    too_early = ts(days_ago(100))            # 20 days before creation
+
+    assert not score.is_emerging(record(age=80, earliest_commit=just_outside_window), NOW, 90)  # no grace
+    assert score.is_emerging(record(age=80, earliest_commit=just_outside_window), NOW, 90, grace_days=14)
+    assert not score.is_emerging(record(age=80, earliest_commit=too_early), NOW, 90, grace_days=14)
+
+
+def test_the_grace_period_never_rescues_a_mirror_or_reupload_with_a_long_history():
+    assert not score.is_emerging(record(age=5, earliest_commit=ts(days_ago(400))), NOW, 90, grace_days=14)
+    assert not score.is_emerging(record(age=5, earliest_commit=ts(days_ago(120))), NOW, 90, grace_days=14)
+    assert score.is_emerging(record(age=5, earliest_commit=ts(days_ago(60))), NOW, 90, grace_days=14)  # inside the window
+
+
+def test_score_all_applies_the_configured_grace_period():
+    rec = record(1, age=80, earliest_commit=ts(days_ago(93)))
+    strict = {**CONFIG, 'first_commit_grace_days': 0}
+
+    score.score_all([rec], NOW, strict)
+    assert rec['score']['status'] == 'established'
+
+    score.score_all([rec], NOW, CONFIG)  # the default grace is 14 days
+    assert rec['score']['status'] == 'emerging'
+
+
 # --- integrity --------------------------------------------------------------------------------------
 
 def test_a_clean_repository_has_full_integrity():

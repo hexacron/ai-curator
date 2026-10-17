@@ -9,6 +9,9 @@ from typing import Any, Dict
 DEFAULTS: Dict[str, Any] = {
     # A repository is "emerging" while it was created within this many days.
     'window_days': 90,
+    # A first commit may predate the repository's creation by this many days (private work before publishing)
+    # without disqualifying it; a longer history means a mirror or re-upload of older work.
+    'first_commit_grace_days': 14,
     # GitHub topics swept for candidates. OSINT-specific only; broad ones (reconnaissance,
     # threat-intelligence, geolocation) would multiply the tracked set with mostly out-of-scope repos.
     'topics': [
@@ -111,6 +114,8 @@ def _merge(base: Dict[str, Any], override: Dict[str, Any], where: str) -> None:
 def _validate(config: Dict[str, Any]) -> None:
     if not isinstance(config['window_days'], int) or config['window_days'] < 1:
         raise ValueError("osint.window_days must be a positive integer")
+    if not isinstance(config['first_commit_grace_days'], int) or config['first_commit_grace_days'] < 0:
+        raise ValueError("osint.first_commit_grace_days must be a non-negative integer")
     topics = config['topics']
     if not isinstance(topics, list) or not topics or not all(isinstance(t, str) and t.strip() for t in topics):
         raise ValueError("osint.topics must be a non-empty list of topic names")

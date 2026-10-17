@@ -11,10 +11,10 @@
   const ui = {};
 
   const BOARD_HELP = {
-    rising: `Created and first committed in the last ${data.window_days} days, integrity checks passed, enough history to trust. Projects that handle personal data are included and labelled; use the filter to hide them. Momentum-weighted score.`,
+    rising: `Created in the last ${data.window_days} days and not a mirror or re-upload of older work, integrity checks passed, enough history to trust. Projects that handle personal data are included and labelled; use the filter to hide them. Momentum-weighted score.`,
     new: `Created in the last ${L.NEW_DAYS} days. Early signals only: lower confidence, ranked by the same momentum-weighted score.`,
-    established: 'Past the emerging window, or carrying older history. Quality-weighted score.',
-    adjacent: 'Infrastructure and attack-surface recon, threat intelligence, and projects the classifier could not place. Scored at 0.6 relevance.',
+    established: 'Past the emerging window, or carrying a long history from before the repository was created. Quality-weighted score.',
+    adjacent: 'Infrastructure and attack-surface recon, threat intelligence, broader tools where OSINT is one feature among many, and projects the classifier could not place. Scored at 0.6 relevance.',
     domains: 'The best projects in each domain, emerging and established. Quality-weighted score.',
   };
 
