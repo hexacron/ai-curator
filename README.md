@@ -1,34 +1,34 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-10-17 16:01:58 UTC*
+*Last updated: 2026-10-18 10:01:41 UTC*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 381
-- **Total Stars**: 782,681
+- **Total Repositories**: 382
+- **Total Stars**: 784,628
 
 ### 🔥 Top Languages
 - **Python**: 270 repositories
 - **Go**: 50 repositories
 - **JavaScript**: 38 repositories
-- **Rust**: 23 repositories
+- **Rust**: 24 repositories
 
 ### 🏷️ Popular Topics
 - `security` (134)
-- `cybersecurity` (111)
+- `cybersecurity` (112)
 - `llm` (110)
-- `mcp` (101)
+- `mcp` (102)
 - `ai-agents` (93)
 - `python` (87)
 - `osint` (85)
-- `ai` (78)
+- `ai` (79)
 - `claude-code` (68)
 - `ai-security` (66)
 
 ## ⭐ Top Repositories
 
 ### 1. [ECC](https://github.com/affaan-m/ECC)
-**282,094 ⭐** | **JavaScript** | Updated: 2026-10-15
+**282,872 ⭐** | **JavaScript** | Updated: 2026-10-15
 
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
@@ -37,7 +37,7 @@ The agent harness performance optimization system. Skills, instincts, memory, se
 ---
 
 ### 2. [quivr](https://github.com/The-Vibe-Company/quivr)
-**39,596 ⭐** | **Go** | Updated: 2026-10-15
+**39,598 ⭐** | **Go** | Updated: 2026-10-15
 
 An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.
 
@@ -46,7 +46,7 @@ An open-source engine that turns continuous content streams into search and moni
 ---
 
 ### 3. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**34,600 ⭐** | **Python** | Updated: 2026-08-31
+**34,636 ⭐** | **Python** | Updated: 2026-08-31
 
 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
 
@@ -55,7 +55,7 @@ An open-source engine that turns continuous content streams into search and moni
 ---
 
 ### 4. [gitleaks](https://github.com/gitleaks/gitleaks)
-**30,067 ⭐** | **Go** | Updated: 2026-09-30
+**30,085 ⭐** | **Go** | Updated: 2026-09-30
 
 Find secrets with Gitleaks 🔑
 
@@ -64,7 +64,7 @@ Find secrets with Gitleaks 🔑
 ---
 
 ### 5. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**20,583 ⭐** | **Python** | Updated: 2026-10-12
+**20,589 ⭐** | **Python** | Updated: 2026-10-12
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
 
@@ -73,7 +73,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 ---
 
 ### 6. [SkillSpector](https://github.com/NVIDIA/SkillSpector)
-**20,415 ⭐** | **Python** | Updated: 2026-10-17
+**20,455 ⭐** | **Python** | Updated: 2026-10-17
 
 Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
 
@@ -91,7 +91,7 @@ open-source agentic AI data assistant for the next generation of AI + Data produ
 ---
 
 ### 8. [bytebase](https://github.com/bytebase/bytebase)
-**14,591 ⭐** | **Go** | Updated: 2026-10-17
+**14,601 ⭐** | **Go** | Updated: 2026-10-18
 
 Database governance built for humans and agents — controlling changes and access across every major database.
 
@@ -100,7 +100,7 @@ Database governance built for humans and agents — controlling changes and acce
 ---
 
 ### 9. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
-**12,930 ⭐** | **JavaScript** | Updated: 2026-10-16
+**12,932 ⭐** | **JavaScript** | Updated: 2026-10-16
 
 All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, statusline, magic docs, WebFetch, Bash cmd, security review, agent creation). Updated for each Claude Code version.
 
@@ -109,7 +109,7 @@ All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agen
 ---
 
 ### 10. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**12,881 ⭐** | **Python** | Updated: 2026-08-03
+**12,896 ⭐** | **Python** | Updated: 2026-08-03
 
 HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
 
@@ -118,7 +118,7 @@ HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, G
 ---
 
 ### 11. [ironclaw](https://github.com/nearai/ironclaw)
-**12,658 ⭐** | **Rust** | Updated: 2026-10-13
+**12,661 ⭐** | **Rust** | Updated: 2026-10-18
 
 IronClaw is an Agent OS focused on privacy, security and extensibility
 
@@ -127,7 +127,7 @@ IronClaw is an Agent OS focused on privacy, security and extensibility
 ---
 
 ### 12. [vuls](https://github.com/future-architect/vuls)
-**12,286 ⭐** | **Go** | Updated: 2026-10-16
+**12,286 ⭐** | **Go** | Updated: 2026-10-18
 
 Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
 
@@ -136,7 +136,7 @@ Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Progr
 ---
 
 ### 13. [Crucix](https://github.com/calesthio/Crucix)
-**12,127 ⭐** | **JavaScript** | Updated: 2026-05-20
+**12,128 ⭐** | **JavaScript** | Updated: 2026-05-20
 
 Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
 
@@ -145,7 +145,7 @@ Your personal intelligence agent. Watches the world from multiple data sources a
 ---
 
 ### 14. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**11,335 ⭐** | **Python** | Updated: 2026-10-16
+**11,338 ⭐** | **Python** | Updated: 2026-10-16
 
 Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.
 
@@ -154,7 +154,7 @@ Open-source intelligence for the global theater. Track everything from the corpo
 ---
 
 ### 15. [lamda](https://github.com/firerpa/lamda)
-**8,618 ⭐** | **Python** | Updated: 2026-09-27
+**8,619 ⭐** | **Python** | Updated: 2026-09-27
 
 Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.
 
@@ -162,8 +162,17 @@ Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/
 
 ---
 
-### 16. [robin](https://github.com/apurvsinghgautam/robin)
-**7,570 ⭐** | **Python** | Updated: 2026-10-03
+### 16. [xerj](https://github.com/xerj-org/xerj)
+**8,096 ⭐** | **Rust** | Updated: 2026-10-18
+
+XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.
+
+**Topics**: `ai-search` `ai-search-algorithms` `ai-search-engine` `ai-search-free` `ai-search-module`
+
+---
+
+### 17. [robin](https://github.com/apurvsinghgautam/robin)
+**7,586 ⭐** | **Python** | Updated: 2026-10-03
 
 AI-Powered Dark Web OSINT Tool
 
@@ -171,17 +180,8 @@ AI-Powered Dark Web OSINT Tool
 
 ---
 
-### 17. [xerj](https://github.com/xerj-org/xerj)
-**7,517 ⭐** | **Rust** | Updated: 2026-10-17
-
-XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.
-
-**Topics**: `ai-search` `ai-search-algorithms` `ai-search-engine` `ai-search-free` `ai-search-module`
-
----
-
 ### 18. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**6,892 ⭐** | **Python** | Updated: 2026-10-17
+**6,899 ⭐** | **Python** | Updated: 2026-10-17
 
 A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
 
@@ -190,7 +190,7 @@ A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skil
 ---
 
 ### 19. [faraday](https://github.com/infobyte/faraday)
-**6,781 ⭐** | **Python** | Updated: 2026-10-06
+**6,792 ⭐** | **Python** | Updated: 2026-10-06
 
 Open-source and AI-powered cybersecurity tools for offensive security, vulnerability management, and autonomous pentesting. Built by hackers in Latin America, used worldwide.
 
@@ -199,7 +199,7 @@ Open-source and AI-powered cybersecurity tools for offensive security, vulnerabi
 ---
 
 ### 20. [osmedeus](https://github.com/j3ssie/osmedeus)
-**6,601 ⭐** | **Go** | Updated: 2026-10-04
+**6,602 ⭐** | **Go** | Updated: 2026-10-04
 
 A Modern Orchestration Engine for Security
 
