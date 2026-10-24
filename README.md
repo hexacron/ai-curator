@@ -1,34 +1,34 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-10-23 10:37:54 UTC*
+*Last updated: 2026-10-24 09:56:24 UTC*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 379
-- **Total Stars**: 808,860
+- **Total Repositories**: 380
+- **Total Stars**: 810,806
 
 ### 🔥 Top Languages
-- **Python**: 271 repositories
+- **Python**: 272 repositories
 - **Go**: 49 repositories
 - **JavaScript**: 37 repositories
 - **Rust**: 22 repositories
 
 ### 🏷️ Popular Topics
-- `security` (135)
-- `cybersecurity` (112)
+- `security` (136)
+- `cybersecurity` (113)
 - `llm` (106)
-- `mcp` (103)
-- `ai-agents` (94)
+- `mcp` (104)
+- `ai-agents` (95)
 - `python` (87)
 - `osint` (85)
 - `ai` (79)
-- `claude-code` (71)
-- `ai-security` (69)
+- `claude-code` (72)
+- `ai-security` (70)
 
 ## ⭐ Top Repositories
 
 ### 1. [ECC](https://github.com/affaan-m/ECC)
-**286,864 ⭐** | **JavaScript** | Updated: 2026-10-20
+**287,583 ⭐** | **JavaScript** | Updated: 2026-10-20
 
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
@@ -37,7 +37,7 @@ The agent harness performance optimization system. Skills, instincts, memory, se
 ---
 
 ### 2. [quivr](https://github.com/The-Vibe-Company/quivr)
-**39,603 ⭐** | **Go** | Updated: 2026-10-21
+**39,602 ⭐** | **Go** | Updated: 2026-10-21
 
 An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.
 
@@ -46,7 +46,7 @@ An open-source engine that turns continuous content streams into search and moni
 ---
 
 ### 3. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**34,885 ⭐** | **Python** | Updated: 2026-08-31
+**34,927 ⭐** | **Python** | Updated: 2026-08-31
 
 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
 
@@ -55,7 +55,7 @@ An open-source engine that turns continuous content streams into search and moni
 ---
 
 ### 4. [gitleaks](https://github.com/gitleaks/gitleaks)
-**30,253 ⭐** | **Go** | Updated: 2026-09-30
+**30,286 ⭐** | **Go** | Updated: 2026-10-23
 
 Find secrets with Gitleaks 🔑
 
@@ -64,7 +64,7 @@ Find secrets with Gitleaks 🔑
 ---
 
 ### 5. [SkillSpector](https://github.com/NVIDIA/SkillSpector)
-**21,042 ⭐** | **Python** | Updated: 2026-10-23
+**21,153 ⭐** | **Python** | Updated: 2026-10-23
 
 Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
 
@@ -73,7 +73,7 @@ Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns
 ---
 
 ### 6. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**20,620 ⭐** | **Python** | Updated: 2026-10-19
+**20,629 ⭐** | **Python** | Updated: 2026-10-19
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
 
@@ -82,7 +82,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 ---
 
 ### 7. [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
-**20,185 ⭐** | **Python** | Updated: 2026-10-23
+**20,186 ⭐** | **Python** | Updated: 2026-10-23
 
 open-source agentic AI data assistant for the next generation of AI + Data products.
 
@@ -91,7 +91,7 @@ open-source agentic AI data assistant for the next generation of AI + Data produ
 ---
 
 ### 8. [prowler](https://github.com/prowler-cloud/prowler)
-**15,089 ⭐** | **Python** | Updated: 2026-10-23
+**15,095 ⭐** | **Python** | Updated: 2026-10-23
 
 This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment for Humans and AI Agents.
 
@@ -100,7 +100,7 @@ This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s mos
 ---
 
 ### 9. [bytebase](https://github.com/bytebase/bytebase)
-**14,622 ⭐** | **Go** | Updated: 2026-10-23
+**14,626 ⭐** | **Go** | Updated: 2026-10-23
 
 Database governance built for humans and agents — controlling changes and access across every major database.
 
@@ -109,7 +109,7 @@ Database governance built for humans and agents — controlling changes and acce
 ---
 
 ### 10. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**13,029 ⭐** | **Python** | Updated: 2026-08-03
+**13,053 ⭐** | **Python** | Updated: 2026-08-03
 
 HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
 
@@ -118,7 +118,7 @@ HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, G
 ---
 
 ### 11. [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)
-**12,976 ⭐** | **JavaScript** | Updated: 2026-10-22
+**12,984 ⭐** | **JavaScript** | Updated: 2026-10-22
 
 All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, statusline, magic docs, WebFetch, Bash cmd, security review, agent creation). Updated for each Claude Code version.
 
@@ -127,7 +127,7 @@ All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agen
 ---
 
 ### 12. [ironclaw](https://github.com/nearai/ironclaw)
-**12,670 ⭐** | **Rust** | Updated: 2026-10-23
+**12,673 ⭐** | **Rust** | Updated: 2026-10-23
 
 IronClaw is an Agent OS focused on privacy, security and extensibility
 
@@ -136,7 +136,7 @@ IronClaw is an Agent OS focused on privacy, security and extensibility
 ---
 
 ### 13. [vuls](https://github.com/future-architect/vuls)
-**12,299 ⭐** | **Go** | Updated: 2026-10-21
+**12,302 ⭐** | **Go** | Updated: 2026-10-21
 
 Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
 
@@ -145,7 +145,7 @@ Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Progr
 ---
 
 ### 14. [Crucix](https://github.com/calesthio/Crucix)
-**12,135 ⭐** | **JavaScript** | Updated: 2026-05-20
+**12,138 ⭐** | **JavaScript** | Updated: 2026-05-20
 
 Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.
 
@@ -154,7 +154,7 @@ Your personal intelligence agent. Watches the world from multiple data sources a
 ---
 
 ### 15. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**11,353 ⭐** | **Python** | Updated: 2026-10-22
+**11,357 ⭐** | **Python** | Updated: 2026-10-23
 
 Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.
 
@@ -163,7 +163,7 @@ Open-source intelligence for the global theater. Track everything from the corpo
 ---
 
 ### 16. [lamda](https://github.com/firerpa/lamda)
-**8,650 ⭐** | **Python** | Updated: 2026-09-27
+**8,651 ⭐** | **Python** | Updated: 2026-09-27
 
 Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.
 
@@ -172,7 +172,7 @@ Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/
 ---
 
 ### 17. [robin](https://github.com/apurvsinghgautam/robin)
-**7,640 ⭐** | **Python** | Updated: 2026-10-03
+**7,650 ⭐** | **Python** | Updated: 2026-10-03
 
 AI-Powered Dark Web OSINT Tool
 
@@ -181,7 +181,7 @@ AI-Powered Dark Web OSINT Tool
 ---
 
 ### 18. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**7,016 ⭐** | **Python** | Updated: 2026-10-22
+**7,074 ⭐** | **Python** | Updated: 2026-10-22
 
 A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
 
@@ -190,7 +190,7 @@ A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skil
 ---
 
 ### 19. [faraday](https://github.com/infobyte/faraday)
-**6,817 ⭐** | **Python** | Updated: 2026-10-21
+**6,816 ⭐** | **Python** | Updated: 2026-10-21
 
 Open-source and AI-powered cybersecurity tools for offensive security, vulnerability management, and autonomous pentesting. Built by hackers in Latin America, used worldwide.
 
@@ -199,7 +199,7 @@ Open-source and AI-powered cybersecurity tools for offensive security, vulnerabi
 ---
 
 ### 20. [osmedeus](https://github.com/j3ssie/osmedeus)
-**6,616 ⭐** | **Go** | Updated: 2026-10-04
+**6,618 ⭐** | **Go** | Updated: 2026-10-04
 
 A Modern Orchestration Engine for Security
 
