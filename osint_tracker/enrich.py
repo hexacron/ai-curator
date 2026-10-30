@@ -5,21 +5,13 @@ import logging
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 
-from github_client import GitHubAPIError, GitHubClient
+from github_client import README_GRAPHQL_FIELDS, GitHubAPIError, GitHubClient, find_readme
 from osint_tracker import readme as readme_facts
 from osint_tracker.clock import format_ts
 
 logger = logging.getLogger(__name__)
 
 BATCH_SIZE = 10  # README text makes responses large; 10 repositories cost 1 GraphQL point
-
-# GitHub renders a README from these locations; other spellings are treated as "no README".
-README_PATHS = ['README.md', 'readme.md', 'Readme.md', 'README.rst', 'README.txt', 'README',
-                '.github/README.md', 'docs/README.md']
-
-_README_FIELDS = '\n'.join(
-    f'      readme{i}: object(expression: "HEAD:{path}") {{ ... on Blob {{ byteSize text }} }}'
-    for i, path in enumerate(README_PATHS))
 
 QUERY = """
 query($ids: [ID!]!, $since: GitTimestamp!) {
@@ -56,7 +48,7 @@ __README__
     }
   }
 }
-""".replace('__README__', _README_FIELDS)
+""".replace('__README__', README_GRAPHQL_FIELDS)
 
 _TEST_DIRS = {'tests', 'test', 'spec', 'specs', '__tests__', 'testing'}
 _TEST_FILES = {'pytest.ini', 'tox.ini', 'conftest.py', 'jest.config.js', 'jest.config.ts', 'vitest.config.ts', 'vitest.config.js'}
@@ -95,8 +87,7 @@ def _repo_files(root: List[str], workflows: List[str]) -> Dict[str, bool]:
 def _parse(node: dict) -> dict:
     """Flatten one GraphQL repository node. `readme_text` is returned for in-memory use only."""
     owner = node.get('owner') or {}
-    readme_index = next((i for i in range(len(README_PATHS)) if node.get(f'readme{i}')), None)
-    readme = node[f'readme{readme_index}'] if readme_index is not None else None
+    readme_path, readme = find_readme(node)
 
     commit = ((node.get('defaultBranchRef') or {}).get('target')) or {}
     recent = commit.get('recent') or {}
@@ -104,7 +95,7 @@ def _parse(node: dict) -> dict:
                for c in recent.get('nodes') or [] if c.get('author')}
     latest = (commit.get('latest') or {}).get('nodes') or []
     readme_summary = readme_facts.analyze((readme or {}).get('text'), (readme or {}).get('byteSize') or 0)
-    readme_summary['path'] = README_PATHS[readme_index] if readme_index is not None else None
+    readme_summary['path'] = readme_path
 
     return {
         'name': node['nameWithOwner'],

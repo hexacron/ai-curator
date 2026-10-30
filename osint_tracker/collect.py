@@ -8,8 +8,9 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from typing import Callable, Dict, List, Optional
 
+import text_digest as digest
 from github_client import GitHubAPIError, GitHubClient
-from osint_tracker import classify, curation, digest, discover, enrich, identify, rank, review, score, state, triage
+from osint_tracker import classify, curation, discover, enrich, identify, rank, review, score, state, triage
 
 logger = logging.getLogger(__name__)
 

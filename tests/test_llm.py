@@ -2,8 +2,8 @@ import json
 
 import pytest
 
-from osint_tracker import llm
-from osint_tracker.llm import AnthropicClient, LLMAuthError, LLMError
+import llm_client as llm
+from llm_client import AnthropicClient, LLMAuthError, LLMError
 
 KEY = 'sk-ant-test-secret-value'
 SCHEMA = {'type': 'object', 'properties': {'a': {'type': 'integer'}}, 'required': ['a'], 'additionalProperties': False}

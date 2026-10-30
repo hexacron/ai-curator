@@ -34,6 +34,19 @@
     "api_delay_seconds": 1.5
   },
 
+  "llm": {
+    "enabled": true,
+    "model": "claude-haiku-5-5",
+    "confirm_model": "claude-sonnet-5-5",
+    "effort": "low",
+    "max_calls_per_run": 450,
+    "max_tokens": 1500,
+    "timeout_seconds": 90,
+    "min_confidence_to_hide": 0.7,
+    "retain_days": 30,
+    "data_dir": "data/curator"
+  },
+
   "osint": {
     "window_days": 90,
     "first_commit_grace_days": 14,

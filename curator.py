@@ -2,7 +2,9 @@ import hashlib
 import json
 import logging
 import os
+import re
 import time
+from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -10,7 +12,9 @@ from typing import Dict, List, Optional
 
 from dotenv import load_dotenv
 
+from curator_review import ReviewStore, category_label, review_repos
 from github_client import GitHubAPIError, GitHubClient
+from llm_client import AnthropicClient
 
 # Load environment variables from .env file
 load_dotenv()
@@ -18,6 +22,60 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 CACHE_FILE = 'cache.json'
+
+# Output order: core projects first, then adjacent ones and repositories that have no review, off-topic last.
+RELEVANCE_TIER = {'core': 2, 'adjacent': 1, 'off_topic': 0}
+UNREVIEWED_TIER = RELEVANCE_TIER['adjacent']
+
+_FROM_ENV = object()   # default for GitHubCurator(llm=...): build the review client from ANTHROPIC_API_KEY
+
+_MARKDOWN_SPECIAL = re.compile(r'([\\`*_{}\[\]<>()#+!|~])')
+
+
+def _md(text: str) -> str:
+    """One line of untrusted text made safe to put in the generated README: whitespace collapsed and everything
+    markdown or GitHub's renderer would interpret (links, images, HTML, emphasis, headings) escaped."""
+    escaped = _MARKDOWN_SPECIAL.sub(r'\\\1', ' '.join(text.split()))
+    escaped = re.sub(r'^(\d+)\.', r'\1\\.', escaped)   # "1. x" would start an ordered list: escape the dot
+    return re.sub(r'^-', r'\\-', escaped)                # and "- x" a bullet list
+
+
+LLM_DEFAULTS = {
+    # Review needs ANTHROPIC_API_KEY (Actions secret / .env). Without it only stored reviews apply.
+    'enabled': True,
+    'model': 'claude-haiku-5-5',
+    # An off-topic verdict hides a repository only if this model confirms it; '' hides on the first answer alone.
+    'confirm_model': 'claude-sonnet-5-5',
+    'effort': 'low',
+    # Hard budget of API requests per run (confirmations count); unreviewed repositories wait for the next run.
+    'max_calls_per_run': 450,
+    'max_tokens': 1500,
+    'timeout_seconds': 90,
+    # An off-topic verdict below this confidence leaves the repository visible.
+    'min_confidence_to_hide': 0.7,
+    # Stored reviews of repositories absent from the list for this long are forgotten.
+    'retain_days': 30,
+    'data_dir': 'data/curator',
+}
+
+
+def _validate_llm_settings(settings: Dict) -> None:
+    """The llm section is checked strictly: a typo here would silently change what is hidden or what is spent."""
+    unknown = set(settings) - set(LLM_DEFAULTS)
+    if unknown:
+        raise ValueError(f"Unknown llm setting(s): {', '.join(sorted(unknown))}")
+    if not isinstance(settings['model'], str) or not settings['model'].strip():
+        raise ValueError("llm.model must be a model id")
+    if not isinstance(settings['confirm_model'], str):
+        raise ValueError("llm.confirm_model must be a model id, or '' to hide on the first answer")
+    if settings['effort'] not in ('low', 'medium', 'high', 'xhigh', 'max'):
+        raise ValueError("llm.effort must be one of low, medium, high, xhigh, max")
+    if settings['max_calls_per_run'] < 0 or settings['max_tokens'] < 1 or settings['timeout_seconds'] <= 0:
+        raise ValueError("llm.max_calls_per_run must not be negative; max_tokens and timeout_seconds must be positive")
+    if not 0 <= settings['min_confidence_to_hide'] <= 1:
+        raise ValueError("llm.min_confidence_to_hide must be between 0 and 1")
+    if settings['retain_days'] < 1:
+        raise ValueError("llm.retain_days must be at least 1")
 
 
 @dataclass
@@ -34,6 +92,9 @@ class RepoInfo:
     license_name: Optional[str]
     is_fork: bool = False
     size_kb: int = 0
+    repo_id: int = 0
+    node_id: str = ''
+    review: Optional[Dict] = None   # verdict from curator_review (None until the repository has been reviewed)
 
     @classmethod
     def from_github_api(cls, repo_data: Dict) -> 'RepoInfo':
@@ -50,18 +111,27 @@ class RepoInfo:
             topics=repo_data.get('topics') or [],
             license_name=license_info.get('name'),
             is_fork=bool(repo_data.get('fork')),
-            size_kb=repo_data.get('size') or 0
+            size_kb=repo_data.get('size') or 0,
+            repo_id=repo_data.get('id') or 0,
+            node_id=repo_data.get('node_id') or ''
         )
 
 
 class GitHubCurator:
     """GitHub repository curator"""
 
-    def __init__(self, config_path: str = 'config.json'):
-        """Initialize curator with configuration"""
+    def __init__(self, config_path: str = 'config.json', llm=_FROM_ENV):
+        """Initialize curator with configuration. `llm` is the review client: by default it is built from
+        ANTHROPIC_API_KEY when review is enabled; pass None to turn review off."""
         self.config = self._load_config(config_path)
         self.client = GitHubClient(self.token)
         self.client.validate_token()
+        settings = self.config['llm']
+        if llm is _FROM_ENV:
+            llm = AnthropicClient.from_env(settings['timeout_seconds']) if settings['enabled'] else None
+            logger.info("LLM review on" if llm else "LLM review off (disabled, or ANTHROPIC_API_KEY not set)")
+        self.llm = llm
+        self._cache_timestamp: Optional[float] = None   # set when results came from the cache, so re-saving keeps its age
 
     def _load_config(self, config_path: str) -> Dict:
         """Load configuration from file. The token is read from the environment only."""
@@ -96,7 +166,8 @@ class GitHubCurator:
                 'require_license': False,
                 'prefer_topics': [],
                 'api_delay_seconds': 1.0
-            }
+            },
+            'llm': dict(LLM_DEFAULTS)
         }
 
         if Path(config_path).exists():
@@ -124,6 +195,8 @@ class GitHubCurator:
 
         search_queries = default_config['search_queries']
         default_config['search_queries'] = list(dict.fromkeys(query.strip() for query in search_queries if query.strip()))
+
+        _validate_llm_settings(default_config['llm'])
 
         return default_config
 
@@ -222,9 +295,16 @@ class GitHubCurator:
         repo_topics = {topic.lower() for topic in repo.topics}
         return sum(1 for topic in preferred_topics if topic.lower() in repo_topics)
 
+    @staticmethod
+    def _is_hidden(repo: RepoInfo) -> bool:
+        """Reviewed as off-topic (confirmed and confident): kept out of the README and hidden on the site."""
+        return bool(repo.review) and repo.review['relevance'] == 'off_topic'
+
     def _rank_key(self, repo: RepoInfo):
-        """Sort key for output order: preferred topics first, then stars."""
-        return (self._preference_score(repo), repo.stars)
+        """Sort key for output order: relevance tier first (core, then adjacent or unreviewed, off-topic last),
+        then preferred topics, then stars."""
+        tier = RELEVANCE_TIER[repo.review['relevance']] if repo.review else UNREVIEWED_TIER
+        return (tier, self._preference_score(repo), repo.stars)
 
     def _should_include_repo(self, repo: RepoInfo) -> bool:
         """Additional filtering logic for repositories, now handles None descriptions."""
@@ -268,19 +348,23 @@ class GitHubCurator:
         return True
 
     def analyze_repositories(self, repos: List[RepoInfo]) -> Dict:
-        """Analyze repository collection for insights"""
+        """Analyze repository collection for insights. Hidden (off-topic) repositories are left out of everything."""
         if not repos:
             return {}
 
+        visible = [r for r in repos if not self._is_hidden(r)]
         analysis = {
-            'total_repos': len(repos),
-            'total_stars': sum(r.stars for r in repos),
+            'total_repos': len(visible),
+            'hidden_repos': len(repos) - len(visible),
+            'reviewed_repos': sum(1 for r in repos if r.review),
+            'total_stars': sum(r.stars for r in visible),
             'languages': {},
             'topics': {},
-            'top_ranked': sorted(repos, key=self._rank_key, reverse=True)[:20]
+            'categories': Counter(r.review['category'] for r in visible if r.review),
+            'top_ranked': sorted(visible, key=self._rank_key, reverse=True)[:20]
         }
 
-        for repo in repos:
+        for repo in visible:
             analysis['languages'][repo.language] = analysis['languages'].get(repo.language, 0) + 1
             for topic in repo.topics:
                 analysis['topics'][topic] = analysis['topics'].get(topic, 0) + 1
@@ -288,11 +372,14 @@ class GitHubCurator:
         return analysis
 
     def format_output(self, analysis: Dict) -> str:
-        """Format repository data for output"""
+        """Format repository data for output. Descriptions and summaries are untrusted text, so they are escaped."""
         timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         content = f"# AI & OSINT Repository Curator\n\n*Last updated: {timestamp}*\n\n"
         content += f"## 📊 Collection Summary\n\n- **Total Repositories**: {analysis.get('total_repos', 0)}\n"
-        content += f"- **Total Stars**: {analysis.get('total_stars', 0):,}\n\n"
+        content += f"- **Total Stars**: {analysis.get('total_stars', 0):,}\n"
+        if analysis.get('hidden_repos'):
+            content += f"- **Hidden as off-topic**: {analysis['hidden_repos']}\n"
+        content += "\n"
 
         content += "### 🔥 Top Languages\n"
         for lang, count in sorted(analysis.get('languages', {}).items(), key=lambda x: x[1], reverse=True)[:5]:
@@ -302,15 +389,28 @@ class GitHubCurator:
         for topic, count in sorted(analysis.get('topics', {}).items(), key=lambda x: x[1], reverse=True)[:10]:
             content += f"- `{topic}` ({count})\n"
 
+        if analysis.get('categories'):
+            content += "\n### 🗂️ Categories\n"
+            for category, count in sorted(analysis['categories'].items(), key=lambda x: (-x[1], x[0])):
+                content += f"- **{category_label(category)}**: {count}\n"
+
         content += "\n## ⭐ Top Repositories\n\n"
         for i, repo in enumerate(analysis.get('top_ranked', []), 1):
-            description = ' '.join((repo.description or 'No description provided.').split())
+            review = repo.review or {}
+            description = _md(review.get('summary') or repo.description or 'No description provided.')
             content += f"### {i}. [{repo.name}]({repo.html_url})\n"
             content += f"**{repo.stars:,} ⭐** | **{repo.language}** | Updated: {repo.last_updated}\n\n"
             content += f"{description}\n\n"
+            if review:
+                content += f"**Category**: {category_label(review['category'])}\n\n"
             if repo.topics:
                 content += f"**Topics**: {' '.join([f'`{t}`' for t in repo.topics[:5]])}\n\n"
             content += "---\n\n"
+
+        if analysis.get('reviewed_repos'):
+            content += (f"*Summaries, categories and relevance are written by a language model from each repository's "
+                        f"README and can be wrong. Reviewed {analysis['reviewed_repos']} of "
+                        f"{analysis['total_repos'] + analysis['hidden_repos']}.*\n")
 
         return content
 
@@ -319,11 +419,12 @@ class GitHubCurator:
         relevant = {key: self.config[key] for key in ('search_queries', 'filters', 'advanced_options', 'max_repos_per_query')}
         return hashlib.sha256(json.dumps(relevant, sort_keys=True).encode()).hexdigest()
 
-    def save_cache(self, data: List[RepoInfo], filename: str = CACHE_FILE):
-        """Write results. Always written: generate_website.py reads this file as its data source."""
+    def save_cache(self, data: List[RepoInfo], filename: str = CACHE_FILE, timestamp: Optional[float] = None):
+        """Write results. Always written: generate_website.py reads this file as its data source. `timestamp` keeps
+        the age of results that came from the cache, so saving reviews does not extend the cache's lifetime."""
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump({
-                'timestamp': time.time(),
+                'timestamp': timestamp if timestamp is not None else time.time(),
                 'config_hash': self._config_fingerprint(),
                 'repositories': [asdict(repo) for repo in data]
             }, f, indent=2)
@@ -347,6 +448,7 @@ class GitHubCurator:
                 logger.info("Cache expired")
                 return None
 
+            self._cache_timestamp = data['timestamp']
             repos = [RepoInfo(**repo_data) for repo_data in data['repositories']]
             logger.info(f"Loaded {len(repos)} repositories from cache")
             return repos
@@ -355,13 +457,26 @@ class GitHubCurator:
             logger.warning(f"Failed to load cache: {e}")
             return None
 
+    def _review(self, repos: List[RepoInfo]) -> Counter:
+        """Attach a review verdict to each repository, paying only for new or changed ones, and persist them."""
+        settings = self.config['llm']
+        store = ReviewStore.load(settings['data_dir'])
+        counts = review_repos(repos, self.client, self.llm, store, settings, datetime.now(timezone.utc).date())
+        if settings['enabled']:
+            if store.reviews or store.path.exists():   # a fork without a key should not commit an empty file
+                store.save()
+            logger.info("LLM review: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
+        return counts
+
     def run(self):
-        """Main execution method. Raises (and writes nothing) if the results would be empty or incomplete."""
+        """Main execution method. Raises (and writes nothing) if the results would be empty or incomplete.
+        LLM review never fails the run: without it repositories are simply left unreviewed."""
         logger.info("Starting AI Repository Curator")
 
         all_repos = self.load_cache()
+        searched = not all_repos
 
-        if not all_repos:
+        if searched:
             all_repos = []
             api_delay = float(self.config['advanced_options'].get('api_delay_seconds', 1.0))
             seen_urls = set()
@@ -376,10 +491,11 @@ class GitHubCurator:
             if not all_repos:
                 raise GitHubAPIError("No repositories found; refusing to overwrite existing output")
 
-            all_repos.sort(key=self._rank_key, reverse=True)
-
             logger.info(f"Found {len(all_repos)} unique repositories")
-            self.save_cache(all_repos)
+
+        self._review(all_repos)
+        all_repos.sort(key=self._rank_key, reverse=True)
+        self.save_cache(all_repos, timestamp=None if searched else self._cache_timestamp)
 
         analysis = self.analyze_repositories(all_repos)
         formatted_content = self.format_output(analysis)

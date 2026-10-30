@@ -4,8 +4,7 @@ results per search query."""
 import re
 from datetime import datetime, timedelta, timezone
 
-from github_client import GitHubAPIError
-from osint_tracker.enrich import README_PATHS
+from github_client import README_PATHS, GitHubAPIError
 
 NOW = datetime(2026, 10, 10, 12, 0, 0, tzinfo=timezone.utc)
 SEARCH_CAP = 1000
@@ -131,7 +130,7 @@ def days_ago(days: float, now: datetime = NOW) -> datetime:
 
 # --- LLM stand-ins -----------------------------------------------------------------------------------
 
-from osint_tracker.llm import LLMResponse  # noqa: E402  (kept next to the fake that returns it)
+from llm_client import LLMResponse  # noqa: E402  (kept next to the fake that returns it)
 
 VALID_REPLY = {
     'scope': 'core', 'scope_reason': 'Geolocates photos for investigators.', 'domain': 'geospatial-imagery',

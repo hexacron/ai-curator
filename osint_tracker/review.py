@@ -15,10 +15,10 @@ import logging
 from collections import Counter
 from typing import Dict, List, Optional
 
-from osint_tracker import digest as digest_module
+import text_digest as digest_module
+from llm_client import LLMAuthError, LLMError
 from osint_tracker import state
 from osint_tracker.classify import (AI_ROLES, DOMAIN_NAMES, DOMAINS, FORMS, SCOPES, SENSITIVITIES, SENSITIVITY_TAGS)
-from osint_tracker.llm import LLMAuthError, LLMError
 
 logger = logging.getLogger(__name__)
 

@@ -6,7 +6,7 @@ import pytest
 from osint_tracker import review
 from osint_tracker.classify import (AI_ROLES, DOMAIN_NAMES, FORMS, SCOPES, SENSITIVITIES, SENSITIVITY_TAGS)
 from osint_tracker.config import load_config
-from osint_tracker.llm import LLMAuthError, LLMError
+from llm_client import LLMAuthError, LLMError
 from tests.helpers import VALID_REPLY, FakeLLM
 
 SETTINGS = load_config('does-not-exist.json')['llm']

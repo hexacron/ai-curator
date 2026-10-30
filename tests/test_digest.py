@@ -1,4 +1,4 @@
-from osint_tracker import digest
+import text_digest as digest
 
 
 def test_sanitize_removes_comments_hidden_characters_and_encoded_blobs():

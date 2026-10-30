@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from github_client import GitHubClient, token_from_env
 from osint_tracker.collect import collect
 from osint_tracker.config import load_config
-from osint_tracker.llm import AnthropicClient
+from llm_client import AnthropicClient
 
 logger = logging.getLogger(__name__)
 

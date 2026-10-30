@@ -8,7 +8,7 @@ from github_client import GitHubAPIError
 from osint_tracker import state
 from osint_tracker.collect import collect
 from osint_tracker.config import load_config
-from osint_tracker.llm import LLMError
+from llm_client import LLMError
 from tests.helpers import NOW, VALID_REPLY, FakeGitHub, FakeLLM, days_ago, make_repo, ts
 
 CONFIG = load_config('does-not-exist.json')

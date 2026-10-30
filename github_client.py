@@ -17,6 +17,24 @@ MAX_RATE_LIMIT_WAIT_SECONDS = 120
 # GraphQL reports "node does not exist" as a per-node error next to otherwise valid data.
 _TOLERATED_GRAPHQL_ERRORS = {"NOT_FOUND"}
 
+# GitHub renders a README from these locations; other spellings are treated as "no README".
+README_PATHS = ['README.md', 'readme.md', 'Readme.md', 'README.rst', 'README.txt', 'README',
+                '.github/README.md', 'docs/README.md']
+
+# GraphQL selection for a Repository node: one aliased `readmeN` blob per location in README_PATHS.
+README_GRAPHQL_FIELDS = '\n'.join(
+    f'      readme{i}: object(expression: "HEAD:{path}") {{ ... on Blob {{ byteSize text }} }}'
+    for i, path in enumerate(README_PATHS))
+
+
+def find_readme(node: dict):
+    """(path, blob) of the first README location present on a GraphQL repository node, or (None, None).
+    The blob is {'byteSize': int, 'text': str | None}."""
+    for index, path in enumerate(README_PATHS):
+        if node.get(f'readme{index}'):
+            return path, node[f'readme{index}']
+    return None, None
+
 
 class GitHubAPIError(RuntimeError):
     """Raised when the GitHub API keeps failing; a partial result must never be published."""

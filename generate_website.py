@@ -1,9 +1,12 @@
 import json
 import os
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from html import escape
 from urllib.parse import urlparse
+
+from curator_review import category_label
 
 CACHE_FILE = 'cache.json'
 
@@ -54,6 +57,39 @@ function toggleTheme() {
 applyTheme(localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
 """
 
+FILTER_CSS = """
+.card[hidden] { display:none; }
+.filters { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:center; margin:-16px 0 28px; }
+.pill { border:1px solid var(--border); background:var(--card); color:var(--text); padding:6px 14px; border-radius:9999px;
+        cursor:pointer; font:inherit; font-size:.8125rem; font-weight:600; }
+.pill[aria-pressed="true"] { background:var(--link); border-color:var(--link); color:#fff; }
+.check { font-size:.8125rem; color:var(--muted); display:inline-flex; gap:6px; align-items:center; cursor:pointer; margin-left:8px; }
+.chip-cat { background:var(--link); color:#fff; }
+.stats span[title] { cursor:help; }
+"""
+
+# Filtering runs in the browser; without it the page shows every card except the off-topic ones, which carry `hidden`.
+FILTER_JS = """
+(function () {
+  const cards = Array.from(document.querySelectorAll('.card[data-cat]'));
+  const pills = Array.from(document.querySelectorAll('.pill'));
+  const showOff = document.getElementById('show-off');
+  let category = '';
+  function apply() {
+    cards.forEach((card) => {
+      const matches = !category || card.dataset.cat === category;
+      card.hidden = !(matches && (card.dataset.off !== '1' || (showOff && showOff.checked)));
+    });
+  }
+  pills.forEach((pill) => pill.addEventListener('click', () => {
+    category = pill.dataset.cat;
+    pills.forEach((other) => other.setAttribute('aria-pressed', other === pill ? 'true' : 'false'));
+    apply();
+  }));
+  if (showOff) showOff.addEventListener('change', apply);
+})();
+"""
+
 
 def _safe_url(url):
     """Allow only absolute http(s) URLs; anything else (javascript:, data:, ...) becomes '#'."""
@@ -61,20 +97,49 @@ def _safe_url(url):
     return url if parsed.scheme in ('http', 'https') and parsed.netloc else '#'
 
 
+def _is_hidden(raw_repo):
+    """Reviewed as off-topic (confirmed and confident): hidden until the visitor asks for it."""
+    return (raw_repo.get('review') or {}).get('relevance') == 'off_topic'
+
+
 def _render_repo(raw_repo):
-    """Render one repository card. Every field is untrusted GitHub data and is escaped."""
+    """Render one repository card. Every field is untrusted GitHub data or model output derived from it, and is escaped."""
+    review = raw_repo.get('review') or {}
     topics = raw_repo.get('topics') or []
-    topics_html = ''.join(f'<span class="chip">{escape(str(topic))}</span>' for topic in topics[:5])
+    category = str(review.get('category') or '')
+    chips = f'<span class="chip chip-cat">{escape(category_label(category))}</span>' if category else ''
+    chips += ''.join(f'<span class="chip">{escape(str(topic))}</span>' for topic in topics[:5])
     stars = int(raw_repo.get('stars') or 0)
-    return f"""<div class="card">
+    text = review.get('summary') or raw_repo.get('description') or 'No description available.'
+    utility = review.get('utility')
+    docs = (f'<span title="How concretely the README shows a working tool (rated by a language model)">'
+            f'Docs {int(utility)}/5</span>') if utility is not None else ''
+    attrs = f' data-cat="{escape(category)}"' + (' data-off="1" hidden' if _is_hidden(raw_repo) else '')
+    return f"""<div class="card"{attrs}>
 <h2><a href="{escape(_safe_url(raw_repo.get('html_url')))}" target="_blank" rel="noopener noreferrer">{escape(str(raw_repo.get('name') or 'Unknown'))}</a></h2>
-<p class="desc">{escape(str(raw_repo.get('description') or 'No description available.'))}</p>
+<p class="desc">{escape(str(text))}</p>
 <div class="meta">
-<div class="topics">{topics_html}</div>
-<div class="stats"><span>⭐ {stars:,}</span><span class="lang">{escape(str(raw_repo.get('language') or 'N/A'))}</span><span>Updated: {escape(str(raw_repo.get('last_updated') or 'N/A'))}</span></div>
+<div class="topics">{chips}</div>
+<div class="stats"><span>⭐ {stars:,}</span><span class="lang">{escape(str(raw_repo.get('language') or 'N/A'))}</span>{docs}<span>Updated: {escape(str(raw_repo.get('last_updated') or 'N/A'))}</span></div>
 </div>
 </div>
 """
+
+
+def _render_filters(repos):
+    """Category pills (with counts of the cards shown by default) and the off-topic toggle."""
+    shown = [repo for repo in repos if not _is_hidden(repo)]
+    hidden = len(repos) - len(shown)
+    counts = Counter(str(repo['review']['category']) for repo in shown if repo.get('review'))
+    if not counts and not hidden:
+        return ''
+    pills = f'<button type="button" class="pill" data-cat="" aria-pressed="true">All ({len(shown)})</button>'
+    pills += ''.join(
+        f'<button type="button" class="pill" data-cat="{escape(category)}" aria-pressed="false">'
+        f'{escape(category_label(category))} ({count})</button>'
+        for category, count in sorted(counts.items(), key=lambda item: (-item[1], item[0])))
+    toggle = f'<label class="check"><input type="checkbox" id="show-off"> Show {hidden} off-topic</label>' if hidden else ''
+    return f'<nav class="filters" aria-label="Filter by category">{pills}{toggle}</nav>\n'
 
 
 def generate_website():
@@ -103,13 +168,19 @@ def generate_website():
 <p>The curator script did not find any repositories matching the criteria.</p></div>
 """
 
+    reviewed = sum(1 for repo in repos if repo.get('review'))
+    note = ('<p>Summaries, categories and relevance are written by a language model from each project\'s README '
+            f'and can be wrong. Reviewed {reviewed} of {len(repos)}.</p>\n') if reviewed else ''
+
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- The page is self-contained: the browser itself refuses any request to another origin. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>AI &amp; OSINT Repository Curator</title>
-<style>{CSS}</style>
+<style>{CSS}{FILTER_CSS}</style>
 <script>{THEME_JS}</script>
 </head>
 <body>
@@ -121,12 +192,13 @@ def generate_website():
 <p><a href="osint/" style="color:var(--link)">Emerging OSINT Radar: newly created projects, ranked &rarr;</a></p>
 <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
 </header>
-<main>
+{_render_filters(repos)}<main>
 {cards}</main>
 <footer>
-<p>Generated by AI Repository Curator | <a href="https://github.com/{escape(github_repo)}" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+{note}<p>Generated by AI Repository Curator | <a href="https://github.com/{escape(github_repo)}" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 </footer>
 </div>
+<script>{FILTER_JS}</script>
 </body>
 </html>
 """
