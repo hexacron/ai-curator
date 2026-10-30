@@ -1,11 +1,11 @@
 {
  "version": 1,
- "generated": "2026-10-30T02:21:19+00:00",
+ "generated": "2026-10-30T11:47:38+00:00",
  "window_days": 90,
  "stats": {
-  "candidates": 1867,
-  "tracked": 272,
-  "reviewed": 232
+  "candidates": 1868,
+  "tracked": 276,
+  "reviewed": 234
  },
  "has_previous": true,
  "boards": {
@@ -30,9 +30,9 @@
      "geoguessr"
     ],
     "created_at": "2026-09-18T08:51:34Z",
-    "age_days": 41,
-    "stars": 4513,
-    "forks": 590,
+    "age_days": 42,
+    "stars": 4587,
+    "forks": 601,
     "status": "emerging",
     "scope": "core",
     "domain": "geospatial-imagery",
@@ -53,21 +53,21 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 88.8,
-    "rank_key": 88.8,
+    "score": 88.4,
+    "rank_key": 88.4,
     "confidence": 1.0,
     "components": {
      "momentum": 0.997,
-     "activity": 0.85,
+     "activity": 0.833,
      "maturity": 0.7,
-     "community": 0.841,
+     "community": 0.834,
      "utility": 0.8
     },
     "integrity": {
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 84.571
+    "star_rate": 95.143
    },
    {
     "rank": 2,
@@ -115,12 +115,12 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 85.4,
-    "rank_key": 85.4,
+    "score": 85.3,
+    "rank_key": 85.3,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.972,
-     "activity": 0.856,
+     "momentum": 0.973,
+     "activity": 0.849,
      "maturity": 0.75,
      "community": 0.527,
      "utility": 0.8
@@ -133,7 +133,69 @@
    },
    {
     "rank": 3,
-    "rank_change": 0,
+    "rank_change": 3,
+    "id": 1410186540,
+    "full_name": "XD-MHLOO/facebook-gql-scraper",
+    "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
+    "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "facebook",
+     "facebook-api",
+     "facebook-comments",
+     "facebook-data",
+     "facebook-graph-api",
+     "facebook-groups",
+     "facebook-marketplace-api",
+     "facebook-marketplace-listings"
+    ],
+    "created_at": "2026-10-08T11:08:00Z",
+    "age_days": 22,
+    "stars": 54,
+    "forks": 11,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "social-media",
+    "domain_secondary": "web-capture",
+    "form": "library",
+    "ai_role": "none",
+    "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
+    "strengths": [
+     "Documented API with property and method listings for profiles, posts, comments and groups",
+     "Auto-recovers changed GraphQL Doc IDs without a headless browser"
+    ],
+    "risks": [
+     "Uses personal session cookies and likely violates Facebook terms of service",
+     "Lead-generation framing suggests bulk collection of personal data",
+     "Abandonment risk from reliance on undocumented internal endpoints"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "personal-data-lookup",
+     "social-profile-extraction"
+    ],
+    "score": 77.4,
+    "rank_key": 77.4,
+    "confidence": 1.0,
+    "components": {
+     "momentum": 0.918,
+     "activity": 0.586,
+     "maturity": 0.9,
+     "community": 0.29,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.429
+   },
+   {
+    "rank": 4,
+    "rank_change": -1,
     "id": 1376303804,
     "full_name": "socai-io/jev-social",
     "html_url": "https://github.com/socai-io/jev-social",
@@ -152,7 +214,7 @@
     ],
     "created_at": "2026-09-18T18:48:15Z",
     "age_days": 41,
-    "stars": 190,
+    "stars": 191,
     "forks": 39,
     "status": "emerging",
     "scope": "core",
@@ -177,25 +239,25 @@
     "sensitivity_tags": [
      "social-profile-extraction"
     ],
-    "score": 82.7,
-    "rank_key": 82.7,
+    "score": 76.8,
+    "rank_key": 76.8,
     "confidence": 1.0,
     "components": {
      "momentum": 0.966,
-     "activity": 0.508,
+     "activity": 0.304,
      "maturity": 0.95,
-     "community": 0.88,
+     "community": 0.693,
      "utility": 0.6
     },
     "integrity": {
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 2.0
+    "star_rate": 2.143
    },
    {
-    "rank": 4,
-    "rank_change": 1,
+    "rank": 5,
+    "rank_change": -1,
     "id": 1433112682,
     "full_name": "n5za/osint-mcp",
     "html_url": "https://github.com/n5za/osint-mcp",
@@ -213,7 +275,7 @@
      "osint"
     ],
     "created_at": "2026-10-25T11:15:28Z",
-    "age_days": 4,
+    "age_days": 5,
     "stars": 7,
     "forks": 1,
     "status": "emerging",
@@ -240,11 +302,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 80.8,
-    "rank_key": 76.6,
-    "confidence": 0.723,
+    "score": 80.0,
+    "rank_key": 75.9,
+    "confidence": 0.729,
     "components": {
-     "momentum": 0.948,
+     "momentum": 0.93,
      "activity": 0.661,
      "maturity": 0.8,
      "community": 0.494,
@@ -254,11 +316,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.59
+    "star_rate": 0.586
    },
    {
-    "rank": 5,
-    "rank_change": 2,
+    "rank": 6,
+    "rank_change": -1,
     "id": 1354639791,
     "full_name": "asimov-systems/asimov-alpha",
     "html_url": "https://github.com/asimov-systems/asimov-alpha",
@@ -272,7 +334,7 @@
      "socmint"
     ],
     "created_at": "2026-09-02T10:41:19Z",
-    "age_days": 57,
+    "age_days": 58,
     "stars": 10,
     "forks": 0,
     "status": "emerging",
@@ -301,8 +363,8 @@
     "rank_key": 75.4,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.935,
-     "activity": 0.84,
+     "momentum": 0.942,
+     "activity": 0.824,
      "maturity": 0.55,
      "community": 0.428,
      "utility": 0.4
@@ -314,70 +376,8 @@
     "star_rate": 0.714
    },
    {
-    "rank": 6,
-    "rank_change": -2,
-    "id": 1410186540,
-    "full_name": "XD-MHLOO/facebook-gql-scraper",
-    "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
-    "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "facebook",
-     "facebook-api",
-     "facebook-comments",
-     "facebook-data",
-     "facebook-graph-api",
-     "facebook-groups",
-     "facebook-marketplace-api",
-     "facebook-marketplace-listings"
-    ],
-    "created_at": "2026-10-08T11:08:00Z",
-    "age_days": 21,
-    "stars": 54,
-    "forks": 11,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "social-media",
-    "domain_secondary": "web-capture",
-    "form": "library",
-    "ai_role": "none",
-    "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
-    "strengths": [
-     "Documented API with property and method listings for profiles, posts, comments and groups",
-     "Auto-recovers changed GraphQL Doc IDs without a headless browser"
-    ],
-    "risks": [
-     "Uses personal session cookies and likely violates Facebook terms of service",
-     "Lead-generation framing suggests bulk collection of personal data",
-     "Abandonment risk from reliance on undocumented internal endpoints"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 74.8,
-    "rank_key": 74.8,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.917,
-     "activity": 0.455,
-     "maturity": 0.9,
-     "community": 0.29,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.429
-   },
-   {
     "rank": 7,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1427714043,
     "full_name": "letox4/OsintHunter",
     "html_url": "https://github.com/letox4/OsintHunter",
@@ -424,7 +424,7 @@
     ],
     "score": 75.4,
     "rank_key": 74.4,
-    "confidence": 0.93,
+    "confidence": 0.935,
     "components": {
      "momentum": 0.985,
      "activity": 0.484,
@@ -440,7 +440,7 @@
    },
    {
     "rank": 8,
-    "rank_change": -2,
+    "rank_change": 0,
     "id": 1383766253,
     "full_name": "renkagod/osint-toolbox-mcp",
     "html_url": "https://github.com/renkagod/osint-toolbox-mcp",
@@ -488,7 +488,7 @@
     "rank_key": 73.5,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.867,
+     "momentum": 0.869,
      "activity": 0.398,
      "maturity": 1.0,
      "community": 0.347,
@@ -502,7 +502,7 @@
    },
    {
     "rank": 9,
-    "rank_change": 2,
+    "rank_change": 0,
     "id": 1432965476,
     "full_name": "OTInstaller/otinstaller",
     "html_url": "https://github.com/OTInstaller/otinstaller",
@@ -517,7 +517,7 @@
      "package-registry"
     ],
     "created_at": "2026-10-25T08:06:57Z",
-    "age_days": 4,
+    "age_days": 5,
     "stars": 3,
     "forks": 0,
     "status": "emerging",
@@ -540,12 +540,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 75.1,
-    "rank_key": 72.1,
-    "confidence": 0.797,
+    "score": 74.9,
+    "rank_key": 71.9,
+    "confidence": 0.802,
     "components": {
-     "momentum": 0.91,
-     "activity": 0.967,
+     "momentum": 0.912,
+     "activity": 0.952,
      "maturity": 0.8,
      "community": 0.318,
      "utility": 0.8
@@ -556,135 +556,11 @@
       "new_owner_account"
      ]
     },
-    "star_rate": 0.474
+    "star_rate": 0.473
    },
    {
     "rank": 10,
-    "rank_change": 0,
-    "id": 1397105935,
-    "full_name": "bayshier/ghosttrack-zh",
-    "html_url": "https://github.com/bayshier/ghosttrack-zh",
-    "description": "GhostTrack 中文汉化版 | OSINT 追踪工具（IP/手机号/用户名）· 逻辑零改动纯汉化 · 原项目 HunxByts/GhostTrack",
-    "language": "Python",
-    "license": null,
-    "topics": [
-     "chinese",
-     "ip-lookup",
-     "localization",
-     "osint",
-     "osint-tools",
-     "phone-number-lookup",
-     "recon",
-     "termux"
-    ],
-    "created_at": "2026-09-30T05:53:02Z",
-    "age_days": 29,
-    "stars": 292,
-    "forks": 37,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "identity-lookup",
-    "domain_secondary": "general",
-    "form": "cli",
-    "ai_role": "none",
-    "summary": "A translated Chinese-language version of the GhostTrack CLI. It looks up IP geolocation and ISP details, phone number metadata, and checks username existence across 24 social platforms. Logic is unchanged from upstream.",
-    "strengths": [
-     "Clear menu-based CLI with documented install and run steps",
-     "Covers IP, phone and username lookups in one tool",
-     "Localized README and interface for Chinese-speaking users"
-    ],
-    "risks": [
-     "Upstream project has no open-source license, so redistribution rights are unclear",
-     "Derivative mirror of another author's work with stated copy-without-permission concerns",
-     "Username and phone lookups can support profiling of private individuals"
-    ],
-    "reviewed": true,
-    "readme_language": "zh",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 70.1,
-    "rank_key": 69.0,
-    "confidence": 0.929,
-    "components": {
-     "momentum": 0.978,
-     "activity": 0.485,
-     "maturity": 0.5,
-     "community": 0.29,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 4.045
-   },
-   {
-    "rank": 11,
-    "rank_change": -2,
-    "id": 1394852469,
-    "full_name": "Kerlooo/FreeOSINTUI",
-    "html_url": "https://github.com/Kerlooo/FreeOSINTUI",
-    "description": "Free alternative to https://osint-ui.com",
-    "language": "JavaScript",
-    "license": null,
-    "topics": [
-     "hacking",
-     "hacking-tools",
-     "osint",
-     "osint-reconnaissance",
-     "osint-tool",
-     "osint-toolkit"
-    ],
-    "created_at": "2026-09-29T09:46:00Z",
-    "age_days": 30,
-    "stars": 77,
-    "forks": 7,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "general",
-    "domain_secondary": "identity-lookup",
-    "form": "web-app",
-    "ai_role": "none",
-    "summary": "A free, browser-based suite of about 20 OSINT tools covering username, email, breach, password-hash, DNS and certificate lookups, with a FastAPI backend for some tools. Positioned as a free alternative to osint-ui.com.",
-    "strengths": [
-     "Many tools with named free public data sources",
-     "Browser-first design keeps analysed files local",
-     "Explicit passive-only stance and documented data sources"
-    ],
-    "risks": [
-     "Username and email lookups can support personal-data inference",
-     "Licence combines Apache 2.0 with Commons Clause, limiting commercial use",
-     "Readme digest is truncated, so some tool details are unverified"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "breach-lookup",
-     "personal-data-lookup"
-    ],
-    "score": 68.8,
-    "rank_key": 68.8,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.895,
-     "activity": 0.469,
-     "maturity": 0.55,
-     "community": 0.403,
-     "utility": null
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.429
-   },
-   {
-    "rank": 12,
-    "rank_change": 0,
+    "rank_change": 2,
     "id": 1430949338,
     "full_name": "hexmisery/NIX",
     "html_url": "https://github.com/hexmisery/NIX",
@@ -699,7 +575,7 @@
      "username-search"
     ],
     "created_at": "2026-10-23T11:19:45Z",
-    "age_days": 6,
+    "age_days": 7,
     "stars": 5,
     "forks": 0,
     "status": "emerging",
@@ -726,11 +602,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 70.0,
-    "rank_key": 68.4,
-    "confidence": 0.895,
+    "score": 70.1,
+    "rank_key": 68.6,
+    "confidence": 0.9,
     "components": {
-     "momentum": 0.812,
+     "momentum": 0.814,
      "activity": 0.515,
      "maturity": 0.95,
      "community": 0.09,
@@ -743,8 +619,130 @@
     "star_rate": 0.177
    },
    {
+    "rank": 11,
+    "rank_change": -1,
+    "id": 1397105935,
+    "full_name": "bayshier/ghosttrack-zh",
+    "html_url": "https://github.com/bayshier/ghosttrack-zh",
+    "description": "GhostTrack 中文汉化版 | OSINT 追踪工具（IP/手机号/用户名）· 逻辑零改动纯汉化 · 原项目 HunxByts/GhostTrack",
+    "language": "Python",
+    "license": null,
+    "topics": [
+     "chinese",
+     "ip-lookup",
+     "localization",
+     "osint",
+     "osint-tools",
+     "phone-number-lookup",
+     "recon",
+     "termux"
+    ],
+    "created_at": "2026-09-30T05:53:02Z",
+    "age_days": 30,
+    "stars": 296,
+    "forks": 38,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "identity-lookup",
+    "domain_secondary": "general",
+    "form": "cli",
+    "ai_role": "none",
+    "summary": "A translated Chinese-language version of the GhostTrack CLI. It looks up IP geolocation and ISP details, phone number metadata, and checks username existence across 24 social platforms. Logic is unchanged from upstream.",
+    "strengths": [
+     "Clear menu-based CLI with documented install and run steps",
+     "Covers IP, phone and username lookups in one tool",
+     "Localized README and interface for Chinese-speaking users"
+    ],
+    "risks": [
+     "Upstream project has no open-source license, so redistribution rights are unclear",
+     "Derivative mirror of another author's work with stated copy-without-permission concerns",
+     "Username and phone lookups can support profiling of private individuals"
+    ],
+    "reviewed": true,
+    "readme_language": "zh",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "personal-data-lookup",
+     "social-profile-extraction"
+    ],
+    "score": 69.0,
+    "rank_key": 67.9,
+    "confidence": 0.929,
+    "components": {
+     "momentum": 0.979,
+     "activity": 0.426,
+     "maturity": 0.5,
+     "community": 0.29,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 4.626
+   },
+   {
+    "rank": 12,
+    "rank_change": 2,
+    "id": 1347034080,
+    "full_name": "bayshier/awesome-osint-arsenal-zh",
+    "html_url": "https://github.com/bayshier/awesome-osint-arsenal-zh",
+    "description": "awesome-osint-arsenal 中文版：753 个 OSINT 与安全工具、50 个分类、一键安装脚本（译自 rawfilejson/awesome-osint-arsenal，MIT）",
+    "language": "Shell",
+    "license": "MIT",
+    "topics": [
+     "awesome-list",
+     "chinese",
+     "osint",
+     "osint-tools",
+     "pentesting",
+     "security-tools",
+     "termux",
+     "translation"
+    ],
+    "created_at": "2026-08-26T07:20:08Z",
+    "age_days": 65,
+    "stars": 62,
+    "forks": 9,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "knowledge",
+    "domain_secondary": "general",
+    "form": "document",
+    "ai_role": "none",
+    "summary": "Simplified Chinese translation of awesome-osint-arsenal, a curated list of about 753 OSINT and security tools in 50 categories, with installer scripts for Debian, Ubuntu, Kali, and Termux.",
+    "strengths": [
+     "Large categorized tool list with install commands",
+     "Named tools and one-command installers for several distributions"
+    ],
+    "risks": [
+     "Mostly a translated copy of an upstream list rather than original work",
+     "Security-offensive tools mixed into the install bundles, outside OSINT scope",
+     "Link and install freshness depends on ongoing maintenance"
+    ],
+    "reviewed": true,
+    "readme_language": "zh",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 67.9,
+    "rank_key": 66.8,
+    "confidence": 0.929,
+    "components": {
+     "momentum": 0.845,
+     "activity": 0.426,
+     "maturity": 0.8,
+     "community": 0.34,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.224
+   },
+   {
     "rank": 13,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1387106316,
     "full_name": "emrekybs/OsintCase",
     "html_url": "https://github.com/emrekybs/OsintCase",
@@ -762,7 +760,7 @@
      "osint"
     ],
     "created_at": "2026-09-25T08:29:49Z",
-    "age_days": 34,
+    "age_days": 35,
     "stars": 7,
     "forks": 1,
     "status": "emerging",
@@ -787,12 +785,12 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 67.6,
-    "rank_key": 67.6,
+    "score": 66.8,
+    "rank_key": 66.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.688,
-     "activity": 0.764,
+     "momentum": 0.674,
+     "activity": 0.755,
      "maturity": 0.7,
      "community": 0.29,
      "utility": 0.8
@@ -805,66 +803,68 @@
    },
    {
     "rank": 14,
-    "rank_change": 1,
-    "id": 1347034080,
-    "full_name": "bayshier/awesome-osint-arsenal-zh",
-    "html_url": "https://github.com/bayshier/awesome-osint-arsenal-zh",
-    "description": "awesome-osint-arsenal 中文版：753 个 OSINT 与安全工具、50 个分类、一键安装脚本（译自 rawfilejson/awesome-osint-arsenal，MIT）",
-    "language": "Shell",
-    "license": "MIT",
+    "rank_change": -3,
+    "id": 1394852469,
+    "full_name": "Kerlooo/FreeOSINTUI",
+    "html_url": "https://github.com/Kerlooo/FreeOSINTUI",
+    "description": "Free alternative to https://osint-ui.com",
+    "language": "JavaScript",
+    "license": null,
     "topics": [
-     "awesome-list",
-     "chinese",
+     "hacking",
+     "hacking-tools",
      "osint",
-     "osint-tools",
-     "pentesting",
-     "security-tools",
-     "termux",
-     "translation"
+     "osint-reconnaissance",
+     "osint-tool",
+     "osint-toolkit"
     ],
-    "created_at": "2026-08-26T07:20:08Z",
-    "age_days": 64,
-    "stars": 62,
-    "forks": 9,
+    "created_at": "2026-09-29T09:46:00Z",
+    "age_days": 31,
+    "stars": 77,
+    "forks": 7,
     "status": "emerging",
     "scope": "core",
-    "domain": "knowledge",
-    "domain_secondary": "general",
-    "form": "document",
+    "domain": "general",
+    "domain_secondary": "identity-lookup",
+    "form": "web-app",
     "ai_role": "none",
-    "summary": "Simplified Chinese translation of awesome-osint-arsenal, a curated list of about 753 OSINT and security tools in 50 categories, with installer scripts for Debian, Ubuntu, Kali, and Termux.",
+    "summary": "A free, browser-based suite of about 20 OSINT tools covering username, email, breach, password-hash, DNS and certificate lookups, with a FastAPI backend for some tools. Positioned as a free alternative to osint-ui.com.",
     "strengths": [
-     "Large categorized tool list with install commands",
-     "Named tools and one-command installers for several distributions"
+     "Many tools with named free public data sources",
+     "Browser-first design keeps analysed files local",
+     "Explicit passive-only stance and documented data sources"
     ],
     "risks": [
-     "Mostly a translated copy of an upstream list rather than original work",
-     "Security-offensive tools mixed into the install bundles, outside OSINT scope",
-     "Link and install freshness depends on ongoing maintenance"
+     "Username and email lookups can support personal-data inference",
+     "Licence combines Apache 2.0 with Commons Clause, limiting commercial use",
+     "Readme digest is truncated, so some tool details are unverified"
     ],
     "reviewed": true,
-    "readme_language": "zh",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 67.8,
-    "rank_key": 66.7,
-    "confidence": 0.929,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "personal-data-lookup"
+    ],
+    "score": 66.5,
+    "rank_key": 66.5,
+    "confidence": 1.0,
     "components": {
-     "momentum": 0.843,
-     "activity": 0.426,
-     "maturity": 0.8,
-     "community": 0.34,
-     "utility": 0.6
+     "momentum": 0.896,
+     "activity": 0.36,
+     "maturity": 0.55,
+     "community": 0.403,
+     "utility": null
     },
     "integrity": {
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.225
+    "star_rate": 0.429
    },
    {
     "rank": 15,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1431867083,
     "full_name": "antalkon/telegram-tools",
     "html_url": "https://github.com/antalkon/telegram-tools",
@@ -882,7 +882,7 @@
      "osint"
     ],
     "created_at": "2026-10-24T05:59:58Z",
-    "age_days": 5,
+    "age_days": 6,
     "stars": 2,
     "forks": 0,
     "status": "emerging",
@@ -909,11 +909,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 68.2,
-    "rank_key": 66.5,
-    "confidence": 0.884,
+    "score": 67.8,
+    "rank_key": 66.1,
+    "confidence": 0.889,
     "components": {
-     "momentum": 0.781,
+     "momentum": 0.771,
      "activity": 0.478,
      "maturity": 0.85,
      "community": 0.277,
@@ -927,7 +927,7 @@
    },
    {
     "rank": 16,
-    "rank_change": -3,
+    "rank_change": 0,
     "id": 1352700746,
     "full_name": "osintshifu/filegrail",
     "html_url": "https://github.com/osintshifu/filegrail",
@@ -970,11 +970,11 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 66.4,
-    "rank_key": 66.4,
+    "score": 65.7,
+    "rank_key": 65.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.513,
      "maturity": 0.95,
      "community": 0.29,
@@ -1030,11 +1030,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 65.7,
-    "rank_key": 65.7,
+    "score": 65.1,
+    "rank_key": 65.1,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.599,
      "maturity": 0.8,
      "community": 0.277,
@@ -1048,7 +1048,7 @@
    },
    {
     "rank": 18,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1348970841,
     "full_name": "n11xY/n1xYosint",
     "html_url": "https://github.com/n11xY/n1xYosint",
@@ -1093,12 +1093,12 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 64.7,
-    "rank_key": 64.7,
+    "score": 63.8,
+    "rank_key": 63.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.688,
-     "activity": 0.525,
+     "momentum": 0.674,
+     "activity": 0.513,
      "maturity": 0.9,
      "community": 0.17,
      "utility": 0.8
@@ -1112,66 +1112,6 @@
    {
     "rank": 19,
     "rank_change": 1,
-    "id": 1414231173,
-    "full_name": "Franky100-pig/Geo-Guesser",
-    "html_url": "https://github.com/Franky100-pig/Geo-Guesser",
-    "description": "China-network workarounds for the geo-sleuth photo-geolocation skill: AMap satellite tiles, Baidu-only fast intake, evidence sheet builder",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "amap",
-     "china",
-     "china-network",
-     "geo-sleuth",
-     "geolocation",
-     "osint",
-     "photo-geolocation",
-     "reverse-image-search"
-    ],
-    "created_at": "2026-10-11T10:51:25Z",
-    "age_days": 18,
-    "stars": 3,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "geospatial-imagery",
-    "domain_secondary": "media-forensics",
-    "form": "cli",
-    "ai_role": "agentic",
-    "summary": "Set of scripts and a launcher (geo.sh) that help run the geo-sleuth photo-geolocation skill from mainland China, using Baidu reverse image search, AMap satellite tiles, offline phone geodata, and an evidence sheet builder.",
-    "strengths": [
-     "Concrete commands, arguments and measured timings documented",
-     "Covers both China and worldwide lanes with clear scope table",
-     "Offline phone-number region lookup with no network needed"
-    ],
-    "risks": [
-     "Depends on upstream geo-sleuth skill; standalone use unclear",
-     "Bilingual README and heavy reliance on a single upstream project",
-     "Limited legal or ethical considerations documented"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 64.2,
-    "rank_key": 64.2,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.688,
-     "activity": 0.665,
-     "maturity": 0.7,
-     "community": 0.14,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.143
-   },
-   {
-    "rank": 20,
-    "rank_change": -2,
     "id": 1336352043,
     "full_name": "FadeHack/instagram-username-finder",
     "html_url": "https://github.com/FadeHack/instagram-username-finder",
@@ -1216,11 +1156,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 63.6,
-    "rank_key": 63.6,
+    "score": 63.7,
+    "rank_key": 63.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.833,
+     "momentum": 0.835,
      "activity": 0.076,
      "maturity": 0.95,
      "community": 0.23,
@@ -1233,8 +1173,71 @@
     "star_rate": 0.143
    },
    {
+    "rank": 20,
+    "rank_change": 3,
+    "id": 1436983109,
+    "full_name": "tilkiii/the-project-who",
+    "html_url": "https://github.com/tilkiii/the-project-who",
+    "description": "Open-source digital twin framework for evidence-grounded, probabilistic modeling with multimodal data and knowledge graphs.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "behavioral-modeling",
+     "cybersecurity",
+     "digital-twin",
+     "knowledge-graph",
+     "multimodal-ai",
+     "osint",
+     "python",
+     "topic-modeling"
+    ],
+    "created_at": "2026-10-28T11:21:09Z",
+    "age_days": 2,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "general",
+    "domain_secondary": "social-media",
+    "form": "cli",
+    "ai_role": "llm-assisted",
+    "summary": "Python framework that ingests a target person's public web articles, RSS feeds, documents, audio and video, builds a Neo4j knowledge graph and ChromaDB memory, and produces probabilistic behavioural models with source-linked answers.",
+    "strengths": [
+     "Documents concrete CLI pipeline steps",
+     "Emphasises traceability of claims to evidence",
+     "Lists named data sources and tools"
+    ],
+    "risks": [
+     "Builds profiles of individuals, including chat logs of a target",
+     "Digital-twin framing of a person raises ethical and misuse concerns",
+     "README gives limited detail on legal considerations"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "person-tracking",
+     "social-profile-extraction"
+    ],
+    "score": 70.6,
+    "rank_key": 63.7,
+    "confidence": 0.543,
+    "components": {
+     "momentum": 0.826,
+     "activity": 0.687,
+     "maturity": 0.85,
+     "community": 0.09,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.187
+   },
+   {
     "rank": 21,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1433512650,
     "full_name": "tOxt-shadow/sAScan-OSINT",
     "html_url": "https://github.com/tOxt-shadow/sAScan-OSINT",
@@ -1279,11 +1282,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 68.7,
-    "rank_key": 63.4,
-    "confidence": 0.647,
+    "score": 68.8,
+    "rank_key": 63.6,
+    "confidence": 0.653,
     "components": {
-     "momentum": 0.799,
+     "momentum": 0.802,
      "activity": 0.554,
      "maturity": 0.85,
      "community": 0.09,
@@ -1293,11 +1296,192 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.174
+    "star_rate": 0.173
    },
    {
     "rank": 22,
-    "rank_change": 1,
+    "rank_change": -3,
+    "id": 1414231173,
+    "full_name": "Franky100-pig/Geo-Guesser",
+    "html_url": "https://github.com/Franky100-pig/Geo-Guesser",
+    "description": "China-network workarounds for the geo-sleuth photo-geolocation skill: AMap satellite tiles, Baidu-only fast intake, evidence sheet builder",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "amap",
+     "china",
+     "china-network",
+     "geo-sleuth",
+     "geolocation",
+     "osint",
+     "photo-geolocation",
+     "reverse-image-search"
+    ],
+    "created_at": "2026-10-11T10:51:25Z",
+    "age_days": 19,
+    "stars": 3,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "geospatial-imagery",
+    "domain_secondary": "media-forensics",
+    "form": "cli",
+    "ai_role": "agentic",
+    "summary": "Set of scripts and a launcher (geo.sh) that help run the geo-sleuth photo-geolocation skill from mainland China, using Baidu reverse image search, AMap satellite tiles, offline phone geodata, and an evidence sheet builder.",
+    "strengths": [
+     "Concrete commands, arguments and measured timings documented",
+     "Covers both China and worldwide lanes with clear scope table",
+     "Offline phone-number region lookup with no network needed"
+    ],
+    "risks": [
+     "Depends on upstream geo-sleuth skill; standalone use unclear",
+     "Bilingual README and heavy reliance on a single upstream project",
+     "Limited legal or ethical considerations documented"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 63.5,
+    "rank_key": 63.5,
+    "confidence": 1.0,
+    "components": {
+     "momentum": 0.674,
+     "activity": 0.665,
+     "maturity": 0.7,
+     "community": 0.14,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.143
+   },
+   {
+    "rank": 23,
+    "rank_change": null,
+    "id": 1432995434,
+    "full_name": "rndinfosecguy/BlackSignal",
+    "html_url": "https://github.com/rndinfosecguy/BlackSignal",
+    "description": "Leak data analyzer made for my Scavenger project",
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+     "analysis",
+     "hacking",
+     "leak",
+     "leak-detection",
+     "leaks",
+     "osint",
+     "osint-tool",
+     "osint-tools"
+    ],
+    "created_at": "2026-10-25T08:47:19Z",
+    "age_days": 5,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "breach-exposure",
+    "domain_secondary": "web-capture",
+    "form": "web-app",
+    "ai_role": "none",
+    "summary": "A self-hosted web app that indexes pastes from Pastebin, GitHub Gists, dpaste and pastes.io into a full-text search engine and flags leaked credentials, API keys and private keys for defenders.",
+    "strengths": [
+     "Clear defensive purpose of detecting exposed secrets on paste sites",
+     "Documented feature list and Docker-based setup",
+     "Works alongside a companion scraper project"
+    ],
+    "risks": [
+     "Indexes leaked credentials and personal data from pastes",
+     "Relies on user-supplied raw paste data; sourcing is not documented",
+     "Possible hosting or redistribution of breach data despite the research-only notice"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "leaked-data-lookup"
+    ],
+    "score": 65.3,
+    "rank_key": 62.3,
+    "confidence": 0.802,
+    "components": {
+     "momentum": 0.777,
+     "activity": 0.571,
+     "maturity": 0.8,
+     "community": 0.09,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.158
+   },
+   {
+    "rank": 24,
+    "rank_change": null,
+    "id": 1436104807,
+    "full_name": "aixisstudio/osint-tools-list",
+    "html_url": "https://github.com/aixisstudio/osint-tools-list",
+    "description": "OSINT tools and techniques — reconnaissance, investigation, threat intelligence",
+    "language": null,
+    "license": "MIT",
+    "topics": [
+     "osint",
+     "reconnaissance",
+     "security",
+     "tools"
+    ],
+    "created_at": "2026-10-27T18:09:15Z",
+    "age_days": 2,
+    "stars": 3,
+    "forks": 1,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "knowledge",
+    "domain_secondary": "general",
+    "form": "document",
+    "ai_role": "none",
+    "summary": "A multilingual curated list of OSINT tools grouped by category, including search engines, username and identity finders, reconnaissance frameworks, breach data checkers, media geolocation and phone or network intelligence.",
+    "strengths": [
+     "Broad categorised coverage of OSINT tools",
+     "Multilingual README with a clear table layout"
+    ],
+    "risks": [
+     "Only a list of links with short descriptions, no usage detail",
+     "Some listed tools touch personal data and breach lookups, so the list itself carries misuse concerns",
+     "Language field left blank in the metadata; README language inferred as English"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "personal-data-lookup"
+    ],
+    "score": 68.9,
+    "rank_key": 62.2,
+    "confidence": 0.553,
+    "components": {
+     "momentum": 0.881,
+     "activity": 0.726,
+     "maturity": 0.45,
+     "community": 0.2,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.271
+   },
+   {
+    "rank": 25,
+    "rank_change": -3,
     "id": 1425128670,
     "full_name": "MarvelCollin/Pantau",
     "html_url": "https://github.com/MarvelCollin/Pantau",
@@ -1315,7 +1499,7 @@
      "indonesia"
     ],
     "created_at": "2026-10-19T04:58:09Z",
-    "age_days": 10,
+    "age_days": 11,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -1338,11 +1522,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 62.8,
-    "rank_key": 62.1,
-    "confidence": 0.956,
+    "score": 62.1,
+    "rank_key": 61.5,
+    "confidence": 0.961,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.731,
      "maturity": 0.55,
      "community": 0.09,
@@ -1353,190 +1537,6 @@
      "flags": []
     },
     "star_rate": 0.143
-   },
-   {
-    "rank": 23,
-    "rank_change": null,
-    "id": 1436983109,
-    "full_name": "tilkiii/the-project-who",
-    "html_url": "https://github.com/tilkiii/the-project-who",
-    "description": "⚡ Open-source Multimodal OSINT Engine, Threat Reconnaissance & Evidence-Based Digital Twin Framework with D3.js Force Graphs & ElizaOS Character Synthesis.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "ai-agents",
-     "bertopic",
-     "cybersecurity",
-     "d3js",
-     "digital-twin",
-     "docling",
-     "dspy",
-     "elizaos"
-    ],
-    "created_at": "2026-10-28T11:21:09Z",
-    "age_days": 1,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "general",
-    "domain_secondary": "social-media",
-    "form": "cli",
-    "ai_role": "agentic",
-    "summary": "A Python framework that harvests a target individual's public footprint (articles, PDFs, videos, transcripts), builds a Neo4j knowledge graph with GDS analytics, topic modelling, and a ChromaDB memory, and synthesises a behavioural digital-twin profile.",
-    "strengths": [
-     "Concrete stack: Neo4j GDS, BERTopic, Docling, WhisperX",
-     "Explicit emphasis on uncertainty and citation validation"
-    ],
-    "risks": [
-     "Builds cognitive profiles of named individuals, a person-profiling use case",
-     "README is marketing-heavy with inconsistent version badge"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "person-tracking",
-     "social-profile-extraction"
-    ],
-    "score": 68.7,
-    "rank_key": 61.8,
-    "confidence": 0.538,
-    "components": {
-     "momentum": 0.824,
-     "activity": 0.6,
-     "maturity": 0.85,
-     "community": 0.09,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.189
-   },
-   {
-    "rank": 24,
-    "rank_change": 0,
-    "id": 1417551543,
-    "full_name": "OSINT-Forge-Community/osint-forge-skills",
-    "html_url": "https://github.com/OSINT-Forge-Community/osint-forge-skills",
-    "description": "⚒️ Open-source OSINT and digital forensics skills for AI assistants. Investigate sources, challenge hypotheses, analyze artifacts, and produce evidence-referenced reports with portable case files and offline Python tools. Designed for Claude Code, Codex, OpenCode, and Gemini CLI.",
-    "language": "Python",
-    "license": "Apache-2.0",
-    "topics": [
-     "agent-skills",
-     "ai-agents",
-     "claude-code",
-     "claude-code-skill",
-     "claude-skills",
-     "codex",
-     "digital-forensics",
-     "evidence"
-    ],
-    "created_at": "2026-10-13T17:03:27Z",
-    "age_days": 16,
-    "stars": 9,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "general",
-    "domain_secondary": "workspace-analysis",
-    "form": "agent-skill",
-    "ai_role": "skill-mcp-native",
-    "summary": "A set of 16 OSINT and digital forensics skills for AI assistants (Claude Code, Codex, OpenCode, Gemini CLI) with offline Python tools for source preservation, hypothesis testing, evidence-referenced reporting and case handoff.",
-    "strengths": [
-     "Offline Python standard library with no telemetry or mandatory provider",
-     "Evidence preservation with citations and correction history",
-     "Exports to GraphML and Timesketch-compatible CSV"
-    ],
-    "risks": [
-     "README excerpt is truncated; specific data sources are not visible",
-     "Breadth of 16 skills may mean uneven depth per skill"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 61.3,
-    "rank_key": 61.3,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.688,
-     "activity": 0.796,
-     "maturity": 0.5,
-     "community": 0.09,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.143
-   },
-   {
-    "rank": 25,
-    "rank_change": null,
-    "id": 1436414244,
-    "full_name": "vaishantsah/watson-AI-osint-all-in-one",
-    "html_url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
-    "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-     "cybersecurity",
-     "desktop-app",
-     "digital-footprint",
-     "electron",
-     "free",
-     "infosec",
-     "intelligence",
-     "investigation"
-    ],
-    "created_at": "2026-10-28T00:09:33Z",
-    "age_days": 2,
-    "stars": 312,
-    "forks": 16,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "identity-lookup",
-    "domain_secondary": "social-media",
-    "form": "desktop-app",
-    "ai_role": "none",
-    "summary": "Watson is a Windows desktop app that searches nicknames, emails, phone numbers or websites across 3,100+ public sites to find profiles and mentions, producing a readable summary and PDF report.",
-    "strengths": [
-     "Runnable Windows download with no account or API keys needed",
-     "Clear input types and report output described"
-    ],
-    "risks": [
-     "Marketed for vetting people and checking individuals with little discussion of legal or ethical limits beyond a brief note",
-     "Heavy promotional language, few technical details on data sources or methods",
-     "Consumer people-search framing may enable profiling of private individuals"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 67.9,
-    "rank_key": 61.1,
-    "confidence": 0.544,
-    "components": {
-     "momentum": 0.991,
-     "activity": 0.757,
-     "maturity": 0.75,
-     "community": 0.29,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 0.85,
-     "flags": [
-      "watchers_outlier"
-     ]
-    },
-    "star_rate": 19.135
    }
   ],
   "new": [
@@ -1560,7 +1560,7 @@
      "osint"
     ],
     "created_at": "2026-10-25T11:15:28Z",
-    "age_days": 4,
+    "age_days": 5,
     "stars": 7,
     "forks": 1,
     "status": "emerging",
@@ -1587,11 +1587,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 80.8,
-    "rank_key": 76.6,
-    "confidence": 0.723,
+    "score": 80.0,
+    "rank_key": 75.9,
+    "confidence": 0.729,
     "components": {
-     "momentum": 0.948,
+     "momentum": 0.93,
      "activity": 0.661,
      "maturity": 0.8,
      "community": 0.494,
@@ -1601,7 +1601,7 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.59
+    "star_rate": 0.586
    },
    {
     "rank": 2,
@@ -1620,7 +1620,7 @@
      "package-registry"
     ],
     "created_at": "2026-10-25T08:06:57Z",
-    "age_days": 4,
+    "age_days": 5,
     "stars": 3,
     "forks": 0,
     "status": "emerging",
@@ -1643,12 +1643,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 75.1,
-    "rank_key": 72.1,
-    "confidence": 0.797,
+    "score": 74.9,
+    "rank_key": 71.9,
+    "confidence": 0.802,
     "components": {
-     "momentum": 0.91,
-     "activity": 0.967,
+     "momentum": 0.912,
+     "activity": 0.952,
      "maturity": 0.8,
      "community": 0.318,
      "utility": 0.8
@@ -1659,71 +1659,11 @@
       "new_owner_account"
      ]
     },
-    "star_rate": 0.474
+    "star_rate": 0.473
    },
    {
     "rank": 3,
-    "rank_change": 0,
-    "id": 1430949338,
-    "full_name": "hexmisery/NIX",
-    "html_url": "https://github.com/hexmisery/NIX",
-    "description": "Desktop public username search, live results and site discovery. Python + pywebview.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "desktop",
-     "osint",
-     "python",
-     "pywebview",
-     "username-search"
-    ],
-    "created_at": "2026-10-23T11:19:45Z",
-    "age_days": 6,
-    "stars": 5,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "identity-lookup",
-    "domain_secondary": "web-capture",
-    "form": "desktop-app",
-    "ai_role": "none",
-    "summary": "NIX is a Windows and macOS desktop app that searches public profiles by username across a large catalog of sites, shows live results with reasons, filters by status, source and region, and discovers new sites from public directories. It exports results as JSON, CSV or HTML.",
-    "strengths": [
-     "Clear, detailed README with described features, limits and usage steps",
-     "Live results and per-result reasons aid verification",
-     "Named upstream sources (Maigret, Sherlock, WhatsMyName)"
-    ],
-    "risks": [
-     "Username search across many sites can profile private individuals",
-     "Unsigned, non-notarized binaries",
-     "Adult sources and proxy use raise misuse considerations"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 70.0,
-    "rank_key": 68.4,
-    "confidence": 0.895,
-    "components": {
-     "momentum": 0.812,
-     "activity": 0.515,
-     "maturity": 0.95,
-     "community": 0.09,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.177
-   },
-   {
-    "rank": 4,
-    "rank_change": 0,
+    "rank_change": 1,
     "id": 1431867083,
     "full_name": "antalkon/telegram-tools",
     "html_url": "https://github.com/antalkon/telegram-tools",
@@ -1741,7 +1681,7 @@
      "osint"
     ],
     "created_at": "2026-10-24T05:59:58Z",
-    "age_days": 5,
+    "age_days": 6,
     "stars": 2,
     "forks": 0,
     "status": "emerging",
@@ -1768,11 +1708,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 68.2,
-    "rank_key": 66.5,
-    "confidence": 0.884,
+    "score": 67.8,
+    "rank_key": 66.1,
+    "confidence": 0.889,
     "components": {
-     "momentum": 0.781,
+     "momentum": 0.771,
      "activity": 0.478,
      "maturity": 0.85,
      "community": 0.277,
@@ -1783,6 +1723,69 @@
      "flags": []
     },
     "star_rate": 0.157
+   },
+   {
+    "rank": 4,
+    "rank_change": 2,
+    "id": 1436983109,
+    "full_name": "tilkiii/the-project-who",
+    "html_url": "https://github.com/tilkiii/the-project-who",
+    "description": "Open-source digital twin framework for evidence-grounded, probabilistic modeling with multimodal data and knowledge graphs.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "behavioral-modeling",
+     "cybersecurity",
+     "digital-twin",
+     "knowledge-graph",
+     "multimodal-ai",
+     "osint",
+     "python",
+     "topic-modeling"
+    ],
+    "created_at": "2026-10-28T11:21:09Z",
+    "age_days": 2,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "general",
+    "domain_secondary": "social-media",
+    "form": "cli",
+    "ai_role": "llm-assisted",
+    "summary": "Python framework that ingests a target person's public web articles, RSS feeds, documents, audio and video, builds a Neo4j knowledge graph and ChromaDB memory, and produces probabilistic behavioural models with source-linked answers.",
+    "strengths": [
+     "Documents concrete CLI pipeline steps",
+     "Emphasises traceability of claims to evidence",
+     "Lists named data sources and tools"
+    ],
+    "risks": [
+     "Builds profiles of individuals, including chat logs of a target",
+     "Digital-twin framing of a person raises ethical and misuse concerns",
+     "README gives limited detail on legal considerations"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "person-tracking",
+     "social-profile-extraction"
+    ],
+    "score": 70.6,
+    "rank_key": 63.7,
+    "confidence": 0.543,
+    "components": {
+     "momentum": 0.826,
+     "activity": 0.687,
+     "maturity": 0.85,
+     "community": 0.09,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.187
    },
    {
     "rank": 5,
@@ -1831,11 +1834,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 68.7,
-    "rank_key": 63.4,
-    "confidence": 0.647,
+    "score": 68.8,
+    "rank_key": 63.6,
+    "confidence": 0.653,
     "components": {
-     "momentum": 0.799,
+     "momentum": 0.802,
      "activity": 0.554,
      "maturity": 0.85,
      "community": 0.09,
@@ -1845,60 +1848,62 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.174
+    "star_rate": 0.173
    },
    {
     "rank": 6,
     "rank_change": null,
-    "id": 1436983109,
-    "full_name": "tilkiii/the-project-who",
-    "html_url": "https://github.com/tilkiii/the-project-who",
-    "description": "⚡ Open-source Multimodal OSINT Engine, Threat Reconnaissance & Evidence-Based Digital Twin Framework with D3.js Force Graphs & ElizaOS Character Synthesis.",
-    "language": "Python",
+    "id": 1432995434,
+    "full_name": "rndinfosecguy/BlackSignal",
+    "html_url": "https://github.com/rndinfosecguy/BlackSignal",
+    "description": "Leak data analyzer made for my Scavenger project",
+    "language": "TypeScript",
     "license": "MIT",
     "topics": [
-     "ai-agents",
-     "bertopic",
-     "cybersecurity",
-     "d3js",
-     "digital-twin",
-     "docling",
-     "dspy",
-     "elizaos"
+     "analysis",
+     "hacking",
+     "leak",
+     "leak-detection",
+     "leaks",
+     "osint",
+     "osint-tool",
+     "osint-tools"
     ],
-    "created_at": "2026-10-28T11:21:09Z",
-    "age_days": 1,
+    "created_at": "2026-10-25T08:47:19Z",
+    "age_days": 5,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
     "scope": "core",
-    "domain": "general",
-    "domain_secondary": "social-media",
-    "form": "cli",
-    "ai_role": "agentic",
-    "summary": "A Python framework that harvests a target individual's public footprint (articles, PDFs, videos, transcripts), builds a Neo4j knowledge graph with GDS analytics, topic modelling, and a ChromaDB memory, and synthesises a behavioural digital-twin profile.",
+    "domain": "breach-exposure",
+    "domain_secondary": "web-capture",
+    "form": "web-app",
+    "ai_role": "none",
+    "summary": "A self-hosted web app that indexes pastes from Pastebin, GitHub Gists, dpaste and pastes.io into a full-text search engine and flags leaked credentials, API keys and private keys for defenders.",
     "strengths": [
-     "Concrete stack: Neo4j GDS, BERTopic, Docling, WhisperX",
-     "Explicit emphasis on uncertainty and citation validation"
+     "Clear defensive purpose of detecting exposed secrets on paste sites",
+     "Documented feature list and Docker-based setup",
+     "Works alongside a companion scraper project"
     ],
     "risks": [
-     "Builds cognitive profiles of named individuals, a person-profiling use case",
-     "README is marketing-heavy with inconsistent version badge"
+     "Indexes leaked credentials and personal data from pastes",
+     "Relies on user-supplied raw paste data; sourcing is not documented",
+     "Possible hosting or redistribution of breach data despite the research-only notice"
     ],
     "reviewed": true,
     "readme_language": "en",
     "sensitivity": "caution",
     "sensitivity_tags": [
-     "person-tracking",
-     "social-profile-extraction"
+     "breach-lookup",
+     "leaked-data-lookup"
     ],
-    "score": 68.7,
-    "rank_key": 61.8,
-    "confidence": 0.538,
+    "score": 65.3,
+    "rank_key": 62.3,
+    "confidence": 0.802,
     "components": {
-     "momentum": 0.824,
-     "activity": 0.6,
-     "maturity": 0.85,
+     "momentum": 0.777,
+     "activity": 0.571,
+     "maturity": 0.8,
      "community": 0.09,
      "utility": 0.6
     },
@@ -1906,133 +1911,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.189
+    "star_rate": 0.158
    },
    {
     "rank": 7,
-    "rank_change": 0,
-    "id": 1436414244,
-    "full_name": "vaishantsah/watson-AI-osint-all-in-one",
-    "html_url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
-    "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-     "cybersecurity",
-     "desktop-app",
-     "digital-footprint",
-     "electron",
-     "free",
-     "infosec",
-     "intelligence",
-     "investigation"
-    ],
-    "created_at": "2026-10-28T00:09:33Z",
-    "age_days": 2,
-    "stars": 312,
-    "forks": 16,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "identity-lookup",
-    "domain_secondary": "social-media",
-    "form": "desktop-app",
-    "ai_role": "none",
-    "summary": "Watson is a Windows desktop app that searches nicknames, emails, phone numbers or websites across 3,100+ public sites to find profiles and mentions, producing a readable summary and PDF report.",
-    "strengths": [
-     "Runnable Windows download with no account or API keys needed",
-     "Clear input types and report output described"
-    ],
-    "risks": [
-     "Marketed for vetting people and checking individuals with little discussion of legal or ethical limits beyond a brief note",
-     "Heavy promotional language, few technical details on data sources or methods",
-     "Consumer people-search framing may enable profiling of private individuals"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 67.9,
-    "rank_key": 61.1,
-    "confidence": 0.544,
-    "components": {
-     "momentum": 0.991,
-     "activity": 0.757,
-     "maturity": 0.75,
-     "community": 0.29,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 0.85,
-     "flags": [
-      "watchers_outlier"
-     ]
-    },
-    "star_rate": 19.135
-   },
-   {
-    "rank": 8,
-    "rank_change": null,
-    "id": 1435931348,
-    "full_name": "OSINT-Copilot/osint-copilot",
-    "html_url": "https://github.com/OSINT-Copilot/osint-copilot",
-    "description": "Local-first OSINT investigation workspace: entities, graph, timeline, map, canvas, sources and evidence in plain Markdown, with optional AI runtimes and a browser extension. Built on Tangent.",
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "topics": [
-     "electron",
-     "followthemoney",
-     "investigation",
-     "knowledge-graph",
-     "markdown",
-     "osint"
-    ],
-    "created_at": "2026-10-27T15:38:43Z",
-    "age_days": 2,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "workspace-analysis",
-    "domain_secondary": "general",
-    "form": "desktop-app",
-    "ai_role": "llm-assisted",
-    "summary": "A local-first desktop workspace (fork of Tangent) for OSINT investigations. Organises entities, graphs, timelines, maps, canvases, sources and evidence as Markdown and YAML files, with optional AI chat runtimes and a Chromium capture extension.",
-    "strengths": [
-     "Local-first data stored in plain Markdown and YAML files",
-     "Bundled FollowTheMoney-shaped schemas and multiple views of the same records",
-     "Demo workspace with fictional case data and install guides"
-    ],
-    "risks": [
-     "Windows and Linux binaries are unsigned; users must verify SHA-256 digests",
-     "macOS has no supported binary yet",
-     "Depends on a fork of Tangent and some optional features are described only briefly"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 67.8,
-    "rank_key": 61.0,
-    "confidence": 0.549,
-    "components": {
-     "momentum": 0.818,
-     "activity": 0.468,
-     "maturity": 0.85,
-     "community": 0.09,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.186
-   },
-   {
-    "rank": 9,
-    "rank_change": -3,
+    "rank_change": 2,
     "id": 1436104807,
     "full_name": "aixisstudio/osint-tools-list",
     "html_url": "https://github.com/aixisstudio/osint-tools-list",
@@ -2072,12 +1955,12 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 67.6,
-    "rank_key": 60.8,
-    "confidence": 0.548,
+    "score": 68.9,
+    "rank_key": 62.2,
+    "confidence": 0.553,
     "components": {
-     "momentum": 0.88,
-     "activity": 0.661,
+     "momentum": 0.881,
+     "activity": 0.726,
      "maturity": 0.45,
      "community": 0.2,
      "utility": 0.6
@@ -2086,11 +1969,133 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.274
+    "star_rate": 0.271
+   },
+   {
+    "rank": 8,
+    "rank_change": -1,
+    "id": 1436414244,
+    "full_name": "vaishantsah/watson-AI-osint-all-in-one",
+    "html_url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
+    "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+     "cybersecurity",
+     "desktop-app",
+     "digital-footprint",
+     "electron",
+     "free",
+     "infosec",
+     "intelligence",
+     "investigation"
+    ],
+    "created_at": "2026-10-28T00:09:33Z",
+    "age_days": 2,
+    "stars": 320,
+    "forks": 17,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "identity-lookup",
+    "domain_secondary": "social-media",
+    "form": "desktop-app",
+    "ai_role": "none",
+    "summary": "Watson is a Windows desktop app that searches nicknames, emails, phone numbers or websites across 3,100+ public sites to find profiles and mentions, producing a readable summary and PDF report.",
+    "strengths": [
+     "Runnable Windows download with no account or API keys needed",
+     "Clear input types and report output described"
+    ],
+    "risks": [
+     "Marketed for vetting people and checking individuals with little discussion of legal or ethical limits beyond a brief note",
+     "Heavy promotional language, few technical details on data sources or methods",
+     "Consumer people-search framing may enable profiling of private individuals"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "personal-data-lookup",
+     "social-profile-extraction"
+    ],
+    "score": 67.9,
+    "rank_key": 61.2,
+    "confidence": 0.55,
+    "components": {
+     "momentum": 0.991,
+     "activity": 0.757,
+     "maturity": 0.75,
+     "community": 0.29,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 0.85,
+     "flags": [
+      "watchers_outlier"
+     ]
+    },
+    "star_rate": 20.294
+   },
+   {
+    "rank": 9,
+    "rank_change": -1,
+    "id": 1435931348,
+    "full_name": "OSINT-Copilot/osint-copilot",
+    "html_url": "https://github.com/OSINT-Copilot/osint-copilot",
+    "description": "Local-first OSINT investigation workspace: entities, graph, timeline, map, canvas, sources and evidence in plain Markdown, with optional AI runtimes and a browser extension. Built on Tangent.",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+     "electron",
+     "followthemoney",
+     "investigation",
+     "knowledge-graph",
+     "markdown",
+     "osint"
+    ],
+    "created_at": "2026-10-27T15:38:43Z",
+    "age_days": 2,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "workspace-analysis",
+    "domain_secondary": "general",
+    "form": "desktop-app",
+    "ai_role": "llm-assisted",
+    "summary": "A local-first desktop workspace (fork of Tangent) for OSINT investigations. Organises entities, graphs, timelines, maps, canvases, sources and evidence as Markdown and YAML files, with optional AI chat runtimes and a Chromium capture extension.",
+    "strengths": [
+     "Local-first data stored in plain Markdown and YAML files",
+     "Bundled FollowTheMoney-shaped schemas and multiple views of the same records",
+     "Demo workspace with fictional case data and install guides"
+    ],
+    "risks": [
+     "Windows and Linux binaries are unsigned; users must verify SHA-256 digests",
+     "macOS has no supported binary yet",
+     "Depends on a fork of Tangent and some optional features are described only briefly"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 67.9,
+    "rank_key": 61.2,
+    "confidence": 0.555,
+    "components": {
+     "momentum": 0.82,
+     "activity": 0.468,
+     "maturity": 0.85,
+     "community": 0.09,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.185
    },
    {
     "rank": 10,
-    "rank_change": -2,
+    "rank_change": 0,
     "id": 1435331946,
     "full_name": "watsoncore/Gansar",
     "html_url": "https://github.com/watsoncore/Gansar",
@@ -2108,7 +2113,7 @@
      "emma-watson"
     ],
     "created_at": "2026-10-27T06:20:10Z",
-    "age_days": 2,
+    "age_days": 3,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -2134,12 +2139,12 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 65.5,
-    "rank_key": 59.9,
-    "confidence": 0.626,
+    "score": 65.3,
+    "rank_key": 59.8,
+    "confidence": 0.632,
     "components": {
-     "momentum": 0.806,
-     "activity": 0.501,
+     "momentum": 0.808,
+     "activity": 0.486,
      "maturity": 0.65,
      "community": 0.152,
      "utility": 0.8
@@ -2148,11 +2153,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.177
+    "star_rate": 0.176
    },
    {
     "rank": 11,
-    "rank_change": -2,
+    "rank_change": 0,
     "id": 1432362040,
     "full_name": "RawPowered/osint-dive-deep-v1",
     "html_url": "https://github.com/RawPowered/osint-dive-deep-v1",
@@ -2194,11 +2199,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 57.7,
-    "rank_key": 54.8,
-    "confidence": 0.806,
+    "score": 56.6,
+    "rank_key": 53.8,
+    "confidence": 0.812,
     "components": {
-     "momentum": 0.552,
+     "momentum": 0.527,
      "activity": 0.703,
      "maturity": 0.75,
      "community": 0.152,
@@ -2208,11 +2213,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.015
+    "star_rate": 0.014
    },
    {
     "rank": 12,
-    "rank_change": -2,
+    "rank_change": 0,
     "id": 1431995590,
     "full_name": "abduallahJamal/rased",
     "html_url": "https://github.com/abduallahJamal/rased",
@@ -2230,7 +2235,7 @@
      "security"
     ],
     "created_at": "2026-10-24T08:55:42Z",
-    "age_days": 5,
+    "age_days": 6,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -2254,12 +2259,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 54.0,
-    "rank_key": 52.2,
-    "confidence": 0.882,
+    "score": 52.6,
+    "rank_key": 50.9,
+    "confidence": 0.887,
     "components": {
-     "momentum": 0.546,
-     "activity": 0.276,
+     "momentum": 0.521,
+     "activity": 0.264,
      "maturity": 1.0,
      "community": 0.09,
      "utility": 0.8
@@ -2272,7 +2277,7 @@
    },
    {
     "rank": 13,
-    "rank_change": -2,
+    "rank_change": 0,
     "id": 1437281024,
     "full_name": "feddedz/feddedosint",
     "html_url": "https://github.com/feddedz/feddedosint",
@@ -2317,11 +2322,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 58.3,
-    "rank_key": 50.3,
-    "confidence": 0.464,
+    "score": 57.4,
+    "rank_key": 49.4,
+    "confidence": 0.469,
     "components": {
-     "momentum": 0.602,
+     "momentum": 0.582,
      "activity": 0.85,
      "maturity": 0.15,
      "community": 0.395,
@@ -2331,7 +2336,7 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.111
+    "star_rate": 0.108
    }
   ],
   "established": [
@@ -2478,7 +2483,7 @@
     ],
     "created_at": "2026-07-25T16:40:07Z",
     "age_days": 96,
-    "stars": 89,
+    "stars": 90,
     "forks": 15,
     "status": "established",
     "scope": "core",
@@ -2499,12 +2504,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 63.4,
-    "rank_key": 63.4,
+    "score": 64.1,
+    "rank_key": 64.1,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.881,
-     "activity": 0.564,
+     "momentum": 0.929,
+     "activity": 0.551,
      "maturity": 0.55,
      "community": 0.437,
      "utility": 0.8
@@ -2513,11 +2518,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.714
+    "star_rate": 0.857
    },
    {
     "rank": 4,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1302771042,
     "full_name": "k0nrd/COSINT",
     "html_url": "https://github.com/k0nrd/COSINT",
@@ -2560,12 +2565,12 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 62.3,
-    "rank_key": 62.3,
+    "score": 62.2,
+    "rank_key": 62.2,
     "confidence": 1.0,
     "components": {
      "momentum": 0.667,
-     "activity": 0.362,
+     "activity": 0.359,
      "maturity": 0.95,
      "community": 0.296,
      "utility": 0.8
@@ -2578,7 +2583,7 @@
    },
    {
     "rank": 5,
-    "rank_change": -1,
+    "rank_change": 0,
     "id": 1307788746,
     "full_name": "KillaMeep/waypoint-osint",
     "html_url": "https://github.com/KillaMeep/waypoint-osint",
@@ -2619,12 +2624,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 55.9,
-    "rank_key": 55.9,
+    "score": 53.7,
+    "rank_key": 53.7,
     "confidence": 1.0,
     "components": {
      "momentum": 0.262,
-     "activity": 0.518,
+     "activity": 0.409,
      "maturity": 0.9,
      "community": 0.29,
      "utility": 0.8
@@ -2713,7 +2718,7 @@
      "python"
     ],
     "created_at": "2026-07-23T06:44:28Z",
-    "age_days": 98,
+    "age_days": 99,
     "stars": 27,
     "forks": 4,
     "status": "established",
@@ -2854,11 +2859,11 @@
      "person-tracking",
      "social-profile-extraction"
     ],
-    "score": 43.6,
-    "rank_key": 43.6,
+    "score": 42.7,
+    "rank_key": 42.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.929,
+     "momentum": 0.881,
      "activity": 0.0,
      "maturity": 0.45,
      "community": 0.09,
@@ -2890,7 +2895,7 @@
      "osint"
     ],
     "created_at": "2026-09-17T05:58:52Z",
-    "age_days": 42,
+    "age_days": 43,
     "stars": 3,
     "forks": 0,
     "status": "established",
@@ -3010,7 +3015,7 @@
      "llm-tools"
     ],
     "created_at": "2026-10-22T04:21:11Z",
-    "age_days": 7,
+    "age_days": 8,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -3032,12 +3037,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 46.5,
-    "rank_key": 44.1,
-    "confidence": 0.842,
+    "score": 46.2,
+    "rank_key": 43.9,
+    "confidence": 0.847,
     "components": {
-     "momentum": 0.775,
-     "activity": 1.0,
+     "momentum": 0.765,
+     "activity": 0.983,
      "maturity": 1.0,
      "community": 0.253,
      "utility": 0.8
@@ -3091,12 +3096,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 41.1,
-    "rank_key": 41.1,
+    "score": 40.5,
+    "rank_key": 40.5,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.895,
-     "activity": 0.739,
+     "momentum": 0.896,
+     "activity": 0.686,
      "maturity": 0.85,
      "community": 0.133,
      "utility": 0.8
@@ -3127,7 +3132,7 @@
      "security-headers"
     ],
     "created_at": "2026-09-23T03:22:45Z",
-    "age_days": 36,
+    "age_days": 37,
     "stars": 11,
     "forks": 0,
     "status": "emerging",
@@ -3154,8 +3159,8 @@
     "rank_key": 40.5,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.935,
-     "activity": 0.628,
+     "momentum": 0.942,
+     "activity": 0.619,
      "maturity": 0.85,
      "community": 0.152,
      "utility": 0.8
@@ -3209,11 +3214,11 @@
     "readme_language": "zh",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 40.9,
+    "score": 40.8,
     "rank_key": 39.5,
-    "confidence": 0.906,
+    "confidence": 0.911,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.703,
      "maturity": 1.0,
      "community": 0.17,
@@ -3227,7 +3232,7 @@
    },
    {
     "rank": 5,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1425817934,
     "full_name": "APIGranter/snitch",
     "html_url": "https://github.com/APIGranter/snitch",
@@ -3268,11 +3273,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 39.7,
-    "rank_key": 38.9,
-    "confidence": 0.949,
+    "score": 39.5,
+    "rank_key": 38.8,
+    "confidence": 0.955,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.751,
      "maturity": 0.9,
      "community": 0.14,
@@ -3286,7 +3291,7 @@
    },
    {
     "rank": 6,
-    "rank_change": 2,
+    "rank_change": 0,
     "id": 1433201965,
     "full_name": "rephuren/silhouette",
     "html_url": "https://github.com/rephuren/silhouette",
@@ -3324,11 +3329,11 @@
     "readme_language": "ru",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 42.7,
-    "rank_key": 38.5,
-    "confidence": 0.722,
+    "score": 42.4,
+    "rank_key": 38.3,
+    "confidence": 0.728,
     "components": {
-     "momentum": 0.583,
+     "momentum": 0.558,
      "activity": 0.733,
      "maturity": 0.95,
      "community": 0.451,
@@ -3338,11 +3343,71 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.046
+    "star_rate": 0.045
    },
    {
     "rank": 7,
-    "rank_change": 0,
+    "rank_change": null,
+    "id": 1430929093,
+    "full_name": "Yumankind/worldsignals-js",
+    "html_url": "https://github.com/Yumankind/worldsignals-js",
+    "description": "Real-world events for code and AI agents: new companies, public tenders, vulnerabilities, outages and AI models as one standard stream. The worldsignals command line tool (npx worldsignals); the MCP server is live at worldsignals.dev/mcp.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "topics": [
+     "ai-agents",
+     "brand-protection",
+     "claude-code",
+     "cli",
+     "cloudevents",
+     "company-data",
+     "cve",
+     "event-stream"
+    ],
+    "created_at": "2026-10-23T10:58:50Z",
+    "age_days": 7,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "general",
+    "domain_secondary": "situational-awareness",
+    "form": "cli",
+    "ai_role": "skill-mcp-native",
+    "summary": "Command line tool and MCP server delivering real-world events (new companies, public tenders, CVEs, outages, AI model launches) from official registers and public feeds as one standard event stream for code and AI agents. Paid plans beyond free vulnerability alerts.",
+    "strengths": [
+     "Runnable CLI with clear quick start",
+     "Draws on official registers and public feeds",
+     "MCP server for agent integration"
+    ],
+    "risks": [
+     "Commercial product with paid plans and account requirement",
+     "Broad feed tool; OSINT is only one feature",
+     "README is largely marketing with limited detail on sources"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 42.4,
+    "rank_key": 37.7,
+    "confidence": 0.686,
+    "components": {
+     "momentum": 0.796,
+     "activity": 0.959,
+     "maturity": 0.95,
+     "community": 0.14,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.17
+   },
+   {
+    "rank": 8,
+    "rank_change": -1,
     "id": 1426108356,
     "full_name": "iamludal/filrouge",
     "html_url": "https://github.com/iamludal/filrouge",
@@ -3385,11 +3450,11 @@
     "sensitivity_tags": [
      "breach-lookup"
     ],
-    "score": 38.5,
-    "rank_key": 37.7,
-    "confidence": 0.947,
+    "score": 38.3,
+    "rank_key": 37.6,
+    "confidence": 0.952,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.752,
      "maturity": 0.8,
      "community": 0.17,
@@ -3402,8 +3467,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 8,
-    "rank_change": 1,
+    "rank": 9,
+    "rank_change": -1,
     "id": 1423219909,
     "full_name": "rmednitzer/osint-workbench",
     "html_url": "https://github.com/rmednitzer/osint-workbench",
@@ -3421,7 +3486,7 @@
      "osint"
     ],
     "created_at": "2026-10-17T10:36:45Z",
-    "age_days": 12,
+    "age_days": 13,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -3445,11 +3510,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 36.5,
+    "score": 36.4,
     "rank_key": 36.2,
-    "confidence": 0.981,
+    "confidence": 0.986,
     "components": {
-     "momentum": 0.262,
+     "momentum": 0.25,
      "activity": 0.802,
      "maturity": 0.75,
      "community": 0.59,
@@ -3462,8 +3527,8 @@
     "star_rate": 0.0
    },
    {
-    "rank": 9,
-    "rank_change": 4,
+    "rank": 10,
+    "rank_change": -1,
     "id": 1398271592,
     "full_name": "lcintron/gengis",
     "html_url": "https://github.com/lcintron/gengis",
@@ -3503,11 +3568,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 41.5,
-    "rank_key": 36.1,
+    "score": 41.1,
+    "rank_key": 35.7,
     "confidence": 0.643,
     "components": {
-     "momentum": 0.59,
+     "momentum": 0.564,
      "activity": 1.0,
      "maturity": 0.65,
      "community": 0.603,
@@ -3520,8 +3585,8 @@
     "star_rate": 0.039
    },
    {
-    "rank": 10,
-    "rank_change": -5,
+    "rank": 11,
+    "rank_change": -1,
     "id": 1315625985,
     "full_name": "DevCop95/shodan_reconsx",
     "html_url": "https://github.com/DevCop95/shodan_reconsx",
@@ -3537,7 +3602,7 @@
      "subdomains"
     ],
     "created_at": "2026-07-29T02:54:33Z",
-    "age_days": 92,
+    "age_days": 93,
     "stars": 42,
     "forks": 2,
     "status": "established",
@@ -3560,12 +3625,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.3,
-    "rank_key": 35.3,
+    "score": 35.2,
+    "rank_key": 35.2,
     "confidence": 1.0,
     "components": {
      "momentum": 0.262,
-     "activity": 0.452,
+     "activity": 0.442,
      "maturity": 0.95,
      "community": 0.441,
      "utility": 0.8
@@ -3577,8 +3642,8 @@
     "star_rate": 0.0
    },
    {
-    "rank": 11,
-    "rank_change": 1,
+    "rank": 12,
+    "rank_change": -1,
     "id": 1401865596,
     "full_name": "DrowLink/osint-toolkit",
     "html_url": "https://github.com/DrowLink/osint-toolkit",
@@ -3621,11 +3686,11 @@
     "sensitivity_tags": [
      "social-profile-extraction"
     ],
-    "score": 35.2,
-    "rank_key": 35.2,
+    "score": 35.0,
+    "rank_key": 35.0,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.262,
+     "momentum": 0.25,
      "activity": 0.605,
      "maturity": 1.0,
      "community": 0.215,
@@ -3638,8 +3703,8 @@
     "star_rate": 0.0
    },
    {
-    "rank": 12,
-    "rank_change": 6,
+    "rank": 13,
+    "rank_change": -1,
     "id": 1430183342,
     "full_name": "tant28403-svg/roastmywebsite",
     "html_url": "https://github.com/tant28403-svg/roastmywebsite",
@@ -3679,11 +3744,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 36.5,
-    "rank_key": 35.1,
-    "confidence": 0.904,
+    "score": 36.2,
+    "rank_key": 34.9,
+    "confidence": 0.91,
     "components": {
-     "momentum": 0.528,
+     "momentum": 0.503,
      "activity": 0.85,
      "maturity": 0.85,
      "community": 0.152,
@@ -3696,8 +3761,8 @@
     "star_rate": 0.007
    },
    {
-    "rank": 13,
-    "rank_change": 2,
+    "rank": 14,
+    "rank_change": -1,
     "id": 1407284500,
     "full_name": "amirrezamortazavifard/Fardgram",
     "html_url": "https://github.com/amirrezamortazavifard/Fardgram",
@@ -3737,11 +3802,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 36.1,
-    "rank_key": 35.0,
+    "score": 35.7,
+    "rank_key": 34.6,
     "confidence": 0.929,
     "components": {
-     "momentum": 0.559,
+     "momentum": 0.534,
      "activity": 0.72,
      "maturity": 0.95,
      "community": 0.09,
@@ -3754,8 +3819,8 @@
     "star_rate": 0.015
    },
    {
-    "rank": 14,
-    "rank_change": -4,
+    "rank": 15,
+    "rank_change": -1,
     "id": 1430825540,
     "full_name": "BRANDEFENSE/threat-actor-dataset",
     "html_url": "https://github.com/BRANDEFENSE/threat-actor-dataset",
@@ -3773,7 +3838,7 @@
      "json"
     ],
     "created_at": "2026-10-23T09:14:42Z",
-    "age_days": 6,
+    "age_days": 7,
     "stars": 16,
     "forks": 0,
     "status": "emerging",
@@ -3796,12 +3861,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.7,
-    "rank_key": 34.1,
-    "confidence": 0.896,
+    "score": 35.4,
+    "rank_key": 33.9,
+    "confidence": 0.902,
     "components": {
-     "momentum": 0.688,
-     "activity": 0.787,
+     "momentum": 0.674,
+     "activity": 0.771,
      "maturity": 0.65,
      "community": 0.09,
      "utility": 0.8
@@ -3813,8 +3878,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 15,
-    "rank_change": 5,
+    "rank": 16,
+    "rank_change": -1,
     "id": 1431894706,
     "full_name": "Venu-exe/takeoverhunter",
     "html_url": "https://github.com/Venu-exe/takeoverhunter",
@@ -3832,7 +3897,7 @@
      "subdomain-takeover"
     ],
     "created_at": "2026-10-24T06:39:37Z",
-    "age_days": 5,
+    "age_days": 6,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -3855,12 +3920,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.9,
-    "rank_key": 34.1,
-    "confidence": 0.883,
+    "score": 35.6,
+    "rank_key": 33.9,
+    "confidence": 0.889,
     "components": {
-     "momentum": 0.769,
-     "activity": 0.496,
+     "momentum": 0.759,
+     "activity": 0.484,
      "maturity": 0.95,
      "community": 0.09,
      "utility": 0.6
@@ -3872,8 +3937,8 @@
     "star_rate": 0.15
    },
    {
-    "rank": 16,
-    "rank_change": 0,
+    "rank": 17,
+    "rank_change": -1,
     "id": 1341437659,
     "full_name": "adulau/ptrclassify",
     "html_url": "https://github.com/adulau/ptrclassify",
@@ -3887,7 +3952,7 @@
      "threatintel"
     ],
     "created_at": "2026-08-21T05:33:42Z",
-    "age_days": 69,
+    "age_days": 70,
     "stars": 9,
     "forks": 2,
     "status": "emerging",
@@ -3911,12 +3976,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 33.9,
-    "rank_key": 33.9,
+    "score": 33.7,
+    "rank_key": 33.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.262,
-     "activity": 0.327,
+     "momentum": 0.25,
+     "activity": 0.321,
      "maturity": 0.9,
      "community": 0.512,
      "utility": 0.8
@@ -3928,8 +3993,8 @@
     "star_rate": 0.0
    },
    {
-    "rank": 17,
-    "rank_change": -3,
+    "rank": 18,
+    "rank_change": -1,
     "id": 1430023291,
     "full_name": "tant28403-svg/DIGGER",
     "html_url": "https://github.com/tant28403-svg/DIGGER",
@@ -3966,11 +4031,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.1,
-    "rank_key": 33.7,
-    "confidence": 0.906,
+    "score": 34.9,
+    "rank_key": 33.6,
+    "confidence": 0.911,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.731,
      "maturity": 0.65,
      "community": 0.09,
@@ -3983,7 +4048,7 @@
     "star_rate": 0.143
    },
    {
-    "rank": 18,
+    "rank": 19,
     "rank_change": -1,
     "id": 1413509049,
     "full_name": "Yash150406/TrustGuard",
@@ -4025,12 +4090,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 33.6,
-    "rank_key": 33.6,
+    "score": 33.4,
+    "rank_key": 33.4,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.262,
-     "activity": 0.674,
+     "momentum": 0.25,
+     "activity": 0.669,
      "maturity": 0.8,
      "community": 0.413,
      "utility": 0.6
@@ -4042,8 +4107,8 @@
     "star_rate": 0.0
    },
    {
-    "rank": 19,
-    "rank_change": 0,
+    "rank": 20,
+    "rank_change": -1,
     "id": 1312090772,
     "full_name": "Houseofmvps/opentechalyzer",
     "html_url": "https://github.com/Houseofmvps/opentechalyzer",
@@ -4102,8 +4167,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 20,
-    "rank_change": 1,
+    "rank": 21,
+    "rank_change": -1,
     "id": 1376473674,
     "full_name": "piyushpcs/SurfaceSweep",
     "html_url": "https://github.com/piyushpcs/SurfaceSweep",
@@ -4143,11 +4208,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 32.7,
-    "rank_key": 32.7,
+    "score": 32.5,
+    "rank_key": 32.5,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.262,
+     "momentum": 0.25,
      "activity": 0.644,
      "maturity": 0.9,
      "community": 0.09,
@@ -4160,8 +4225,68 @@
     "star_rate": 0.0
    },
    {
-    "rank": 21,
-    "rank_change": 3,
+    "rank": 22,
+    "rank_change": 0,
+    "id": 1429966911,
+    "full_name": "OSINTCabal/DeepSearch",
+    "html_url": "https://github.com/OSINTCabal/DeepSearch",
+    "description": "Terminal wrapper for the DeepSeek Search & Fetch API with ddgr-style paginated search, lazy API loading, SQLite database, and local fetch. Created by OSINTCabal.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "deepseek",
+     "deepseek-api",
+     "osint",
+     "osint-python",
+     "osint-resources",
+     "osint-tool",
+     "osint-toolkit",
+     "osint-tools"
+    ],
+    "created_at": "2026-10-22T16:00:09Z",
+    "age_days": 7,
+    "stars": 2,
+    "forks": 1,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "general",
+    "domain_secondary": "web-capture",
+    "form": "cli",
+    "ai_role": "llm-assisted",
+    "summary": "Terminal wrapper for the DeepSeek Search and Fetch API offering paginated web search with lazy API loading, a SQLite cache/database, and local page fetching via curl or wget.",
+    "strengths": [
+     "Clear installation steps and dependency list",
+     "Lazy loading reduces API costs by caching visited pages",
+     "Local fetch option that avoids API charges"
+    ],
+    "risks": [
+     "OSINT focus is mostly tagging; the tool is a general AI search wrapper",
+     "Depends on a paid third-party API",
+     "Limited detail on data sources and legal considerations"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 33.6,
+    "rank_key": 32.3,
+    "confidence": 0.912,
+    "components": {
+     "momentum": 0.869,
+     "activity": 0.253,
+     "maturity": 0.75,
+     "community": 0.29,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.286
+   },
+   {
+    "rank": 23,
+    "rank_change": -2,
     "id": 1378967616,
     "full_name": "K4N3CO/PWNNET-Toolkit",
     "html_url": "https://github.com/K4N3CO/PWNNET-Toolkit",
@@ -4205,11 +4330,11 @@
     "sensitivity_tags": [
      "breach-lookup"
     ],
-    "score": 32.3,
-    "rank_key": 32.3,
+    "score": 32.2,
+    "rank_key": 32.2,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.688,
+     "momentum": 0.674,
      "activity": 0.267,
      "maturity": 0.8,
      "community": 0.29,
@@ -4222,123 +4347,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 22,
-    "rank_change": 3,
-    "id": 1429966911,
-    "full_name": "OSINTCabal/DeepSearch",
-    "html_url": "https://github.com/OSINTCabal/DeepSearch",
-    "description": "Terminal wrapper for the DeepSeek Search & Fetch API with ddgr-style paginated search, lazy API loading, SQLite database, and local fetch. Created by OSINTCabal.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "deepseek",
-     "deepseek-api",
-     "osint",
-     "osint-python",
-     "osint-resources",
-     "osint-tool",
-     "osint-toolkit",
-     "osint-tools"
-    ],
-    "created_at": "2026-10-22T16:00:09Z",
-    "age_days": 7,
-    "stars": 2,
-    "forks": 1,
-    "status": "emerging",
-    "scope": "adjacent",
-    "domain": "general",
-    "domain_secondary": "web-capture",
-    "form": "cli",
-    "ai_role": "llm-assisted",
-    "summary": "Terminal wrapper for the DeepSeek Search and Fetch API offering paginated web search with lazy API loading, a SQLite cache/database, and local page fetching via curl or wget.",
-    "strengths": [
-     "Clear installation steps and dependency list",
-     "Lazy loading reduces API costs by caching visited pages",
-     "Local fetch option that avoids API charges"
-    ],
-    "risks": [
-     "OSINT focus is mostly tagging; the tool is a general AI search wrapper",
-     "Depends on a paid third-party API",
-     "Limited detail on data sources and legal considerations"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 33.6,
-    "rank_key": 32.2,
-    "confidence": 0.906,
-    "components": {
-     "momentum": 0.867,
-     "activity": 0.253,
-     "maturity": 0.75,
-     "community": 0.29,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.286
-   },
-   {
-    "rank": 23,
-    "rank_change": null,
-    "id": 1316896183,
-    "full_name": "0xh1tesh/cyberthreat-visualizer",
-    "html_url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
-    "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
-    "language": "JavaScript",
-    "license": "MIT",
-    "topics": [
-     "cybersecurity",
-     "osint",
-     "threat-intelligence"
-    ],
-    "created_at": "2026-07-30T06:04:32Z",
-    "age_days": 91,
-    "stars": 8,
-    "forks": 0,
-    "status": "established",
-    "scope": "adjacent",
-    "domain": "situational-awareness",
-    "domain_secondary": "threat-intel",
-    "form": "web-app",
-    "ai_role": "llm-assisted",
-    "summary": "Full-stack SOC-style dashboard that pulls threat data from AbuseIPDB, AlienVault OTX, Shodan and IPInfo, shows attack arcs on a 3D globe, classifies events via rules plus optional Gemini/OpenAI, and generates threat reports.",
-    "strengths": [
-     "Multiple named OSINT sources with setup instructions",
-     "Documents rate limits and fallback behaviour",
-     "Clear architecture with frontend and backend run steps"
-    ],
-    "risks": [
-     "Labelled basic prototype; limited maturity",
-     "Placeholder clone URL in install steps",
-     "Relies on third-party API keys with free-tier limits"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 31.8,
-    "rank_key": 31.8,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.262,
-     "activity": 0.515,
-     "maturity": 0.85,
-     "community": 0.207,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.0
-   },
-   {
     "rank": 24,
-    "rank_change": -1,
+    "rank_change": 0,
     "id": 1303075013,
     "full_name": "TrueFurina/passive-recon",
     "html_url": "https://github.com/TrueFurina/passive-recon",
@@ -4398,72 +4408,128 @@
    },
    {
     "rank": 25,
-    "rank_change": null,
-    "id": 1393701505,
-    "full_name": "sylhetyhackvenger/STRATASCAN",
-    "html_url": "https://github.com/sylhetyhackvenger/STRATASCAN",
-    "description": "StrataScan is a gray-hat hackers attack-surface reconstruction engine that transforms web history into actionable security intelligence. It combines OSINT, archive forensics, DNS/TLS analysis, subdomain discovery, secret detection, temporal diffing, live verification, evidence correlation, and automated reporting.",
-    "language": "Python",
+    "rank_change": -2,
+    "id": 1316896183,
+    "full_name": "0xh1tesh/cyberthreat-visualizer",
+    "html_url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
+    "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
+    "language": "JavaScript",
     "license": "MIT",
     "topics": [
-     "archive-forensics",
-     "archive-org",
-     "digital-forensics",
-     "dns-security",
-     "forensics-tools",
-     "gray-hat-hacking-tool",
-     "metadata-extraction",
-     "osint-tool"
+     "cybersecurity",
+     "osint",
+     "threat-intelligence"
     ],
-    "created_at": "2026-09-28T19:22:21Z",
-    "age_days": 31,
-    "stars": 5,
-    "forks": 1,
-    "status": "emerging",
+    "created_at": "2026-07-30T06:04:32Z",
+    "age_days": 92,
+    "stars": 8,
+    "forks": 0,
+    "status": "established",
     "scope": "adjacent",
-    "domain": "web-capture",
-    "domain_secondary": "infrastructure-asm",
-    "form": "cli",
-    "ai_role": "none",
-    "summary": "StrataScan is a Python CLI/TUI reconnaissance engine that mines web archives, DNS/TLS data, subdomains and client-side files to find historical attack-surface exposure and leaked secrets, with evidence correlation and reporting.",
+    "domain": "situational-awareness",
+    "domain_secondary": "threat-intel",
+    "form": "web-app",
+    "ai_role": "llm-assisted",
+    "summary": "Full-stack SOC-style dashboard that pulls threat data from AbuseIPDB, AlienVault OTX, Shodan and IPInfo, shows attack arcs on a 3D globe, classifies events via rules plus optional Gemini/OpenAI, and generates threat reports.",
     "strengths": [
-     "Uses named archive and CT data sources (Wayback/CDX, Common Crawl, CT logs)",
-     "Standard-library-only, runnable CLI mode",
-     "Documents authorization and legal-use scope"
+     "Multiple named OSINT sources with setup instructions",
+     "Documents rate limits and fallback behaviour",
+     "Clear architecture with frontend and backend run steps"
     ],
     "risks": [
-     "Includes live verification and proxy rotation, which can drift toward active scanning",
-     "Marketing-heavy README with unverified capability counts",
-     "Secret detection output may expose live credentials"
+     "Labelled basic prototype; limited maturity",
+     "Placeholder clone URL in install steps",
+     "Relies on third-party API keys with free-tier limits"
     ],
     "reviewed": true,
     "readme_language": "en",
-    "sensitivity": "caution",
+    "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 30.9,
-    "rank_key": 30.9,
+    "score": 31.7,
+    "rank_key": 31.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.833,
-     "activity": 0.434,
-     "maturity": 0.7,
-     "community": 0.29,
+     "momentum": 0.262,
+     "activity": 0.507,
+     "maturity": 0.85,
+     "community": 0.207,
      "utility": 0.8
     },
     "integrity": {
-     "mult": 0.85,
-     "flags": [
-      "batch_publisher"
-     ]
+     "mult": 1.0,
+     "flags": []
     },
-    "star_rate": 0.143
+    "star_rate": 0.0
    }
   ],
   "domains": {
    "breach-exposure": [
     {
      "rank": 1,
-     "rank_change": 0,
+     "rank_change": null,
+     "id": 1432995434,
+     "full_name": "rndinfosecguy/BlackSignal",
+     "html_url": "https://github.com/rndinfosecguy/BlackSignal",
+     "description": "Leak data analyzer made for my Scavenger project",
+     "language": "TypeScript",
+     "license": "MIT",
+     "topics": [
+      "analysis",
+      "hacking",
+      "leak",
+      "leak-detection",
+      "leaks",
+      "osint",
+      "osint-tool",
+      "osint-tools"
+     ],
+     "created_at": "2026-10-25T08:47:19Z",
+     "age_days": 5,
+     "stars": 1,
+     "forks": 0,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "breach-exposure",
+     "domain_secondary": "web-capture",
+     "form": "web-app",
+     "ai_role": "none",
+     "summary": "A self-hosted web app that indexes pastes from Pastebin, GitHub Gists, dpaste and pastes.io into a full-text search engine and flags leaked credentials, API keys and private keys for defenders.",
+     "strengths": [
+      "Clear defensive purpose of detecting exposed secrets on paste sites",
+      "Documented feature list and Docker-based setup",
+      "Works alongside a companion scraper project"
+     ],
+     "risks": [
+      "Indexes leaked credentials and personal data from pastes",
+      "Relies on user-supplied raw paste data; sourcing is not documented",
+      "Possible hosting or redistribution of breach data despite the research-only notice"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "breach-lookup",
+      "leaked-data-lookup"
+     ],
+     "score": 57.8,
+     "rank_key": 54.8,
+     "confidence": 0.802,
+     "components": {
+      "momentum": 0.777,
+      "activity": 0.571,
+      "maturity": 0.8,
+      "community": 0.09,
+      "utility": 0.6
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.158
+    },
+    {
+     "rank": 2,
+     "rank_change": -1,
      "id": 1377739225,
      "full_name": "BillyBobMcgee/footprint-osint",
      "html_url": "https://github.com/BillyBobMcgee/footprint-osint",
@@ -4508,11 +4574,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 54.4,
-     "rank_key": 54.4,
+     "score": 54.1,
+     "rank_key": 54.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.317,
       "maturity": 1.0,
       "community": 0.29,
@@ -4525,8 +4591,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 2,
-     "rank_change": 0,
+     "rank": 3,
+     "rank_change": -1,
      "id": 1368935746,
      "full_name": "ide-digital/nulltrace",
      "html_url": "https://github.com/ide-digital/nulltrace",
@@ -4569,11 +4635,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 51.0,
-     "rank_key": 51.0,
+     "score": 50.8,
+     "rank_key": 50.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.702,
       "maturity": 0.75,
       "community": 0.268,
@@ -4586,8 +4652,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 3,
-     "rank_change": 0,
+     "rank": 4,
+     "rank_change": -1,
      "id": 1335456557,
      "full_name": "HackUnderway/CyberLeaks",
      "html_url": "https://github.com/HackUnderway/CyberLeaks",
@@ -4630,11 +4696,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 37.6,
-     "rank_key": 37.6,
+     "score": 37.3,
+     "rank_key": 37.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.002,
       "maturity": 0.7,
       "community": 0.29,
@@ -4647,8 +4713,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 4,
-     "rank_change": 0,
+     "rank": 5,
+     "rank_change": -1,
      "id": 1430161077,
      "full_name": "leonardosalasd/brech",
      "html_url": "https://github.com/leonardosalasd/brech",
@@ -4692,12 +4758,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 30.7,
-     "rank_key": 29.3,
-     "confidence": 0.904,
+     "score": 30.3,
+     "rank_key": 29.0,
+     "confidence": 0.91,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.447,
+      "momentum": 0.25,
+      "activity": 0.436,
       "maturity": 0.35,
       "community": 0.09,
       "utility": 0.4
@@ -4792,7 +4858,7 @@
       "emma-watson"
      ],
      "created_at": "2026-10-27T06:20:10Z",
-     "age_days": 2,
+     "age_days": 3,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -4818,12 +4884,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 57.4,
-     "rank_key": 51.8,
-     "confidence": 0.626,
+     "score": 57.2,
+     "rank_key": 51.7,
+     "confidence": 0.632,
      "components": {
-      "momentum": 0.806,
-      "activity": 0.501,
+      "momentum": 0.808,
+      "activity": 0.486,
       "maturity": 0.65,
       "community": 0.152,
       "utility": 0.8
@@ -4832,7 +4898,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.177
+     "star_rate": 0.176
     }
    ],
    "disinformation": [
@@ -4855,7 +4921,7 @@
       "platform-accountability"
      ],
      "created_at": "2026-09-25T09:34:05Z",
-     "age_days": 34,
+     "age_days": 35,
      "stars": 3,
      "forks": 2,
      "status": "emerging",
@@ -4878,12 +4944,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 51.3,
-     "rank_key": 51.3,
+     "score": 50.3,
+     "rank_key": 50.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.608,
-      "activity": 0.677,
+      "momentum": 0.588,
+      "activity": 0.646,
       "maturity": 0.3,
       "community": 0.456,
       "utility": 0.6
@@ -4914,7 +4980,7 @@
       "trust-and-safety"
      ],
      "created_at": "2026-09-07T05:50:39Z",
-     "age_days": 52,
+     "age_days": 53,
      "stars": 5,
      "forks": 0,
      "status": "emerging",
@@ -4937,11 +5003,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 41.2,
-     "rank_key": 41.2,
+     "score": 40.9,
+     "rank_key": 40.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.099,
       "maturity": 1.0,
       "community": 0.14,
@@ -4957,7 +5023,7 @@
    "general": [
     {
      "rank": 1,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1433112682,
      "full_name": "n5za/osint-mcp",
      "html_url": "https://github.com/n5za/osint-mcp",
@@ -4975,7 +5041,7 @@
       "osint"
      ],
      "created_at": "2026-10-25T11:15:28Z",
-     "age_days": 4,
+     "age_days": 5,
      "stars": 7,
      "forks": 1,
      "status": "emerging",
@@ -5002,11 +5068,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 74.1,
-     "rank_key": 69.9,
-     "confidence": 0.723,
+     "score": 73.7,
+     "rank_key": 69.6,
+     "confidence": 0.729,
      "components": {
-      "momentum": 0.948,
+      "momentum": 0.93,
       "activity": 0.661,
       "maturity": 0.8,
       "community": 0.494,
@@ -5016,11 +5082,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.59
+     "star_rate": 0.586
     },
     {
      "rank": 2,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1383766253,
      "full_name": "renkagod/osint-toolbox-mcp",
      "html_url": "https://github.com/renkagod/osint-toolbox-mcp",
@@ -5068,7 +5134,7 @@
      "rank_key": 69.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.867,
+      "momentum": 0.869,
       "activity": 0.398,
       "maturity": 1.0,
       "community": 0.347,
@@ -5082,7 +5148,7 @@
     },
     {
      "rank": 3,
-     "rank_change": 2,
+     "rank_change": 0,
      "id": 1432965476,
      "full_name": "OTInstaller/otinstaller",
      "html_url": "https://github.com/OTInstaller/otinstaller",
@@ -5097,7 +5163,7 @@
       "package-registry"
      ],
      "created_at": "2026-10-25T08:06:57Z",
-     "age_days": 4,
+     "age_days": 5,
      "stars": 3,
      "forks": 0,
      "status": "emerging",
@@ -5120,12 +5186,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 68.3,
-     "rank_key": 65.3,
-     "confidence": 0.797,
+     "score": 68.1,
+     "rank_key": 65.1,
+     "confidence": 0.802,
      "components": {
-      "momentum": 0.91,
-      "activity": 0.967,
+      "momentum": 0.912,
+      "activity": 0.952,
       "maturity": 0.8,
       "community": 0.318,
       "utility": 0.8
@@ -5136,11 +5202,11 @@
        "new_owner_account"
       ]
      },
-     "star_rate": 0.474
+     "star_rate": 0.473
     },
     {
      "rank": 4,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1427714043,
      "full_name": "letox4/OsintHunter",
      "html_url": "https://github.com/letox4/OsintHunter",
@@ -5187,7 +5253,7 @@
      ],
      "score": 64.7,
      "rank_key": 63.7,
-     "confidence": 0.93,
+     "confidence": 0.935,
      "components": {
       "momentum": 0.985,
       "activity": 0.484,
@@ -5203,7 +5269,7 @@
     },
     {
      "rank": 5,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1402303635,
      "full_name": "shivanshjain456/osintiger",
      "html_url": "https://github.com/shivanshjain456/osintiger",
@@ -5245,11 +5311,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 63.3,
-     "rank_key": 63.3,
+     "score": 63.0,
+     "rank_key": 63.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.599,
       "maturity": 0.8,
       "community": 0.277,
@@ -5263,7 +5329,70 @@
     },
     {
      "rank": 6,
-     "rank_change": 0,
+     "rank_change": 1,
+     "id": 1436983109,
+     "full_name": "tilkiii/the-project-who",
+     "html_url": "https://github.com/tilkiii/the-project-who",
+     "description": "Open-source digital twin framework for evidence-grounded, probabilistic modeling with multimodal data and knowledge graphs.",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "behavioral-modeling",
+      "cybersecurity",
+      "digital-twin",
+      "knowledge-graph",
+      "multimodal-ai",
+      "osint",
+      "python",
+      "topic-modeling"
+     ],
+     "created_at": "2026-10-28T11:21:09Z",
+     "age_days": 2,
+     "stars": 1,
+     "forks": 0,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "general",
+     "domain_secondary": "social-media",
+     "form": "cli",
+     "ai_role": "llm-assisted",
+     "summary": "Python framework that ingests a target person's public web articles, RSS feeds, documents, audio and video, builds a Neo4j knowledge graph and ChromaDB memory, and produces probabilistic behavioural models with source-linked answers.",
+     "strengths": [
+      "Documents concrete CLI pipeline steps",
+      "Emphasises traceability of claims to evidence",
+      "Lists named data sources and tools"
+     ],
+     "risks": [
+      "Builds profiles of individuals, including chat logs of a target",
+      "Digital-twin framing of a person raises ethical and misuse concerns",
+      "README gives limited detail on legal considerations"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "person-tracking",
+      "social-profile-extraction"
+     ],
+     "score": 62.3,
+     "rank_key": 55.4,
+     "confidence": 0.543,
+     "components": {
+      "momentum": 0.826,
+      "activity": 0.687,
+      "maturity": 0.85,
+      "community": 0.09,
+      "utility": 0.6
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.187
+    },
+    {
+     "rank": 7,
+     "rank_change": -1,
      "id": 1394852469,
      "full_name": "Kerlooo/FreeOSINTUI",
      "html_url": "https://github.com/Kerlooo/FreeOSINTUI",
@@ -5279,7 +5408,7 @@
       "osint-toolkit"
      ],
      "created_at": "2026-09-29T09:46:00Z",
-     "age_days": 30,
+     "age_days": 31,
      "stars": 77,
      "forks": 7,
      "status": "emerging",
@@ -5306,12 +5435,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 57.7,
-     "rank_key": 57.7,
+     "score": 55.2,
+     "rank_key": 55.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.895,
-      "activity": 0.469,
+      "momentum": 0.896,
+      "activity": 0.36,
       "maturity": 0.55,
       "community": 0.403,
       "utility": null
@@ -5323,69 +5452,8 @@
      "star_rate": 0.429
     },
     {
-     "rank": 7,
-     "rank_change": null,
-     "id": 1436983109,
-     "full_name": "tilkiii/the-project-who",
-     "html_url": "https://github.com/tilkiii/the-project-who",
-     "description": "⚡ Open-source Multimodal OSINT Engine, Threat Reconnaissance & Evidence-Based Digital Twin Framework with D3.js Force Graphs & ElizaOS Character Synthesis.",
-     "language": "Python",
-     "license": "MIT",
-     "topics": [
-      "ai-agents",
-      "bertopic",
-      "cybersecurity",
-      "d3js",
-      "digital-twin",
-      "docling",
-      "dspy",
-      "elizaos"
-     ],
-     "created_at": "2026-10-28T11:21:09Z",
-     "age_days": 1,
-     "stars": 1,
-     "forks": 0,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "general",
-     "domain_secondary": "social-media",
-     "form": "cli",
-     "ai_role": "agentic",
-     "summary": "A Python framework that harvests a target individual's public footprint (articles, PDFs, videos, transcripts), builds a Neo4j knowledge graph with GDS analytics, topic modelling, and a ChromaDB memory, and synthesises a behavioural digital-twin profile.",
-     "strengths": [
-      "Concrete stack: Neo4j GDS, BERTopic, Docling, WhisperX",
-      "Explicit emphasis on uncertainty and citation validation"
-     ],
-     "risks": [
-      "Builds cognitive profiles of named individuals, a person-profiling use case",
-      "README is marketing-heavy with inconsistent version badge"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "person-tracking",
-      "social-profile-extraction"
-     ],
-     "score": 60.5,
-     "rank_key": 53.6,
-     "confidence": 0.538,
-     "components": {
-      "momentum": 0.824,
-      "activity": 0.6,
-      "maturity": 0.85,
-      "community": 0.09,
-      "utility": 0.6
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.189
-    },
-    {
      "rank": 8,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1417551543,
      "full_name": "OSINT-Forge-Community/osint-forge-skills",
      "html_url": "https://github.com/OSINT-Forge-Community/osint-forge-skills",
@@ -5426,11 +5494,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 53.0,
-     "rank_key": 53.0,
+     "score": 52.7,
+     "rank_key": 52.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.796,
       "maturity": 0.5,
       "community": 0.09,
@@ -5444,7 +5512,7 @@
     },
     {
      "rank": 9,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1319995142,
      "full_name": "UseOSINT/Skills",
      "html_url": "https://github.com/UseOSINT/Skills",
@@ -5462,7 +5530,7 @@
       "digital-forensics"
      ],
      "created_at": "2026-08-02T09:21:29Z",
-     "age_days": 88,
+     "age_days": 89,
      "stars": 57,
      "forks": 5,
      "status": "emerging",
@@ -5493,7 +5561,7 @@
      "rank_key": 49.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.895,
+      "momentum": 0.896,
       "activity": 0.075,
       "maturity": 0.65,
       "community": 0.37,
@@ -5509,7 +5577,7 @@
     },
     {
      "rank": 10,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1335308811,
      "full_name": "dRafaleD/The-Trackher",
      "html_url": "https://github.com/dRafaleD/The-Trackher",
@@ -5554,12 +5622,12 @@
       "breach-lookup",
       "social-profile-extraction"
      ],
-     "score": 49.2,
-     "rank_key": 49.2,
+     "score": 48.8,
+     "rank_key": 48.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.358,
+      "momentum": 0.25,
+      "activity": 0.349,
       "maturity": 1.0,
       "community": 0.14,
       "utility": 0.6
@@ -5592,9 +5660,9 @@
       "geoguessr"
      ],
      "created_at": "2026-09-18T08:51:34Z",
-     "age_days": 41,
-     "stars": 4513,
-     "forks": 590,
+     "age_days": 42,
+     "stars": 4587,
+     "forks": 601,
      "status": "emerging",
      "scope": "core",
      "domain": "geospatial-imagery",
@@ -5615,21 +5683,21 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 83.3,
-     "rank_key": 83.3,
+     "score": 82.8,
+     "rank_key": 82.8,
      "confidence": 1.0,
      "components": {
       "momentum": 0.997,
-      "activity": 0.85,
+      "activity": 0.833,
       "maturity": 0.7,
-      "community": 0.841,
+      "community": 0.834,
       "utility": 0.8
      },
      "integrity": {
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 84.571
+     "star_rate": 95.143
     },
     {
      "rank": 2,
@@ -5651,7 +5719,7 @@
       "maplibre"
      ],
      "created_at": "2026-09-30T06:07:49Z",
-     "age_days": 29,
+     "age_days": 30,
      "stars": 7,
      "forks": 0,
      "status": "emerging",
@@ -5674,11 +5742,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 61.1,
-     "rank_key": 61.1,
+     "score": 60.8,
+     "rank_key": 60.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.85,
       "maturity": 0.7,
       "community": 0.467,
@@ -5710,7 +5778,7 @@
       "reverse-image-search"
      ],
      "created_at": "2026-10-11T10:51:25Z",
-     "age_days": 18,
+     "age_days": 19,
      "stars": 3,
      "forks": 0,
      "status": "emerging",
@@ -5734,11 +5802,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 59.4,
-     "rank_key": 59.4,
+     "score": 59.1,
+     "rank_key": 59.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.665,
       "maturity": 0.7,
       "community": 0.14,
@@ -5793,12 +5861,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 55.9,
-     "rank_key": 55.9,
+     "score": 53.7,
+     "rank_key": 53.7,
      "confidence": 1.0,
      "components": {
       "momentum": 0.262,
-      "activity": 0.518,
+      "activity": 0.409,
       "maturity": 0.9,
       "community": 0.29,
       "utility": 0.8
@@ -5852,11 +5920,11 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 34.3,
-     "rank_key": 34.3,
+     "score": 34.0,
+     "rank_key": 34.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.402,
       "maturity": 0.1,
       "community": 0.09,
@@ -5918,12 +5986,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 77.9,
-     "rank_key": 77.9,
+     "score": 77.7,
+     "rank_key": 77.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.972,
-      "activity": 0.856,
+      "momentum": 0.973,
+      "activity": 0.849,
       "maturity": 0.75,
       "community": 0.527,
       "utility": 0.8
@@ -5936,7 +6004,7 @@
     },
     {
      "rank": 2,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1430949338,
      "full_name": "hexmisery/NIX",
      "html_url": "https://github.com/hexmisery/NIX",
@@ -5951,7 +6019,7 @@
       "username-search"
      ],
      "created_at": "2026-10-23T11:19:45Z",
-     "age_days": 6,
+     "age_days": 7,
      "stars": 5,
      "forks": 0,
      "status": "emerging",
@@ -5979,10 +6047,10 @@
       "social-profile-extraction"
      ],
      "score": 64.1,
-     "rank_key": 62.5,
-     "confidence": 0.895,
+     "rank_key": 62.6,
+     "confidence": 0.9,
      "components": {
-      "momentum": 0.812,
+      "momentum": 0.814,
       "activity": 0.515,
       "maturity": 0.95,
       "community": 0.09,
@@ -5996,7 +6064,7 @@
     },
     {
      "rank": 3,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1348970841,
      "full_name": "n11xY/n1xYosint",
      "html_url": "https://github.com/n11xY/n1xYosint",
@@ -6041,12 +6109,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 62.2,
-     "rank_key": 62.2,
+     "score": 61.6,
+     "rank_key": 61.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
-      "activity": 0.525,
+      "momentum": 0.674,
+      "activity": 0.513,
       "maturity": 0.9,
       "community": 0.17,
       "utility": 0.8
@@ -6077,7 +6145,7 @@
       "self-assessment"
      ],
      "created_at": "2026-10-19T09:11:22Z",
-     "age_days": 10,
+     "age_days": 11,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -6105,12 +6173,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 62.3,
-     "rank_key": 61.6,
-     "confidence": 0.953,
+     "score": 61.9,
+     "rank_key": 61.3,
+     "confidence": 0.959,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.645,
+      "momentum": 0.25,
+      "activity": 0.637,
       "maturity": 0.9,
       "community": 0.481,
       "utility": 0.8
@@ -6168,11 +6236,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 58.5,
-     "rank_key": 58.5,
+     "score": 58.6,
+     "rank_key": 58.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.833,
+      "momentum": 0.835,
       "activity": 0.076,
       "maturity": 0.95,
       "community": 0.23,
@@ -6231,11 +6299,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 62.1,
-     "rank_key": 56.8,
-     "confidence": 0.647,
+     "score": 62.2,
+     "rank_key": 57.0,
+     "confidence": 0.653,
      "components": {
-      "momentum": 0.799,
+      "momentum": 0.802,
       "activity": 0.554,
       "maturity": 0.85,
       "community": 0.09,
@@ -6245,7 +6313,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.174
+     "star_rate": 0.173
     },
     {
      "rank": 7,
@@ -6267,9 +6335,9 @@
       "termux"
      ],
      "created_at": "2026-09-30T05:53:02Z",
-     "age_days": 29,
-     "stars": 292,
-     "forks": 37,
+     "age_days": 30,
+     "stars": 296,
+     "forks": 38,
      "status": "emerging",
      "scope": "core",
      "domain": "identity-lookup",
@@ -6294,12 +6362,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 56.6,
-     "rank_key": 55.5,
+     "score": 55.4,
+     "rank_key": 54.3,
      "confidence": 0.929,
      "components": {
-      "momentum": 0.978,
-      "activity": 0.485,
+      "momentum": 0.979,
+      "activity": 0.426,
       "maturity": 0.5,
       "community": 0.29,
       "utility": 0.6
@@ -6308,7 +6376,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 4.045
+     "star_rate": 4.626
     },
     {
      "rank": 8,
@@ -6355,11 +6423,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 52.5,
-     "rank_key": 52.5,
+     "score": 52.2,
+     "rank_key": 52.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.288,
       "maturity": 1.0,
       "community": 0.09,
@@ -6394,8 +6462,8 @@
      ],
      "created_at": "2026-10-28T00:09:33Z",
      "age_days": 2,
-     "stars": 312,
-     "forks": 16,
+     "stars": 320,
+     "forks": 17,
      "status": "emerging",
      "scope": "core",
      "domain": "identity-lookup",
@@ -6420,8 +6488,8 @@
       "social-profile-extraction"
      ],
      "score": 58.2,
-     "rank_key": 51.4,
-     "confidence": 0.544,
+     "rank_key": 51.5,
+     "confidence": 0.55,
      "components": {
       "momentum": 0.991,
       "activity": 0.757,
@@ -6435,11 +6503,11 @@
        "watchers_outlier"
       ]
      },
-     "star_rate": 19.135
+     "star_rate": 20.294
     },
     {
      "rank": 10,
-     "rank_change": null,
+     "rank_change": 0,
      "id": 1422131007,
      "full_name": "VasilisPlavos/sherlock-skill",
      "html_url": "https://github.com/VasilisPlavos/sherlock-skill",
@@ -6484,11 +6552,11 @@
       "person-tracking",
       "social-profile-extraction"
      ],
-     "score": 46.5,
-     "rank_key": 46.4,
-     "confidence": 0.994,
+     "score": 46.3,
+     "rank_key": 46.3,
+     "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.609,
       "maturity": 0.65,
       "community": 0.191,
@@ -6523,7 +6591,7 @@
      ],
      "created_at": "2026-07-25T16:40:07Z",
      "age_days": 96,
-     "stars": 89,
+     "stars": 90,
      "forks": 15,
      "status": "established",
      "scope": "core",
@@ -6544,12 +6612,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 63.4,
-     "rank_key": 63.4,
+     "score": 64.1,
+     "rank_key": 64.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.881,
-      "activity": 0.564,
+      "momentum": 0.929,
+      "activity": 0.551,
       "maturity": 0.55,
       "community": 0.437,
       "utility": 0.8
@@ -6558,7 +6626,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.714
+     "star_rate": 0.857
     },
     {
      "rank": 2,
@@ -6580,7 +6648,7 @@
       "translation"
      ],
      "created_at": "2026-08-26T07:20:08Z",
-     "age_days": 64,
+     "age_days": 65,
      "stars": 62,
      "forks": 9,
      "status": "emerging",
@@ -6607,7 +6675,7 @@
      "rank_key": 60.1,
      "confidence": 0.929,
      "components": {
-      "momentum": 0.843,
+      "momentum": 0.845,
       "activity": 0.426,
       "maturity": 0.8,
       "community": 0.34,
@@ -6617,7 +6685,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.225
+     "star_rate": 0.224
     },
     {
      "rank": 3,
@@ -6661,12 +6729,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 55.1,
-     "rank_key": 48.3,
-     "confidence": 0.548,
+     "score": 56.4,
+     "rank_key": 49.7,
+     "confidence": 0.553,
      "components": {
-      "momentum": 0.88,
-      "activity": 0.661,
+      "momentum": 0.881,
+      "activity": 0.726,
       "maturity": 0.45,
       "community": 0.2,
       "utility": 0.6
@@ -6675,11 +6743,68 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.274
+     "star_rate": 0.271
     },
     {
      "rank": 4,
-     "rank_change": 0,
+     "rank_change": 1,
+     "id": 1334602093,
+     "full_name": "Ringmast4r/Ad-Tech-Surveillance",
+     "html_url": "https://github.com/Ringmast4r/Ad-Tech-Surveillance",
+     "description": "ADINT: a field guide to ad-tech surveillance. How advertising data (MAID, RTB bidstream, SDK location) becomes warrantless intelligence.",
+     "language": null,
+     "license": null,
+     "topics": [
+      "ad-tech",
+      "adint",
+      "adtech",
+      "bidstream",
+      "data-brokers",
+      "data-privacy",
+      "fourth-amendment",
+      "ftc"
+     ],
+     "created_at": "2026-08-14T21:48:41Z",
+     "age_days": 76,
+     "stars": 13,
+     "forks": 2,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "knowledge",
+     "domain_secondary": "crypto-financial",
+     "form": "document",
+     "ai_role": "none",
+     "summary": "A field guide documenting how advertising data such as mobile ad IDs, RTB bidstream and SDK location feeds is used for surveillance. It catalogues data brokers, vendors, government buyers, regulators, timelines and sources, with RSS feeds.",
+     "strengths": [
+      "Structured roster of entities, glossary and timeline with cited public sources",
+      "Maintained sources list with RSS feeds for monitoring"
+     ],
+     "risks": [
+      "Content is a research compilation rather than a tool; limited executable functionality"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "none",
+     "sensitivity_tags": [],
+     "score": 36.5,
+     "rank_key": 36.5,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.674,
+      "activity": 0.011,
+      "maturity": 0.2,
+      "community": 0.29,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.143
+    },
+    {
+     "rank": 5,
+     "rank_change": -1,
      "id": 1415251216,
      "full_name": "Hujaakbar/breached-Japanese-orgs",
      "html_url": "https://github.com/Hujaakbar/breached-Japanese-orgs",
@@ -6696,7 +6821,7 @@
       "threat-intelligence"
      ],
      "created_at": "2026-10-12T07:41:17Z",
-     "age_days": 17,
+     "age_days": 18,
      "stars": 2,
      "forks": 1,
      "status": "emerging",
@@ -6722,72 +6847,15 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 36.3,
-     "rank_key": 36.3,
+     "score": 36.1,
+     "rank_key": 36.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.626,
       "maturity": 0.15,
       "community": 0.29,
       "utility": 0.6
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.0
-    },
-    {
-     "rank": 5,
-     "rank_change": 0,
-     "id": 1334602093,
-     "full_name": "Ringmast4r/Ad-Tech-Surveillance",
-     "html_url": "https://github.com/Ringmast4r/Ad-Tech-Surveillance",
-     "description": "ADINT: a field guide to ad-tech surveillance. How advertising data (MAID, RTB bidstream, SDK location) becomes warrantless intelligence.",
-     "language": null,
-     "license": null,
-     "topics": [
-      "ad-tech",
-      "adint",
-      "adtech",
-      "bidstream",
-      "data-brokers",
-      "data-privacy",
-      "fourth-amendment",
-      "ftc"
-     ],
-     "created_at": "2026-08-14T21:48:41Z",
-     "age_days": 76,
-     "stars": 12,
-     "forks": 2,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "knowledge",
-     "domain_secondary": "crypto-financial",
-     "form": "document",
-     "ai_role": "none",
-     "summary": "A field guide documenting how advertising data such as mobile ad IDs, RTB bidstream and SDK location feeds is used for surveillance. It catalogues data brokers, vendors, government buyers, regulators, timelines and sources, with RSS feeds.",
-     "strengths": [
-      "Structured roster of entities, glossary and timeline with cited public sources",
-      "Maintained sources list with RSS feeds for monitoring"
-     ],
-     "risks": [
-      "Content is a research compilation rather than a tool; limited executable functionality"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "none",
-     "sensitivity_tags": [],
-     "score": 28.3,
-     "rank_key": 28.3,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.262,
-      "activity": 0.012,
-      "maturity": 0.2,
-      "community": 0.29,
-      "utility": 0.8
      },
      "integrity": {
       "mult": 1.0,
@@ -6816,7 +6884,7 @@
      ],
      "created_at": "2026-08-09T20:23:50Z",
      "age_days": 81,
-     "stars": 18,
+     "stars": 19,
      "forks": 1,
      "status": "emerging",
      "scope": "core",
@@ -6837,12 +6905,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 26.0,
-     "rank_key": 26.0,
+     "score": 34.2,
+     "rank_key": 34.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.012,
+      "momentum": 0.674,
+      "activity": 0.011,
       "maturity": 0.35,
       "community": 0.29,
       "utility": 0.4
@@ -6851,7 +6919,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.0
+     "star_rate": 0.143
     }
    ],
    "media-forensics": [
@@ -6900,11 +6968,11 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 65.6,
-     "rank_key": 65.6,
+     "score": 65.3,
+     "rank_key": 65.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.513,
       "maturity": 0.95,
       "community": 0.29,
@@ -6959,11 +7027,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 51.0,
-     "rank_key": 50.4,
-     "confidence": 0.963,
+     "score": 50.8,
+     "rank_key": 50.3,
+     "confidence": 0.969,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.536,
       "maturity": 0.85,
       "community": 0.09,
@@ -6977,7 +7045,7 @@
     },
     {
      "rank": 3,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1342167405,
      "full_name": "gorkemguler/MetaScout",
      "html_url": "https://github.com/gorkemguler/MetaScout",
@@ -7021,12 +7089,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 46.7,
-     "rank_key": 46.7,
+     "score": 46.4,
+     "rank_key": 46.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.404,
+      "momentum": 0.25,
+      "activity": 0.401,
       "maturity": 0.9,
       "community": 0.353,
       "utility": 0.8
@@ -7041,7 +7109,7 @@
     },
     {
      "rank": 4,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1358083626,
      "full_name": "osintshifu/unmasker",
      "html_url": "https://github.com/osintshifu/unmasker",
@@ -7059,7 +7127,7 @@
       "hidden-data"
      ],
      "created_at": "2026-09-05T10:39:38Z",
-     "age_days": 54,
+     "age_days": 55,
      "stars": 4,
      "forks": 0,
      "status": "emerging",
@@ -7084,11 +7152,11 @@
      "sensitivity_tags": [
       "breach-lookup"
      ],
-     "score": 42.1,
-     "rank_key": 42.1,
+     "score": 41.9,
+     "rank_key": 41.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.029,
       "maturity": 0.9,
       "community": 0.09,
@@ -7145,11 +7213,11 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 28.6,
-     "rank_key": 28.6,
+     "score": 28.3,
+     "rank_key": 28.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.002,
       "maturity": 0.7,
       "community": 0.09,
@@ -7227,7 +7295,7 @@
     },
     {
      "rank": 2,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1375909717,
      "full_name": "Cyruschu430/hk-city-monitor",
      "html_url": "https://github.com/Cyruschu430/hk-city-monitor",
@@ -7268,11 +7336,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 63.1,
-     "rank_key": 63.1,
+     "score": 62.9,
+     "rank_key": 62.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 1.0,
       "maturity": 0.75,
       "community": 0.357,
@@ -7286,7 +7354,7 @@
     },
     {
      "rank": 3,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1351816093,
      "full_name": "v0l/waveshark",
      "html_url": "https://github.com/v0l/waveshark",
@@ -7330,12 +7398,12 @@
      "sensitivity_tags": [
       "person-tracking"
      ],
-     "score": 62.9,
-     "rank_key": 62.9,
+     "score": 62.0,
+     "rank_key": 62.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.608,
+      "momentum": 0.25,
+      "activity": 0.576,
       "maturity": 0.85,
       "community": 0.614,
       "utility": 0.8
@@ -7366,7 +7434,7 @@
       "indonesia"
      ],
      "created_at": "2026-10-19T04:58:09Z",
-     "age_days": 10,
+     "age_days": 11,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -7389,11 +7457,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 55.9,
-     "rank_key": 55.2,
-     "confidence": 0.956,
+     "score": 55.7,
+     "rank_key": 55.1,
+     "confidence": 0.961,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.731,
       "maturity": 0.55,
       "community": 0.09,
@@ -7448,11 +7516,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 49.8,
-     "rank_key": 49.8,
+     "score": 49.5,
+     "rank_key": 49.5,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
+      "momentum": 0.674,
       "activity": 0.225,
       "maturity": 0.55,
       "community": 0.29,
@@ -7506,12 +7574,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 40.7,
-     "rank_key": 40.7,
+     "score": 40.4,
+     "rank_key": 40.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.006,
+      "momentum": 0.25,
+      "activity": 0.005,
       "maturity": 0.7,
       "community": 0.29,
       "utility": 0.8
@@ -7538,7 +7606,7 @@
       "web"
      ],
      "created_at": "2026-09-09T06:03:59Z",
-     "age_days": 50,
+     "age_days": 51,
      "stars": 5,
      "forks": 1,
      "status": "emerging",
@@ -7562,12 +7630,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 40.0,
-     "rank_key": 40.0,
+     "score": 39.7,
+     "rank_key": 39.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
-      "activity": 0.012,
+      "momentum": 0.674,
+      "activity": 0.011,
       "maturity": 0.45,
       "community": 0.29,
       "utility": 0.6
@@ -7580,7 +7648,7 @@
     },
     {
      "rank": 8,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1424194777,
      "full_name": "walbarellos/ATA-Israel-news",
      "html_url": "https://github.com/walbarellos/ATA-Israel-news",
@@ -7595,7 +7663,7 @@
       "osint"
      ],
      "created_at": "2026-10-18T09:20:28Z",
-     "age_days": 11,
+     "age_days": 12,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -7618,12 +7686,12 @@
      "readme_language": "pt",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 31.5,
-     "rank_key": 31.0,
-     "confidence": 0.967,
+     "score": 31.1,
+     "rank_key": 30.7,
+     "confidence": 0.973,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.274,
+      "momentum": 0.25,
+      "activity": 0.266,
       "maturity": 0.4,
       "community": 0.09,
       "utility": 0.6
@@ -7636,7 +7704,7 @@
     },
     {
      "rank": 9,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1391366388,
      "full_name": "Kul3y3-Thric3/GodsEyeCYD",
      "html_url": "https://github.com/Kul3y3-Thric3/GodsEyeCYD",
@@ -7677,11 +7745,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 30.8,
-     "rank_key": 30.8,
+     "score": 30.6,
+     "rank_key": 30.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.027,
       "maturity": 0.45,
       "community": 0.09,
@@ -7713,7 +7781,7 @@
       "geospatialintelligence"
      ],
      "created_at": "2026-10-11T04:21:13Z",
-     "age_days": 18,
+     "age_days": 19,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -7737,12 +7805,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 28.9,
-     "rank_key": 28.9,
+     "score": 28.6,
+     "rank_key": 28.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.271,
+      "momentum": 0.25,
+      "activity": 0.267,
       "maturity": 0.5,
       "community": 0.09,
       "utility": 0.6
@@ -7778,7 +7846,7 @@
      ],
      "created_at": "2026-09-18T18:48:15Z",
      "age_days": 41,
-     "stars": 190,
+     "stars": 191,
      "forks": 39,
      "status": "emerging",
      "scope": "core",
@@ -7803,21 +7871,21 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 79.8,
-     "rank_key": 79.8,
+     "score": 72.0,
+     "rank_key": 72.0,
      "confidence": 1.0,
      "components": {
       "momentum": 0.966,
-      "activity": 0.508,
+      "activity": 0.304,
       "maturity": 0.95,
-      "community": 0.88,
+      "community": 0.693,
       "utility": 0.6
      },
      "integrity": {
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 2.0
+     "star_rate": 2.143
     },
     {
      "rank": 2,
@@ -7839,7 +7907,7 @@
       "facebook-marketplace-listings"
      ],
      "created_at": "2026-10-08T11:08:00Z",
-     "age_days": 21,
+     "age_days": 22,
      "stars": 54,
      "forks": 11,
      "status": "emerging",
@@ -7865,12 +7933,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 67.7,
-     "rank_key": 67.7,
+     "score": 70.4,
+     "rank_key": 70.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.917,
-      "activity": 0.455,
+      "momentum": 0.918,
+      "activity": 0.586,
       "maturity": 0.9,
       "community": 0.29,
       "utility": 0.8
@@ -7897,7 +7965,7 @@
       "socmint"
      ],
      "created_at": "2026-09-02T10:41:19Z",
-     "age_days": 57,
+     "age_days": 58,
      "stars": 10,
      "forks": 0,
      "status": "emerging",
@@ -7922,12 +7990,12 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 63.8,
-     "rank_key": 63.8,
+     "score": 63.6,
+     "rank_key": 63.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.935,
-      "activity": 0.84,
+      "momentum": 0.942,
+      "activity": 0.824,
       "maturity": 0.55,
       "community": 0.428,
       "utility": 0.4
@@ -7958,7 +8026,7 @@
       "osint"
      ],
      "created_at": "2026-10-24T05:59:58Z",
-     "age_days": 5,
+     "age_days": 6,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -7985,11 +8053,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 64.0,
-     "rank_key": 62.3,
-     "confidence": 0.884,
+     "score": 63.8,
+     "rank_key": 62.1,
+     "confidence": 0.889,
      "components": {
-      "momentum": 0.781,
+      "momentum": 0.771,
       "activity": 0.478,
       "maturity": 0.85,
       "community": 0.277,
@@ -8003,7 +8071,7 @@
     },
     {
      "rank": 5,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1381804118,
      "full_name": "0xping/instagram-scraper",
      "html_url": "https://github.com/0xping/instagram-scraper",
@@ -8047,12 +8115,12 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 53.1,
-     "rank_key": 53.1,
+     "score": 52.0,
+     "rank_key": 52.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
-      "activity": 0.277,
+      "momentum": 0.674,
+      "activity": 0.235,
       "maturity": 0.8,
       "community": 0.09,
       "utility": 0.8
@@ -8065,7 +8133,70 @@
     },
     {
      "rank": 6,
-     "rank_change": 2,
+     "rank_change": 1,
+     "id": 1383225402,
+     "full_name": "omkarcloud/instagram-scraper",
+     "html_url": "https://github.com/omkarcloud/instagram-scraper",
+     "description": "Instagram Scraper — free, open-source Instagram scraper. Unlimited profiles, posts, reels, comments and hashtags as clean JSON, no API key, no proxies.",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "apify-alternative",
+      "email-scraping",
+      "instagram",
+      "instagram-api",
+      "instagram-crawler",
+      "instagram-data",
+      "instagram-email-scraper",
+      "instagram-follower-scraper"
+     ],
+     "created_at": "2026-09-23T10:30:13Z",
+     "age_days": 37,
+     "stars": 5,
+     "forks": 5,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "social-media",
+     "domain_secondary": "web-capture",
+     "form": "library",
+     "ai_role": "none",
+     "summary": "A Python API that scrapes public Instagram profiles, posts, reels, comments and hashtags into JSON, run locally via a FastAPI-style server with 19 endpoints. Marketed as free and unlimited.",
+     "strengths": [
+      "Runnable local API with a curl example",
+      "Clear endpoint coverage for profiles, posts, comments and hashtags",
+      "Open-source and installable from requirements"
+     ],
+     "risks": [
+      "Scrapes personal profile data and email addresses, raising privacy concerns",
+      "Marketing claims of unlimited data without stated limits or legal considerations",
+      "Likely to break against Instagram changes; bundled promotional content"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "personal-data-lookup",
+      "social-profile-extraction"
+     ],
+     "score": 51.4,
+     "rank_key": 51.4,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.576,
+      "activity": 0.377,
+      "maturity": 0.75,
+      "community": 0.23,
+      "utility": 0.6
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.0
+    },
+    {
+     "rank": 7,
+     "rank_change": -1,
      "id": 1411293855,
      "full_name": "1vecera/starwatch",
      "html_url": "https://github.com/1vecera/starwatch",
@@ -8083,7 +8214,7 @@
       "elections"
      ],
      "created_at": "2026-10-09T04:42:32Z",
-     "age_days": 20,
+     "age_days": 21,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -8109,11 +8240,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 51.3,
-     "rank_key": 51.3,
+     "score": 51.0,
+     "rank_key": 51.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.658,
       "maturity": 0.7,
       "community": 0.17,
@@ -8126,61 +8257,54 @@
      "star_rate": 0.0
     },
     {
-     "rank": 7,
-     "rank_change": -2,
-     "id": 1383225402,
-     "full_name": "omkarcloud/instagram-scraper",
-     "html_url": "https://github.com/omkarcloud/instagram-scraper",
-     "description": "Instagram Scraper — free, open-source Instagram scraper. Unlimited profiles, posts, reels, comments and hashtags as clean JSON, no API key, no proxies.",
+     "rank": 8,
+     "rank_change": 1,
+     "id": 1412470842,
+     "full_name": "leshipai/Xporter",
+     "html_url": "https://github.com/leshipai/Xporter",
+     "description": "Export the complete follower list of any public X (Twitter) account to CSV + JSONL.",
      "language": "Python",
-     "license": "MIT",
+     "license": null,
      "topics": [
-      "apify-alternative",
-      "email-scraping",
-      "instagram",
-      "instagram-api",
-      "instagram-crawler",
-      "instagram-data",
-      "instagram-email-scraper",
-      "instagram-follower-scraper"
+      "osint",
+      "socmint"
      ],
-     "created_at": "2026-09-23T10:30:13Z",
-     "age_days": 36,
-     "stars": 5,
-     "forks": 4,
+     "created_at": "2026-10-09T21:31:51Z",
+     "age_days": 20,
+     "stars": 4,
+     "forks": 1,
      "status": "emerging",
      "scope": "core",
      "domain": "social-media",
      "domain_secondary": "web-capture",
-     "form": "library",
+     "form": "cli",
      "ai_role": "none",
-     "summary": "A Python API that scrapes public Instagram profiles, posts, reels, comments and hashtags into JSON, run locally via a FastAPI-style server with 19 endpoints. Marketed as free and unlimited.",
+     "summary": "Python CLI that uses a user's session cookies to call X's internal GraphQL API and export the full follower list of a public account to CSV and JSONL, with resume checkpoints and multi-session rotation.",
      "strengths": [
-      "Runnable local API with a curl example",
-      "Clear endpoint coverage for profiles, posts, comments and hashtags",
-      "Open-source and installable from requirements"
+      "Concrete usage examples and documented output files",
+      "Documents rate limits and resume checkpoint behaviour",
+      "Clear flags and maintenance notes for rotating queryIds"
      ],
      "risks": [
-      "Scrapes personal profile data and email addresses, raising privacy concerns",
-      "Marketing claims of unlimited data without stated limits or legal considerations",
-      "Likely to break against Instagram changes; bundled promotional content"
+      "Uses session cookies and README admits likely violation of X Terms of Service",
+      "Relies on undocumented internal API that may break",
+      "Bulk harvesting of follower profiles raises privacy concerns"
      ],
      "reviewed": true,
      "readme_language": "en",
      "sensitivity": "caution",
      "sensitivity_tags": [
-      "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 45.5,
-     "rank_key": 45.5,
+     "score": 43.3,
+     "rank_key": 43.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.393,
-      "maturity": 0.75,
-      "community": 0.23,
-      "utility": 0.6
+      "momentum": 0.25,
+      "activity": 0.464,
+      "maturity": 0.45,
+      "community": 0.29,
+      "utility": 0.8
      },
      "integrity": {
       "mult": 1.0,
@@ -8189,8 +8313,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 8,
-     "rank_change": 2,
+     "rank": 9,
+     "rank_change": -1,
      "id": 1301957952,
      "full_name": "AnuragRoy485/Telegram-OSINT-Toolkit",
      "html_url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
@@ -8231,11 +8355,11 @@
       "person-tracking",
       "social-profile-extraction"
      ],
-     "score": 43.6,
-     "rank_key": 43.6,
+     "score": 42.7,
+     "rank_key": 42.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.929,
+      "momentum": 0.881,
       "activity": 0.0,
       "maturity": 0.45,
       "community": 0.09,
@@ -8248,64 +8372,8 @@
      "star_rate": 1.0
     },
     {
-     "rank": 9,
-     "rank_change": 0,
-     "id": 1412470842,
-     "full_name": "leshipai/Xporter",
-     "html_url": "https://github.com/leshipai/Xporter",
-     "description": "Export the complete follower list of any public X (Twitter) account to CSV + JSONL.",
-     "language": "Python",
-     "license": null,
-     "topics": [
-      "osint",
-      "socmint"
-     ],
-     "created_at": "2026-10-09T21:31:51Z",
-     "age_days": 20,
-     "stars": 4,
-     "forks": 1,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "social-media",
-     "domain_secondary": "web-capture",
-     "form": "cli",
-     "ai_role": "none",
-     "summary": "Python CLI that uses a user's session cookies to call X's internal GraphQL API and export the full follower list of a public account to CSV and JSONL, with resume checkpoints and multi-session rotation.",
-     "strengths": [
-      "Concrete usage examples and documented output files",
-      "Documents rate limits and resume checkpoint behaviour",
-      "Clear flags and maintenance notes for rotating queryIds"
-     ],
-     "risks": [
-      "Uses session cookies and README admits likely violation of X Terms of Service",
-      "Relies on undocumented internal API that may break",
-      "Bulk harvesting of follower profiles raises privacy concerns"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "social-profile-extraction"
-     ],
-     "score": 43.6,
-     "rank_key": 43.6,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.262,
-      "activity": 0.464,
-      "maturity": 0.45,
-      "community": 0.29,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.0
-    },
-    {
      "rank": 10,
-     "rank_change": null,
+     "rank_change": 0,
      "id": 1357886213,
      "full_name": "warodan/telegram-research",
      "html_url": "https://github.com/warodan/telegram-research",
@@ -8323,7 +8391,7 @@
       "research"
      ],
      "created_at": "2026-09-05T06:10:50Z",
-     "age_days": 54,
+     "age_days": 55,
      "stars": 4,
      "forks": 1,
      "status": "emerging",
@@ -8348,11 +8416,11 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 40.7,
-     "rank_key": 40.7,
+     "score": 40.4,
+     "rank_key": 40.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.005,
       "maturity": 0.7,
       "community": 0.29,
@@ -8467,11 +8535,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 38.8,
-     "rank_key": 38.4,
-     "confidence": 0.973,
+     "score": 38.5,
+     "rank_key": 38.2,
+     "confidence": 0.978,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.733,
       "maturity": 0.45,
       "community": 0.09,
@@ -8503,7 +8571,7 @@
       "osint"
      ],
      "created_at": "2026-09-17T05:58:52Z",
-     "age_days": 42,
+     "age_days": 43,
      "stars": 3,
      "forks": 0,
      "status": "established",
@@ -8563,7 +8631,7 @@
       "security"
      ],
      "created_at": "2026-10-24T08:55:42Z",
-     "age_days": 5,
+     "age_days": 6,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -8587,12 +8655,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 55.2,
-     "rank_key": 53.4,
-     "confidence": 0.882,
+     "score": 54.5,
+     "rank_key": 52.8,
+     "confidence": 0.887,
      "components": {
-      "momentum": 0.546,
-      "activity": 0.276,
+      "momentum": 0.521,
+      "activity": 0.264,
       "maturity": 1.0,
       "community": 0.09,
       "utility": 0.8
@@ -8646,12 +8714,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 51.6,
-     "rank_key": 51.6,
+     "score": 51.2,
+     "rank_key": 51.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.627,
+      "momentum": 0.25,
+      "activity": 0.621,
       "maturity": 0.8,
       "community": 0.09,
       "utility": 0.8
@@ -8682,7 +8750,7 @@
       "python"
      ],
      "created_at": "2026-08-22T04:34:02Z",
-     "age_days": 68,
+     "age_days": 69,
      "stars": 14,
      "forks": 1,
      "status": "emerging",
@@ -8705,11 +8773,11 @@
      "readme_language": "pt",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 39.3,
-     "rank_key": 39.3,
+     "score": 39.1,
+     "rank_key": 39.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.002,
       "maturity": 0.65,
       "community": 0.29,
@@ -8735,7 +8803,7 @@
       "osint"
      ],
      "created_at": "2026-08-13T09:22:58Z",
-     "age_days": 77,
+     "age_days": 78,
      "stars": 6,
      "forks": 0,
      "status": "emerging",
@@ -8757,11 +8825,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 37.8,
-     "rank_key": 37.8,
+     "score": 37.6,
+     "rank_key": 37.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.002,
       "maturity": 0.75,
       "community": 0.09,
@@ -8814,12 +8882,12 @@
      "readme_language": "pt",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 36.3,
-     "rank_key": 36.3,
+     "score": 36.1,
+     "rank_key": 36.1,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.002,
+      "momentum": 0.25,
+      "activity": 0.001,
       "maturity": 0.65,
       "community": 0.29,
       "utility": 0.6
@@ -8876,11 +8944,11 @@
       "person-tracking",
       "social-profile-extraction"
      ],
-     "score": 26.0,
-     "rank_key": 26.0,
+     "score": 25.8,
+     "rank_key": 25.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.002,
       "maturity": 0.7,
       "community": 0.09,
@@ -8898,7 +8966,7 @@
    "workspace-analysis": [
     {
      "rank": 1,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1387106316,
      "full_name": "emrekybs/OsintCase",
      "html_url": "https://github.com/emrekybs/OsintCase",
@@ -8916,7 +8984,7 @@
       "osint"
      ],
      "created_at": "2026-09-25T08:29:49Z",
-     "age_days": 34,
+     "age_days": 35,
      "stars": 7,
      "forks": 1,
      "status": "emerging",
@@ -8941,12 +9009,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 64.3,
-     "rank_key": 64.3,
+     "score": 63.9,
+     "rank_key": 63.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.688,
-      "activity": 0.764,
+      "momentum": 0.674,
+      "activity": 0.755,
       "maturity": 0.7,
       "community": 0.29,
       "utility": 0.8
@@ -8959,7 +9027,7 @@
     },
     {
      "rank": 2,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1346554522,
      "full_name": "kzndotsh/watchdog",
      "html_url": "https://github.com/kzndotsh/watchdog",
@@ -8999,11 +9067,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 64.0,
-     "rank_key": 64.0,
+     "score": 63.7,
+     "rank_key": 63.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
+      "momentum": 0.25,
       "activity": 0.833,
       "maturity": 0.9,
       "community": 0.528,
@@ -9060,12 +9128,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 62.3,
-     "rank_key": 62.3,
+     "score": 62.2,
+     "rank_key": 62.2,
      "confidence": 1.0,
      "components": {
       "momentum": 0.667,
-      "activity": 0.362,
+      "activity": 0.359,
       "maturity": 0.95,
       "community": 0.296,
       "utility": 0.8
@@ -9121,12 +9189,12 @@
      "sensitivity_tags": [
       "breach-lookup"
      ],
-     "score": 55.6,
-     "rank_key": 54.8,
-     "confidence": 0.946,
+     "score": 54.9,
+     "rank_key": 54.2,
+     "confidence": 0.951,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.694,
+      "momentum": 0.25,
+      "activity": 0.677,
       "maturity": 0.95,
       "community": 0.22,
       "utility": null
@@ -9139,7 +9207,7 @@
     },
     {
      "rank": 5,
-     "rank_change": null,
+     "rank_change": 0,
      "id": 1435931348,
      "full_name": "OSINT-Copilot/osint-copilot",
      "html_url": "https://github.com/OSINT-Copilot/osint-copilot",
@@ -9180,10 +9248,10 @@
      "sensitivity": "none",
      "sensitivity_tags": [],
      "score": 60.8,
-     "rank_key": 54.0,
-     "confidence": 0.549,
+     "rank_key": 54.1,
+     "confidence": 0.555,
      "components": {
-      "momentum": 0.818,
+      "momentum": 0.82,
       "activity": 0.468,
       "maturity": 0.85,
       "community": 0.09,
@@ -9193,11 +9261,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.186
+     "star_rate": 0.185
     },
     {
      "rank": 6,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1432362040,
      "full_name": "RawPowered/osint-dive-deep-v1",
      "html_url": "https://github.com/RawPowered/osint-dive-deep-v1",
@@ -9239,11 +9307,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 55.9,
-     "rank_key": 53.0,
-     "confidence": 0.806,
+     "score": 55.4,
+     "rank_key": 52.6,
+     "confidence": 0.812,
      "components": {
-      "momentum": 0.552,
+      "momentum": 0.527,
       "activity": 0.703,
       "maturity": 0.75,
       "community": 0.152,
@@ -9253,11 +9321,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.015
+     "star_rate": 0.014
     },
     {
      "rank": 7,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1309616590,
      "full_name": "Gacut/OpenTrace",
      "html_url": "https://github.com/Gacut/OpenTrace",
@@ -9273,7 +9341,7 @@
       "python"
      ],
      "created_at": "2026-07-23T06:44:28Z",
-     "age_days": 98,
+     "age_days": 99,
      "stars": 27,
      "forks": 4,
      "status": "established",
@@ -9314,7 +9382,7 @@
     },
     {
      "rank": 8,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1379800718,
      "full_name": "ishandutta2007/Vishnu",
      "html_url": "https://github.com/ishandutta2007/Vishnu",
@@ -9355,12 +9423,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 34.1,
-     "rank_key": 34.1,
+     "score": 33.7,
+     "rank_key": 33.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.262,
-      "activity": 0.288,
+      "momentum": 0.25,
+      "activity": 0.282,
       "maturity": 0.65,
       "community": 0.34,
       "utility": 0.4
@@ -9624,7 +9692,7 @@
     88,
     90,
     89,
-    89
+    90
    ]
   },
   "1315223047": {
@@ -9799,7 +9867,7 @@
     18,
     18,
     18,
-    18
+    19
    ]
   },
   "1329340682": {
@@ -9874,7 +9942,7 @@
     12,
     12,
     12,
-    12
+    13
    ]
   },
   "1335308811": {
@@ -10434,7 +10502,7 @@
     4322,
     4388,
     4480,
-    4513
+    4587
    ]
   },
   "1375909717": {
@@ -10484,7 +10552,7 @@
     186,
     188,
     190,
-    190
+    191
    ]
   },
   "1376473674": {
@@ -10753,31 +10821,6 @@
     3
    ]
   },
-  "1393701505": {
-   "start": "2026-10-11",
-   "stars": [
-    2,
-    2,
-    2,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    4,
-    5,
-    5,
-    5,
-    5,
-    5,
-    5,
-    5
-   ]
-  },
   "1394852469": {
    "start": "2026-10-11",
    "stars": [
@@ -10811,7 +10854,7 @@
     285,
     289,
     291,
-    292
+    296
    ]
   },
   "1397134948": {
@@ -11458,6 +11501,15 @@
     16
    ]
   },
+  "1430929093": {
+   "start": "2026-10-27",
+   "stars": [
+    0,
+    0,
+    0,
+    1
+   ]
+  },
   "1430949338": {
    "start": "2026-10-24",
    "stars": [
@@ -11528,6 +11580,17 @@
     3
    ]
   },
+  "1432995434": {
+   "start": "2026-10-25",
+   "stars": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
   "1433112682": {
    "start": "2026-10-26",
    "stars": [
@@ -11587,7 +11650,7 @@
    "stars": [
     275,
     358,
-    312
+    320
    ]
   },
   "1436983109": {
