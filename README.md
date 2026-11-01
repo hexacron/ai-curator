@@ -1,46 +1,46 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-10-31 11:21:18 UTC*
+*Last updated: 2026-11-01 12:12:48 UTC*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 387
-- **Total Stars**: 834,019
+- **Total Repositories**: 386
+- **Total Stars**: 836,532
 - **Hidden as off-topic**: 1
 
 ### 🔥 Top Languages
 - **Python**: 279 repositories
 - **Go**: 49 repositories
-- **JavaScript**: 36 repositories
+- **JavaScript**: 35 repositories
 - **Rust**: 23 repositories
 
 ### 🏷️ Popular Topics
-- `security` (138)
+- `security` (139)
 - `cybersecurity` (115)
 - `mcp` (109)
-- `llm` (107)
+- `llm` (106)
 - `ai-agents` (98)
 - `osint` (89)
 - `python` (89)
 - `ai` (78)
 - `claude-code` (74)
-- `ai-security` (71)
+- `ai-security` (72)
 
 ### 🗂️ Categories
 - **AI for security**: 117
-- **AI security**: 108
+- **AI security**: 107
 - **OSINT**: 50
 - **Agent skills MCP**: 41
-- **AI dev tools**: 31
+- **AI dev tools**: 30
 - **Security tools**: 22
-- **Knowledge**: 9
+- **Knowledge**: 10
 - **Threat intel**: 5
 - **Other**: 4
 
 ## ⭐ Top Repositories
 
 ### 1. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**35,328 ⭐** | **Python** | Updated: 2026-08-31
+**35,378 ⭐** | **Python** | Updated: 2026-08-31
 
 A collection of hundreds of structured cybersecurity skills in the agentskills.io format, covering many security domains and mapped to frameworks like MITRE ATT&CK and NIST CSF, for use by AI coding agents.
 
@@ -51,7 +51,7 @@ A collection of hundreds of structured cybersecurity skills in the agentskills.i
 ---
 
 ### 2. [SkillSpector](https://github.com/NVIDIA/SkillSpector)
-**23,610 ⭐** | **Python** | Updated: 2026-10-30
+**23,774 ⭐** | **Python** | Updated: 2026-10-31
 
 Scans AI agent skills \(Claude Code, Codex, MCP\) for prompt injection, data exfiltration, malicious patterns and supply-chain risks before installation, with terminal, JSON, Markdown and SARIF reports.
 
@@ -62,7 +62,7 @@ Scans AI agent skills \(Claude Code, Codex, MCP\) for prompt injection, data exf
 ---
 
 ### 3. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**20,693 ⭐** | **Python** | Updated: 2026-10-26
+**20,700 ⭐** | **Python** | Updated: 2026-10-26
 
 An agent framework where a language model autonomously uses tools to fix GitHub issues, with a documented mode for offensive cybersecurity challenges. Aimed at researchers and developers who want a configurable, hackable coding agent.
 
@@ -73,7 +73,7 @@ An agent framework where a language model autonomously uses tools to fix GitHub 
 ---
 
 ### 4. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**13,233 ⭐** | **Python** | Updated: 2026-08-03
+**13,263 ⭐** | **Python** | Updated: 2026-08-03
 
 An MCP server that connects AI agents such as Claude or GPT to a large set of cybersecurity tools for automated penetration testing, vulnerability discovery and security research, with bundled agent modules for bug bounty and CTF work.
 
@@ -84,7 +84,7 @@ An MCP server that connects AI agents such as Claude or GPT to a large set of cy
 ---
 
 ### 5. [Crucix](https://github.com/calesthio/Crucix)
-**12,176 ⭐** | **JavaScript** | Updated: 2026-05-20
+**12,187 ⭐** | **JavaScript** | Updated: 2026-05-20
 
 A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satellite fire detection, flights, sanctions, markets and conflict data, refreshes every 15 minutes, and sends alerts via Telegram or Discord. Optional LLM layer add
 
@@ -95,7 +95,7 @@ A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satel
 ---
 
 ### 6. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**11,420 ⭐** | **Python** | Updated: 2026-10-30
+**11,424 ⭐** | **Python** | Updated: 2026-10-30
 
 A self-hosted dashboard that aggregates public feeds such as ADS-B aircraft, AIS ships, satellites, earthquakes, CCTV and Telegram channels onto one map, with a recon toolkit and an agent command channel.
 
@@ -106,7 +106,7 @@ A self-hosted dashboard that aggregates public feeds such as ADS-B aircraft, AIS
 ---
 
 ### 7. [robin](https://github.com/apurvsinghgautam/robin)
-**7,758 ⭐** | **Python** | Updated: 2026-10-03
+**7,824 ⭐** | **Python** | Updated: 2026-10-03
 
 Robin uses LLMs to refine queries, filter results from dark web search engines via Tor, and produce investigation summaries. It offers a Streamlit web UI, follow-up questions, and MCP integration for investigators.
 
@@ -117,7 +117,7 @@ Robin uses LLMs to refine queries, filter results from dark web search engines v
 ---
 
 ### 8. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**7,241 ⭐** | **Python** | Updated: 2026-10-30
+**7,256 ⭐** | **Python** | Updated: 2026-10-30
 
 A platform that scans AI infrastructure, agent setups, skills and MCP servers for security issues and runs LLM jailbreak evaluations. Offers Docker deployment and standalone scan modes for security teams.
 
@@ -138,19 +138,8 @@ A declarative YAML workflow engine for running security reconnaissance and scann
 
 ---
 
-### 10. [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
-**6,498 ⭐** | **Python** | Updated: 2026-10-30
-
-A governance toolkit for autonomous AI agents offering policy enforcement \(YAML, OPA, Cedar\), zero-trust identity, execution sandboxing, and an audit log. Aimed at teams deploying agents in production across frameworks.
-
-**Category**: AI security
-
-**Topics**: `agent-framework` `ai-agents` `ai-safety` `compliance` `governance`
-
----
-
-### 11. [Decepticon](https://github.com/BitterSecurity/Decepticon)
-**6,493 ⭐** | **Python** | Updated: 2026-10-29
+### 10. [Decepticon](https://github.com/BitterSecurity/Decepticon)
+**6,506 ⭐** | **Python** | Updated: 2026-10-29
 
 Autonomous AI red-team agent that runs penetration testing engagements from a Docker-based terminal CLI, with pip library and Claude Code/Codex integration. Aimed at authorized security testers.
 
@@ -160,8 +149,19 @@ Autonomous AI red-team agent that runs penetration testing engagements from a Do
 
 ---
 
+### 11. [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
+**6,503 ⭐** | **Python** | Updated: 2026-10-30
+
+A governance toolkit for autonomous AI agents offering policy enforcement \(YAML, OPA, Cedar\), zero-trust identity, execution sandboxing, and an audit log. Aimed at teams deploying agents in production across frameworks.
+
+**Category**: AI security
+
+**Topics**: `agent-framework` `ai-agents` `ai-safety` `compliance` `governance`
+
+---
+
 ### 12. [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)
-**6,232 ⭐** | **Rust** | Updated: 2026-10-30
+**6,238 ⭐** | **Rust** | Updated: 2026-11-01
 
 A Rust hook that intercepts shell, git, and filesystem commands from AI coding agents and blocks destructive ones, using security packs for databases, Kubernetes, Docker, and cloud. Supports many agents and has explain and CI scan modes.
 
@@ -171,10 +171,21 @@ A Rust hook that intercepts shell, git, and filesystem commands from AI coding a
 
 ---
 
-### 13. [user-scanner](https://github.com/kaifcodec/user-scanner)
-**5,526 ⭐** | **Python** | Updated: 2026-10-30
+### 13. [AiSOC](https://github.com/beenuar/AiSOC)
+**5,861 ⭐** | **Python** | Updated: 2026-11-01
 
-Python tool that checks email registrations and username presence across thousands of platforms, pivots on found handles and emails, and exposes its scans through an MCP server for AI agents. Aimed at investigators and security researchers.
+Self-hostable platform that normalizes security telemetry, correlates alerts into incidents, and investigates them with LLM agents whose steps are logged, proposing responses for human approval. Aimed at SOC and blue-team teams.
+
+**Category**: AI for security
+
+**Topics**: `agentic-ai` `ai-security` `alert-triage` `blue-team` `cybersecurity`
+
+---
+
+### 14. [user-scanner](https://github.com/kaifcodec/user-scanner)
+**5,534 ⭐** | **Python** | Updated: 2026-11-01
+
+Python OSINT suite that checks an email address or username across thousands of platforms, pivots on handles and linked emails, exports PDF, JSON or CSV reports, and exposes scans to AI agents via MCP.
 
 **Category**: OSINT
 
@@ -182,8 +193,8 @@ Python tool that checks email registrations and username presence across thousan
 
 ---
 
-### 14. [Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter)
-**5,500 ⭐** | **Python** | Updated: 2026-10-28
+### 15. [Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter)
+**5,523 ⭐** | **Python** | Updated: 2026-10-28
 
 A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scanning with wrapped tools like nuclei and ffuf, validation gating, and report drafting. Aimed at security researchers and bounty hunters.
 
@@ -193,41 +204,8 @@ A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scan
 
 ---
 
-### 15. [AiSOC](https://github.com/beenuar/AiSOC)
-**5,398 ⭐** | **Python** | Updated: 2026-10-31
-
-Self-hostable platform that normalizes security telemetry, correlates alerts into incidents, and runs LLM agents to investigate them, recording each agent step for audit. Human approval gates proposed responses. Aimed at blue teams and SOC
-
-**Category**: AI for security
-
-**Topics**: `agentic-ai` `ai-security` `alert-triage` `blue-team` `cybersecurity`
-
----
-
-### 16. [nono](https://github.com/nolabs-ai/nono)
-**4,779 ⭐** | **Rust** | Updated: 2026-10-30
-
-A single-binary runtime sandbox that confines AI coding agents and their tools, limiting file, network, environment and credential access without root or heavy setup. Aimed at developers and teams running agents.
-
-**Category**: AI security
-
-**Topics**: `agent-runtime-security` `agent-sandbox` `agent-security` `ai-agent-sandbox` `ai-agent-security`
-
----
-
-### 17. [Aliens_eye](https://github.com/arxhr007/Aliens_eye)
-**4,703 ⭐** | **Python** | Updated: 2026-10-25
-
-A Python command-line tool that checks a username across about 840 social media platforms, using a trained model blended with structural heuristics to decide hits, then extracts profiles and clusters likely same-person accounts. Aimed at OS
-
-**Category**: OSINT
-
-**Topics**: `ai` `artificial-intelligence` `debain` `hack` `hacker`
-
----
-
-### 18. [geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
-**4,654 ⭐** | **Python** | Updated: 2026-10-29
+### 16. [geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
+**5,028 ⭐** | **Python** | Updated: 2026-11-01
 
 An agent skill that estimates where a photo was taken by combining EXIF, OCR, reverse image search, OpenStreetMap geometry, skyline and shadow analysis, and satellite or street-view matching, with its reasoning shown.
 
@@ -237,8 +215,30 @@ An agent skill that estimates where a photo was taken by combining EXIF, OCR, re
 
 ---
 
+### 17. [nono](https://github.com/nolabs-ai/nono)
+**4,787 ⭐** | **Rust** | Updated: 2026-10-31
+
+A single-binary runtime sandbox that confines AI coding agents and their tools, limiting file, network, environment and credential access without root or heavy setup. Aimed at developers and teams running agents.
+
+**Category**: AI security
+
+**Topics**: `agent-runtime-security` `agent-sandbox` `agent-security` `ai-agent-sandbox` `ai-agent-security`
+
+---
+
+### 18. [Aliens_eye](https://github.com/arxhr007/Aliens_eye)
+**4,705 ⭐** | **Python** | Updated: 2026-10-25
+
+A Python command-line tool that checks a username across about 840 social media platforms, using a trained model blended with structural heuristics to decide hits, then extracts profiles and clusters likely same-person accounts. Aimed at OS
+
+**Category**: OSINT
+
+**Topics**: `ai` `artificial-intelligence` `debain` `hack` `hacker`
+
+---
+
 ### 19. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
-**4,454 ⭐** | **Python** | Updated: 2026-10-30
+**4,455 ⭐** | **Python** | Updated: 2026-10-30
 
 An umbrella project offering safety tools and cybersecurity benchmarks for evaluating and hardening open generative AI models, including Llama Guard input/output safeguards and CyberSec Eval suites for AI developers.
 
@@ -247,7 +247,7 @@ An umbrella project offering safety tools and cybersecurity benchmarks for evalu
 ---
 
 ### 20. [raptor](https://github.com/gadievron/raptor)
-**3,958 ⭐** | **Python** | Updated: 2026-10-31
+**3,960 ⭐** | **Python** | Updated: 2026-11-01
 
 RAPTOR is an autonomous security research framework layered on Claude Code. It chains static and binary analysis, LLM-based vulnerability validation, exploit generation and patch writing, for researchers running pentests or code audits.
 
@@ -255,4 +255,4 @@ RAPTOR is an autonomous security research framework layered on Claude Code. It c
 
 ---
 
-*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 388 of 388.*
+*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 387 of 387.*
