@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 
 from curator_review import ReviewStore, category_label, review_repos
 from github_client import GitHubAPIError, GitHubClient
+from sources import SourceItem, collect_items, merge_source_settings
 from llm_client import AnthropicClient
 
 # Load environment variables from .env file
@@ -131,6 +132,7 @@ class GitHubCurator:
             llm = AnthropicClient.from_env(settings['timeout_seconds']) if settings['enabled'] else None
             logger.info("LLM review on" if llm else "LLM review off (disabled, or ANTHROPIC_API_KEY not set)")
         self.llm = llm
+        self.items: List[SourceItem] = []   # Hugging Face and arXiv results of the current run (or of the cache)
         self._cache_timestamp: Optional[float] = None   # set when results came from the cache, so re-saving keeps its age
 
     def _load_config(self, config_path: str) -> Dict:
@@ -170,6 +172,7 @@ class GitHubCurator:
             'llm': dict(LLM_DEFAULTS)
         }
 
+        sources_override = None
         if Path(config_path).exists():
             with open(config_path, 'r') as f:
                 try:
@@ -183,11 +186,13 @@ class GitHubCurator:
                     "set the GITHUB_TOKEN environment variable (or .env) instead."
                 )
                 del file_config['github_token']
+            sources_override = file_config.pop('sources', None)   # merged per source, two levels deep
             for key, value in file_config.items():
                 if isinstance(default_config.get(key), dict) and isinstance(value, dict):
                     default_config[key].update(value)
                 else:
                     default_config[key] = value
+        default_config['sources'] = merge_source_settings(sources_override)
 
         self.token = os.getenv('GITHUB_TOKEN')
         if not self.token:
@@ -407,6 +412,8 @@ class GitHubCurator:
                 content += f"**Topics**: {' '.join([f'`{t}`' for t in repo.topics[:5]])}\n\n"
             content += "---\n\n"
 
+        content += self._format_items()
+
         if analysis.get('reviewed_repos'):
             content += (f"*Summaries, categories and relevance are written by a language model from each repository's "
                         f"README and can be wrong. Reviewed {analysis['reviewed_repos']} of "
@@ -414,9 +421,35 @@ class GitHubCurator:
 
         return content
 
+    def _format_items(self) -> str:
+        """README sections for Hugging Face and arXiv results, in the order the sources returned them (most liked,
+        newest). Every field is untrusted text and is escaped."""
+        content = ''
+        sections = (('huggingface', '## 🤗 Hugging Face\n\n'), ('arxiv', '## 📄 arXiv Papers\n\n'))
+        for source, heading in sections:
+            shown = [i for i in self.items if i.source == source][:self.config['sources'][source]['top_n']]
+            if not shown:
+                continue
+            content += heading
+            for number, item in enumerate(shown, 1):
+                content += f"### {number}. [{_md(item.title)}]({item.url})\n"
+                if source == 'huggingface':
+                    stats = f"**{item.likes:,} ❤** | **{item.kind.capitalize()}** | {item.downloads:,} downloads"
+                    content += f"{stats} | Updated: {item.date}\n\n"
+                else:
+                    byline = _md(', '.join(item.authors))
+                    content += f"**Paper** | Submitted: {item.date}" + (f" | {byline}" if byline else '') + "\n\n"
+                if item.summary:
+                    content += f"{_md(item.summary)}\n\n"
+                if item.tags:
+                    content += f"**{'Tags' if source == 'huggingface' else 'Categories'}**: {_md(', '.join(item.tags[:5]))}\n\n"
+                content += "---\n\n"
+        return content
+
     def _config_fingerprint(self) -> str:
         """Hash of every setting that changes search results, so a config edit invalidates the cache."""
-        relevant = {key: self.config[key] for key in ('search_queries', 'filters', 'advanced_options', 'max_repos_per_query')}
+        relevant = {key: self.config[key] for key in ('search_queries', 'filters', 'advanced_options',
+                                                      'max_repos_per_query', 'sources')}
         return hashlib.sha256(json.dumps(relevant, sort_keys=True).encode()).hexdigest()
 
     def save_cache(self, data: List[RepoInfo], filename: str = CACHE_FILE, timestamp: Optional[float] = None):
@@ -426,7 +459,8 @@ class GitHubCurator:
             json.dump({
                 'timestamp': timestamp if timestamp is not None else time.time(),
                 'config_hash': self._config_fingerprint(),
-                'repositories': [asdict(repo) for repo in data]
+                'repositories': [asdict(repo) for repo in data],
+                'items': [asdict(item) for item in self.items]
             }, f, indent=2)
 
         logger.info(f"Saved {len(data)} repositories to {filename}")
@@ -450,6 +484,7 @@ class GitHubCurator:
 
             self._cache_timestamp = data['timestamp']
             repos = [RepoInfo(**repo_data) for repo_data in data['repositories']]
+            self.items = [SourceItem(**item_data) for item_data in data['items']]
             logger.info(f"Loaded {len(repos)} repositories from cache")
             return repos
 
@@ -492,6 +527,8 @@ class GitHubCurator:
                 raise GitHubAPIError("No repositories found; refusing to overwrite existing output")
 
             logger.info(f"Found {len(all_repos)} unique repositories")
+            self.items = collect_items(self.config['sources'])
+            logger.info(f"Found {len(self.items)} Hugging Face and arXiv items")
 
         self._review(all_repos)
         all_repos.sort(key=self._rank_key, reverse=True)

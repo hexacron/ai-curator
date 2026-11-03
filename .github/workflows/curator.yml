@@ -10,6 +10,7 @@ on:
     paths:
       - 'curator.py'
       - 'github_client.py'
+      - 'sources.py'
       - 'curator_review.py'
       - 'llm_client.py'
       - 'text_digest.py'

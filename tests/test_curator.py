@@ -50,6 +50,7 @@ def make(tmp_path, monkeypatch, items, llm, llm_config=None, caching=False):
     monkeypatch.setenv('GITHUB_TOKEN', 'test-token')
     fake = CuratorGitHub(items, {i['node_id']: f"# {i['name']}\n\nRuns 150 security tools for pentest.\n" + 'More. ' * 20 for i in items})
     monkeypatch.setattr(curator, 'GitHubClient', lambda token: fake)
+    monkeypatch.setattr(curator, 'collect_items', lambda settings: [])   # no test reaches Hugging Face or arXiv
     config = {'search_queries': ['q'], 'advanced_options': {'api_delay_seconds': 0}, 'enable_caching': caching,
               'llm': llm_config or {}}
     (tmp_path / 'config.json').write_text(json.dumps(config))

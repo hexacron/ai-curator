@@ -47,6 +47,33 @@
     "data_dir": "data/curator"
   },
 
+  "sources": {
+    "huggingface": {
+      "enabled": true,
+      "queries": ["osint", "prompt injection", "jailbreak", "cybersecurity", "threat intelligence", "malware"],
+      "kinds": ["model", "dataset", "space"],
+      "min_likes": 5,
+      "max_age_days": 365,
+      "limit_per_query": 20,
+      "top_n": 10,
+      "api_delay_seconds": 0.5
+    },
+    "arxiv": {
+      "enabled": true,
+      "queries": [
+        "all:\"prompt injection\"",
+        "all:OSINT",
+        "all:\"LLM agent\" AND all:security",
+        "all:\"large language model\" AND (all:malware OR all:vulnerability OR all:\"threat intelligence\")"
+      ],
+      "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG", "cs.CY"],
+      "max_age_days": 90,
+      "limit_per_query": 25,
+      "top_n": 10,
+      "api_delay_seconds": 3.0
+    }
+  },
+
   "osint": {
     "window_days": 90,
     "first_commit_grace_days": 14,
