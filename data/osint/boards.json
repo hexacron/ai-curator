@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generated": "2026-11-03T02:53:30+00:00",
+ "generated": "2026-11-03T13:09:53+00:00",
  "window_days": 90,
- "scored": 217,
+ "scored": 218,
  "excluded": {
-  "scope_out": 98,
+  "scope_out": 99,
   "sensitivity_high_hidden": 13,
   "unverified": 4
  },
@@ -31,44 +31,44 @@
      "geoguessr"
     ],
     "created_at": "2026-09-18T08:51:34Z",
-    "age_days": 45,
-    "stars": 5645,
-    "forks": 705,
+    "age_days": 46,
+    "stars": 5724,
+    "forks": 711,
     "status": "emerging",
     "scope": "core",
     "domain": "geospatial-imagery",
     "domain_secondary": "media-forensics",
     "form": "agent-skill",
     "ai_role": "skill-mcp-native",
-    "summary": "An agent skill that geolocates photos by combining EXIF and OCR, reverse image search, OpenStreetMap corridors, elevation skylines, sun position, satellite and street-view matching, and reports its reasoning as evidence.",
+    "summary": "An agent skill that estimates where a photo was taken by combining EXIF, OCR, reverse image search, OpenStreetMap geometry, elevation skylines, satellite imagery and street view, showing its reasoning as a candidate board.",
     "strengths": [
      "Clear multi-stage pipeline with named scripts and data sources",
-     "Shows its work with evidence overlays",
-     "Works across several agent platforms with setup instructions"
+     "Works across several agent platforms with install commands",
+     "Shows evidence and reasoning for each candidate location"
     ],
     "risks": [
-     "Geolocating photos may be misused to locate private places or people",
-     "Depends on Chrome/Chromium and external services for reverse image search"
+     "Reverse image search depends on Chrome or Playwright automation",
+     "Benchmark and limits detail is limited in the excerpt"
     ],
     "reviewed": true,
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 89.3,
-    "rank_key": 89.3,
+    "score": 89.5,
+    "rank_key": 89.5,
     "confidence": 1.0,
     "components": {
      "momentum": 0.997,
-     "activity": 0.833,
+     "activity": 0.85,
      "maturity": 0.7,
-     "community": 0.925,
+     "community": 0.916,
      "utility": 0.8
     },
     "integrity": {
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 189.0
+    "star_rate": 200.286
    },
    {
     "rank": 2,
@@ -91,7 +91,7 @@
     ],
     "created_at": "2026-10-08T16:08:36Z",
     "age_days": 25,
-    "stars": 199,
+    "stars": 201,
     "forks": 29,
     "status": "emerging",
     "scope": "core",
@@ -116,12 +116,12 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 84.2,
-    "rank_key": 84.2,
+    "score": 83.8,
+    "rank_key": 83.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.957,
-     "activity": 0.83,
+     "momentum": 0.952,
+     "activity": 0.824,
      "maturity": 0.75,
      "community": 0.527,
      "utility": 0.8
@@ -130,7 +130,7 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 2.571
+    "star_rate": 2.857
    },
    {
     "rank": 3,
@@ -153,7 +153,7 @@
     ],
     "created_at": "2026-10-29T20:06:18Z",
     "age_days": 4,
-    "stars": 208,
+    "stars": 215,
     "forks": 17,
     "status": "emerging",
     "scope": "core",
@@ -180,8 +180,8 @@
      "social-profile-extraction"
     ],
     "score": 86.7,
-    "rank_key": 81.4,
-    "confidence": 0.647,
+    "rank_key": 81.5,
+    "confidence": 0.653,
     "components": {
      "momentum": 0.969,
      "activity": 0.88,
@@ -193,11 +193,69 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 11.787
+    "star_rate": 12.852
    },
    {
     "rank": 4,
-    "rank_change": 0,
+    "rank_change": null,
+    "id": 1416241429,
+    "full_name": "Hexay/thunderprint",
+    "html_url": "https://github.com/Hexay/thunderprint",
+    "description": "Work out where and when an audio recording was made using only the thunder in it.",
+    "language": "Rust",
+    "license": "MIT",
+    "topics": [
+     "acoustics",
+     "audio",
+     "cli",
+     "geolocation",
+     "lightning",
+     "osint",
+     "python",
+     "rust"
+    ],
+    "created_at": "2026-10-12T23:44:23Z",
+    "age_days": 21,
+    "stars": 4,
+    "forks": 1,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "geospatial-imagery",
+    "domain_secondary": "media-forensics",
+    "form": "cli",
+    "ai_role": "none",
+    "summary": "Rust/Python CLI that estimates where and when an audio recording was made by matching thunder timing in the audio against MET Norway Frost lightning strike data, producing a probability map and HTML report.",
+    "strengths": [
+     "Clear, novel geolocation method with simulation and evaluation workflow",
+     "Installable via pip, cargo, or prebuilt binaries with documented inputs and outputs"
+    ],
+    "risks": [
+     "Depends on a free Frost API key and external data service",
+     "Accuracy limits depend on recording and data quality; findings should be treated as probabilistic"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 79.7,
+    "rank_key": 79.7,
+    "confidence": 1.0,
+    "components": {
+     "momentum": 0.906,
+     "activity": 0.686,
+     "maturity": 0.85,
+     "community": 0.441,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.429
+   },
+   {
+    "rank": 5,
+    "rank_change": -1,
     "id": 1433112682,
     "full_name": "n5za/osint-mcp",
     "html_url": "https://github.com/n5za/osint-mcp",
@@ -215,7 +273,7 @@
      "osint"
     ],
     "created_at": "2026-10-25T11:15:28Z",
-    "age_days": 8,
+    "age_days": 9,
     "stars": 7,
     "forks": 1,
     "status": "emerging",
@@ -242,11 +300,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 78.2,
-    "rank_key": 77.1,
-    "confidence": 0.924,
+    "score": 77.9,
+    "rank_key": 76.9,
+    "confidence": 0.93,
     "components": {
-     "momentum": 0.914,
+     "momentum": 0.906,
      "activity": 0.607,
      "maturity": 0.8,
      "community": 0.494,
@@ -259,8 +317,70 @@
     "star_rate": 0.429
    },
    {
-    "rank": 5,
-    "rank_change": 1,
+    "rank": 6,
+    "rank_change": 4,
+    "id": 1410186540,
+    "full_name": "XD-MHLOO/facebook-gql-scraper",
+    "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
+    "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "facebook",
+     "facebook-api",
+     "facebook-comments",
+     "facebook-data",
+     "facebook-graph-api",
+     "facebook-groups",
+     "facebook-marketplace-api",
+     "facebook-marketplace-listings"
+    ],
+    "created_at": "2026-10-08T11:08:00Z",
+    "age_days": 26,
+    "stars": 57,
+    "forks": 11,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "social-media",
+    "domain_secondary": "web-capture",
+    "form": "library",
+    "ai_role": "none",
+    "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
+    "strengths": [
+     "Documented API with property and method listings for profiles, posts, comments and groups",
+     "Auto-recovers changed GraphQL Doc IDs without a headless browser"
+    ],
+    "risks": [
+     "Uses personal session cookies and likely violates Facebook terms of service",
+     "Lead-generation framing suggests bulk collection of personal data",
+     "Abandonment risk from reliance on undocumented internal endpoints"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "personal-data-lookup",
+     "social-profile-extraction"
+    ],
+    "score": 76.3,
+    "rank_key": 76.3,
+    "confidence": 1.0,
+    "components": {
+     "momentum": 0.886,
+     "activity": 0.6,
+     "maturity": 0.9,
+     "community": 0.29,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.429
+   },
+   {
+    "rank": 7,
+    "rank_change": -2,
     "id": 1440268480,
     "full_name": "ArcSwordKiln/osint-people-checker",
     "html_url": "https://github.com/ArcSwordKiln/osint-people-checker",
@@ -304,9 +424,9 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 81.1,
-    "rank_key": 75.6,
-    "confidence": 0.632,
+    "score": 81.2,
+    "rank_key": 75.8,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.991,
      "activity": 0.644,
@@ -318,11 +438,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 17.357
+    "star_rate": 17.231
    },
    {
-    "rank": 6,
-    "rank_change": -1,
+    "rank": 8,
+    "rank_change": -2,
     "id": 1398924048,
     "full_name": "Memory-of-Time/archive-scout",
     "html_url": "https://github.com/Memory-of-Time/archive-scout",
@@ -363,11 +483,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 75.6,
-    "rank_key": 75.6,
+    "score": 75.0,
+    "rank_key": 75.0,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.9,
+     "momentum": 0.886,
      "activity": 0.983,
      "maturity": 0.9,
      "community": 0.232,
@@ -382,8 +502,8 @@
     "star_rate": 0.429
    },
    {
-    "rank": 7,
-    "rank_change": 2,
+    "rank": 9,
+    "rank_change": -2,
     "id": 1439580341,
     "full_name": "bobvasic/Swiftelligence",
     "html_url": "https://github.com/bobvasic/Swiftelligence",
@@ -399,7 +519,7 @@
      "web-search"
     ],
     "created_at": "2026-10-30T10:27:40Z",
-    "age_days": 3,
+    "age_days": 4,
     "stars": 4,
     "forks": 0,
     "status": "emerging",
@@ -421,11 +541,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 79.1,
-    "rank_key": 74.8,
-    "confidence": 0.71,
+    "score": 78.8,
+    "rank_key": 74.5,
+    "confidence": 0.716,
     "components": {
-     "momentum": 0.929,
+     "momentum": 0.923,
      "activity": 0.636,
      "maturity": 0.95,
      "community": 0.232,
@@ -435,11 +555,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.668
+    "star_rate": 0.666
    },
    {
-    "rank": 8,
-    "rank_change": -1,
+    "rank": 10,
+    "rank_change": -2,
     "id": 1376303804,
     "full_name": "socai-io/jev-social",
     "html_url": "https://github.com/socai-io/jev-social",
@@ -483,12 +603,12 @@
     "sensitivity_tags": [
      "social-profile-extraction"
     ],
-    "score": 74.0,
-    "rank_key": 74.0,
+    "score": 73.7,
+    "rank_key": 73.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.951,
-     "activity": 0.232,
+     "momentum": 0.946,
+     "activity": 0.228,
      "maturity": 0.95,
      "community": 0.63,
      "utility": 0.6
@@ -500,8 +620,8 @@
     "star_rate": 1.286
    },
    {
-    "rank": 9,
-    "rank_change": 2,
+    "rank": 11,
+    "rank_change": -2,
     "id": 1432965476,
     "full_name": "OTInstaller/otinstaller",
     "html_url": "https://github.com/OTInstaller/otinstaller",
@@ -516,7 +636,7 @@
      "package-registry"
     ],
     "created_at": "2026-10-25T08:06:57Z",
-    "age_days": 8,
+    "age_days": 9,
     "stars": 3,
     "forks": 0,
     "status": "emerging",
@@ -540,11 +660,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 74.8,
-    "rank_key": 73.7,
-    "confidence": 0.925,
+    "score": 74.2,
+    "rank_key": 73.2,
+    "confidence": 0.932,
     "components": {
-     "momentum": 0.9,
+     "momentum": 0.886,
      "activity": 0.967,
      "maturity": 0.8,
      "community": 0.327,
@@ -559,70 +679,8 @@
     "star_rate": 0.429
    },
    {
-    "rank": 10,
-    "rank_change": -2,
-    "id": 1410186540,
-    "full_name": "XD-MHLOO/facebook-gql-scraper",
-    "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
-    "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "facebook",
-     "facebook-api",
-     "facebook-comments",
-     "facebook-data",
-     "facebook-graph-api",
-     "facebook-groups",
-     "facebook-marketplace-api",
-     "facebook-marketplace-listings"
-    ],
-    "created_at": "2026-10-08T11:08:00Z",
-    "age_days": 25,
-    "stars": 56,
-    "forks": 11,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "social-media",
-    "domain_secondary": "web-capture",
-    "form": "library",
-    "ai_role": "none",
-    "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
-    "strengths": [
-     "Documented API with property and method listings for profiles, posts, comments and groups",
-     "Auto-recovers changed GraphQL Doc IDs without a headless browser"
-    ],
-    "risks": [
-     "Uses personal session cookies and likely violates Facebook terms of service",
-     "Lead-generation framing suggests bulk collection of personal data",
-     "Abandonment risk from reliance on undocumented internal endpoints"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 73.6,
-    "rank_key": 73.6,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.854,
-     "activity": 0.538,
-     "maturity": 0.9,
-     "community": 0.29,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.286
-   },
-   {
-    "rank": 11,
-    "rank_change": 2,
+    "rank": 12,
+    "rank_change": -1,
     "id": 1440275098,
     "full_name": "DolphinStronghold9/stolen-crypto-tracer",
     "html_url": "https://github.com/DolphinStronghold9/stolen-crypto-tracer",
@@ -641,7 +699,7 @@
     ],
     "created_at": "2026-10-30T22:07:54Z",
     "age_days": 3,
-    "stars": 142,
+    "stars": 150,
     "forks": 11,
     "status": "emerging",
     "scope": "core",
@@ -666,12 +724,12 @@
     "sensitivity_tags": [
      "person-tracking"
     ],
-    "score": 78.4,
-    "rank_key": 72.9,
-    "confidence": 0.631,
+    "score": 77.9,
+    "rank_key": 72.5,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.974,
-     "activity": 0.644,
+     "activity": 0.618,
      "maturity": 0.85,
      "community": 0.29,
      "utility": 0.6
@@ -680,11 +738,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 14.004
+    "star_rate": 15.291
    },
    {
-    "rank": 12,
-    "rank_change": 0,
+    "rank": 13,
+    "rank_change": -1,
     "id": 1427714043,
     "full_name": "letox4/OsintHunter",
     "html_url": "https://github.com/letox4/OsintHunter",
@@ -729,11 +787,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 72.7,
-    "rank_key": 72.5,
-    "confidence": 0.987,
+    "score": 72.5,
+    "rank_key": 72.4,
+    "confidence": 0.993,
     "components": {
-     "momentum": 0.94,
+     "momentum": 0.935,
      "activity": 0.451,
      "maturity": 0.7,
      "community": 0.29,
@@ -746,8 +804,8 @@
     "star_rate": 1.0
    },
    {
-    "rank": 13,
-    "rank_change": 1,
+    "rank": 14,
+    "rank_change": -1,
     "id": 1440265034,
     "full_name": "Signcluengine/onchain-money-trail-analyzer",
     "html_url": "https://github.com/Signcluengine/onchain-money-trail-analyzer",
@@ -792,8 +850,8 @@
      "person-tracking"
     ],
     "score": 76.6,
-    "rank_key": 71.1,
-    "confidence": 0.632,
+    "rank_key": 71.2,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.986,
      "activity": 0.644,
@@ -805,11 +863,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 18.173
+    "star_rate": 18.034
    },
    {
-    "rank": 14,
-    "rank_change": 2,
+    "rank": 15,
+    "rank_change": -1,
     "id": 1440271681,
     "full_name": "Blazenumenhir/scam-story-checker",
     "html_url": "https://github.com/Blazenumenhir/scam-story-checker",
@@ -828,7 +886,7 @@
     ],
     "created_at": "2026-10-30T22:02:39Z",
     "age_days": 3,
-    "stars": 177,
+    "stars": 183,
     "forks": 11,
     "status": "emerging",
     "scope": "core",
@@ -854,8 +912,8 @@
      "personal-data-lookup"
     ],
     "score": 76.4,
-    "rank_key": 70.9,
-    "confidence": 0.631,
+    "rank_key": 71.0,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.98,
      "activity": 0.644,
@@ -867,11 +925,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 18.023
+    "star_rate": 18.931
    },
    {
-    "rank": 15,
-    "rank_change": 2,
+    "rank": 16,
+    "rank_change": -1,
     "id": 1354639791,
     "full_name": "asimov-systems/asimov-alpha",
     "html_url": "https://github.com/asimov-systems/asimov-alpha",
@@ -885,7 +943,7 @@
      "socmint"
     ],
     "created_at": "2026-09-02T10:41:19Z",
-    "age_days": 61,
+    "age_days": 62,
     "stars": 10,
     "forks": 0,
     "status": "emerging",
@@ -910,12 +968,12 @@
     "sensitivity_tags": [
      "social-profile-extraction"
     ],
-    "score": 70.4,
-    "rank_key": 70.4,
+    "score": 69.0,
+    "rank_key": 69.0,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.854,
-     "activity": 0.769,
+     "momentum": 0.83,
+     "activity": 0.757,
      "maturity": 0.55,
      "community": 0.428,
      "utility": 0.4
@@ -927,8 +985,8 @@
     "star_rate": 0.286
    },
    {
-    "rank": 16,
-    "rank_change": 2,
+    "rank": 17,
+    "rank_change": -1,
     "id": 1397105935,
     "full_name": "bayshier/ghosttrack-zh",
     "html_url": "https://github.com/bayshier/ghosttrack-zh",
@@ -946,7 +1004,7 @@
      "termux"
     ],
     "created_at": "2026-09-30T05:53:02Z",
-    "age_days": 33,
+    "age_days": 34,
     "stars": 313,
     "forks": 40,
     "status": "emerging",
@@ -990,8 +1048,8 @@
     "star_rate": 4.0
    },
    {
-    "rank": 17,
-    "rank_change": -2,
+    "rank": 18,
+    "rank_change": -1,
     "id": 1434479596,
     "full_name": "det0xgravity/truebearing-osint",
     "html_url": "https://github.com/det0xgravity/truebearing-osint",
@@ -1035,12 +1093,12 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 67.8,
-    "rank_key": 66.4,
-    "confidence": 0.908,
+    "score": 67.1,
+    "rank_key": 65.8,
+    "confidence": 0.914,
     "components": {
-     "momentum": 0.674,
-     "activity": 0.788,
+     "momentum": 0.665,
+     "activity": 0.775,
      "maturity": 0.85,
      "community": 0.09,
      "utility": 0.8
@@ -1052,8 +1110,71 @@
     "star_rate": 0.143
    },
    {
-    "rank": 18,
-    "rank_change": 3,
+    "rank": 19,
+    "rank_change": 4,
+    "id": 1383225402,
+    "full_name": "omkarcloud/instagram-scraper",
+    "html_url": "https://github.com/omkarcloud/instagram-scraper",
+    "description": "Instagram Scraper — free, open-source Instagram scraper. Unlimited profiles, posts, reels, comments and hashtags as clean JSON, no API key, no proxies.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "apify-alternative",
+     "email-scraping",
+     "instagram",
+     "instagram-api",
+     "instagram-crawler",
+     "instagram-data",
+     "instagram-email-scraper",
+     "instagram-follower-scraper"
+    ],
+    "created_at": "2026-09-23T10:30:13Z",
+    "age_days": 41,
+    "stars": 7,
+    "forks": 5,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "social-media",
+    "domain_secondary": "web-capture",
+    "form": "library",
+    "ai_role": "none",
+    "summary": "A Python API that scrapes public Instagram profiles, posts, reels, comments and hashtags into JSON, run locally via a FastAPI-style server with 19 endpoints. Marketed as free and unlimited.",
+    "strengths": [
+     "Runnable local API with a curl example",
+     "Clear endpoint coverage for profiles, posts, comments and hashtags",
+     "Open-source and installable from requirements"
+    ],
+    "risks": [
+     "Scrapes personal profile data and email addresses, raising privacy concerns",
+     "Marketing claims of unlimited data without stated limits or legal considerations",
+     "Likely to break against Instagram changes; bundled promotional content"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "personal-data-lookup",
+     "social-profile-extraction"
+    ],
+    "score": 64.6,
+    "rank_key": 64.6,
+    "confidence": 1.0,
+    "components": {
+     "momentum": 0.858,
+     "activity": 0.323,
+     "maturity": 0.75,
+     "community": 0.23,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.286
+   },
+   {
+    "rank": 20,
+    "rank_change": -2,
     "id": 1436104807,
     "full_name": "aixisstudio/osint-tools-list",
     "html_url": "https://github.com/aixisstudio/osint-tools-list",
@@ -1093,12 +1214,12 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 66.9,
-    "rank_key": 65.3,
-    "confidence": 0.891,
+    "score": 65.4,
+    "rank_key": 63.9,
+    "confidence": 0.897,
     "components": {
-     "momentum": 0.871,
-     "activity": 0.677,
+     "momentum": 0.844,
+     "activity": 0.663,
      "maturity": 0.45,
      "community": 0.14,
      "utility": 0.6
@@ -1107,62 +1228,63 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.164
+    "star_rate": 0.163
    },
    {
-    "rank": 19,
-    "rank_change": -9,
-    "id": 1383766253,
-    "full_name": "renkagod/osint-toolbox-mcp",
-    "html_url": "https://github.com/renkagod/osint-toolbox-mcp",
-    "description": "MCP server that lets AI agents run 12 classic OSINT tools locally, no API keys needed",
-    "language": "Python",
+    "rank": 21,
+    "rank_change": 0,
+    "id": 1432995434,
+    "full_name": "rndinfosecguy/BlackSignal",
+    "html_url": "https://github.com/rndinfosecguy/BlackSignal",
+    "description": "Leak data analyzer made for my Scavenger project",
+    "language": "TypeScript",
     "license": "MIT",
     "topics": [
-     "ai-agents",
-     "blackbird",
-     "claude",
-     "cursor",
-     "docker",
-     "exiftool",
-     "ghunt",
-     "holehe"
+     "analysis",
+     "hacking",
+     "leak",
+     "leak-detection",
+     "leaks",
+     "osint",
+     "osint-tool",
+     "osint-tools"
     ],
-    "created_at": "2026-09-23T15:58:06Z",
-    "age_days": 40,
-    "stars": 4,
-    "forks": 2,
+    "created_at": "2026-10-25T08:47:19Z",
+    "age_days": 9,
+    "stars": 1,
+    "forks": 0,
     "status": "emerging",
     "scope": "core",
-    "domain": "general",
-    "domain_secondary": "identity-lookup",
-    "form": "mcp-server",
-    "ai_role": "skill-mcp-native",
-    "summary": "An MCP server that lets AI agents run about a dozen OSINT tools locally, including Sherlock, Maigret, Holehe, GHunt, theHarvester, SpiderFoot, PhoneInfoga, ExifTool, plus built-in WHOIS, DNS and certificate transparency lookups.",
+    "domain": "breach-exposure",
+    "domain_secondary": "general",
+    "form": "web-app",
+    "ai_role": "none",
+    "summary": "Self-hosted web app that indexes scraped paste-site data into SQLite FTS5 search and flags leaked credentials, API keys, private keys and connection strings. Pairs with the Scavenger paste scraper.",
     "strengths": [
-     "Wraps many established OSINT tools behind one MCP interface",
-     "Clear feature table with inputs, outputs and requirements",
-     "Installer and Docker options with CI and tests"
+     "Concrete stack and architecture described (FastAPI, SQLite FTS5, nginx auth, Docker)",
+     "Named paste sources and a listed set of detection categories",
+     "Explicit research and defender framing with a disclaimer"
     ],
     "risks": [
-     "Enables person and account lookup via AI agents, including Google account lookups via GHunt",
-     "Depends on third-party tools that may change or be abandoned"
+     "Stores and indexes leaked secrets from public pastes, which raises data-handling concerns",
+     "Author notes the tool is a personal project tied to a separate scraper",
+     "Legal compliance is left to the user"
     ],
     "reviewed": true,
     "readme_language": "en",
     "sensitivity": "caution",
     "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
+     "breach-lookup",
+     "leaked-data-lookup"
     ],
     "score": 64.6,
-    "rank_key": 64.6,
-    "confidence": 1.0,
+    "rank_key": 63.6,
+    "confidence": 0.931,
     "components": {
-     "momentum": 0.674,
-     "activity": 0.358,
-     "maturity": 1.0,
-     "community": 0.407,
+     "momentum": 0.665,
+     "activity": 0.687,
+     "maturity": 0.8,
+     "community": 0.09,
      "utility": 0.8
     },
     "integrity": {
@@ -1172,8 +1294,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 20,
-    "rank_change": 2,
+    "rank": 22,
+    "rank_change": -2,
     "id": 1419669309,
     "full_name": "Voldigoade/spoor",
     "html_url": "https://github.com/Voldigoade/spoor",
@@ -1214,12 +1336,12 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 63.9,
-    "rank_key": 63.9,
+    "score": 63.4,
+    "rank_key": 63.4,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.674,
-     "activity": 0.646,
+     "momentum": 0.665,
+     "activity": 0.641,
      "maturity": 0.6,
      "community": 0.367,
      "utility": 0.8
@@ -1231,71 +1353,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 21,
-    "rank_change": 2,
-    "id": 1432995434,
-    "full_name": "rndinfosecguy/BlackSignal",
-    "html_url": "https://github.com/rndinfosecguy/BlackSignal",
-    "description": "Leak data analyzer made for my Scavenger project",
-    "language": "TypeScript",
-    "license": "MIT",
-    "topics": [
-     "analysis",
-     "hacking",
-     "leak",
-     "leak-detection",
-     "leaks",
-     "osint",
-     "osint-tool",
-     "osint-tools"
-    ],
-    "created_at": "2026-10-25T08:47:19Z",
-    "age_days": 8,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "breach-exposure",
-    "domain_secondary": "web-capture",
-    "form": "web-app",
-    "ai_role": "none",
-    "summary": "A self-hosted FastAPI and React web app that indexes pastes from Pastebin, GitHub Gists, dpaste and pastes.io into SQLite FTS5, flags leaked credentials and API keys, and provides filtering and a secret-first detail view.",
-    "strengths": [
-     "Clear feature list with named detection patterns",
-     "Docker-based self-hosted setup with auth",
-     "Explicit research-only framing and disclaimer"
-    ],
-    "risks": [
-     "Stores and indexes leaked credentials and secrets from paste sites",
-     "Relies on a companion scraper project for data collection",
-     "Legal and terms-of-service exposure for paste-site data"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "breach-lookup",
-     "leaked-data-lookup"
-    ],
-    "score": 64.5,
-    "rank_key": 63.4,
-    "confidence": 0.925,
-    "components": {
-     "momentum": 0.674,
-     "activity": 0.664,
-     "maturity": 0.8,
-     "community": 0.09,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.143
-   },
-   {
-    "rank": 22,
-    "rank_change": 2,
+    "rank": 23,
+    "rank_change": -1,
     "id": 1435931348,
     "full_name": "OSINT-Copilot/osint-copilot",
     "html_url": "https://github.com/OSINT-Copilot/osint-copilot",
@@ -1335,11 +1394,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 64.8,
-    "rank_key": 63.2,
-    "confidence": 0.892,
+    "score": 64.3,
+    "rank_key": 62.8,
+    "confidence": 0.899,
     "components": {
-     "momentum": 0.774,
+     "momentum": 0.764,
      "activity": 0.414,
      "maturity": 0.85,
      "community": 0.09,
@@ -1352,71 +1411,8 @@
     "star_rate": 0.15
    },
    {
-    "rank": 23,
-    "rank_change": 2,
-    "id": 1383225402,
-    "full_name": "omkarcloud/instagram-scraper",
-    "html_url": "https://github.com/omkarcloud/instagram-scraper",
-    "description": "Instagram Scraper — free, open-source Instagram scraper. Unlimited profiles, posts, reels, comments and hashtags as clean JSON, no API key, no proxies.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "apify-alternative",
-     "email-scraping",
-     "instagram",
-     "instagram-api",
-     "instagram-crawler",
-     "instagram-data",
-     "instagram-email-scraper",
-     "instagram-follower-scraper"
-    ],
-    "created_at": "2026-09-23T10:30:13Z",
-    "age_days": 40,
-    "stars": 6,
-    "forks": 5,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "social-media",
-    "domain_secondary": "web-capture",
-    "form": "library",
-    "ai_role": "none",
-    "summary": "A Python API that scrapes public Instagram profiles, posts, reels, comments and hashtags into JSON, run locally via a FastAPI-style server with 19 endpoints. Marketed as free and unlimited.",
-    "strengths": [
-     "Runnable local API with a curl example",
-     "Clear endpoint coverage for profiles, posts, comments and hashtags",
-     "Open-source and installable from requirements"
-    ],
-    "risks": [
-     "Scrapes personal profile data and email addresses, raising privacy concerns",
-     "Marketing claims of unlimited data without stated limits or legal considerations",
-     "Likely to break against Instagram changes; bundled promotional content"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup",
-     "social-profile-extraction"
-    ],
-    "score": 62.6,
-    "rank_key": 62.6,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.809,
-     "activity": 0.335,
-     "maturity": 0.75,
-     "community": 0.23,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.143
-   },
-   {
     "rank": 24,
-    "rank_change": null,
+    "rank_change": 0,
     "id": 1438472442,
     "full_name": "DankWoodsmoke/conflict-monitor-public",
     "html_url": "https://github.com/DankWoodsmoke/conflict-monitor-public",
@@ -1453,12 +1449,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 66.1,
-    "rank_key": 61.9,
-    "confidence": 0.722,
+    "score": 65.1,
+    "rank_key": 61.0,
+    "confidence": 0.728,
     "components": {
-     "momentum": 0.791,
-     "activity": 0.552,
+     "momentum": 0.776,
+     "activity": 0.539,
      "maturity": 0.65,
      "community": 0.17,
      "utility": 0.8
@@ -1467,11 +1463,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.166
+    "star_rate": 0.165
    },
    {
     "rank": 25,
-    "rank_change": -6,
+    "rank_change": 0,
     "id": 1394852469,
     "full_name": "Kerlooo/FreeOSINTUI",
     "html_url": "https://github.com/Kerlooo/FreeOSINTUI",
@@ -1487,7 +1483,7 @@
      "osint-toolkit"
     ],
     "created_at": "2026-09-29T09:46:00Z",
-    "age_days": 34,
+    "age_days": 35,
     "stars": 84,
     "forks": 8,
     "status": "emerging",
@@ -1514,11 +1510,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 60.9,
-    "rank_key": 60.9,
+    "score": 60.6,
+    "rank_key": 60.6,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.946,
+     "momentum": 0.94,
      "activity": 0.029,
      "maturity": 0.55,
      "community": 0.34,
@@ -1534,7 +1530,64 @@
   "new": [
    {
     "rank": 1,
-    "rank_change": 0,
+    "rank_change": null,
+    "id": 1443613311,
+    "full_name": "1337isnot1337/DOPPLERGEIST",
+    "html_url": "https://github.com/1337isnot1337/DOPPLERGEIST",
+    "description": "A tool to geolocate audio recordings using aircraft Doppler shifts and historical flight tracks.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "acoustic-geolocation",
+     "ads-b",
+     "airplane",
+     "doppler-effect",
+     "geolocation",
+     "osint"
+    ],
+    "created_at": "2026-11-02T23:54:01Z",
+    "age_days": 0,
+    "stars": 59,
+    "forks": 7,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "geospatial-imagery",
+    "domain_secondary": "media-forensics",
+    "form": "cli",
+    "ai_role": "none",
+    "summary": "Locates where an audio recording was made by comparing Doppler shifts of passing aircraft against historical ADS-B flight trajectories, ranking candidate locations. Runs locally; experimental, with accuracy not yet established.",
+    "strengths": [
+     "Novel, technically detailed method for audio geolocation",
+     "Clear pipeline stages and CLI entry points",
+     "Honest about experimental status and limits"
+    ],
+    "risks": [
+     "Accuracy on real recordings not established",
+     "Depends on ADSB.lol historical archive availability"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 91.9,
+    "rank_key": 82.6,
+    "confidence": 0.379,
+    "components": {
+     "momentum": 0.957,
+     "activity": 1.0,
+     "maturity": 0.95,
+     "community": 0.541,
+     "utility": null
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 4.054
+   },
+   {
+    "rank": 2,
+    "rank_change": -1,
     "id": 1438904818,
     "full_name": "phishdestroy/TgWitness",
     "html_url": "https://github.com/phishdestroy/TgWitness",
@@ -1553,7 +1606,7 @@
     ],
     "created_at": "2026-10-29T20:06:18Z",
     "age_days": 4,
-    "stars": 208,
+    "stars": 215,
     "forks": 17,
     "status": "emerging",
     "scope": "core",
@@ -1580,8 +1633,8 @@
      "social-profile-extraction"
     ],
     "score": 86.7,
-    "rank_key": 81.4,
-    "confidence": 0.647,
+    "rank_key": 81.5,
+    "confidence": 0.653,
     "components": {
      "momentum": 0.969,
      "activity": 0.88,
@@ -1593,11 +1646,73 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 11.787
+    "star_rate": 12.852
    },
    {
-    "rank": 2,
-    "rank_change": 0,
+    "rank": 3,
+    "rank_change": null,
+    "id": 1442329492,
+    "full_name": "sjdsjadjajdjsa/osintkit",
+    "html_url": "https://github.com/sjdsjadjajdjsa/osintkit",
+    "description": "Public-data OSINT for emails, usernames, domains and companies: free sources, LLM briefing, colour report",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "cli",
+     "osint",
+     "privacy",
+     "python",
+     "recon",
+     "security",
+     "threat-intelligence"
+    ],
+    "created_at": "2026-11-01T23:50:31Z",
+    "age_days": 1,
+    "stars": 2,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "general",
+    "domain_secondary": "identity-lookup",
+    "form": "cli",
+    "ai_role": "llm-assisted",
+    "summary": "A Python CLI that gathers public data on emails, usernames, domains, companies, phones and Bitcoin addresses from free sources, then produces an LLM-written or offline rule-based risk briefing and a colour-coded report.",
+    "strengths": [
+     "Named public sources and an offline mode with no model needed",
+     "Explicit safety section: no logins, no paid brokers, retry and quota handling",
+     "Documents limitations and reports unavailable sources"
+    ],
+    "risks": [
+     "Personal breach and email lookups could be used for doxxing if misused",
+     "Relies on LLM summaries that may overstate weak signals",
+     "Repository owner account and CI links are unverified; newly published project"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "personal-data-lookup"
+    ],
+    "score": 84.9,
+    "rank_key": 76.9,
+    "confidence": 0.465,
+    "components": {
+     "momentum": 0.872,
+     "activity": 0.983,
+     "maturity": 0.95,
+     "community": 0.375,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.396
+   },
+   {
+    "rank": 4,
+    "rank_change": -2,
     "id": 1440268480,
     "full_name": "ArcSwordKiln/osint-people-checker",
     "html_url": "https://github.com/ArcSwordKiln/osint-people-checker",
@@ -1641,9 +1756,9 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 81.1,
-    "rank_key": 75.6,
-    "confidence": 0.632,
+    "score": 81.2,
+    "rank_key": 75.8,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.991,
      "activity": 0.644,
@@ -1655,11 +1770,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 17.357
+    "star_rate": 17.231
    },
    {
-    "rank": 3,
-    "rank_change": 0,
+    "rank": 5,
+    "rank_change": -2,
     "id": 1439580341,
     "full_name": "bobvasic/Swiftelligence",
     "html_url": "https://github.com/bobvasic/Swiftelligence",
@@ -1675,7 +1790,7 @@
      "web-search"
     ],
     "created_at": "2026-10-30T10:27:40Z",
-    "age_days": 3,
+    "age_days": 4,
     "stars": 4,
     "forks": 0,
     "status": "emerging",
@@ -1697,11 +1812,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 79.1,
-    "rank_key": 74.8,
-    "confidence": 0.71,
+    "score": 78.8,
+    "rank_key": 74.5,
+    "confidence": 0.716,
     "components": {
-     "momentum": 0.929,
+     "momentum": 0.923,
      "activity": 0.636,
      "maturity": 0.95,
      "community": 0.232,
@@ -1711,11 +1826,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.668
+    "star_rate": 0.666
    },
    {
-    "rank": 4,
-    "rank_change": 0,
+    "rank": 6,
+    "rank_change": -2,
     "id": 1440275098,
     "full_name": "DolphinStronghold9/stolen-crypto-tracer",
     "html_url": "https://github.com/DolphinStronghold9/stolen-crypto-tracer",
@@ -1734,7 +1849,7 @@
     ],
     "created_at": "2026-10-30T22:07:54Z",
     "age_days": 3,
-    "stars": 142,
+    "stars": 150,
     "forks": 11,
     "status": "emerging",
     "scope": "core",
@@ -1759,12 +1874,12 @@
     "sensitivity_tags": [
      "person-tracking"
     ],
-    "score": 78.4,
-    "rank_key": 72.9,
-    "confidence": 0.631,
+    "score": 77.9,
+    "rank_key": 72.5,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.974,
-     "activity": 0.644,
+     "activity": 0.618,
      "maturity": 0.85,
      "community": 0.29,
      "utility": 0.6
@@ -1773,11 +1888,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 14.004
+    "star_rate": 15.291
    },
    {
-    "rank": 5,
-    "rank_change": 0,
+    "rank": 7,
+    "rank_change": -2,
     "id": 1440265034,
     "full_name": "Signcluengine/onchain-money-trail-analyzer",
     "html_url": "https://github.com/Signcluengine/onchain-money-trail-analyzer",
@@ -1822,8 +1937,8 @@
      "person-tracking"
     ],
     "score": 76.6,
-    "rank_key": 71.1,
-    "confidence": 0.632,
+    "rank_key": 71.2,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.986,
      "activity": 0.644,
@@ -1835,11 +1950,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 18.173
+    "star_rate": 18.034
    },
    {
-    "rank": 6,
-    "rank_change": 1,
+    "rank": 8,
+    "rank_change": -2,
     "id": 1440271681,
     "full_name": "Blazenumenhir/scam-story-checker",
     "html_url": "https://github.com/Blazenumenhir/scam-story-checker",
@@ -1858,7 +1973,7 @@
     ],
     "created_at": "2026-10-30T22:02:39Z",
     "age_days": 3,
-    "stars": 177,
+    "stars": 183,
     "forks": 11,
     "status": "emerging",
     "scope": "core",
@@ -1884,8 +1999,8 @@
      "personal-data-lookup"
     ],
     "score": 76.4,
-    "rank_key": 70.9,
-    "confidence": 0.631,
+    "rank_key": 71.0,
+    "confidence": 0.638,
     "components": {
      "momentum": 0.98,
      "activity": 0.644,
@@ -1897,11 +2012,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 18.023
+    "star_rate": 18.931
    },
    {
-    "rank": 7,
-    "rank_change": 1,
+    "rank": 9,
+    "rank_change": -2,
     "id": 1436104807,
     "full_name": "aixisstudio/osint-tools-list",
     "html_url": "https://github.com/aixisstudio/osint-tools-list",
@@ -1941,12 +2056,12 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 66.9,
-    "rank_key": 65.3,
-    "confidence": 0.891,
+    "score": 65.4,
+    "rank_key": 63.9,
+    "confidence": 0.897,
     "components": {
-     "momentum": 0.871,
-     "activity": 0.677,
+     "momentum": 0.844,
+     "activity": 0.663,
      "maturity": 0.45,
      "community": 0.14,
      "utility": 0.6
@@ -1955,11 +2070,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.164
+    "star_rate": 0.163
    },
    {
-    "rank": 8,
-    "rank_change": 1,
+    "rank": 10,
+    "rank_change": -2,
     "id": 1435931348,
     "full_name": "OSINT-Copilot/osint-copilot",
     "html_url": "https://github.com/OSINT-Copilot/osint-copilot",
@@ -1999,11 +2114,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 64.8,
-    "rank_key": 63.2,
-    "confidence": 0.892,
+    "score": 64.3,
+    "rank_key": 62.8,
+    "confidence": 0.899,
     "components": {
-     "momentum": 0.774,
+     "momentum": 0.764,
      "activity": 0.414,
      "maturity": 0.85,
      "community": 0.09,
@@ -2016,8 +2131,8 @@
     "star_rate": 0.15
    },
    {
-    "rank": 9,
-    "rank_change": 2,
+    "rank": 11,
+    "rank_change": -2,
     "id": 1438472442,
     "full_name": "DankWoodsmoke/conflict-monitor-public",
     "html_url": "https://github.com/DankWoodsmoke/conflict-monitor-public",
@@ -2054,12 +2169,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 66.1,
-    "rank_key": 61.9,
-    "confidence": 0.722,
+    "score": 65.1,
+    "rank_key": 61.0,
+    "confidence": 0.728,
     "components": {
-     "momentum": 0.791,
-     "activity": 0.552,
+     "momentum": 0.776,
+     "activity": 0.539,
      "maturity": 0.65,
      "community": 0.17,
      "utility": 0.8
@@ -2068,11 +2183,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.166
+    "star_rate": 0.165
    },
    {
-    "rank": 10,
-    "rank_change": 2,
+    "rank": 12,
+    "rank_change": -2,
     "id": 1441157714,
     "full_name": "Data-Unix/MCP-MALTEGO",
     "html_url": "https://github.com/Data-Unix/MCP-MALTEGO",
@@ -2118,12 +2233,12 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 69.1,
-    "rank_key": 61.2,
-    "confidence": 0.476,
+    "score": 68.3,
+    "rank_key": 60.5,
+    "confidence": 0.482,
     "components": {
-     "momentum": 0.546,
-     "activity": 0.949,
+     "momentum": 0.537,
+     "activity": 0.932,
      "maturity": 1.0,
      "community": 0.363,
      "utility": null
@@ -2132,73 +2247,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.052
+    "star_rate": 0.051
    },
    {
-    "rank": 11,
+    "rank": 13,
     "rank_change": -1,
-    "id": 1435331946,
-    "full_name": "watsoncore/Gansar",
-    "html_url": "https://github.com/watsoncore/Gansar",
-    "description": "Blockchain OSINT and forensic analysis tool for tracing transactions, investigating wallets, and visualizing on-chain connections across multiple networks.",
-    "language": "Python",
-    "license": null,
-    "topics": [
-     "blockchain",
-     "blockchain-intelligence",
-     "crypto",
-     "cryptowallet",
-     "cybersec",
-     "cybersecurity",
-     "cybersecurity-tools",
-     "emma-watson"
-    ],
-    "created_at": "2026-10-27T06:20:10Z",
-    "age_days": 6,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "crypto-financial",
-    "domain_secondary": "workspace-analysis",
-    "form": "cli",
-    "ai_role": "none",
-    "summary": "Local blockchain intelligence tool that takes a crypto address, ENS name or TON NFT ID, collects public data across many networks, and produces an interactive HTML report with transaction graphs, assets and service attribution.",
-    "strengths": [
-     "Supports many networks (TON, TRON, Ethereum, Bitcoin, Solana and more)",
-     "Interactive graphs with sourced evidence and checkpoints/resume",
-     "Separates established facts from analytical hypotheses"
-    ],
-    "risks": [
-     "Service attribution of wallets may be speculative",
-     "README is in Russian with limited English documentation",
-     "Mixed topic tags including unrelated celebrity names suggest keyword stuffing"
-    ],
-    "reviewed": true,
-    "readme_language": "ru",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup"
-    ],
-    "score": 58.6,
-    "rank_key": 57.1,
-    "confidence": 0.898,
-    "components": {
-     "momentum": 0.674,
-     "activity": 0.447,
-     "maturity": 0.65,
-     "community": 0.152,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.143
-   },
-   {
-    "rank": 12,
-    "rank_change": null,
     "id": 1441922729,
     "full_name": "UserSearch-Public/onequery-api",
     "html_url": "https://github.com/UserSearch-Public/onequery-api",
@@ -2242,11 +2295,11 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 62.7,
-    "rank_key": 54.7,
-    "confidence": 0.464,
+    "score": 62.0,
+    "rank_key": 54.0,
+    "confidence": 0.47,
     "components": {
-     "momentum": 0.803,
+     "momentum": 0.787,
      "activity": 0.618,
      "maturity": 0.95,
      "community": 0.09,
@@ -2258,11 +2311,11 @@
       "new_owner_account"
      ]
     },
-    "star_rate": 0.198
+    "star_rate": 0.197
    },
    {
-    "rank": 13,
-    "rank_change": 0,
+    "rank": 14,
+    "rank_change": -1,
     "id": 1440403643,
     "full_name": "bertotrgopegope/osint-tools",
     "html_url": "https://github.com/bertotrgopegope/osint-tools",
@@ -2299,12 +2352,12 @@
     "readme_language": "id",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 58.9,
-    "rank_key": 53.3,
-    "confidence": 0.629,
+    "score": 57.8,
+    "rank_key": 52.3,
+    "confidence": 0.635,
     "components": {
-     "momentum": 0.797,
-     "activity": 0.618,
+     "momentum": 0.781,
+     "activity": 0.602,
      "maturity": 0.35,
      "community": 0.14,
      "utility": 0.4
@@ -2314,64 +2367,6 @@
      "flags": []
     },
     "star_rate": 0.176
-   },
-   {
-    "rank": 14,
-    "rank_change": 0,
-    "id": 1435627715,
-    "full_name": "smyrna-pergamum/osint-book",
-    "html_url": "https://github.com/smyrna-pergamum/osint-book",
-    "description": "Passive, source-first OSINT notebook for Android and Windows: 22 public sources, evidence-linked findings, rule-based and optional local or cloud AI analysis, template-based PDF reports, 9 languages.",
-    "language": "Kotlin",
-    "license": "GPL-3.0",
-    "topics": [
-     "android",
-     "dns",
-     "investigation",
-     "ip-geolocation",
-     "kotlin",
-     "ktor",
-     "llama-cpp",
-     "local-llm"
-    ],
-    "created_at": "2026-10-27T11:19:42Z",
-    "age_days": 6,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "general",
-    "domain_secondary": "infrastructure-asm",
-    "form": "desktop-app",
-    "ai_role": "llm-assisted",
-    "summary": "Android and Windows OSINT notebook that queries 22 public sources (DNS, RDAP, Wayback, GitHub, Wikidata, threat feeds) for domains, IPs, organisations and hashes, keeping source-linked evidence, rule-based and optional AI analysis, and PDF reports.",
-    "strengths": [
-     "Evidence records link every claim to its source and retrieval time",
-     "Works offline-capable with local models and no telemetry"
-    ],
-    "risks": [
-     "Optional cloud AI APIs send investigation data off-device",
-     "Limited detail on legal considerations in the excerpt"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 57.0,
-    "rank_key": 52.2,
-    "confidence": 0.681,
-    "components": {
-     "momentum": 0.5,
-     "activity": 0.844,
-     "maturity": 0.5,
-     "community": 0.207,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.028
    },
    {
     "rank": 15,
@@ -2420,11 +2415,11 @@
      "breach-lookup",
      "personal-data-lookup"
     ],
-    "score": 54.0,
-    "rank_key": 51.1,
-    "confidence": 0.807,
+    "score": 53.6,
+    "rank_key": 50.8,
+    "confidence": 0.813,
     "components": {
-     "momentum": 0.506,
+     "momentum": 0.497,
      "activity": 0.85,
      "maturity": 0.15,
      "community": 0.398,
@@ -2456,7 +2451,7 @@
      "python"
     ],
     "created_at": "2026-11-02T04:56:48Z",
-    "age_days": 0,
+    "age_days": 1,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -2484,12 +2479,12 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 55.4,
-    "rank_key": 47.2,
-    "confidence": 0.456,
+    "score": 54.7,
+    "rank_key": 46.6,
+    "confidence": 0.462,
     "components": {
-     "momentum": 0.551,
-     "activity": 0.736,
+     "momentum": 0.543,
+     "activity": 0.719,
      "maturity": 0.6,
      "community": 0.09,
      "utility": 0.6
@@ -2498,75 +2493,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.057
+    "star_rate": 0.056
    },
    {
     "rank": 17,
-    "rank_change": 0,
-    "id": 1439702883,
-    "full_name": "cybersecswiss/open-osint-framework",
-    "html_url": "https://github.com/cybersecswiss/open-osint-framework",
-    "description": "OOF — Open OSINT Framework: self-hosted OSINT investigation platform with data sovereignty (~85 tools, case graph, separate data server)",
-    "language": "Python",
-    "license": "AGPL-3.0",
-    "topics": [
-     "data-sovereignty",
-     "docker",
-     "fastapi",
-     "investigation",
-     "keycloak",
-     "osint",
-     "react",
-     "self-hosted"
-    ],
-    "created_at": "2026-10-30T12:31:23Z",
-    "age_days": 3,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "core",
-    "domain": "general",
-    "domain_secondary": "workspace-analysis",
-    "form": "web-app",
-    "ai_role": "llm-assisted",
-    "summary": "Self-hosted OSINT investigation platform that runs about 85 tools over selectors like emails, usernames, domains and wallets, storing findings in a case graph with provenance, monitoring, and exports to PDF, Maltego, MISP and STIX.",
-    "strengths": [
-     "Case graph with provenance and source reliability ratings",
-     "Data sovereignty design with separate data server",
-     "Broad tool coverage with documented export formats"
-    ],
-    "risks": [
-     "Includes breach lookup tools like HIBP and Hudson Rock that can expose personal data",
-     "README digest is truncated, limiting verification of details"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "breach-lookup",
-     "personal-data-lookup"
-    ],
-    "score": 49.3,
-    "rank_key": 43.9,
-    "confidence": 0.637,
-    "components": {
-     "momentum": 0.523,
-     "activity": 0.453,
-     "maturity": 0.85,
-     "community": 0.14,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 0.9,
-     "flags": [
-      "new_owner_account"
-     ]
-    },
-    "star_rate": 0.032
-   },
-   {
-    "rank": 18,
-    "rank_change": null,
+    "rank_change": 1,
     "id": 1443362275,
     "full_name": "tvedad/VEDAD-Terminal",
     "html_url": "https://github.com/tvedad/VEDAD-Terminal",
@@ -2610,11 +2541,11 @@
      "person-tracking",
      "personal-data-lookup"
     ],
-    "score": 53.2,
-    "rank_key": 43.8,
-    "confidence": 0.376,
+    "score": 52.9,
+    "rank_key": 43.6,
+    "confidence": 0.382,
     "components": {
-     "momentum": 0.574,
+     "momentum": 0.565,
      "activity": 0.645,
      "maturity": 0.9,
      "community": 0.09,
@@ -2626,11 +2557,75 @@
       "new_owner_account"
      ]
     },
-    "star_rate": 0.14
+    "star_rate": 0.136
+   },
+   {
+    "rank": 18,
+    "rank_change": -1,
+    "id": 1439702883,
+    "full_name": "cybersecswiss/open-osint-framework",
+    "html_url": "https://github.com/cybersecswiss/open-osint-framework",
+    "description": "OOF — Open OSINT Framework: self-hosted OSINT investigation platform with data sovereignty (~85 tools, case graph, separate data server)",
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "topics": [
+     "data-sovereignty",
+     "docker",
+     "fastapi",
+     "investigation",
+     "keycloak",
+     "osint",
+     "react",
+     "self-hosted"
+    ],
+    "created_at": "2026-10-30T12:31:23Z",
+    "age_days": 4,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "core",
+    "domain": "general",
+    "domain_secondary": "workspace-analysis",
+    "form": "web-app",
+    "ai_role": "llm-assisted",
+    "summary": "Self-hosted OSINT investigation platform that runs about 85 tools over selectors like emails, usernames, domains and wallets, storing findings in a case graph with provenance, monitoring, and exports to PDF, Maltego, MISP and STIX.",
+    "strengths": [
+     "Case graph with provenance and source reliability ratings",
+     "Data sovereignty design with separate data server",
+     "Broad tool coverage with documented export formats"
+    ],
+    "risks": [
+     "Includes breach lookup tools like HIBP and Hudson Rock that can expose personal data",
+     "README digest is truncated, limiting verification of details"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "personal-data-lookup"
+    ],
+    "score": 48.7,
+    "rank_key": 43.3,
+    "confidence": 0.643,
+    "components": {
+     "momentum": 0.514,
+     "activity": 0.439,
+     "maturity": 0.85,
+     "community": 0.14,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 0.9,
+     "flags": [
+      "new_owner_account"
+     ]
+    },
+    "star_rate": 0.032
    },
    {
     "rank": 19,
-    "rank_change": null,
+    "rank_change": 0,
     "id": 1443332399,
     "full_name": "acikburak/osint-analyzer",
     "html_url": "https://github.com/acikburak/osint-analyzer",
@@ -2676,11 +2671,11 @@
      "personal-data-lookup",
      "social-profile-extraction"
     ],
-    "score": 49.4,
-    "rank_key": 40.0,
-    "confidence": 0.376,
+    "score": 49.0,
+    "rank_key": 39.7,
+    "confidence": 0.383,
     "components": {
-     "momentum": 0.569,
+     "momentum": 0.56,
      "activity": 0.41,
      "maturity": 0.45,
      "community": 0.09,
@@ -2690,13 +2685,13 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.07
+    "star_rate": 0.068
    }
   ],
   "established": [
    {
     "rank": 1,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1312144195,
     "full_name": "osintshifu/awesome-osint-repos",
     "html_url": "https://github.com/osintshifu/awesome-osint-repos",
@@ -2755,7 +2750,7 @@
    },
    {
     "rank": 2,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1302771042,
     "full_name": "k0nrd/COSINT",
     "html_url": "https://github.com/k0nrd/COSINT",
@@ -2773,7 +2768,7 @@
      "osint"
     ],
     "created_at": "2026-07-16T12:41:01Z",
-    "age_days": 109,
+    "age_days": 110,
     "stars": 8,
     "forks": 0,
     "status": "established",
@@ -2798,12 +2793,12 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 62.3,
-    "rank_key": 62.3,
+    "score": 62.2,
+    "rank_key": 62.2,
     "confidence": 1.0,
     "components": {
      "momentum": 0.682,
-     "activity": 0.349,
+     "activity": 0.347,
      "maturity": 0.95,
      "community": 0.296,
      "utility": 0.8
@@ -2816,7 +2811,7 @@
    },
    {
     "rank": 3,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1317311010,
     "full_name": "cukierrro/Straznik",
     "html_url": "https://github.com/cukierrro/Straznik",
@@ -2875,7 +2870,7 @@
    },
    {
     "rank": 4,
-    "rank_change": -3,
+    "rank_change": 0,
     "id": 1307849897,
     "full_name": "bobslayerX/crypttrace",
     "html_url": "https://github.com/bobslayerX/crypttrace",
@@ -2978,12 +2973,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 54.0,
-    "rank_key": 54.0,
+    "score": 53.9,
+    "rank_key": 53.9,
     "confidence": 1.0,
     "components": {
      "momentum": 0.295,
-     "activity": 0.39,
+     "activity": 0.385,
      "maturity": 0.9,
      "community": 0.29,
      "utility": 0.8
@@ -2996,7 +2991,7 @@
    },
    {
     "rank": 6,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1302028736,
     "full_name": "IDEAGREY/MILLIE",
     "html_url": "https://github.com/IDEAGREY/MILLIE",
@@ -3056,7 +3051,7 @@
    },
    {
     "rank": 7,
-    "rank_change": -1,
+    "rank_change": 0,
     "id": 1319995142,
     "full_name": "UseOSINT/Skills",
     "html_url": "https://github.com/UseOSINT/Skills",
@@ -3074,7 +3069,7 @@
      "digital-forensics"
     ],
     "created_at": "2026-08-02T09:21:29Z",
-    "age_days": 92,
+    "age_days": 93,
     "stars": 58,
     "forks": 5,
     "status": "established",
@@ -3137,7 +3132,7 @@
      "python"
     ],
     "created_at": "2026-07-23T06:44:28Z",
-    "age_days": 102,
+    "age_days": 103,
     "stars": 27,
     "forks": 4,
     "status": "established",
@@ -3237,7 +3232,7 @@
    },
    {
     "rank": 10,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1320437976,
     "full_name": "sylhetyhackvenger/GOBLIN-Tsunami",
     "html_url": "https://github.com/sylhetyhackvenger/GOBLIN-Tsunami",
@@ -3286,7 +3281,7 @@
     "confidence": 1.0,
     "components": {
      "momentum": 0.682,
-     "activity": 0.002,
+     "activity": 0.001,
      "maturity": 0.7,
      "community": 0.09,
      "utility": 0.4
@@ -3301,7 +3296,7 @@
    },
    {
     "rank": 11,
-    "rank_change": -1,
+    "rank_change": 0,
     "id": 1301957952,
     "full_name": "AnuragRoy485/Telegram-OSINT-Toolkit",
     "html_url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
@@ -3422,69 +3417,7 @@
   "adjacent": [
    {
     "rank": 1,
-    "rank_change": null,
-    "id": 1403917188,
-    "full_name": "careb36/osint-orchestrator-oss",
-    "html_url": "https://github.com/careb36/osint-orchestrator-oss",
-    "description": "Open-source OSINT due diligence for AML/CFT compliance: multi-collector research, LLM synthesis, STIX 2.1 into OpenCTI, and a signed evidence chain per run.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "aml",
-     "cft",
-     "compliance",
-     "docker",
-     "due-diligence",
-     "fastapi",
-     "forensics",
-     "helm"
-    ],
-    "created_at": "2026-10-04T04:58:57Z",
-    "age_days": 29,
-    "stars": 2,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "adjacent",
-    "domain": "general",
-    "domain_secondary": "threat-intel",
-    "form": "web-app",
-    "ai_role": "agentic",
-    "summary": "A due diligence orchestrator for AML/CFT compliance teams. It runs OSINT collectors (SpiderFoot, Amass, Tavily, SocialOSINT) on authorised entities, qualifies results with Nemotron LLM, exports STIX 2.1 to OpenCTI, and produces a signed, chained audit report.",
-    "strengths": [
-     "Documented pipeline with named collectors and data sources",
-     "Signed, chained evidence manifest for auditability",
-     "Clear per-target opt-in for third-party collectors"
-    ],
-    "risks": [
-     "Entity and possibly individual background checks raise privacy concerns",
-     "Heavy reliance on hosted LLM and third-party search APIs",
-     "Scope is compliance tooling rather than pure OSINT research"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "personal-data-lookup"
-    ],
-    "score": 49.0,
-    "rank_key": 46.9,
-    "confidence": 0.857,
-    "components": {
-     "momentum": 0.786,
-     "activity": 0.847,
-     "maturity": 1.0,
-     "community": 0.597,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.162
-   },
-   {
-    "rank": 2,
-    "rank_change": -1,
+    "rank_change": 1,
     "id": 1429234157,
     "full_name": "MRFrazer25/Vulnerability-Exposure-MCP",
     "html_url": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP",
@@ -3502,7 +3435,7 @@
      "llm-tools"
     ],
     "created_at": "2026-10-22T04:21:11Z",
-    "age_days": 11,
+    "age_days": 12,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -3525,12 +3458,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 45.7,
-    "rank_key": 45.3,
-    "confidence": 0.971,
+    "score": 45.4,
+    "rank_key": 45.1,
+    "confidence": 0.977,
     "components": {
-     "momentum": 0.674,
-     "activity": 1.0,
+     "momentum": 0.665,
+     "activity": 0.983,
      "maturity": 1.0,
      "community": 0.283,
      "utility": 0.8
@@ -3542,8 +3475,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 3,
-    "rank_change": -1,
+    "rank": 2,
+    "rank_change": 1,
     "id": 1437862596,
     "full_name": "devkindhq/whatweb-mcp",
     "html_url": "https://github.com/devkindhq/whatweb-mcp",
@@ -3584,11 +3517,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 46.1,
-    "rank_key": 43.1,
-    "confidence": 0.8,
+    "score": 45.8,
+    "rank_key": 42.9,
+    "confidence": 0.806,
     "components": {
-     "momentum": 0.837,
+     "momentum": 0.815,
      "activity": 0.628,
      "maturity": 0.95,
      "community": 0.59,
@@ -3598,11 +3531,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.173
+    "star_rate": 0.172
    },
    {
-    "rank": 4,
-    "rank_change": 0,
+    "rank": 3,
+    "rank_change": 1,
     "id": 1338896507,
     "full_name": "FadeHack/strypt",
     "html_url": "https://github.com/FadeHack/strypt",
@@ -3643,12 +3576,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 39.9,
-    "rank_key": 39.9,
+    "score": 39.7,
+    "rank_key": 39.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.923,
-     "activity": 0.614,
+     "momentum": 0.918,
+     "activity": 0.606,
      "maturity": 0.85,
      "community": 0.122,
      "utility": 0.8
@@ -3660,7 +3593,7 @@
     "star_rate": 0.571
    },
    {
-    "rank": 5,
+    "rank": 4,
     "rank_change": 1,
     "id": 1436983109,
     "full_name": "tilkiii/the-project-who",
@@ -3679,7 +3612,7 @@
      "topic-modeling"
     ],
     "created_at": "2026-10-28T11:21:09Z",
-    "age_days": 5,
+    "age_days": 6,
     "stars": 1,
     "forks": 1,
     "status": "emerging",
@@ -3705,11 +3638,11 @@
     "sensitivity_tags": [
      "personal-data-lookup"
     ],
-    "score": 41.6,
-    "rank_key": 39.8,
-    "confidence": 0.881,
+    "score": 41.3,
+    "rank_key": 39.6,
+    "confidence": 0.887,
     "components": {
-     "momentum": 0.82,
+     "momentum": 0.798,
      "activity": 0.517,
      "maturity": 1.0,
      "community": 0.28,
@@ -3722,8 +3655,8 @@
     "star_rate": 0.15
    },
    {
-    "rank": 6,
-    "rank_change": -3,
+    "rank": 5,
+    "rank_change": 1,
     "id": 1430929093,
     "full_name": "Yumankind/worldsignals-js",
     "html_url": "https://github.com/Yumankind/worldsignals-js",
@@ -3741,7 +3674,7 @@
      "event-stream"
     ],
     "created_at": "2026-10-23T10:58:50Z",
-    "age_days": 10,
+    "age_days": 11,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -3765,12 +3698,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 40.4,
-    "rank_key": 39.7,
-    "confidence": 0.952,
+    "score": 40.1,
+    "rank_key": 39.5,
+    "confidence": 0.958,
     "components": {
-     "momentum": 0.674,
-     "activity": 0.911,
+     "momentum": 0.665,
+     "activity": 0.897,
      "maturity": 0.95,
      "community": 0.14,
      "utility": 0.6
@@ -3782,8 +3715,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 7,
-    "rank_change": 3,
+    "rank": 6,
+    "rank_change": 1,
     "id": 1382667240,
     "full_name": "Balu-Annapureddy/DomainAttackSurfaceScanner",
     "html_url": "https://github.com/Balu-Annapureddy/DomainAttackSurfaceScanner",
@@ -3801,7 +3734,7 @@
      "security-headers"
     ],
     "created_at": "2026-09-23T03:22:45Z",
-    "age_days": 40,
+    "age_days": 41,
     "stars": 12,
     "forks": 0,
     "status": "emerging",
@@ -3824,12 +3757,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 39.2,
-    "rank_key": 39.2,
+    "score": 38.8,
+    "rank_key": 38.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.854,
-     "activity": 0.595,
+     "momentum": 0.83,
+     "activity": 0.588,
      "maturity": 0.85,
      "community": 0.152,
      "utility": 0.8
@@ -3841,8 +3774,8 @@
     "star_rate": 0.286
    },
    {
-    "rank": 8,
-    "rank_change": -3,
+    "rank": 7,
+    "rank_change": 1,
     "id": 1425817934,
     "full_name": "APIGranter/snitch",
     "html_url": "https://github.com/APIGranter/snitch",
@@ -3883,11 +3816,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 38.9,
-    "rank_key": 38.9,
+    "score": 38.8,
+    "rank_key": 38.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.674,
+     "momentum": 0.665,
      "activity": 0.701,
      "maturity": 0.9,
      "community": 0.14,
@@ -3900,8 +3833,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 9,
-    "rank_change": 0,
+    "rank": 8,
+    "rank_change": 1,
     "id": 1440735571,
     "full_name": "8BMW/StrxEye",
     "html_url": "https://github.com/8BMW/StrxEye",
@@ -3919,7 +3852,7 @@
      "python"
     ],
     "created_at": "2026-10-31T10:13:40Z",
-    "age_days": 2,
+    "age_days": 3,
     "stars": 2,
     "forks": 0,
     "status": "emerging",
@@ -3941,11 +3874,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 45.4,
-    "rank_key": 38.7,
-    "confidence": 0.553,
+    "score": 45.2,
+    "rank_key": 38.6,
+    "confidence": 0.559,
     "components": {
-     "momentum": 0.814,
+     "momentum": 0.793,
      "activity": 0.804,
      "maturity": 1.0,
      "community": 0.318,
@@ -3955,11 +3888,11 @@
      "mult": 1.0,
      "flags": []
     },
-    "star_rate": 0.228
+    "star_rate": 0.226
    },
    {
-    "rank": 10,
-    "rank_change": -3,
+    "rank": 9,
+    "rank_change": 1,
     "id": 1433201965,
     "full_name": "rephuren/silhouette",
     "html_url": "https://github.com/rephuren/silhouette",
@@ -3974,7 +3907,7 @@
      "security"
     ],
     "created_at": "2026-10-25T12:59:40Z",
-    "age_days": 8,
+    "age_days": 9,
     "stars": 2,
     "forks": 0,
     "status": "emerging",
@@ -3995,11 +3928,11 @@
     "readme_language": "ru",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 38.9,
+    "score": 38.8,
     "rank_key": 37.7,
-    "confidence": 0.923,
+    "confidence": 0.929,
     "components": {
-     "momentum": 0.246,
+     "momentum": 0.241,
      "activity": 0.745,
      "maturity": 0.95,
      "community": 0.46,
@@ -4012,8 +3945,67 @@
     "star_rate": 0.0
    },
    {
+    "rank": 10,
+    "rank_change": null,
+    "id": 1433088347,
+    "full_name": "mikear/estoa",
+    "html_url": "https://github.com/mikear/estoa",
+    "description": "Local-first threat intelligence desktop: interactive graph, 24 sources, MITRE ATT&CK mapping, and reports. Java 21 + JavaFX. No telemetry.",
+    "language": "Java",
+    "license": "MIT",
+    "topics": [
+     "cybersecurity",
+     "desktop-application",
+     "dfir",
+     "graph-visualization",
+     "h2-database",
+     "incident-response",
+     "ioc",
+     "java"
+    ],
+    "created_at": "2026-10-25T10:45:14Z",
+    "age_days": 9,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "threat-intel",
+    "domain_secondary": "workspace-analysis",
+    "form": "desktop-app",
+    "ai_role": "none",
+    "summary": "Estoa is a local-first Java 21 and JavaFX desktop app for threat intelligence. It turns observables such as domains, IPs, hashes and CVEs into an interactive graph, enriches them from 24 sources, correlates findings, maps activity to MITRE ATT&CK and exports reports. No telemetry",
+    "strengths": [
+     "Local-first design with no telemetry",
+     "Concrete feature set: 28 entity types, 24 sources, 8 correlation rules",
+     "Documented report types and formats"
+    ],
+    "risks": [
+     "Threat-intel focus rather than core OSINT investigation",
+     "Some enrichment sources are commercial and may require API keys"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 37.2,
+    "rank_key": 36.2,
+    "confidence": 0.93,
+    "components": {
+     "momentum": 0.665,
+     "activity": 0.605,
+     "maturity": 0.8,
+     "community": 0.232,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.143
+   },
+   {
     "rank": 11,
-    "rank_change": 1,
+    "rank_change": 0,
     "id": 1312090772,
     "full_name": "Houseofmvps/opentechalyzer",
     "html_url": "https://github.com/Houseofmvps/opentechalyzer",
@@ -4073,7 +4065,7 @@
    },
    {
     "rank": 12,
-    "rank_change": -1,
+    "rank_change": 0,
     "id": 1315625985,
     "full_name": "DevCop95/shodan_reconsx",
     "html_url": "https://github.com/DevCop95/shodan_reconsx",
@@ -4089,7 +4081,7 @@
      "subdomains"
     ],
     "created_at": "2026-07-29T02:54:33Z",
-    "age_days": 96,
+    "age_days": 97,
     "stars": 42,
     "forks": 2,
     "status": "established",
@@ -4112,12 +4104,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.4,
-    "rank_key": 35.4,
+    "score": 35.3,
+    "rank_key": 35.3,
     "confidence": 1.0,
     "components": {
      "momentum": 0.295,
-     "activity": 0.416,
+     "activity": 0.409,
      "maturity": 0.95,
      "community": 0.45,
      "utility": 0.8
@@ -4171,11 +4163,11 @@
     "readme_language": "zh",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 35.0,
+    "score": 34.9,
     "rank_key": 34.4,
-    "confidence": 0.963,
+    "confidence": 0.969,
     "components": {
-     "momentum": 0.246,
+     "momentum": 0.241,
      "activity": 0.649,
      "maturity": 1.0,
      "community": 0.17,
@@ -4231,11 +4223,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 34.3,
-    "rank_key": 34.3,
+    "score": 34.1,
+    "rank_key": 34.1,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.674,
+     "momentum": 0.665,
      "activity": 0.453,
      "maturity": 0.95,
      "community": 0.09,
@@ -4263,7 +4255,7 @@
      "threatintel"
     ],
     "created_at": "2026-08-21T05:33:42Z",
-    "age_days": 73,
+    "age_days": 74,
     "stars": 9,
     "forks": 2,
     "status": "emerging",
@@ -4287,12 +4279,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 33.4,
-    "rank_key": 33.4,
+    "score": 33.3,
+    "rank_key": 33.3,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.246,
-     "activity": 0.304,
+     "momentum": 0.241,
+     "activity": 0.3,
      "maturity": 0.9,
      "community": 0.512,
      "utility": 0.8
@@ -4305,68 +4297,6 @@
    },
    {
     "rank": 16,
-    "rank_change": 4,
-    "id": 1438249974,
-    "full_name": "Excalibra/Harrier",
-    "html_url": "https://github.com/Excalibra/Harrier",
-    "description": "Harrier is an asset reconnaissance system designed to rapidly reconnoitre internet assets associated with a target and build a baseline asset information repository. It assists client security teams or penetration testers in effectively reconnoitring and retrieving assets, and in identifying weaknesses and attack surfaces.",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "attack-surface",
-     "cybersecurity",
-     "osint",
-     "osint-reconnaissance",
-     "pentesting",
-     "recon",
-     "reconnaissance",
-     "scanner"
-    ],
-    "created_at": "2026-10-29T10:12:55Z",
-    "age_days": 4,
-    "stars": 5,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "adjacent",
-    "domain": "infrastructure-asm",
-    "domain_secondary": "general",
-    "form": "web-app",
-    "ai_role": "none",
-    "summary": "Harrier is a Docker-deployed Flask web platform that maps internet-facing assets of a target (domains, IPs, ports, services, web sites, screenshots) and runs nuclei and PoC plugins to hunt weaknesses, with GitHub leak monitoring and scheduled tasks.",
-    "strengths": [
-     "Clear Docker quick-start with documented install steps",
-     "Covers many asset discovery features in one platform"
-    ],
-    "risks": [
-     "Active scanning and exploit PoC execution against targets",
-     "Default credentials admin/harrier123 documented",
-     "Offensive pentest framing rather than passive OSINT"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "caution",
-    "sensitivity_tags": [
-     "breach-lookup",
-     "leaked-data-lookup"
-    ],
-    "score": 36.4,
-    "rank_key": 33.3,
-    "confidence": 0.796,
-    "components": {
-     "momentum": 0.877,
-     "activity": 0.615,
-     "maturity": 0.75,
-     "community": 0.152,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.362
-   },
-   {
-    "rank": 17,
     "rank_change": 1,
     "id": 1431894706,
     "full_name": "Venu-exe/takeoverhunter",
@@ -4385,7 +4315,7 @@
      "subdomain-takeover"
     ],
     "created_at": "2026-10-24T06:39:37Z",
-    "age_days": 9,
+    "age_days": 10,
     "stars": 1,
     "forks": 0,
     "status": "emerging",
@@ -4408,12 +4338,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 34.2,
-    "rank_key": 33.3,
-    "confidence": 0.941,
+    "score": 34.0,
+    "rank_key": 33.2,
+    "confidence": 0.947,
     "components": {
-     "momentum": 0.674,
-     "activity": 0.452,
+     "momentum": 0.665,
+     "activity": 0.443,
      "maturity": 0.95,
      "community": 0.09,
      "utility": 0.6
@@ -4425,8 +4355,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 18,
-    "rank_change": -1,
+    "rank": 17,
+    "rank_change": 1,
     "id": 1413509049,
     "full_name": "Yash150406/TrustGuard",
     "html_url": "https://github.com/Yash150406/TrustGuard",
@@ -4467,12 +4397,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 33.2,
-    "rank_key": 33.2,
+    "score": 33.1,
+    "rank_key": 33.1,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.246,
-     "activity": 0.656,
+     "momentum": 0.241,
+     "activity": 0.652,
      "maturity": 0.8,
      "community": 0.413,
      "utility": 0.6
@@ -4482,6 +4412,68 @@
      "flags": []
     },
     "star_rate": 0.0
+   },
+   {
+    "rank": 18,
+    "rank_change": -2,
+    "id": 1438249974,
+    "full_name": "Excalibra/Harrier",
+    "html_url": "https://github.com/Excalibra/Harrier",
+    "description": "Harrier is an asset reconnaissance system designed to rapidly reconnoitre internet assets associated with a target and build a baseline asset information repository. It assists client security teams or penetration testers in effectively reconnoitring and retrieving assets, and in identifying weaknesses and attack surfaces.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "attack-surface",
+     "cybersecurity",
+     "osint",
+     "osint-reconnaissance",
+     "pentesting",
+     "recon",
+     "reconnaissance",
+     "scanner"
+    ],
+    "created_at": "2026-10-29T10:12:55Z",
+    "age_days": 5,
+    "stars": 5,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "infrastructure-asm",
+    "domain_secondary": "general",
+    "form": "web-app",
+    "ai_role": "none",
+    "summary": "Harrier is a Docker-deployed Flask web platform that maps internet-facing assets of a target (domains, IPs, ports, services, web sites, screenshots) and runs nuclei and PoC plugins to hunt weaknesses, with GitHub leak monitoring and scheduled tasks.",
+    "strengths": [
+     "Clear Docker quick-start with documented install steps",
+     "Covers many asset discovery features in one platform"
+    ],
+    "risks": [
+     "Active scanning and exploit PoC execution against targets",
+     "Default credentials admin/harrier123 documented",
+     "Offensive pentest framing rather than passive OSINT"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup",
+     "leaked-data-lookup"
+    ],
+    "score": 35.9,
+    "rank_key": 32.9,
+    "confidence": 0.802,
+    "components": {
+     "momentum": 0.849,
+     "activity": 0.601,
+     "maturity": 0.75,
+     "community": 0.152,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.36
    },
    {
     "rank": 19,
@@ -4528,11 +4520,11 @@
     "sensitivity_tags": [
      "social-profile-extraction"
     ],
-    "score": 32.9,
-    "rank_key": 32.9,
+    "score": 32.8,
+    "rank_key": 32.8,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.246,
+     "momentum": 0.241,
      "activity": 0.555,
      "maturity": 1.0,
      "community": 0.09,
@@ -4546,7 +4538,7 @@
    },
    {
     "rank": 20,
-    "rank_change": -12,
+    "rank_change": 0,
     "id": 1426108356,
     "full_name": "iamludal/filrouge",
     "html_url": "https://github.com/iamludal/filrouge",
@@ -4589,11 +4581,11 @@
     "sensitivity_tags": [
      "breach-lookup"
     ],
-    "score": 32.8,
-    "rank_key": 32.8,
+    "score": 32.7,
+    "rank_key": 32.7,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.246,
+     "momentum": 0.241,
      "activity": 0.714,
      "maturity": 0.8,
      "community": 0.17,
@@ -4607,7 +4599,66 @@
    },
    {
     "rank": 21,
-    "rank_change": 3,
+    "rank_change": 2,
+    "id": 1430183342,
+    "full_name": "tant28403-svg/roastmywebsite",
+    "html_url": "https://github.com/tant28403-svg/roastmywebsite",
+    "description": "Vulnerability finder",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "osint",
+     "osint-python",
+     "osint-reconnaissance",
+     "osint-tool",
+     "osint-toolkit",
+     "osint-tools"
+    ],
+    "created_at": "2026-10-22T19:25:12Z",
+    "age_days": 11,
+    "stars": 1,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "infrastructure-asm",
+    "domain_secondary": "web-capture",
+    "form": "cli",
+    "ai_role": "none",
+    "summary": "Python CLI for authorised website vulnerability assessment combining reconnaissance (subdomains, ports, technologies) with passive and active checks for exposed files, headers, injection, XSS, SSRF and IDOR, exporting reports in several formats.",
+    "strengths": [
+     "Multiple report export formats including SARIF",
+     "Documents evasion limits and authorisation requirements"
+    ],
+    "risks": [
+     "Active exploitation-style checks (injection, SSRF, IDOR) and WAF evasion features raise misuse concerns",
+     "Primarily vulnerability scanner rather than OSINT investigation",
+     "Scope is a website security scanner, not OSINT of people or organisations"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "caution",
+    "sensitivity_tags": [
+     "breach-lookup"
+    ],
+    "score": 33.1,
+    "rank_key": 32.6,
+    "confidence": 0.968,
+    "components": {
+     "momentum": 0.241,
+     "activity": 0.85,
+     "maturity": 0.85,
+     "community": 0.152,
+     "utility": 0.6
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.0
+   },
+   {
+    "rank": 22,
+    "rank_change": -1,
     "id": 1422338992,
     "full_name": "mgkvibez/mgk-recon",
     "html_url": "https://github.com/mgkvibez/mgk-recon",
@@ -4649,12 +4700,12 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 32.6,
-    "rank_key": 32.6,
+    "score": 32.3,
+    "rank_key": 32.3,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.78,
-     "activity": 0.771,
+     "momentum": 0.77,
+     "activity": 0.756,
      "maturity": 0.5,
      "community": 0.09,
      "utility": 0.6
@@ -4666,8 +4717,8 @@
     "star_rate": 0.152
    },
    {
-    "rank": 22,
-    "rank_change": 0,
+    "rank": 23,
+    "rank_change": -1,
     "id": 1358587865,
     "full_name": "Raymond-JV/subseer",
     "html_url": "https://github.com/Raymond-JV/subseer",
@@ -4708,11 +4759,11 @@
     "readme_language": "en",
     "sensitivity": "none",
     "sensitivity_tags": [],
-    "score": 32.0,
-    "rank_key": 32.0,
+    "score": 31.9,
+    "rank_key": 31.9,
     "confidence": 1.0,
     "components": {
-     "momentum": 0.674,
+     "momentum": 0.665,
      "activity": 0.239,
      "maturity": 0.85,
      "community": 0.09,
@@ -4725,125 +4776,8 @@
     "star_rate": 0.143
    },
    {
-    "rank": 23,
-    "rank_change": 0,
-    "id": 1430183342,
-    "full_name": "tant28403-svg/roastmywebsite",
-    "html_url": "https://github.com/tant28403-svg/roastmywebsite",
-    "description": "Vulnerability finder",
-    "language": "Python",
-    "license": "MIT",
-    "topics": [
-     "osint",
-     "osint-python",
-     "osint-reconnaissance",
-     "osint-tool",
-     "osint-toolkit",
-     "osint-tools"
-    ],
-    "created_at": "2026-10-22T19:25:12Z",
-    "age_days": 11,
-    "stars": 1,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "adjacent",
-    "domain": "infrastructure-asm",
-    "domain_secondary": "web-capture",
-    "form": "cli",
-    "ai_role": "none",
-    "summary": "Python CLI for authorised website vulnerability assessment and OSINT reconnaissance. Runs recon and vulnerability checks with optional external tools, stores results in SQLite, and exports HTML, JSON, Markdown and SARIF reports.",
-    "strengths": [
-     "Clear installation steps and named optional tools",
-     "Stresses manual verification of findings and false positives",
-     "Multiple report export formats"
-    ],
-    "risks": [
-     "Active vulnerability scanning tool, dual-use potential",
-     "WAF evasion and TLS fingerprint rotation features",
-     "OSINT is secondary to vulnerability assessment"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 32.5,
-    "rank_key": 31.9,
-    "confidence": 0.962,
-    "components": {
-     "momentum": 0.246,
-     "activity": 0.802,
-     "maturity": 0.85,
-     "community": 0.152,
-     "utility": 0.6
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.0
-   },
-   {
     "rank": 24,
-    "rank_change": null,
-    "id": 1391366388,
-    "full_name": "Kul3y3-Thric3/GodsEyeCYD",
-    "html_url": "https://github.com/Kul3y3-Thric3/GodsEyeCYD",
-    "description": "Live open-source spatial intelligence on a Cheap Yellow Display — flights, quakes, satellites, launches, a world satellite map & public webcams on an ESP32. No API keys.",
-    "language": "C",
-    "license": "NOASSERTION",
-    "topics": [
-     "arduino",
-     "arduino-ide",
-     "cctv",
-     "cheap-yellow-display",
-     "dual-usb",
-     "esp32",
-     "esp32-arduino",
-     "flight-tracking"
-    ],
-    "created_at": "2026-09-27T20:12:26Z",
-    "age_days": 36,
-    "stars": 5,
-    "forks": 0,
-    "status": "emerging",
-    "scope": "adjacent",
-    "domain": "situational-awareness",
-    "domain_secondary": "transport-sensor",
-    "form": "library",
-    "ai_role": "none",
-    "summary": "Firmware for the Cheap Yellow Display (ESP32) that shows live public ADS-B flights, USGS earthquakes, CelesTrak satellites, launches, a satellite map and public webcams using keyless feeds, with a PPI radar view.",
-    "strengths": [
-     "Keyless public data sources clearly listed",
-     "Working setup steps with named libraries and board",
-     "Clear disclaimer about non-safety use"
-    ],
-    "risks": [
-     "Includes wardriving/SD features that may be misused",
-     "Aircraft registration and type lookup could aid tracking of individuals' aircraft"
-    ],
-    "reviewed": true,
-    "readme_language": "en",
-    "sensitivity": "none",
-    "sensitivity_tags": [],
-    "score": 31.7,
-    "rank_key": 31.7,
-    "confidence": 1.0,
-    "components": {
-     "momentum": 0.854,
-     "activity": 0.534,
-     "maturity": 0.45,
-     "community": 0.09,
-     "utility": 0.8
-    },
-    "integrity": {
-     "mult": 1.0,
-     "flags": []
-    },
-    "star_rate": 0.286
-   },
-   {
-    "rank": 25,
-    "rank_change": 0,
+    "rank_change": 1,
     "id": 1303075013,
     "full_name": "TrueFurina/passive-recon",
     "html_url": "https://github.com/TrueFurina/passive-recon",
@@ -4900,6 +4834,65 @@
      "flags": []
     },
     "star_rate": 0.0
+   },
+   {
+    "rank": 25,
+    "rank_change": null,
+    "id": 1434248091,
+    "full_name": "hellstation/Tracework",
+    "html_url": "https://github.com/hellstation/Tracework",
+    "description": "Offline email triage + passive infrastructure OSINT in one local web UI. No link fetching on mail analysis.",
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+     "certificate-transparency",
+     "cybersecurity",
+     "dfir",
+     "email-security",
+     "fastapi",
+     "osint",
+     "phishing",
+     "python"
+    ],
+    "created_at": "2026-10-26T10:48:00Z",
+    "age_days": 8,
+    "stars": 2,
+    "forks": 0,
+    "status": "emerging",
+    "scope": "adjacent",
+    "domain": "infrastructure-asm",
+    "domain_secondary": "media-forensics",
+    "form": "cli",
+    "ai_role": "none",
+    "summary": "Tracework is a local web UI and CLI combining MailTrace, offline triage of .eml phishing emails with header, URL and attachment IOC export, and InfraChronicle, passive infrastructure OSINT using DNS, Certificate Transparency and RDAP with a SQLite observation store, graph and tim",
+    "strengths": [
+     "Offline email analysis that avoids contacting URLs or executing attachments",
+     "Passive infrastructure OSINT via DNS, CT and RDAP with allowlisted providers",
+     "Documented limitations and caveats on authentication results"
+    ],
+    "risks": [
+     "Email triage is more phishing analysis than OSINT, so scope is partly adjacent",
+     "Exposing the UI beyond localhost requires user-provided authentication and TLS"
+    ],
+    "reviewed": true,
+    "readme_language": "en",
+    "sensitivity": "none",
+    "sensitivity_tags": [],
+    "score": 32.7,
+    "rank_key": 31.4,
+    "confidence": 0.916,
+    "components": {
+     "momentum": 0.665,
+     "activity": 0.242,
+     "maturity": 0.9,
+     "community": 0.09,
+     "utility": 0.8
+    },
+    "integrity": {
+     "mult": 1.0,
+     "flags": []
+    },
+    "star_rate": 0.143
    }
   ],
   "domains": {
@@ -4924,25 +4917,25 @@
       "osint-tools"
      ],
      "created_at": "2026-10-25T08:47:19Z",
-     "age_days": 8,
+     "age_days": 9,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
      "scope": "core",
      "domain": "breach-exposure",
-     "domain_secondary": "web-capture",
+     "domain_secondary": "general",
      "form": "web-app",
      "ai_role": "none",
-     "summary": "A self-hosted FastAPI and React web app that indexes pastes from Pastebin, GitHub Gists, dpaste and pastes.io into SQLite FTS5, flags leaked credentials and API keys, and provides filtering and a secret-first detail view.",
+     "summary": "Self-hosted web app that indexes scraped paste-site data into SQLite FTS5 search and flags leaked credentials, API keys, private keys and connection strings. Pairs with the Scavenger paste scraper.",
      "strengths": [
-      "Clear feature list with named detection patterns",
-      "Docker-based self-hosted setup with auth",
-      "Explicit research-only framing and disclaimer"
+      "Concrete stack and architecture described (FastAPI, SQLite FTS5, nginx auth, Docker)",
+      "Named paste sources and a listed set of detection categories",
+      "Explicit research and defender framing with a disclaimer"
      ],
      "risks": [
-      "Stores and indexes leaked credentials and secrets from paste sites",
-      "Relies on a companion scraper project for data collection",
-      "Legal and terms-of-service exposure for paste-site data"
+      "Stores and indexes leaked secrets from public pastes, which raises data-handling concerns",
+      "Author notes the tool is a personal project tied to a separate scraper",
+      "Legal compliance is left to the user"
      ],
      "reviewed": true,
      "readme_language": "en",
@@ -4951,12 +4944,12 @@
       "breach-lookup",
       "leaked-data-lookup"
      ],
-     "score": 60.6,
-     "rank_key": 59.5,
-     "confidence": 0.925,
+     "score": 60.8,
+     "rank_key": 59.8,
+     "confidence": 0.931,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.664,
+      "momentum": 0.665,
+      "activity": 0.687,
       "maturity": 0.8,
       "community": 0.09,
       "utility": 0.8
@@ -5014,11 +5007,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 53.4,
-     "rank_key": 53.4,
+     "score": 53.3,
+     "rank_key": 53.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.282,
       "maturity": 1.0,
       "community": 0.29,
@@ -5075,11 +5068,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 49.5,
-     "rank_key": 49.5,
+     "score": 49.4,
+     "rank_key": 49.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.652,
       "maturity": 0.75,
       "community": 0.268,
@@ -5140,7 +5133,7 @@
      "rank_key": 37.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.002,
       "maturity": 0.7,
       "community": 0.29,
@@ -5198,12 +5191,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 29.6,
-     "rank_key": 29.0,
-     "confidence": 0.962,
+     "score": 29.3,
+     "rank_key": 28.8,
+     "confidence": 0.968,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.406,
+      "momentum": 0.241,
+      "activity": 0.398,
       "maturity": 0.35,
       "community": 0.09,
       "utility": 0.4
@@ -5218,7 +5211,7 @@
    "crypto-financial": [
     {
      "rank": 1,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1440275098,
      "full_name": "DolphinStronghold9/stolen-crypto-tracer",
      "html_url": "https://github.com/DolphinStronghold9/stolen-crypto-tracer",
@@ -5237,7 +5230,7 @@
      ],
      "created_at": "2026-10-30T22:07:54Z",
      "age_days": 3,
-     "stars": 142,
+     "stars": 150,
      "forks": 11,
      "status": "emerging",
      "scope": "core",
@@ -5262,12 +5255,12 @@
      "sensitivity_tags": [
       "person-tracking"
      ],
-     "score": 68.4,
-     "rank_key": 62.9,
-     "confidence": 0.631,
+     "score": 67.9,
+     "rank_key": 62.5,
+     "confidence": 0.638,
      "components": {
       "momentum": 0.974,
-      "activity": 0.644,
+      "activity": 0.618,
       "maturity": 0.85,
       "community": 0.29,
       "utility": 0.6
@@ -5276,11 +5269,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 14.004
+     "star_rate": 15.291
     },
     {
      "rank": 2,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1440265034,
      "full_name": "Signcluengine/onchain-money-trail-analyzer",
      "html_url": "https://github.com/Signcluengine/onchain-money-trail-analyzer",
@@ -5325,8 +5318,8 @@
       "person-tracking"
      ],
      "score": 64.9,
-     "rank_key": 59.4,
-     "confidence": 0.632,
+     "rank_key": 59.5,
+     "confidence": 0.638,
      "components": {
       "momentum": 0.986,
       "activity": 0.644,
@@ -5338,11 +5331,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 18.173
+     "star_rate": 18.034
     },
     {
      "rank": 3,
-     "rank_change": -2,
+     "rank_change": 0,
      "id": 1307849897,
      "full_name": "bobslayerX/crypttrace",
      "html_url": "https://github.com/bobslayerX/crypttrace",
@@ -5422,7 +5415,7 @@
       "emma-watson"
      ],
      "created_at": "2026-10-27T06:20:10Z",
-     "age_days": 6,
+     "age_days": 7,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -5448,12 +5441,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 53.7,
-     "rank_key": 52.2,
-     "confidence": 0.898,
+     "score": 53.3,
+     "rank_key": 51.9,
+     "confidence": 0.904,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.447,
+      "momentum": 0.665,
+      "activity": 0.436,
       "maturity": 0.65,
       "community": 0.152,
       "utility": 0.8
@@ -5486,7 +5479,7 @@
       "trust-and-safety"
      ],
      "created_at": "2026-09-07T05:50:39Z",
-     "age_days": 56,
+     "age_days": 57,
      "stars": 5,
      "forks": 0,
      "status": "emerging",
@@ -5509,12 +5502,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 40.7,
-     "rank_key": 40.7,
+     "score": 40.6,
+     "rank_key": 40.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.093,
+      "momentum": 0.241,
+      "activity": 0.092,
       "maturity": 1.0,
       "community": 0.14,
       "utility": null
@@ -5544,7 +5537,7 @@
       "platform-accountability"
      ],
      "created_at": "2026-09-25T09:34:05Z",
-     "age_days": 38,
+     "age_days": 39,
      "stars": 3,
      "forks": 2,
      "status": "emerging",
@@ -5567,12 +5560,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 39.6,
-     "rank_key": 39.6,
+     "score": 39.3,
+     "rank_key": 39.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.514,
+      "momentum": 0.241,
+      "activity": 0.504,
       "maturity": 0.3,
       "community": 0.393,
       "utility": 0.6
@@ -5587,7 +5580,69 @@
    "general": [
     {
      "rank": 1,
-     "rank_change": 0,
+     "rank_change": null,
+     "id": 1442329492,
+     "full_name": "sjdsjadjajdjsa/osintkit",
+     "html_url": "https://github.com/sjdsjadjajdjsa/osintkit",
+     "description": "Public-data OSINT for emails, usernames, domains and companies: free sources, LLM briefing, colour report",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "cli",
+      "osint",
+      "privacy",
+      "python",
+      "recon",
+      "security",
+      "threat-intelligence"
+     ],
+     "created_at": "2026-11-01T23:50:31Z",
+     "age_days": 1,
+     "stars": 2,
+     "forks": 0,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "general",
+     "domain_secondary": "identity-lookup",
+     "form": "cli",
+     "ai_role": "llm-assisted",
+     "summary": "A Python CLI that gathers public data on emails, usernames, domains, companies, phones and Bitcoin addresses from free sources, then produces an LLM-written or offline rule-based risk briefing and a colour-coded report.",
+     "strengths": [
+      "Named public sources and an offline mode with no model needed",
+      "Explicit safety section: no logins, no paid brokers, retry and quota handling",
+      "Documents limitations and reports unavailable sources"
+     ],
+     "risks": [
+      "Personal breach and email lookups could be used for doxxing if misused",
+      "Relies on LLM summaries that may overstate weak signals",
+      "Repository owner account and CI links are unverified; newly published project"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "breach-lookup",
+      "personal-data-lookup"
+     ],
+     "score": 80.3,
+     "rank_key": 72.3,
+     "confidence": 0.465,
+     "components": {
+      "momentum": 0.872,
+      "activity": 0.983,
+      "maturity": 0.95,
+      "community": 0.375,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.396
+    },
+    {
+     "rank": 2,
+     "rank_change": -1,
      "id": 1433112682,
      "full_name": "n5za/osint-mcp",
      "html_url": "https://github.com/n5za/osint-mcp",
@@ -5605,7 +5660,7 @@
       "osint"
      ],
      "created_at": "2026-10-25T11:15:28Z",
-     "age_days": 8,
+     "age_days": 9,
      "stars": 7,
      "forks": 1,
      "status": "emerging",
@@ -5632,11 +5687,11 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 72.3,
+     "score": 72.2,
      "rank_key": 71.2,
-     "confidence": 0.924,
+     "confidence": 0.93,
      "components": {
-      "momentum": 0.914,
+      "momentum": 0.906,
       "activity": 0.607,
       "maturity": 0.8,
       "community": 0.494,
@@ -5649,8 +5704,8 @@
      "star_rate": 0.429
     },
     {
-     "rank": 2,
-     "rank_change": 1,
+     "rank": 3,
+     "rank_change": -1,
      "id": 1432965476,
      "full_name": "OTInstaller/otinstaller",
      "html_url": "https://github.com/OTInstaller/otinstaller",
@@ -5665,7 +5720,7 @@
       "package-registry"
      ],
      "created_at": "2026-10-25T08:06:57Z",
-     "age_days": 8,
+     "age_days": 9,
      "stars": 3,
      "forks": 0,
      "status": "emerging",
@@ -5689,11 +5744,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 68.3,
-     "rank_key": 67.2,
-     "confidence": 0.925,
+     "score": 68.0,
+     "rank_key": 67.0,
+     "confidence": 0.932,
      "components": {
-      "momentum": 0.9,
+      "momentum": 0.886,
       "activity": 0.967,
       "maturity": 0.8,
       "community": 0.327,
@@ -5708,70 +5763,8 @@
      "star_rate": 0.429
     },
     {
-     "rank": 3,
-     "rank_change": -1,
-     "id": 1383766253,
-     "full_name": "renkagod/osint-toolbox-mcp",
-     "html_url": "https://github.com/renkagod/osint-toolbox-mcp",
-     "description": "MCP server that lets AI agents run 12 classic OSINT tools locally, no API keys needed",
-     "language": "Python",
-     "license": "MIT",
-     "topics": [
-      "ai-agents",
-      "blackbird",
-      "claude",
-      "cursor",
-      "docker",
-      "exiftool",
-      "ghunt",
-      "holehe"
-     ],
-     "created_at": "2026-09-23T15:58:06Z",
-     "age_days": 40,
-     "stars": 4,
-     "forks": 2,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "general",
-     "domain_secondary": "identity-lookup",
-     "form": "mcp-server",
-     "ai_role": "skill-mcp-native",
-     "summary": "An MCP server that lets AI agents run about a dozen OSINT tools locally, including Sherlock, Maigret, Holehe, GHunt, theHarvester, SpiderFoot, PhoneInfoga, ExifTool, plus built-in WHOIS, DNS and certificate transparency lookups.",
-     "strengths": [
-      "Wraps many established OSINT tools behind one MCP interface",
-      "Clear feature table with inputs, outputs and requirements",
-      "Installer and Docker options with CI and tests"
-     ],
-     "risks": [
-      "Enables person and account lookup via AI agents, including Google account lookups via GHunt",
-      "Depends on third-party tools that may change or be abandoned"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "personal-data-lookup",
-      "social-profile-extraction"
-     ],
-     "score": 65.8,
-     "rank_key": 65.8,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.674,
-      "activity": 0.358,
-      "maturity": 1.0,
-      "community": 0.407,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.143
-    },
-    {
      "rank": 4,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1441157714,
      "full_name": "Data-Unix/MCP-MALTEGO",
      "html_url": "https://github.com/Data-Unix/MCP-MALTEGO",
@@ -5817,12 +5810,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 73.1,
-     "rank_key": 65.2,
-     "confidence": 0.476,
+     "score": 72.5,
+     "rank_key": 64.7,
+     "confidence": 0.482,
      "components": {
-      "momentum": 0.546,
-      "activity": 0.949,
+      "momentum": 0.537,
+      "activity": 0.932,
       "maturity": 1.0,
       "community": 0.363,
       "utility": null
@@ -5831,11 +5824,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.052
+     "star_rate": 0.051
     },
     {
      "rank": 5,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1427714043,
      "full_name": "letox4/OsintHunter",
      "html_url": "https://github.com/letox4/OsintHunter",
@@ -5880,11 +5873,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 63.1,
+     "score": 63.0,
      "rank_key": 62.9,
-     "confidence": 0.987,
+     "confidence": 0.993,
      "components": {
-      "momentum": 0.94,
+      "momentum": 0.935,
       "activity": 0.451,
       "maturity": 0.7,
       "community": 0.29,
@@ -5898,7 +5891,7 @@
     },
     {
      "rank": 6,
-     "rank_change": -2,
+     "rank_change": 0,
      "id": 1434479596,
      "full_name": "det0xgravity/truebearing-osint",
      "html_url": "https://github.com/det0xgravity/truebearing-osint",
@@ -5942,12 +5935,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 64.3,
-     "rank_key": 62.9,
-     "confidence": 0.908,
+     "score": 63.8,
+     "rank_key": 62.5,
+     "confidence": 0.914,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.788,
+      "momentum": 0.665,
+      "activity": 0.775,
       "maturity": 0.85,
       "community": 0.09,
       "utility": 0.8
@@ -6002,11 +5995,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 57.7,
-     "rank_key": 57.7,
+     "score": 57.5,
+     "rank_key": 57.5,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.333,
       "maturity": 0.8,
       "community": 0.277,
@@ -6020,7 +6013,69 @@
     },
     {
      "rank": 8,
-     "rank_change": 0,
+     "rank_change": -5,
+     "id": 1383766253,
+     "full_name": "renkagod/osint-toolbox-mcp",
+     "html_url": "https://github.com/renkagod/osint-toolbox-mcp",
+     "description": "MCP server that lets AI agents run 12 classic OSINT tools locally, no API keys needed",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "ai-agents",
+      "blackbird",
+      "claude",
+      "cursor",
+      "docker",
+      "exiftool",
+      "ghunt",
+      "holehe"
+     ],
+     "created_at": "2026-09-23T15:58:06Z",
+     "age_days": 40,
+     "stars": 3,
+     "forks": 2,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "general",
+     "domain_secondary": "identity-lookup",
+     "form": "mcp-server",
+     "ai_role": "skill-mcp-native",
+     "summary": "An MCP server that lets AI agents run about a dozen OSINT tools locally, including Sherlock, Maigret, Holehe, GHunt, theHarvester, SpiderFoot, PhoneInfoga, ExifTool, plus built-in WHOIS, DNS and certificate transparency lookups.",
+     "strengths": [
+      "Wraps many established OSINT tools behind one MCP interface",
+      "Clear feature table with inputs, outputs and requirements",
+      "Installer and Docker options with CI and tests"
+     ],
+     "risks": [
+      "Enables person and account lookup via AI agents, including Google account lookups via GHunt",
+      "Depends on third-party tools that may change or be abandoned"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "personal-data-lookup",
+      "social-profile-extraction"
+     ],
+     "score": 55.9,
+     "rank_key": 55.9,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.241,
+      "activity": 0.358,
+      "maturity": 1.0,
+      "community": 0.347,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.0
+    },
+    {
+     "rank": 9,
+     "rank_change": -1,
      "id": 1378068919,
      "full_name": "annsterdam2000-oss/geryon-recon",
      "html_url": "https://github.com/annsterdam2000-oss/geryon-recon",
@@ -6037,7 +6092,7 @@
       "security-tools"
      ],
      "created_at": "2026-09-20T07:36:02Z",
-     "age_days": 43,
+     "age_days": 44,
      "stars": 5,
      "forks": 0,
      "status": "emerging",
@@ -6064,12 +6119,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 53.9,
-     "rank_key": 53.9,
+     "score": 53.4,
+     "rank_key": 53.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.729,
+      "momentum": 0.665,
+      "activity": 0.714,
       "maturity": 0.6,
       "community": 0.09,
       "utility": 0.6
@@ -6081,70 +6136,8 @@
      "star_rate": 0.143
     },
     {
-     "rank": 9,
-     "rank_change": 1,
-     "id": 1425532425,
-     "full_name": "canalqb/capivaradigital-mcp",
-     "html_url": "https://github.com/canalqb/capivaradigital-mcp",
-     "description": "Servidor MCP de OSINT judicial brasileiro com 26 ferramentas: DataJud/CNJ, DJEN, e-SAJ TJSP, DJE-SP, BrasilAPI CNPJ, quebra de máscara CNJ/CPF, ciclo PF↔PJ, protocolo de dossiê por documento, fontes oficiais de CPF, OSINT internacional por país e autoatualização. Zero dependências, zero dados reais. Relatórios HTML único (padrão 8.5).",
-     "language": "JavaScript",
-     "license": null,
-     "topics": [
-      "brazil",
-      "cnj",
-      "datajud",
-      "judicial",
-      "lgpd",
-      "mcp",
-      "model-context-protocol",
-      "open-source-intelligence"
-     ],
-     "created_at": "2026-10-19T11:45:35Z",
-     "age_days": 14,
-     "stars": 1,
-     "forks": 0,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "general",
-     "domain_secondary": "identity-lookup",
-     "form": "mcp-server",
-     "ai_role": "skill-mcp-native",
-     "summary": "A zero-dependency Node.js MCP server giving AI agents access to Brazilian judicial public records: DataJud/CNJ case lookups, DJEN notices, e-SAJ TJSP, CNPJ with partner data, and CNJ number validation. Stated purpose is pre-hiring background checks under LGPD.",
-     "strengths": [
-      "Zero dependencies and no mandatory API keys",
-      "Clear setup instructions for several MCP clients",
-      "Uses official public Brazilian court and registry sources"
-     ],
-     "risks": [
-      "Person-level background checks on job candidates raise LGPD and privacy concerns",
-      "Tool count is inconsistent (26 in description, 28 in README)",
-      "Dated 24/10/2026 and README ends mid-sentence, suggesting incomplete docs"
-     ],
-     "reviewed": true,
-     "readme_language": "pt",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "personal-data-lookup"
-     ],
-     "score": 51.0,
-     "rank_key": 51.0,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.674,
-      "activity": 0.623,
-      "maturity": 0.4,
-      "community": 0.152,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.143
-    },
-    {
      "rank": 10,
-     "rank_change": null,
+     "rank_change": 0,
      "id": 1435627715,
      "full_name": "smyrna-pergamum/osint-book",
      "html_url": "https://github.com/smyrna-pergamum/osint-book",
@@ -6162,7 +6155,7 @@
       "local-llm"
      ],
      "created_at": "2026-10-27T11:19:42Z",
-     "age_days": 6,
+     "age_days": 7,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -6184,12 +6177,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 55.5,
-     "rank_key": 50.7,
-     "confidence": 0.681,
+     "score": 55.0,
+     "rank_key": 50.3,
+     "confidence": 0.687,
      "components": {
-      "momentum": 0.5,
-      "activity": 0.844,
+      "momentum": 0.491,
+      "activity": 0.827,
       "maturity": 0.5,
       "community": 0.207,
       "utility": 0.8
@@ -6198,7 +6191,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.028
+     "star_rate": 0.027
     }
    ],
    "geospatial-imagery": [
@@ -6222,48 +6215,163 @@
       "geoguessr"
      ],
      "created_at": "2026-09-18T08:51:34Z",
-     "age_days": 45,
-     "stars": 5645,
-     "forks": 705,
+     "age_days": 46,
+     "stars": 5724,
+     "forks": 711,
      "status": "emerging",
      "scope": "core",
      "domain": "geospatial-imagery",
      "domain_secondary": "media-forensics",
      "form": "agent-skill",
      "ai_role": "skill-mcp-native",
-     "summary": "An agent skill that geolocates photos by combining EXIF and OCR, reverse image search, OpenStreetMap corridors, elevation skylines, sun position, satellite and street-view matching, and reports its reasoning as evidence.",
+     "summary": "An agent skill that estimates where a photo was taken by combining EXIF, OCR, reverse image search, OpenStreetMap geometry, elevation skylines, satellite imagery and street view, showing its reasoning as a candidate board.",
      "strengths": [
       "Clear multi-stage pipeline with named scripts and data sources",
-      "Shows its work with evidence overlays",
-      "Works across several agent platforms with setup instructions"
+      "Works across several agent platforms with install commands",
+      "Shows evidence and reasoning for each candidate location"
      ],
      "risks": [
-      "Geolocating photos may be misused to locate private places or people",
-      "Depends on Chrome/Chromium and external services for reverse image search"
+      "Reverse image search depends on Chrome or Playwright automation",
+      "Benchmark and limits detail is limited in the excerpt"
      ],
      "reviewed": true,
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 84.6,
-     "rank_key": 84.6,
+     "score": 84.8,
+     "rank_key": 84.8,
      "confidence": 1.0,
      "components": {
       "momentum": 0.997,
-      "activity": 0.833,
+      "activity": 0.85,
       "maturity": 0.7,
-      "community": 0.925,
+      "community": 0.916,
       "utility": 0.8
      },
      "integrity": {
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 189.0
+     "star_rate": 200.286
     },
     {
      "rank": 2,
-     "rank_change": 0,
+     "rank_change": null,
+     "id": 1443613311,
+     "full_name": "1337isnot1337/DOPPLERGEIST",
+     "html_url": "https://github.com/1337isnot1337/DOPPLERGEIST",
+     "description": "A tool to geolocate audio recordings using aircraft Doppler shifts and historical flight tracks.",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "acoustic-geolocation",
+      "ads-b",
+      "airplane",
+      "doppler-effect",
+      "geolocation",
+      "osint"
+     ],
+     "created_at": "2026-11-02T23:54:01Z",
+     "age_days": 0,
+     "stars": 59,
+     "forks": 7,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "geospatial-imagery",
+     "domain_secondary": "media-forensics",
+     "form": "cli",
+     "ai_role": "none",
+     "summary": "Locates where an audio recording was made by comparing Doppler shifts of passing aircraft against historical ADS-B flight trajectories, ranking candidate locations. Runs locally; experimental, with accuracy not yet established.",
+     "strengths": [
+      "Novel, technically detailed method for audio geolocation",
+      "Clear pipeline stages and CLI entry points",
+      "Honest about experimental status and limits"
+     ],
+     "risks": [
+      "Accuracy on real recordings not established",
+      "Depends on ADSB.lol historical archive availability"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "none",
+     "sensitivity_tags": [],
+     "score": 86.7,
+     "rank_key": 77.4,
+     "confidence": 0.379,
+     "components": {
+      "momentum": 0.957,
+      "activity": 1.0,
+      "maturity": 0.95,
+      "community": 0.541,
+      "utility": null
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 4.054
+    },
+    {
+     "rank": 3,
+     "rank_change": null,
+     "id": 1416241429,
+     "full_name": "Hexay/thunderprint",
+     "html_url": "https://github.com/Hexay/thunderprint",
+     "description": "Work out where and when an audio recording was made using only the thunder in it.",
+     "language": "Rust",
+     "license": "MIT",
+     "topics": [
+      "acoustics",
+      "audio",
+      "cli",
+      "geolocation",
+      "lightning",
+      "osint",
+      "python",
+      "rust"
+     ],
+     "created_at": "2026-10-12T23:44:23Z",
+     "age_days": 21,
+     "stars": 4,
+     "forks": 1,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "geospatial-imagery",
+     "domain_secondary": "media-forensics",
+     "form": "cli",
+     "ai_role": "none",
+     "summary": "Rust/Python CLI that estimates where and when an audio recording was made by matching thunder timing in the audio against MET Norway Frost lightning strike data, producing a probability map and HTML report.",
+     "strengths": [
+      "Clear, novel geolocation method with simulation and evaluation workflow",
+      "Installable via pip, cargo, or prebuilt binaries with documented inputs and outputs"
+     ],
+     "risks": [
+      "Depends on a free Frost API key and external data service",
+      "Accuracy limits depend on recording and data quality; findings should be treated as probabilistic"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "none",
+     "sensitivity_tags": [],
+     "score": 73.9,
+     "rank_key": 73.9,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.906,
+      "activity": 0.686,
+      "maturity": 0.85,
+      "community": 0.441,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.429
+    },
+    {
+     "rank": 4,
+     "rank_change": -2,
      "id": 1397134948,
      "full_name": "Ahmet-Dedeler/free-north-korea",
      "html_url": "https://github.com/Ahmet-Dedeler/free-north-korea",
@@ -6281,7 +6389,7 @@
       "maplibre"
      ],
      "created_at": "2026-09-30T06:07:49Z",
-     "age_days": 33,
+     "age_days": 34,
      "stars": 7,
      "forks": 0,
      "status": "emerging",
@@ -6304,11 +6412,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 60.8,
-     "rank_key": 60.8,
+     "score": 60.7,
+     "rank_key": 60.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.85,
       "maturity": 0.7,
       "community": 0.467,
@@ -6321,8 +6429,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 3,
-     "rank_change": 0,
+     "rank": 5,
+     "rank_change": -2,
      "id": 1307788746,
      "full_name": "KillaMeep/waypoint-osint",
      "html_url": "https://github.com/KillaMeep/waypoint-osint",
@@ -6363,12 +6471,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 54.0,
-     "rank_key": 54.0,
+     "score": 53.9,
+     "rank_key": 53.9,
      "confidence": 1.0,
      "components": {
       "momentum": 0.295,
-      "activity": 0.39,
+      "activity": 0.385,
       "maturity": 0.9,
       "community": 0.29,
       "utility": 0.8
@@ -6380,8 +6488,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 4,
-     "rank_change": 0,
+     "rank": 6,
+     "rank_change": -2,
      "id": 1414231173,
      "full_name": "Franky100-pig/Geo-Guesser",
      "html_url": "https://github.com/Franky100-pig/Geo-Guesser",
@@ -6399,7 +6507,7 @@
       "reverse-image-search"
      ],
      "created_at": "2026-10-11T10:51:25Z",
-     "age_days": 22,
+     "age_days": 23,
      "stars": 3,
      "forks": 0,
      "status": "emerging",
@@ -6423,11 +6531,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 50.1,
-     "rank_key": 50.1,
+     "score": 50.0,
+     "rank_key": 50.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.644,
       "maturity": 0.7,
       "community": 0.14,
@@ -6462,7 +6570,7 @@
      ],
      "created_at": "2026-10-08T16:08:36Z",
      "age_days": 25,
-     "stars": 199,
+     "stars": 201,
      "forks": 29,
      "status": "emerging",
      "scope": "core",
@@ -6487,12 +6595,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 77.0,
-     "rank_key": 77.0,
+     "score": 76.8,
+     "rank_key": 76.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.957,
-      "activity": 0.83,
+      "momentum": 0.952,
+      "activity": 0.824,
       "maturity": 0.75,
       "community": 0.527,
       "utility": 0.8
@@ -6501,7 +6609,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 2.571
+     "star_rate": 2.857
     },
     {
      "rank": 2,
@@ -6550,8 +6658,8 @@
       "personal-data-lookup"
      ],
      "score": 71.8,
-     "rank_key": 66.3,
-     "confidence": 0.632,
+     "rank_key": 66.4,
+     "confidence": 0.638,
      "components": {
       "momentum": 0.991,
       "activity": 0.644,
@@ -6563,11 +6671,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 17.357
+     "star_rate": 17.231
     },
     {
      "rank": 3,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1440271681,
      "full_name": "Blazenumenhir/scam-story-checker",
      "html_url": "https://github.com/Blazenumenhir/scam-story-checker",
@@ -6586,7 +6694,7 @@
      ],
      "created_at": "2026-10-30T22:02:39Z",
      "age_days": 3,
-     "stars": 177,
+     "stars": 183,
      "forks": 11,
      "status": "emerging",
      "scope": "core",
@@ -6612,8 +6720,8 @@
       "personal-data-lookup"
      ],
      "score": 64.8,
-     "rank_key": 59.3,
-     "confidence": 0.631,
+     "rank_key": 59.4,
+     "confidence": 0.638,
      "components": {
       "momentum": 0.98,
       "activity": 0.644,
@@ -6625,11 +6733,11 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 18.023
+     "star_rate": 18.931
     },
     {
      "rank": 4,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1433512650,
      "full_name": "tOxt-shadow/sAScan-OSINT",
      "html_url": "https://github.com/tOxt-shadow/sAScan-OSINT",
@@ -6674,11 +6782,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 58.6,
-     "rank_key": 57.4,
-     "confidence": 0.919,
+     "score": 58.4,
+     "rank_key": 57.3,
+     "confidence": 0.925,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.504,
       "maturity": 0.85,
       "community": 0.09,
@@ -6692,7 +6800,7 @@
     },
     {
      "rank": 5,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1336352043,
      "full_name": "FadeHack/instagram-username-finder",
      "html_url": "https://github.com/FadeHack/instagram-username-finder",
@@ -6737,11 +6845,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 55.4,
-     "rank_key": 55.4,
+     "score": 55.2,
+     "rank_key": 55.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.076,
       "maturity": 0.95,
       "community": 0.23,
@@ -6755,7 +6863,7 @@
     },
     {
      "rank": 6,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1348970841,
      "full_name": "n11xY/n1xYosint",
      "html_url": "https://github.com/n11xY/n1xYosint",
@@ -6800,12 +6908,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 55.2,
-     "rank_key": 55.2,
+     "score": 54.8,
+     "rank_key": 54.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.618,
+      "momentum": 0.241,
+      "activity": 0.602,
       "maturity": 0.9,
       "community": 0.17,
       "utility": 0.8
@@ -6836,7 +6944,7 @@
       "termux"
      ],
      "created_at": "2026-09-30T05:53:02Z",
-     "age_days": 33,
+     "age_days": 34,
      "stars": 313,
      "forks": 40,
      "status": "emerging",
@@ -6924,11 +7032,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 52.0,
-     "rank_key": 52.0,
+     "score": 51.8,
+     "rank_key": 51.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.274,
       "maturity": 1.0,
       "community": 0.09,
@@ -6959,7 +7067,7 @@
       "username-search"
      ],
      "created_at": "2026-10-23T11:19:45Z",
-     "age_days": 10,
+     "age_days": 11,
      "stars": 5,
      "forks": 0,
      "status": "emerging",
@@ -6986,12 +7094,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 52.0,
-     "rank_key": 51.3,
-     "confidence": 0.952,
+     "score": 51.7,
+     "rank_key": 51.1,
+     "confidence": 0.958,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.475,
+      "momentum": 0.241,
+      "activity": 0.466,
       "maturity": 0.95,
       "community": 0.09,
       "utility": 0.8
@@ -7022,7 +7130,7 @@
       "tiktok-bot-reporters"
      ],
      "created_at": "2026-10-06T03:52:27Z",
-     "age_days": 27,
+     "age_days": 28,
      "stars": 6,
      "forks": 0,
      "status": "emerging",
@@ -7048,11 +7156,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 42.8,
-     "rank_key": 42.8,
+     "score": 42.6,
+     "rank_key": 42.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.427,
       "maturity": 0.7,
       "community": 0.09,
@@ -7147,7 +7255,7 @@
       "translation"
      ],
      "created_at": "2026-08-26T07:20:08Z",
-     "age_days": 68,
+     "age_days": 69,
      "stars": 63,
      "forks": 9,
      "status": "emerging",
@@ -7170,11 +7278,11 @@
      "readme_language": "zh",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 56.9,
-     "rank_key": 56.9,
+     "score": 56.8,
+     "rank_key": 56.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.383,
       "maturity": 0.8,
       "community": 0.34,
@@ -7228,12 +7336,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 54.0,
-     "rank_key": 52.4,
-     "confidence": 0.891,
+     "score": 53.2,
+     "rank_key": 51.7,
+     "confidence": 0.897,
      "components": {
-      "momentum": 0.871,
-      "activity": 0.677,
+      "momentum": 0.844,
+      "activity": 0.663,
       "maturity": 0.45,
       "community": 0.14,
       "utility": 0.6
@@ -7242,7 +7350,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.164
+     "star_rate": 0.163
     },
     {
      "rank": 4,
@@ -7286,12 +7394,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 37.8,
-     "rank_key": 37.8,
+     "score": 37.3,
+     "rank_key": 37.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.854,
-      "activity": 0.009,
+      "momentum": 0.83,
+      "activity": 0.008,
       "maturity": 0.35,
       "community": 0.29,
       "utility": 0.4
@@ -7343,12 +7451,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 36.5,
-     "rank_key": 36.5,
+     "score": 36.3,
+     "rank_key": 36.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.009,
+      "momentum": 0.665,
+      "activity": 0.008,
       "maturity": 0.2,
       "community": 0.29,
       "utility": 0.8
@@ -7378,7 +7486,7 @@
       "threat-intelligence"
      ],
      "created_at": "2026-10-12T07:41:17Z",
-     "age_days": 21,
+     "age_days": 22,
      "stars": 2,
      "forks": 1,
      "status": "emerging",
@@ -7404,12 +7512,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 35.1,
-     "rank_key": 35.1,
+     "score": 34.9,
+     "rank_key": 34.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.583,
+      "momentum": 0.241,
+      "activity": 0.574,
       "maturity": 0.15,
       "community": 0.29,
       "utility": 0.6
@@ -7467,11 +7575,11 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 56.5,
-     "rank_key": 56.5,
+     "score": 56.4,
+     "rank_key": 56.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.502,
       "maturity": 0.95,
       "community": 0.29,
@@ -7485,7 +7593,7 @@
     },
     {
      "rank": 2,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1342167405,
      "full_name": "gorkemguler/MetaScout",
      "html_url": "https://github.com/gorkemguler/MetaScout",
@@ -7529,12 +7637,12 @@
       "breach-lookup",
       "personal-data-lookup"
      ],
-     "score": 46.1,
-     "rank_key": 46.1,
+     "score": 46.0,
+     "rank_key": 46.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.391,
+      "momentum": 0.241,
+      "activity": 0.389,
       "maturity": 0.9,
       "community": 0.353,
       "utility": 0.8
@@ -7549,7 +7657,7 @@
     },
     {
      "rank": 3,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1358083626,
      "full_name": "osintshifu/unmasker",
      "html_url": "https://github.com/osintshifu/unmasker",
@@ -7567,7 +7675,7 @@
       "hidden-data"
      ],
      "created_at": "2026-09-05T10:39:38Z",
-     "age_days": 58,
+     "age_days": 59,
      "stars": 4,
      "forks": 0,
      "status": "emerging",
@@ -7592,11 +7700,11 @@
      "sensitivity_tags": [
       "breach-lookup"
      ],
-     "score": 41.7,
-     "rank_key": 41.7,
+     "score": 41.6,
+     "rank_key": 41.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.022,
       "maturity": 0.9,
       "community": 0.09,
@@ -7610,7 +7718,7 @@
     },
     {
      "rank": 4,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1345073012,
      "full_name": "sylhetyhackvenger/LocBITE",
      "html_url": "https://github.com/sylhetyhackvenger/LocBITE",
@@ -7653,11 +7761,11 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 28.3,
-     "rank_key": 28.3,
+     "score": 28.2,
+     "rank_key": 28.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.002,
       "maturity": 0.7,
       "community": 0.09,
@@ -7675,66 +7783,7 @@
    "situational-awareness": [
     {
      "rank": 1,
-     "rank_change": 0,
-     "id": 1375909717,
-     "full_name": "Cyruschu430/hk-city-monitor",
-     "html_url": "https://github.com/Cyruschu430/hk-city-monitor",
-     "description": "Real-time situational-awareness dashboard for Hong Kong - one map, many official open data sources, no API keys in the client. Open source (AGPL-3.0); not a government system.",
-     "language": "TypeScript",
-     "license": "AGPL-3.0",
-     "topics": [
-      "agpl",
-      "cloudflare-workers",
-      "dashboard",
-      "deckgl",
-      "geospatial",
-      "gis",
-      "hong-kong",
-      "maplibre"
-     ],
-     "created_at": "2026-09-18T13:27:23Z",
-     "age_days": 45,
-     "stars": 13,
-     "forks": 0,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "situational-awareness",
-     "domain_secondary": "geospatial-imagery",
-     "form": "web-app",
-     "ai_role": "none",
-     "summary": "Browser-based live map dashboard consolidating Hong Kong government and institutional open data (traffic cameras, weather, transport, border waits, aircraft positions, markets) with each reading linked to its publisher. Static app with a whitelisted Cloudflare Worker proxy.",
-     "strengths": [
-      "Clear source catalogue with endpoints, cadence and licence in SOURCES.md",
-      "Every reading traceable to its publisher",
-      "No API keys in client bundle"
-     ],
-     "risks": [
-      "Mostly a civic dashboard; OSINT framing is light",
-      "Proxy routes third-party data, so upstream terms must be respected"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "none",
-     "sensitivity_tags": [],
-     "score": 61.6,
-     "rank_key": 61.6,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.246,
-      "activity": 0.938,
-      "maturity": 0.75,
-      "community": 0.357,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.0
-    },
-    {
-     "rank": 2,
-     "rank_change": 0,
+     "rank_change": 1,
      "id": 1351816093,
      "full_name": "v0l/waveshark",
      "html_url": "https://github.com/v0l/waveshark",
@@ -7782,7 +7831,7 @@
      "rank_key": 61.3,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.545,
       "maturity": 0.85,
       "community": 0.614,
@@ -7795,8 +7844,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 3,
-     "rank_change": 0,
+     "rank": 2,
+     "rank_change": 1,
      "id": 1317311010,
      "full_name": "cukierrro/Straznik",
      "html_url": "https://github.com/cukierrro/Straznik",
@@ -7854,6 +7903,65 @@
      "star_rate": 0.0
     },
     {
+     "rank": 3,
+     "rank_change": -2,
+     "id": 1375909717,
+     "full_name": "Cyruschu430/hk-city-monitor",
+     "html_url": "https://github.com/Cyruschu430/hk-city-monitor",
+     "description": "Real-time situational-awareness dashboard for Hong Kong - one map, many official open data sources, no API keys in the client. Open source (AGPL-3.0); not a government system.",
+     "language": "TypeScript",
+     "license": "AGPL-3.0",
+     "topics": [
+      "agpl",
+      "cloudflare-workers",
+      "dashboard",
+      "deckgl",
+      "geospatial",
+      "gis",
+      "hong-kong",
+      "maplibre"
+     ],
+     "created_at": "2026-09-18T13:27:23Z",
+     "age_days": 45,
+     "stars": 13,
+     "forks": 0,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "situational-awareness",
+     "domain_secondary": "geospatial-imagery",
+     "form": "web-app",
+     "ai_role": "none",
+     "summary": "Browser-based live map dashboard consolidating Hong Kong government and institutional open data (traffic cameras, weather, transport, border waits, aircraft positions, markets) with each reading linked to its publisher. Static app with a whitelisted Cloudflare Worker proxy.",
+     "strengths": [
+      "Clear source catalogue with endpoints, cadence and licence in SOURCES.md",
+      "Every reading traceable to its publisher",
+      "No API keys in client bundle"
+     ],
+     "risks": [
+      "Mostly a civic dashboard; OSINT framing is light",
+      "Proxy routes third-party data, so upstream terms must be respected"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "none",
+     "sensitivity_tags": [],
+     "score": 60.0,
+     "rank_key": 60.0,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.241,
+      "activity": 0.863,
+      "maturity": 0.75,
+      "community": 0.357,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.0
+    },
+    {
      "rank": 4,
      "rank_change": 0,
      "id": 1438472442,
@@ -7892,12 +8000,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 58.5,
-     "rank_key": 54.3,
-     "confidence": 0.722,
+     "score": 57.9,
+     "rank_key": 53.8,
+     "confidence": 0.728,
      "components": {
-      "momentum": 0.791,
-      "activity": 0.552,
+      "momentum": 0.776,
+      "activity": 0.539,
       "maturity": 0.65,
       "community": 0.17,
       "utility": 0.8
@@ -7906,7 +8014,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.166
+     "star_rate": 0.165
     },
     {
      "rank": 5,
@@ -7951,11 +8059,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 48.0,
-     "rank_key": 48.0,
+     "score": 47.8,
+     "rank_key": 47.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.15,
       "maturity": 0.55,
       "community": 0.29,
@@ -7969,66 +8077,7 @@
     },
     {
      "rank": 6,
-     "rank_change": 0,
-     "id": 1425128670,
-     "full_name": "MarvelCollin/Pantau",
-     "html_url": "https://github.com/MarvelCollin/Pantau",
-     "description": "Live map of Indonesia from free public data: flights, ships, satellites, BMKG earthquakes, volcano alert levels, fire hotspots, flood reports, rain radar and road cameras.",
-     "language": "TypeScript",
-     "license": null,
-     "topics": [
-      "ads-b",
-      "ais",
-      "bmkg",
-      "disaster-monitoring",
-      "earthquake",
-      "flight-tracker",
-      "hono",
-      "indonesia"
-     ],
-     "created_at": "2026-10-19T04:58:09Z",
-     "age_days": 14,
-     "stars": 1,
-     "forks": 0,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "situational-awareness",
-     "domain_secondary": "transport-sensor",
-     "form": "web-app",
-     "ai_role": "none",
-     "summary": "Web live map of Indonesia combining public feeds: ADS-B flights, AIS ships, CelesTrak satellites, BMKG and USGS quakes, MAGMA volcano alerts, NASA FIRMS fires, karhutla hotspots, PetaBencana flood reports, radar and road cameras.",
-     "strengths": [
-      "Clearly named data sources for each layer",
-      "Shareable map state links and a live demo",
-      "Built only on free public data"
-     ],
-     "risks": [
-      "Aggregates some tracking of individual aircraft and vessels",
-      "Reliance on several third-party APIs with free-tier limits"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "none",
-     "sensitivity_tags": [],
-     "score": 46.4,
-     "rank_key": 46.4,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.246,
-      "activity": 0.699,
-      "maturity": 0.55,
-      "community": 0.09,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.0
-    },
-    {
-     "rank": 7,
-     "rank_change": 0,
+     "rank_change": 1,
      "id": 1348640312,
      "full_name": "mathdroid/karnak",
      "html_url": "https://github.com/mathdroid/karnak",
@@ -8068,11 +8117,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 40.3,
-     "rank_key": 40.3,
+     "score": 40.2,
+     "rank_key": 40.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.004,
       "maturity": 0.7,
       "community": 0.29,
@@ -8085,8 +8134,8 @@
      "star_rate": 0.0
     },
     {
-     "rank": 8,
-     "rank_change": 0,
+     "rank": 7,
+     "rank_change": 1,
      "id": 1362268742,
      "full_name": "Ringmast4r/Gods-Eye-Index",
      "html_url": "https://github.com/Ringmast4r/Gods-Eye-Index",
@@ -8100,7 +8149,7 @@
       "web"
      ],
      "created_at": "2026-09-09T06:03:59Z",
-     "age_days": 54,
+     "age_days": 55,
      "stars": 5,
      "forks": 1,
      "status": "emerging",
@@ -8124,12 +8173,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 39.7,
-     "rank_key": 39.7,
+     "score": 39.5,
+     "rank_key": 39.5,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.009,
+      "momentum": 0.665,
+      "activity": 0.008,
       "maturity": 0.45,
       "community": 0.29,
       "utility": 0.6
@@ -8141,8 +8190,8 @@
      "star_rate": 0.143
     },
     {
-     "rank": 9,
-     "rank_change": 0,
+     "rank": 8,
+     "rank_change": 1,
      "id": 1413917783,
      "full_name": "Kalyx1111/Australia-Dashboard",
      "html_url": "https://github.com/Kalyx1111/Australia-Dashboard",
@@ -8160,7 +8209,7 @@
       "geospatialintelligence"
      ],
      "created_at": "2026-10-11T04:21:13Z",
-     "age_days": 22,
+     "age_days": 23,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -8188,7 +8237,7 @@
      "rank_key": 32.2,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.485,
       "maturity": 0.5,
       "community": 0.09,
@@ -8225,7 +8274,7 @@
      ],
      "created_at": "2026-10-29T20:06:18Z",
      "age_days": 4,
-     "stars": 208,
+     "stars": 215,
      "forks": 17,
      "status": "emerging",
      "scope": "core",
@@ -8252,8 +8301,8 @@
       "social-profile-extraction"
      ],
      "score": 80.5,
-     "rank_key": 75.2,
-     "confidence": 0.647,
+     "rank_key": 75.3,
+     "confidence": 0.653,
      "components": {
       "momentum": 0.969,
       "activity": 0.88,
@@ -8265,11 +8314,73 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 11.787
+     "star_rate": 12.852
     },
     {
      "rank": 2,
-     "rank_change": 0,
+     "rank_change": 1,
+     "id": 1410186540,
+     "full_name": "XD-MHLOO/facebook-gql-scraper",
+     "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
+     "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
+     "language": "Python",
+     "license": "MIT",
+     "topics": [
+      "facebook",
+      "facebook-api",
+      "facebook-comments",
+      "facebook-data",
+      "facebook-graph-api",
+      "facebook-groups",
+      "facebook-marketplace-api",
+      "facebook-marketplace-listings"
+     ],
+     "created_at": "2026-10-08T11:08:00Z",
+     "age_days": 26,
+     "stars": 57,
+     "forks": 11,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "social-media",
+     "domain_secondary": "web-capture",
+     "form": "library",
+     "ai_role": "none",
+     "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
+     "strengths": [
+      "Documented API with property and method listings for profiles, posts, comments and groups",
+      "Auto-recovers changed GraphQL Doc IDs without a headless browser"
+     ],
+     "risks": [
+      "Uses personal session cookies and likely violates Facebook terms of service",
+      "Lead-generation framing suggests bulk collection of personal data",
+      "Abandonment risk from reliance on undocumented internal endpoints"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "personal-data-lookup",
+      "social-profile-extraction"
+     ],
+     "score": 70.0,
+     "rank_key": 70.0,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.886,
+      "activity": 0.6,
+      "maturity": 0.9,
+      "community": 0.29,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.429
+    },
+    {
+     "rank": 3,
+     "rank_change": -1,
      "id": 1376303804,
      "full_name": "socai-io/jev-social",
      "html_url": "https://github.com/socai-io/jev-social",
@@ -8313,12 +8424,12 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 69.0,
-     "rank_key": 69.0,
+     "score": 68.8,
+     "rank_key": 68.8,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.951,
-      "activity": 0.232,
+      "momentum": 0.946,
+      "activity": 0.228,
       "maturity": 0.95,
       "community": 0.63,
       "utility": 0.6
@@ -8330,127 +8441,8 @@
      "star_rate": 1.286
     },
     {
-     "rank": 3,
-     "rank_change": 0,
-     "id": 1410186540,
-     "full_name": "XD-MHLOO/facebook-gql-scraper",
-     "html_url": "https://github.com/XD-MHLOO/facebook-gql-scraper",
-     "description": "Scrape Facebook GraphQL data without an API key — profiles, posts, comments, reactions, groups, marketplace, search_engine.",
-     "language": "Python",
-     "license": "MIT",
-     "topics": [
-      "facebook",
-      "facebook-api",
-      "facebook-comments",
-      "facebook-data",
-      "facebook-graph-api",
-      "facebook-groups",
-      "facebook-marketplace-api",
-      "facebook-marketplace-listings"
-     ],
-     "created_at": "2026-10-08T11:08:00Z",
-     "age_days": 25,
-     "stars": 56,
-     "forks": 11,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "social-media",
-     "domain_secondary": "web-capture",
-     "form": "library",
-     "ai_role": "none",
-     "summary": "Python library that scrapes Facebook's internal GraphQL endpoints using session cookies to extract profiles, posts, comments, reactions, groups and marketplace listings, with auto-rediscovery of Doc IDs via PyMiniRacer.",
-     "strengths": [
-      "Documented API with property and method listings for profiles, posts, comments and groups",
-      "Auto-recovers changed GraphQL Doc IDs without a headless browser"
-     ],
-     "risks": [
-      "Uses personal session cookies and likely violates Facebook terms of service",
-      "Lead-generation framing suggests bulk collection of personal data",
-      "Abandonment risk from reliance on undocumented internal endpoints"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "personal-data-lookup",
-      "social-profile-extraction"
-     ],
-     "score": 68.1,
-     "rank_key": 68.1,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.854,
-      "activity": 0.538,
-      "maturity": 0.9,
-      "community": 0.29,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.286
-    },
-    {
      "rank": 4,
-     "rank_change": 0,
-     "id": 1354639791,
-     "full_name": "asimov-systems/asimov-alpha",
-     "html_url": "https://github.com/asimov-systems/asimov-alpha",
-     "description": "🔮 Early access to the latest ASIMOV Alpha builds for agentic social media intelligence.",
-     "language": "TypeScript",
-     "license": null,
-     "topics": [
-      "alpha",
-      "asimov",
-      "osint",
-      "socmint"
-     ],
-     "created_at": "2026-09-02T10:41:19Z",
-     "age_days": 61,
-     "stars": 10,
-     "forks": 0,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "social-media",
-     "domain_secondary": "identity-lookup",
-     "form": "agent-skill",
-     "ai_role": "skill-mcp-native",
-     "summary": "Early-access alpha distribution of ASIMOV, an agent skill for social media intelligence. It claims to map social graphs from LinkedIn, X, Instagram, Luma and GitHub and enrich them with local CRM contacts. The README gives little detail on data sources, usage limits or legal cons",
-     "strengths": [
-      "Clear focus on social media intelligence",
-      "Integrates with common AI agents as a skill"
-     ],
-     "risks": [
-      "Bypasses restrictive APIs for social platforms, raising terms-of-service concerns",
-      "Closed early-access distribution with little verifiable source code",
-      "Enriches public data with private contacts and CRM data"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "social-profile-extraction"
-     ],
-     "score": 60.8,
-     "rank_key": 60.8,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.854,
-      "activity": 0.769,
-      "maturity": 0.55,
-      "community": 0.428,
-      "utility": 0.4
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.286
-    },
-    {
-     "rank": 5,
-     "rank_change": 0,
+     "rank_change": 1,
      "id": 1419669309,
      "full_name": "Voldigoade/spoor",
      "html_url": "https://github.com/Voldigoade/spoor",
@@ -8491,12 +8483,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 60.7,
-     "rank_key": 60.7,
+     "score": 60.5,
+     "rank_key": 60.5,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.646,
+      "momentum": 0.665,
+      "activity": 0.641,
       "maturity": 0.6,
       "community": 0.367,
       "utility": 0.8
@@ -8506,6 +8498,63 @@
       "flags": []
      },
      "star_rate": 0.143
+    },
+    {
+     "rank": 5,
+     "rank_change": -1,
+     "id": 1354639791,
+     "full_name": "asimov-systems/asimov-alpha",
+     "html_url": "https://github.com/asimov-systems/asimov-alpha",
+     "description": "🔮 Early access to the latest ASIMOV Alpha builds for agentic social media intelligence.",
+     "language": "TypeScript",
+     "license": null,
+     "topics": [
+      "alpha",
+      "asimov",
+      "osint",
+      "socmint"
+     ],
+     "created_at": "2026-09-02T10:41:19Z",
+     "age_days": 62,
+     "stars": 10,
+     "forks": 0,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "social-media",
+     "domain_secondary": "identity-lookup",
+     "form": "agent-skill",
+     "ai_role": "skill-mcp-native",
+     "summary": "Early-access alpha distribution of ASIMOV, an agent skill for social media intelligence. It claims to map social graphs from LinkedIn, X, Instagram, Luma and GitHub and enrich them with local CRM contacts. The README gives little detail on data sources, usage limits or legal cons",
+     "strengths": [
+      "Clear focus on social media intelligence",
+      "Integrates with common AI agents as a skill"
+     ],
+     "risks": [
+      "Bypasses restrictive APIs for social platforms, raising terms-of-service concerns",
+      "Closed early-access distribution with little verifiable source code",
+      "Enriches public data with private contacts and CRM data"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "social-profile-extraction"
+     ],
+     "score": 60.0,
+     "rank_key": 60.0,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.83,
+      "activity": 0.757,
+      "maturity": 0.55,
+      "community": 0.428,
+      "utility": 0.4
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.286
     },
     {
      "rank": 6,
@@ -8527,8 +8576,8 @@
       "instagram-follower-scraper"
      ],
      "created_at": "2026-09-23T10:30:13Z",
-     "age_days": 40,
-     "stars": 6,
+     "age_days": 41,
+     "stars": 7,
      "forks": 5,
      "status": "emerging",
      "scope": "core",
@@ -8554,12 +8603,12 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 55.2,
-     "rank_key": 55.2,
+     "score": 56.0,
+     "rank_key": 56.0,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.809,
-      "activity": 0.335,
+      "momentum": 0.858,
+      "activity": 0.323,
       "maturity": 0.75,
       "community": 0.23,
       "utility": 0.6
@@ -8568,7 +8617,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.143
+     "star_rate": 0.286
     },
     {
      "rank": 7,
@@ -8590,7 +8639,7 @@
       "osint"
      ],
      "created_at": "2026-10-24T05:59:58Z",
-     "age_days": 9,
+     "age_days": 10,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -8617,11 +8666,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 52.7,
+     "score": 52.6,
      "rank_key": 51.8,
-     "confidence": 0.941,
+     "confidence": 0.947,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.435,
       "maturity": 0.85,
       "community": 0.292,
@@ -8679,11 +8728,11 @@
      "sensitivity_tags": [
       "social-profile-extraction"
      ],
-     "score": 51.6,
-     "rank_key": 51.6,
+     "score": 51.4,
+     "rank_key": 51.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
+      "momentum": 0.665,
       "activity": 0.216,
       "maturity": 0.8,
       "community": 0.09,
@@ -8697,7 +8746,63 @@
     },
     {
      "rank": 9,
-     "rank_change": 0,
+     "rank_change": null,
+     "id": 1412470842,
+     "full_name": "leshipai/Xporter",
+     "html_url": "https://github.com/leshipai/Xporter",
+     "description": "Export the complete follower list of any public X (Twitter) account to CSV + JSONL.",
+     "language": "Python",
+     "license": null,
+     "topics": [
+      "osint",
+      "socmint"
+     ],
+     "created_at": "2026-10-09T21:31:51Z",
+     "age_days": 24,
+     "stars": 5,
+     "forks": 1,
+     "status": "emerging",
+     "scope": "core",
+     "domain": "social-media",
+     "domain_secondary": "web-capture",
+     "form": "cli",
+     "ai_role": "none",
+     "summary": "Python CLI that uses a user's session cookies to call X's internal GraphQL API and export the full follower list of a public account to CSV and JSONL, with resume checkpoints and multi-session rotation.",
+     "strengths": [
+      "Concrete usage examples and documented output files",
+      "Documents rate limits and resume checkpoint behaviour",
+      "Clear flags and maintenance notes for rotating queryIds"
+     ],
+     "risks": [
+      "Uses session cookies and README admits likely violation of X Terms of Service",
+      "Relies on undocumented internal API that may break",
+      "Bulk harvesting of follower profiles raises privacy concerns"
+     ],
+     "reviewed": true,
+     "readme_language": "en",
+     "sensitivity": "caution",
+     "sensitivity_tags": [
+      "social-profile-extraction"
+     ],
+     "score": 51.3,
+     "rank_key": 51.3,
+     "confidence": 1.0,
+     "components": {
+      "momentum": 0.665,
+      "activity": 0.447,
+      "maturity": 0.45,
+      "community": 0.29,
+      "utility": 0.8
+     },
+     "integrity": {
+      "mult": 1.0,
+      "flags": []
+     },
+     "star_rate": 0.143
+    },
+    {
+     "rank": 10,
+     "rank_change": -1,
      "id": 1411293855,
      "full_name": "1vecera/starwatch",
      "html_url": "https://github.com/1vecera/starwatch",
@@ -8715,7 +8820,7 @@
       "elections"
      ],
      "created_at": "2026-10-09T04:42:32Z",
-     "age_days": 24,
+     "age_days": 25,
      "stars": 2,
      "forks": 0,
      "status": "emerging",
@@ -8741,11 +8846,11 @@
       "personal-data-lookup",
       "social-profile-extraction"
      ],
-     "score": 50.7,
-     "rank_key": 50.7,
+     "score": 50.6,
+     "rank_key": 50.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.643,
       "maturity": 0.7,
       "community": 0.17,
@@ -8756,67 +8861,6 @@
       "flags": []
      },
      "star_rate": 0.0
-    },
-    {
-     "rank": 10,
-     "rank_change": 0,
-     "id": 1324679838,
-     "full_name": "HackUnderway/instagram_detective",
-     "html_url": "https://github.com/HackUnderway/instagram_detective",
-     "description": "Instagram OSINT Framework to extract public profiles, posts, reels, comments, mentions, hashtags, and places from Instagram using the Apify API. 🕵🏽‍♂️",
-     "language": "Python",
-     "license": "MIT",
-     "topics": [
-      "api",
-      "apify",
-      "cybersecurity",
-      "instagram",
-      "osint",
-      "python"
-     ],
-     "created_at": "2026-08-06T03:02:54Z",
-     "age_days": 88,
-     "stars": 9,
-     "forks": 1,
-     "status": "emerging",
-     "scope": "core",
-     "domain": "social-media",
-     "domain_secondary": "web-capture",
-     "form": "cli",
-     "ai_role": "none",
-     "summary": "CLI tool that uses the Apify instagram-scraper API to collect public Instagram profiles, posts, reels, comments, mentions, hashtags and places, saving JSON and TXT reports with timestamps.",
-     "strengths": [
-      "Clear CLI usage examples for each target type",
-      "Batch processing from TXT file and local timestamped reports",
-      "Lists dependencies and supported systems"
-     ],
-     "risks": [
-      "Profile scraping of individuals could enable social profile extraction",
-      "Relies on a third-party paid scraping service and API key",
-      "Disclaimer is generic; limited discussion of legal or platform-terms considerations"
-     ],
-     "reviewed": true,
-     "readme_language": "en",
-     "sensitivity": "caution",
-     "sensitivity_tags": [
-      "personal-data-lookup",
-      "social-profile-extraction"
-     ],
-     "score": 48.8,
-     "rank_key": 48.8,
-     "confidence": 1.0,
-     "components": {
-      "momentum": 0.674,
-      "activity": 0.0,
-      "maturity": 0.7,
-      "community": 0.29,
-      "utility": 0.8
-     },
-     "integrity": {
-      "mult": 1.0,
-      "flags": []
-     },
-     "star_rate": 0.143
     }
    ],
    "transport-sensor": [
@@ -8925,11 +8969,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 69.1,
-     "rank_key": 69.1,
+     "score": 68.9,
+     "rank_key": 68.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.9,
+      "momentum": 0.886,
       "activity": 0.983,
       "maturity": 0.9,
       "community": 0.232,
@@ -8961,7 +9005,7 @@
       "web-search"
      ],
      "created_at": "2026-10-30T10:27:40Z",
-     "age_days": 3,
+     "age_days": 4,
      "stars": 4,
      "forks": 0,
      "status": "emerging",
@@ -8983,11 +9027,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 71.7,
-     "rank_key": 67.4,
-     "confidence": 0.71,
+     "score": 71.6,
+     "rank_key": 67.3,
+     "confidence": 0.716,
      "components": {
-      "momentum": 0.929,
+      "momentum": 0.923,
       "activity": 0.636,
       "maturity": 0.95,
       "community": 0.232,
@@ -8997,7 +9041,7 @@
       "mult": 1.0,
       "flags": []
      },
-     "star_rate": 0.668
+     "star_rate": 0.666
     },
     {
      "rank": 3,
@@ -9019,7 +9063,7 @@
       "penetration-testing"
      ],
      "created_at": "2026-10-05T12:03:29Z",
-     "age_days": 28,
+     "age_days": 29,
      "stars": 3,
      "forks": 0,
      "status": "emerging",
@@ -9042,12 +9086,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 50.8,
-     "rank_key": 50.8,
+     "score": 50.6,
+     "rank_key": 50.6,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.604,
+      "momentum": 0.241,
+      "activity": 0.6,
       "maturity": 0.8,
       "community": 0.09,
       "utility": 0.8
@@ -9078,7 +9122,7 @@
       "security"
      ],
      "created_at": "2026-10-24T08:55:42Z",
-     "age_days": 9,
+     "age_days": 10,
      "stars": 1,
      "forks": 0,
      "status": "emerging",
@@ -9102,12 +9146,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 48.4,
-     "rank_key": 47.5,
-     "confidence": 0.939,
+     "score": 48.1,
+     "rank_key": 47.3,
+     "confidence": 0.945,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.233,
+      "momentum": 0.241,
+      "activity": 0.224,
       "maturity": 1.0,
       "community": 0.09,
       "utility": 0.8
@@ -9120,7 +9164,7 @@
     },
     {
      "rank": 5,
-     "rank_change": 1,
+     "rank_change": 0,
      "id": 1440403643,
      "full_name": "bertotrgopegope/osint-tools",
      "html_url": "https://github.com/bertotrgopegope/osint-tools",
@@ -9157,12 +9201,12 @@
      "readme_language": "id",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 45.9,
-     "rank_key": 40.3,
-     "confidence": 0.629,
+     "score": 45.2,
+     "rank_key": 39.7,
+     "confidence": 0.635,
      "components": {
-      "momentum": 0.797,
-      "activity": 0.618,
+      "momentum": 0.781,
+      "activity": 0.602,
       "maturity": 0.35,
       "community": 0.14,
       "utility": 0.4
@@ -9175,7 +9219,7 @@
     },
     {
      "rank": 6,
-     "rank_change": -1,
+     "rank_change": 0,
      "id": 1342443879,
      "full_name": "osintbrazuca/SimpleReconDorking",
      "html_url": "https://github.com/osintbrazuca/SimpleReconDorking",
@@ -9193,7 +9237,7 @@
       "python"
      ],
      "created_at": "2026-08-22T04:34:02Z",
-     "age_days": 72,
+     "age_days": 73,
      "stars": 14,
      "forks": 1,
      "status": "emerging",
@@ -9216,11 +9260,11 @@
      "readme_language": "pt",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 39.0,
-     "rank_key": 39.0,
+     "score": 38.9,
+     "rank_key": 38.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.002,
       "maturity": 0.65,
       "community": 0.29,
@@ -9246,7 +9290,7 @@
       "osint"
      ],
      "created_at": "2026-08-13T09:22:58Z",
-     "age_days": 81,
+     "age_days": 82,
      "stars": 6,
      "forks": 0,
      "status": "emerging",
@@ -9268,11 +9312,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 37.5,
-     "rank_key": 37.5,
+     "score": 37.4,
+     "rank_key": 37.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.001,
       "maturity": 0.75,
       "community": 0.09,
@@ -9325,11 +9369,11 @@
      "readme_language": "pt",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 36.0,
-     "rank_key": 36.0,
+     "score": 35.9,
+     "rank_key": 35.9,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.001,
       "maturity": 0.65,
       "community": 0.29,
@@ -9392,7 +9436,7 @@
      "confidence": 1.0,
      "components": {
       "momentum": 0.682,
-      "activity": 0.002,
+      "activity": 0.001,
       "maturity": 0.7,
       "community": 0.09,
       "utility": 0.4
@@ -9449,11 +9493,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 62.5,
-     "rank_key": 62.5,
+     "score": 62.4,
+     "rank_key": 62.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.775,
       "maturity": 0.9,
       "community": 0.528,
@@ -9485,7 +9529,7 @@
       "osint"
      ],
      "created_at": "2026-07-16T12:41:01Z",
-     "age_days": 109,
+     "age_days": 110,
      "stars": 8,
      "forks": 0,
      "status": "established",
@@ -9510,12 +9554,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 62.3,
-     "rank_key": 62.3,
+     "score": 62.2,
+     "rank_key": 62.2,
      "confidence": 1.0,
      "components": {
       "momentum": 0.682,
-      "activity": 0.349,
+      "activity": 0.347,
       "maturity": 0.95,
       "community": 0.296,
       "utility": 0.8
@@ -9568,11 +9612,11 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 58.8,
-     "rank_key": 57.2,
-     "confidence": 0.892,
+     "score": 58.6,
+     "rank_key": 57.1,
+     "confidence": 0.899,
      "components": {
-      "momentum": 0.774,
+      "momentum": 0.764,
       "activity": 0.414,
       "maturity": 0.85,
       "community": 0.09,
@@ -9604,7 +9648,7 @@
       "osint"
      ],
      "created_at": "2026-09-25T08:29:49Z",
-     "age_days": 38,
+     "age_days": 39,
      "stars": 7,
      "forks": 1,
      "status": "emerging",
@@ -9629,12 +9673,12 @@
      "sensitivity_tags": [
       "personal-data-lookup"
      ],
-     "score": 54.9,
-     "rank_key": 54.9,
+     "score": 54.7,
+     "rank_key": 54.7,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.733,
+      "momentum": 0.241,
+      "activity": 0.727,
       "maturity": 0.7,
       "community": 0.29,
       "utility": 0.8
@@ -9690,12 +9734,12 @@
      "sensitivity_tags": [
       "breach-lookup"
      ],
-     "score": 53.8,
-     "rank_key": 53.8,
+     "score": 53.4,
+     "rank_key": 53.4,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.246,
-      "activity": 0.632,
+      "momentum": 0.241,
+      "activity": 0.619,
       "maturity": 0.95,
       "community": 0.22,
       "utility": null
@@ -9751,10 +9795,10 @@
      "sensitivity": "none",
      "sensitivity_tags": [],
      "score": 50.0,
-     "rank_key": 49.0,
-     "confidence": 0.935,
+     "rank_key": 49.1,
+     "confidence": 0.941,
      "components": {
-      "momentum": 0.246,
+      "momentum": 0.241,
       "activity": 0.717,
       "maturity": 0.75,
       "community": 0.152,
@@ -9784,7 +9828,7 @@
       "python"
      ],
      "created_at": "2026-07-23T06:44:28Z",
-     "age_days": 102,
+     "age_days": 103,
      "stars": 27,
      "forks": 4,
      "status": "established",
@@ -9866,12 +9910,12 @@
      "readme_language": "en",
      "sensitivity": "none",
      "sensitivity_tags": [],
-     "score": 40.7,
-     "rank_key": 40.7,
+     "score": 40.5,
+     "rank_key": 40.5,
      "confidence": 1.0,
      "components": {
-      "momentum": 0.674,
-      "activity": 0.267,
+      "momentum": 0.665,
+      "activity": 0.262,
       "maturity": 0.65,
       "community": 0.34,
       "utility": 0.4
@@ -10321,35 +10365,6 @@
     7,
     8,
     8
-   ]
-  },
-  "1324679838": {
-   "start": "2026-10-11",
-   "stars": [
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    8,
-    9,
-    9,
-    9,
-    9
    ]
   },
   "1326790226": {
@@ -11088,7 +11103,7 @@
     4656,
     5028,
     5538,
-    5645
+    5724
    ]
   },
   "1375909717": {
@@ -11320,7 +11335,7 @@
     5,
     5,
     6,
-    6
+    7
    ]
   },
   "1383766253": {
@@ -11349,7 +11364,7 @@
     3,
     4,
     4,
-    4
+    3
    ]
   },
   "1387106316": {
@@ -11408,35 +11423,6 @@
     3,
     3,
     3
-   ]
-  },
-  "1391366388": {
-   "start": "2026-10-11",
-   "stars": [
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    4,
-    5
    ]
   },
   "1394852469": {
@@ -11599,16 +11585,6 @@
     3
    ]
   },
-  "1403917188": {
-   "start": "2026-10-30",
-   "stars": [
-    1,
-    1,
-    1,
-    1,
-    2
-   ]
-  },
   "1405681699": {
    "start": "2026-10-11",
    "stars": [
@@ -11687,7 +11663,7 @@
     53,
     53,
     56,
-    56
+    57
    ]
   },
   "1410424651": {
@@ -11745,7 +11721,7 @@
     194,
     199,
     199,
-    199
+    201
    ]
   },
   "1411293855": {
@@ -11775,6 +11751,35 @@
     2,
     2,
     2
+   ]
+  },
+  "1412470842": {
+   "start": "2026-10-11",
+   "stars": [
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5
    ]
   },
   "1413509049": {
@@ -11891,6 +11896,24 @@
     2
    ]
   },
+  "1416241429": {
+   "start": "2026-10-22",
+   "stars": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    4
+   ]
+  },
   "1419669309": {
    "start": "2026-10-16",
    "stars": [
@@ -11925,43 +11948,6 @@
     1,
     2,
     2
-   ]
-  },
-  "1425128670": {
-   "start": "2026-10-19",
-   "stars": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-   ]
-  },
-  "1425532425": {
-   "start": "2026-10-24",
-   "stars": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
    ]
   },
   "1425817934": {
@@ -12228,6 +12214,20 @@
     1
    ]
   },
+  "1433088347": {
+   "start": "2026-10-26",
+   "stars": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
   "1433112682": {
    "start": "2026-10-26",
    "stars": [
@@ -12267,6 +12267,20 @@
     1,
     1,
     1
+   ]
+  },
+  "1434248091": {
+   "start": "2026-10-26",
+   "stars": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
    ]
   },
   "1434479596": {
@@ -12389,7 +12403,7 @@
     171,
     196,
     207,
-    208
+    215
    ]
   },
   "1439580341": {
@@ -12435,7 +12449,7 @@
     92,
     163,
     169,
-    177
+    183
    ]
   },
   "1440275098": {
@@ -12444,7 +12458,7 @@
     77,
     129,
     137,
-    142
+    150
    ]
   },
   "1440403643": {
@@ -12478,10 +12492,23 @@
     1
    ]
   },
+  "1442329492": {
+   "start": "2026-11-02",
+   "stars": [
+    0,
+    2
+   ]
+  },
   "1442524785": {
    "start": "2026-11-02",
    "stars": [
     1,
+    1
+   ]
+  },
+  "1443332399": {
+   "start": "2026-11-03",
+   "stars": [
     1
    ]
   },
@@ -12491,10 +12518,10 @@
     2
    ]
   },
-  "1443332399": {
+  "1443613311": {
    "start": "2026-11-03",
    "stars": [
-    1
+    59
    ]
   }
  },
@@ -12588,6 +12615,12 @@
    "full_name": "azazelumbrae/anythreat",
    "reason": "out of scope",
    "why": "media-forensics=2 identity-lookup=2 breach-exposure=2 out=3"
+  },
+  {
+   "id": 1443728178,
+   "full_name": "bioxhaust/evidence-first-osint",
+   "reason": "out of scope",
+   "why": "workspace-analysis=2 media-forensics=2 knowledge=1 out=3"
   },
   {
    "id": 1379928564,
@@ -12932,16 +12965,22 @@
    "why": "threat-intel=3 knowledge=3 social-media=2 out=5"
   },
   {
-   "id": 1440936272,
-   "full_name": "Shapeyustrait/Dedoose-Latest-2026",
-   "reason": "out of scope",
-   "why": "web-capture=1 out=1"
-  },
-  {
    "id": 1388907294,
    "full_name": "singularityworks-xyz/mira",
    "reason": "out of scope",
    "why": "media-forensics=2 social-media=1 breach-exposure=1"
+  },
+  {
+   "id": 1442285677,
+   "full_name": "sjdsjadjajdjsa/scamscript",
+   "reason": "out of scope",
+   "why": "crypto-financial=2 breach-exposure=2 workspace-analysis=1 out=3"
+  },
+  {
+   "id": 1440290651,
+   "full_name": "sltqw/osint",
+   "reason": "out of scope",
+   "why": ""
   },
   {
    "id": 1395004420,
@@ -13034,12 +13073,6 @@
    "why": "knowledge=8 web-capture=2 media-forensics=2"
   },
   {
-   "id": 1437169123,
-   "full_name": "WalrusUnveil/Ahnlab-v3-Internet-Security",
-   "reason": "out of scope",
-   "why": "out=1"
-  },
-  {
    "id": 1435206284,
    "full_name": "WhorideChicken/before-you-post",
    "reason": "out of scope",
@@ -13089,8 +13122,8 @@
   }
  ],
  "stats": {
-  "candidates": 1895,
-  "tracked": 295,
+  "candidates": 1898,
+  "tracked": 297,
   "reviewed": 250
  }
 }
