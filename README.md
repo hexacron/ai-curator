@@ -1,15 +1,15 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-11-13 13:33:29 UTC*
+*Last updated: 2026-11-14 12:39:43 UTC*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 398
-- **Total Stars**: 866,024
+- **Total Repositories**: 396
+- **Total Stars**: 868,071
 - **Hidden as off-topic**: 1
 
 ### 🔥 Top Languages
-- **Python**: 285 repositories
+- **Python**: 283 repositories
 - **Go**: 51 repositories
 - **JavaScript**: 36 repositories
 - **Rust**: 26 repositories
@@ -17,21 +17,21 @@
 ### 🏷️ Popular Topics
 - `security` (140)
 - `cybersecurity` (117)
-- `mcp` (112)
-- `llm` (106)
-- `ai-agents` (98)
-- `osint` (96)
+- `mcp` (111)
+- `llm` (107)
+- `ai-agents` (96)
+- `osint` (95)
 - `python` (90)
-- `ai` (83)
+- `ai` (82)
 - `claude-code` (77)
-- `ai-security` (71)
+- `ai-security` (72)
 
 ### 🗂️ Categories
 - **AI for security**: 119
 - **AI security**: 111
 - **OSINT**: 53
-- **Agent skills MCP**: 42
-- **AI dev tools**: 29
+- **Agent skills MCP**: 38
+- **AI dev tools**: 31
 - **Security tools**: 25
 - **Knowledge**: 10
 - **Threat intel**: 5
@@ -40,7 +40,7 @@
 ## ⭐ Top Repositories
 
 ### 1. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**36,055 ⭐** | **Python** | Updated: 2026-08-31
+**36,120 ⭐** | **Python** | Updated: 2026-08-31
 
 A collection of hundreds of structured cybersecurity skills in the agentskills.io format, covering many security domains and mapped to frameworks like MITRE ATT&CK and NIST CSF, for use by AI coding agents.
 
@@ -51,9 +51,9 @@ A collection of hundreds of structured cybersecurity skills in the agentskills.i
 ---
 
 ### 2. [SkillSpector](https://github.com/NVIDIA/SkillSpector)
-**25,789 ⭐** | **Python** | Updated: 2026-11-13
+**25,970 ⭐** | **Python** | Updated: 2026-11-14
 
-Scans AI agent skills for Claude Code, Codex and MCP before installation, flagging prompt injection, data exfiltration, malicious patterns and supply-chain risks. Outputs terminal, JSON, Markdown and SARIF reports.
+Scans AI agent skills \(Claude Code, Codex, MCP\) for prompt injection, data exfiltration, malicious patterns and supply-chain risks before installation. Supports CLI, Docker, SARIF and baseline suppression.
 
 **Category**: AI security
 
@@ -62,7 +62,7 @@ Scans AI agent skills for Claude Code, Codex and MCP before installation, flaggi
 ---
 
 ### 3. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**20,796 ⭐** | **Python** | Updated: 2026-11-09
+**20,802 ⭐** | **Python** | Updated: 2026-11-09
 
 An agent framework where a language model autonomously uses tools to fix GitHub issues, with a documented mode for offensive cybersecurity challenges. Aimed at researchers and developers who want a configurable, hackable coding agent.
 
@@ -73,7 +73,7 @@ An agent framework where a language model autonomously uses tools to fix GitHub 
 ---
 
 ### 4. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**13,563 ⭐** | **Python** | Updated: 2026-08-03
+**13,583 ⭐** | **Python** | Updated: 2026-08-03
 
 An MCP server that connects AI agents such as Claude or GPT to a large set of cybersecurity tools for automated penetration testing, vulnerability discovery and security research, with bundled agent modules for bug bounty and CTF work.
 
@@ -84,7 +84,7 @@ An MCP server that connects AI agents such as Claude or GPT to a large set of cy
 ---
 
 ### 5. [Crucix](https://github.com/calesthio/Crucix)
-**12,221 ⭐** | **JavaScript** | Updated: 2026-05-20
+**12,223 ⭐** | **JavaScript** | Updated: 2026-05-20
 
 A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satellite fire detection, flights, sanctions, markets and conflict data, refreshes every 15 minutes, and sends alerts via Telegram or Discord. Optional LLM layer add
 
@@ -95,7 +95,7 @@ A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satel
 ---
 
 ### 6. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**11,568 ⭐** | **Python** | Updated: 2026-11-12
+**11,574 ⭐** | **Python** | Updated: 2026-11-14
 
 A self-hosted dashboard that aggregates many public feeds \(aircraft, ships, satellites, earthquakes, CCTV, Telegram channels\) onto one map, with a server-side recon toolkit and an agent command channel for querying the data.
 
@@ -106,7 +106,7 @@ A self-hosted dashboard that aggregates many public feeds \(aircraft, ships, sat
 ---
 
 ### 7. [robin](https://github.com/apurvsinghgautam/robin)
-**7,977 ⭐** | **Python** | Updated: 2026-10-03
+**7,980 ⭐** | **Python** | Updated: 2026-10-03
 
 Robin uses LLMs to refine queries, filter results from dark web search engines via Tor, and produce investigation summaries. It offers a Streamlit web UI, follow-up questions, and MCP integration for investigators.
 
@@ -117,7 +117,7 @@ Robin uses LLMs to refine queries, filter results from dark web search engines v
 ---
 
 ### 8. [AiSOC](https://github.com/beenuar/AiSOC)
-**7,672 ⭐** | **Python** | Updated: 2026-11-13
+**7,522 ⭐** | **Python** | Updated: 2026-11-14
 
 Self-hostable security operations platform that normalizes telemetry, fuses alerts into incidents, and investigates them with LLM agents whose steps are logged. Proposed responses need human approval. Aimed at blue teams and SOC analysts.
 
@@ -128,7 +128,7 @@ Self-hostable security operations platform that normalizes telemetry, fuses aler
 ---
 
 ### 9. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**7,489 ⭐** | **Python** | Updated: 2026-11-13
+**7,503 ⭐** | **Python** | Updated: 2026-11-13
 
 A platform for scanning AI infrastructure, agents, skills and MCP servers, plus LLM jailbreak evaluation and AI safety compliance checks. Aimed at security teams red teaming AI ecosystems; deployable via Docker or from source.
 
@@ -139,7 +139,7 @@ A platform for scanning AI infrastructure, agents, skills and MCP servers, plus 
 ---
 
 ### 10. [geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
-**6,951 ⭐** | **Python** | Updated: 2026-11-09
+**7,005 ⭐** | **Python** | Updated: 2026-11-09
 
 An agent skill that estimates where a photo was taken by combining EXIF, OCR, reverse image search, OpenStreetMap geometry, skyline and sun analysis, and satellite matching, and reports its reasoning. Aimed at OSINT and geolocation users.
 
@@ -150,7 +150,7 @@ An agent skill that estimates where a photo was taken by combining EXIF, OCR, re
 ---
 
 ### 11. [osmedeus](https://github.com/j3ssie/osmedeus)
-**6,652 ⭐** | **Go** | Updated: 2026-11-06
+**6,654 ⭐** | **Go** | Updated: 2026-11-06
 
 A declarative YAML workflow engine for running security reconnaissance and scanning pipelines across hosts, Docker and SSH, with distributed workers, a REST API and LLM agent steps. Aimed at security practitioners and bug bounty hunters.
 
@@ -161,7 +161,7 @@ A declarative YAML workflow engine for running security reconnaissance and scann
 ---
 
 ### 12. [Decepticon](https://github.com/BitterSecurity/Decepticon)
-**6,594 ⭐** | **Python** | Updated: 2026-11-13
+**6,601 ⭐** | **Python** | Updated: 2026-11-14
 
 Autonomous AI red-team agent that runs penetration testing engagements from a Docker-based terminal CLI, with pip library and Claude Code/Codex integration. Aimed at authorized security testers.
 
@@ -172,7 +172,7 @@ Autonomous AI red-team agent that runs penetration testing engagements from a Do
 ---
 
 ### 13. [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
-**6,563 ⭐** | **Python** | Updated: 2026-11-12
+**6,563 ⭐** | **Python** | Updated: 2026-11-14
 
 A governance toolkit for autonomous AI agents offering policy enforcement \(YAML, OPA, Cedar\), zero-trust identity, execution sandboxing, and audit logging, installable via pip, npm, or NuGet across frameworks.
 
@@ -183,7 +183,7 @@ A governance toolkit for autonomous AI agents offering policy enforcement \(YAML
 ---
 
 ### 14. [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)
-**6,352 ⭐** | **Rust** | Updated: 2026-11-09
+**6,358 ⭐** | **Rust** | Updated: 2026-11-14
 
 A Rust hook that intercepts shell, git, and filesystem commands issued by AI coding agents and blocks destructive ones, using security packs for databases, Kubernetes, Docker, cloud and Terraform. Supports many agent platforms.
 
@@ -194,7 +194,7 @@ A Rust hook that intercepts shell, git, and filesystem commands issued by AI cod
 ---
 
 ### 15. [Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter)
-**5,854 ⭐** | **Python** | Updated: 2026-11-12
+**5,875 ⭐** | **Python** | Updated: 2026-11-12
 
 A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scanning with wrapped tools like nuclei and ffuf, validation gating, and report drafting. Aimed at security researchers and bounty hunters.
 
@@ -205,7 +205,7 @@ A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scan
 ---
 
 ### 16. [user-scanner](https://github.com/kaifcodec/user-scanner)
-**5,632 ⭐** | **Python** | Updated: 2026-11-09
+**5,646 ⭐** | **Python** | Updated: 2026-11-09
 
 Python OSINT suite that checks email registrations and username presence across thousands of platforms, pivots on found handles and emails, and exposes its scans through an MCP server for AI agents. Aimed at investigators and security resea
 
@@ -216,7 +216,7 @@ Python OSINT suite that checks email registrations and username presence across 
 ---
 
 ### 17. [nono](https://github.com/nolabs-ai/nono)
-**4,956 ⭐** | **Rust** | Updated: 2026-11-13
+**4,970 ⭐** | **Rust** | Updated: 2026-11-13
 
 A single-binary runtime sandbox that confines AI coding agents and their tools, limiting file, network, environment and credential access without root or heavy setup. Aimed at developers and teams running agents.
 
@@ -227,7 +227,7 @@ A single-binary runtime sandbox that confines AI coding agents and their tools, 
 ---
 
 ### 18. [Aliens_eye](https://github.com/arxhr007/Aliens_eye)
-**4,821 ⭐** | **Python** | Updated: 2026-11-09
+**4,826 ⭐** | **Python** | Updated: 2026-11-09
 
 A command-line username scanner that checks thousands of social media platforms and uses a trained model plus heuristics to detect matches. It extracts profile details, correlates hits, and exports reports for investigators.
 
@@ -238,7 +238,7 @@ A command-line username scanner that checks thousands of social media platforms 
 ---
 
 ### 19. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
-**4,477 ⭐** | **Python** | Updated: 2026-11-13
+**4,476 ⭐** | **Python** | Updated: 2026-11-13
 
 An umbrella project offering safety tools and cybersecurity benchmarks for evaluating and hardening open generative AI models, including Llama Guard input/output safeguards and CyberSec Eval suites for AI developers.
 
@@ -247,7 +247,7 @@ An umbrella project offering safety tools and cybersecurity benchmarks for evalu
 ---
 
 ### 20. [raptor](https://github.com/gadievron/raptor)
-**4,006 ⭐** | **Python** | Updated: 2026-11-12
+**4,013 ⭐** | **Python** | Updated: 2026-11-14
 
 An autonomous security research framework built on Claude Code that chains static and binary analysis, LLM-based vulnerability validation, exploit generation and patch writing for codebases and binaries, aimed at security researchers.
 
@@ -258,7 +258,7 @@ An autonomous security research framework built on Claude Code that chains stati
 ## 🤗 Hugging Face
 
 ### 1. [Vyber07/cyber-security](https://huggingface.co/datasets/Vyber07/cyber-security)
-**999 ❤** | **Dataset** | 20,450 downloads | Updated: 2026-08-31
+**1,041 ❤** | **Dataset** | 20,702 downloads | Updated: 2026-08-31
 
 Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most comprehensive cybersecurity knowledge base ever assembled for AI training. It covers all domains of cybersecurity at PhD-level depth — from offensive red teaming and bug bounty exploitation to defensive SOC operations, digital forensics, and cutting-edge AI/LLM security. Size: 16 GB \| Files: 507 \| Domains: 30\+ \| Sources…
 
@@ -267,21 +267,21 @@ Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most 
 ---
 
 ### 2. [dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)
-**894 ❤** | **Model** | 106,942 downloads | Updated: 2026-09-08
+**896 ❤** | **Model** | 103,551 downloads | Updated: 2026-09-08
 
 **Tags**: safetensors, glm\_moe\_dsa, abliterated, crack, refusal-removed
 
 ---
 
 ### 3. [drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed](https://huggingface.co/drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed)
-**253 ❤** | **Model** | 0 downloads | Updated: 2026-09-14
+**258 ❤** | **Model** | 0 downloads | Updated: 2026-09-14
 
 **Tags**: transformers, deepseek, deepseek-v4.1, deepseek-v4.1-flash, abliterated
 
 ---
 
 ### 4. [AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1](https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1)
-**171 ❤** | **Dataset** | 2,911 downloads | Updated: 2026-04-22
+**171 ❤** | **Dataset** | 2,884 downloads | Updated: 2026-04-22
 
 Cybersecurity Defense Instruction-Tuning Dataset \(v2.1\) Created by Alican Kiraz TL;DR A ready-to-train dataset of 99,870 high-quality system / user / assistant triples for defensive, alignment-safe cybersecurity SFT training. Apache-2.0 licensed and production-ready. Scope: OWASP Top 10, MITRE ATT&CK, NIST CSF, CIS Controls, ASD Essential 8, modern authentication \(OAuth 2 / OIDC / SAML\), SSL / TL…
 
@@ -290,21 +290,21 @@ Cybersecurity Defense Instruction-Tuning Dataset \(v2.1\) Created by Alican Kira
 ---
 
 ### 5. [protectai/deberta-v3-base-prompt-injection-v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2)
-**129 ❤** | **Model** | 476,298 downloads | Updated: 2026-07-09
+**129 ❤** | **Model** | 458,953 downloads | Updated: 2026-07-09
 
 **Tags**: transformers, onnx, safetensors, deberta-v2, text-classification
 
 ---
 
 ### 6. [protectai/deberta-v3-base-prompt-injection](https://huggingface.co/protectai/deberta-v3-base-prompt-injection)
-**110 ❤** | **Model** | 35,580 downloads | Updated: 2026-07-09
+**110 ❤** | **Model** | 33,013 downloads | Updated: 2026-07-09
 
 **Tags**: transformers, onnx, safetensors, deberta-v2, text-classification
 
 ---
 
 ### 7. [Necent/llm-jailbreak-prompt-injection-dataset](https://huggingface.co/datasets/Necent/llm-jailbreak-prompt-injection-dataset)
-**90 ❤** | **Dataset** | 2,667 downloads | Updated: 2026-04-11
+**90 ❤** | **Dataset** | 2,686 downloads | Updated: 2026-04-11
 
 LLM Jailbreak & Prompt-Injection Dataset A unified safety dataset combining 30\+ public sources for training LLM guardrails, content moderation classifiers, and response-safety filters. Schema \(orthogonal multi-label, WildGuard-style\) Instead of a single binary is\_dangerous, every example carries four orthogonal labels matching the structure used by AI2 WildGuard, IBM Granite Guardian, and Azure P…
 
@@ -313,14 +313,14 @@ LLM Jailbreak & Prompt-Injection Dataset A unified safety dataset combining 30\+
 ---
 
 ### 8. [terrorswift/REDCELL-26B-A4B-OSINT-Cyber-APEX-GGUF](https://huggingface.co/terrorswift/REDCELL-26B-A4B-OSINT-Cyber-APEX-GGUF)
-**75 ❤** | **Model** | 7,315 downloads | Updated: 2026-10-13
+**75 ❤** | **Model** | 7,275 downloads | Updated: 2026-10-13
 
 **Tags**: transformers, gguf, osint, cti, threat-intelligence
 
 ---
 
 ### 9. [witfoo/precinct6-cybersecurity](https://huggingface.co/datasets/witfoo/precinct6-cybersecurity)
-**75 ❤** | **Dataset** | 4,322 downloads | Updated: 2026-09-22
+**75 ❤** | **Dataset** | 4,300 downloads | Updated: 2026-09-22
 
 WitFoo Precinct6 Cybersecurity Dataset Version 2.1.0 \(built 2026-09-22\). Regenerated to address feedback from the University of Canterbury PIDS evaluation: attacks and normal traffic now share a timeline, usernames are wired into the provenance graph, mis-parsed timestamps are repaired, and every number in this card is generated from the uploaded data. Overview A large-scale, labeled cybersecurit…
 
@@ -329,7 +329,7 @@ WitFoo Precinct6 Cybersecurity Dataset Version 2.1.0 \(built 2026-09-22\). Regen
 ---
 
 ### 10. [rogue-security/prompt-injection-jailbreak-sentinel-v2](https://huggingface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2)
-**66 ❤** | **Model** | 13,096 downloads | Updated: 2026-03-11
+**66 ❤** | **Model** | 10,481 downloads | Updated: 2026-03-11
 
 **Tags**: transformers, safetensors, qwen3, text-classification, prompt-injection
 
@@ -427,4 +427,4 @@ Taxonomies are structured knowledge representations that support semantic search
 
 ---
 
-*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 399 of 399.*
+*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 397 of 397.*
