@@ -1,38 +1,38 @@
 # AI & OSINT Repository Curator
 
-*Last updated: 2026-11-16 14:12:43 UTC*
+*Last updated: 2026-11-17 15:03:51 UTC*
 
 ## 📊 Collection Summary
 
-- **Total Repositories**: 395
-- **Total Stars**: 870,975
+- **Total Repositories**: 398
+- **Total Stars**: 924,166
 - **Hidden as off-topic**: 1
 
 ### 🔥 Top Languages
-- **Python**: 284 repositories
+- **Python**: 286 repositories
 - **Go**: 50 repositories
-- **JavaScript**: 35 repositories
+- **JavaScript**: 36 repositories
 - **Rust**: 26 repositories
 
 ### 🏷️ Popular Topics
-- `security` (143)
-- `cybersecurity` (117)
-- `mcp` (113)
+- `security` (142)
+- `cybersecurity` (116)
+- `mcp` (114)
 - `llm` (107)
-- `osint` (96)
-- `ai-agents` (95)
-- `python` (90)
-- `ai` (81)
-- `claude-code` (78)
+- `osint` (98)
+- `ai-agents` (96)
+- `python` (92)
+- `ai` (82)
+- `claude-code` (77)
 - `ai-security` (73)
 
 ### 🗂️ Categories
-- **AI for security**: 122
-- **AI security**: 110
-- **OSINT**: 52
+- **AI for security**: 121
+- **AI security**: 111
+- **OSINT**: 53
 - **Agent skills MCP**: 38
-- **AI dev tools**: 30
-- **Security tools**: 25
+- **AI dev tools**: 31
+- **Security tools**: 26
 - **Knowledge**: 9
 - **Threat intel**: 5
 - **Other**: 4
@@ -40,7 +40,7 @@
 ## ⭐ Top Repositories
 
 ### 1. [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-**36,231 ⭐** | **Python** | Updated: 2026-08-31
+**36,285 ⭐** | **Python** | Updated: 2026-08-31
 
 A collection of hundreds of structured cybersecurity skills in the agentskills.io format, covering many security domains and mapped to frameworks like MITRE ATT&CK and NIST CSF, for use by AI coding agents.
 
@@ -51,7 +51,7 @@ A collection of hundreds of structured cybersecurity skills in the agentskills.i
 ---
 
 ### 2. [SkillSpector](https://github.com/NVIDIA/SkillSpector)
-**26,361 ⭐** | **Python** | Updated: 2026-11-16
+**26,573 ⭐** | **Python** | Updated: 2026-11-16
 
 Scans AI agent skills \(Claude Code, Codex, MCP\) for prompt injection, data exfiltration, malicious patterns and supply-chain risks before installation. Supports CLI, Docker, SARIF and baseline suppression.
 
@@ -62,7 +62,7 @@ Scans AI agent skills \(Claude Code, Codex, MCP\) for prompt injection, data exf
 ---
 
 ### 3. [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-**20,820 ⭐** | **Python** | Updated: 2026-11-09
+**20,822 ⭐** | **Python** | Updated: 2026-11-16
 
 An agent framework where a language model autonomously uses tools to fix GitHub issues, with a documented mode for offensive cybersecurity challenges. Aimed at researchers and developers who want a configurable, hackable coding agent.
 
@@ -73,7 +73,7 @@ An agent framework where a language model autonomously uses tools to fix GitHub 
 ---
 
 ### 4. [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
-**13,647 ⭐** | **Python** | Updated: 2026-08-03
+**13,688 ⭐** | **Python** | Updated: 2026-08-03
 
 An MCP server that connects AI agents such as Claude or GPT to a large set of cybersecurity tools for automated penetration testing, vulnerability discovery and security research, with bundled agent modules for bug bounty and CTF work.
 
@@ -84,7 +84,7 @@ An MCP server that connects AI agents such as Claude or GPT to a large set of cy
 ---
 
 ### 5. [Crucix](https://github.com/calesthio/Crucix)
-**12,228 ⭐** | **JavaScript** | Updated: 2026-05-20
+**12,231 ⭐** | **JavaScript** | Updated: 2026-05-20
 
 A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satellite fire detection, flights, sanctions, markets and conflict data, refreshes every 15 minutes, and sends alerts via Telegram or Discord. Optional LLM layer add
 
@@ -95,7 +95,7 @@ A self-hosted OSINT dashboard that pulls data from 27 public feeds such as satel
 ---
 
 ### 6. [Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
-**11,582 ⭐** | **Python** | Updated: 2026-11-15
+**11,590 ⭐** | **Python** | Updated: 2026-11-17
 
 A self-hosted dashboard that aggregates many public OSINT feeds \(aircraft, ships, satellites, earthquakes, CCTV, Telegram channels\) onto one map, with a server-side recon toolkit and an agent interface for querying the data. Aimed at analys
 
@@ -105,19 +105,8 @@ A self-hosted dashboard that aggregates many public OSINT feeds \(aircraft, ship
 
 ---
 
-### 7. [robin](https://github.com/apurvsinghgautam/robin)
-**7,998 ⭐** | **Python** | Updated: 2026-10-03
-
-Robin uses LLMs to refine queries, filter results from dark web search engines via Tor, and produce investigation summaries. It offers a Streamlit web UI, follow-up questions, and MCP integration for investigators.
-
-**Category**: OSINT
-
-**Topics**: `ai-tool` `darkweb` `darkweb-osint` `investigation-tool` `llm-powered`
-
----
-
-### 8. [AiSOC](https://github.com/beenuar/AiSOC)
-**7,928 ⭐** | **Python** | Updated: 2026-11-16
+### 7. [AiSOC](https://github.com/beenuar/AiSOC)
+**8,037 ⭐** | **Python** | Updated: 2026-11-17
 
 Self-hostable security operations platform that normalizes telemetry, fuses alerts into incidents, and investigates them with LLM agents whose steps are logged. Proposed responses need human approval. Aimed at blue teams and SOC analysts.
 
@@ -127,8 +116,19 @@ Self-hostable security operations platform that normalizes telemetry, fuses aler
 
 ---
 
+### 8. [robin](https://github.com/apurvsinghgautam/robin)
+**8,009 ⭐** | **Python** | Updated: 2026-10-03
+
+Robin uses LLMs to refine queries, filter results from dark web search engines via Tor, and produce investigation summaries. It offers a Streamlit web UI, follow-up questions, and MCP integration for investigators.
+
+**Category**: OSINT
+
+**Topics**: `ai-tool` `darkweb` `darkweb-osint` `investigation-tool` `llm-powered`
+
+---
+
 ### 9. [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
-**7,523 ⭐** | **Python** | Updated: 2026-11-16
+**7,533 ⭐** | **Python** | Updated: 2026-11-17
 
 A platform for scanning AI infrastructure, agents, skills and MCP servers, plus LLM jailbreak evaluation and AI safety compliance checks. Aimed at security teams red teaming AI ecosystems; deployable via Docker or from source.
 
@@ -139,7 +139,7 @@ A platform for scanning AI infrastructure, agents, skills and MCP servers, plus 
 ---
 
 ### 10. [geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
-**7,109 ⭐** | **Python** | Updated: 2026-11-16
+**7,192 ⭐** | **Python** | Updated: 2026-11-16
 
 An agent skill that estimates where a photo was taken by combining EXIF, OCR, reverse image search, OpenStreetMap geometry, skyline and sun analysis, and satellite matching, and reports its reasoning. Aimed at OSINT and geolocation users.
 
@@ -161,7 +161,7 @@ A declarative YAML workflow engine for running security reconnaissance and scann
 ---
 
 ### 12. [Decepticon](https://github.com/BitterSecurity/Decepticon)
-**6,623 ⭐** | **Python** | Updated: 2026-11-16
+**6,633 ⭐** | **Python** | Updated: 2026-11-17
 
 Autonomous AI red-team agent that runs penetration testing engagements from a Docker-based terminal CLI, with pip library and Claude Code/Codex integration. Aimed at authorized security testers.
 
@@ -172,7 +172,7 @@ Autonomous AI red-team agent that runs penetration testing engagements from a Do
 ---
 
 ### 13. [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
-**6,571 ⭐** | **Python** | Updated: 2026-11-14
+**6,575 ⭐** | **Python** | Updated: 2026-11-17
 
 A governance toolkit for autonomous AI agents offering policy enforcement \(YAML, OPA, Cedar\), zero-trust identity, execution sandboxing, and audit logging, installable via pip, npm, or NuGet across frameworks.
 
@@ -183,7 +183,7 @@ A governance toolkit for autonomous AI agents offering policy enforcement \(YAML
 ---
 
 ### 14. [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)
-**6,364 ⭐** | **Rust** | Updated: 2026-11-16
+**6,367 ⭐** | **Rust** | Updated: 2026-11-16
 
 A Rust hook that intercepts shell, git, and filesystem commands issued by AI coding agents and blocks destructive ones, using security packs for databases, Kubernetes, Docker, cloud and Terraform. Supports many agent platforms.
 
@@ -194,7 +194,7 @@ A Rust hook that intercepts shell, git, and filesystem commands issued by AI cod
 ---
 
 ### 15. [Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter)
-**5,921 ⭐** | **Python** | Updated: 2026-11-12
+**5,960 ⭐** | **Python** | Updated: 2026-11-12
 
 A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scanning with wrapped tools like nuclei and ffuf, validation gating, and report drafting. Aimed at security researchers and bounty hunters.
 
@@ -205,7 +205,7 @@ A terminal toolkit that uses LLM agents to run bug bounty workflows: recon, scan
 ---
 
 ### 16. [user-scanner](https://github.com/kaifcodec/user-scanner)
-**5,658 ⭐** | **Python** | Updated: 2026-11-09
+**5,664 ⭐** | **Python** | Updated: 2026-11-09
 
 Python OSINT suite that checks email registrations and username presence across thousands of platforms, pivots on found handles and emails, and exposes its scans through an MCP server for AI agents. Aimed at investigators and security resea
 
@@ -216,7 +216,7 @@ Python OSINT suite that checks email registrations and username presence across 
 ---
 
 ### 17. [nono](https://github.com/nolabs-ai/nono)
-**5,012 ⭐** | **Rust** | Updated: 2026-11-16
+**5,029 ⭐** | **Rust** | Updated: 2026-11-17
 
 A single-binary runtime sandbox that confines AI coding agents and their tools, limiting file, network, environment and credential access without root or heavy setup. Aimed at developers and teams running agents.
 
@@ -227,7 +227,7 @@ A single-binary runtime sandbox that confines AI coding agents and their tools, 
 ---
 
 ### 18. [Aliens_eye](https://github.com/arxhr007/Aliens_eye)
-**4,831 ⭐** | **Python** | Updated: 2026-11-15
+**4,836 ⭐** | **Python** | Updated: 2026-11-15
 
 A command-line username scanner that checks thousands of social media platforms and uses a trained model plus heuristics to detect matches. It extracts profile details, correlates hits, and exports reports for investigators.
 
@@ -238,7 +238,7 @@ A command-line username scanner that checks thousands of social media platforms 
 ---
 
 ### 19. [PurpleLlama](https://github.com/meta-llama/PurpleLlama)
-**4,482 ⭐** | **Python** | Updated: 2026-11-13
+**4,484 ⭐** | **Python** | Updated: 2026-11-13
 
 An umbrella project offering safety tools and cybersecurity benchmarks for evaluating and hardening open generative AI models, including Llama Guard input/output safeguards and CyberSec Eval suites for AI developers.
 
@@ -247,7 +247,7 @@ An umbrella project offering safety tools and cybersecurity benchmarks for evalu
 ---
 
 ### 20. [raptor](https://github.com/gadievron/raptor)
-**4,028 ⭐** | **Python** | Updated: 2026-11-16
+**4,032 ⭐** | **Python** | Updated: 2026-11-16
 
 An autonomous security research framework built on Claude Code that chains static and binary analysis, LLM-based vulnerability validation, exploit generation and patch writing for codebases and binaries, aimed at security researchers.
 
@@ -258,7 +258,7 @@ An autonomous security research framework built on Claude Code that chains stati
 ## 🤗 Hugging Face
 
 ### 1. [Vyber07/cyber-security](https://huggingface.co/datasets/Vyber07/cyber-security)
-**1,113 ❤** | **Dataset** | 23,283 downloads | Updated: 2026-08-31
+**1,147 ❤** | **Dataset** | 24,049 downloads | Updated: 2026-08-31
 
 Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most comprehensive cybersecurity knowledge base ever assembled for AI training. It covers all domains of cybersecurity at PhD-level depth — from offensive red teaming and bug bounty exploitation to defensive SOC operations, digital forensics, and cutting-edge AI/LLM security. Size: 16 GB \| Files: 507 \| Domains: 30\+ \| Sources…
 
@@ -267,21 +267,21 @@ Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most 
 ---
 
 ### 2. [dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)
-**899 ❤** | **Model** | 101,424 downloads | Updated: 2026-09-08
+**902 ❤** | **Model** | 101,527 downloads | Updated: 2026-09-08
 
 **Tags**: safetensors, glm\_moe\_dsa, abliterated, crack, refusal-removed
 
 ---
 
 ### 3. [drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed](https://huggingface.co/drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed)
-**270 ❤** | **Model** | 0 downloads | Updated: 2026-09-14
+**272 ❤** | **Model** | 0 downloads | Updated: 2026-09-14
 
 **Tags**: transformers, deepseek, deepseek-v4.1, deepseek-v4.1-flash, abliterated
 
 ---
 
 ### 4. [AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1](https://huggingface.co/datasets/AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1)
-**171 ❤** | **Dataset** | 2,872 downloads | Updated: 2026-04-22
+**171 ❤** | **Dataset** | 2,844 downloads | Updated: 2026-04-22
 
 Cybersecurity Defense Instruction-Tuning Dataset \(v2.1\) Created by Alican Kiraz TL;DR A ready-to-train dataset of 99,870 high-quality system / user / assistant triples for defensive, alignment-safe cybersecurity SFT training. Apache-2.0 licensed and production-ready. Scope: OWASP Top 10, MITRE ATT&CK, NIST CSF, CIS Controls, ASD Essential 8, modern authentication \(OAuth 2 / OIDC / SAML\), SSL / TL…
 
@@ -290,21 +290,21 @@ Cybersecurity Defense Instruction-Tuning Dataset \(v2.1\) Created by Alican Kira
 ---
 
 ### 5. [protectai/deberta-v3-base-prompt-injection-v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2)
-**129 ❤** | **Model** | 444,067 downloads | Updated: 2026-07-09
+**129 ❤** | **Model** | 443,948 downloads | Updated: 2026-07-09
 
 **Tags**: transformers, onnx, safetensors, deberta-v2, text-classification
 
 ---
 
 ### 6. [protectai/deberta-v3-base-prompt-injection](https://huggingface.co/protectai/deberta-v3-base-prompt-injection)
-**110 ❤** | **Model** | 30,255 downloads | Updated: 2026-07-09
+**110 ❤** | **Model** | 31,304 downloads | Updated: 2026-07-09
 
 **Tags**: transformers, onnx, safetensors, deberta-v2, text-classification
 
 ---
 
 ### 7. [Necent/llm-jailbreak-prompt-injection-dataset](https://huggingface.co/datasets/Necent/llm-jailbreak-prompt-injection-dataset)
-**90 ❤** | **Dataset** | 2,746 downloads | Updated: 2026-04-11
+**90 ❤** | **Dataset** | 2,782 downloads | Updated: 2026-04-11
 
 LLM Jailbreak & Prompt-Injection Dataset A unified safety dataset combining 30\+ public sources for training LLM guardrails, content moderation classifiers, and response-safety filters. Schema \(orthogonal multi-label, WildGuard-style\) Instead of a single binary is\_dangerous, every example carries four orthogonal labels matching the structure used by AI2 WildGuard, IBM Granite Guardian, and Azure P…
 
@@ -313,14 +313,14 @@ LLM Jailbreak & Prompt-Injection Dataset A unified safety dataset combining 30\+
 ---
 
 ### 8. [terrorswift/REDCELL-26B-A4B-OSINT-Cyber-APEX-GGUF](https://huggingface.co/terrorswift/REDCELL-26B-A4B-OSINT-Cyber-APEX-GGUF)
-**76 ❤** | **Model** | 7,069 downloads | Updated: 2026-10-13
+**76 ❤** | **Model** | 7,087 downloads | Updated: 2026-10-13
 
 **Tags**: transformers, gguf, osint, cti, threat-intelligence
 
 ---
 
 ### 9. [witfoo/precinct6-cybersecurity](https://huggingface.co/datasets/witfoo/precinct6-cybersecurity)
-**75 ❤** | **Dataset** | 3,971 downloads | Updated: 2026-09-22
+**75 ❤** | **Dataset** | 5,602 downloads | Updated: 2026-09-22
 
 WitFoo Precinct6 Cybersecurity Dataset Version 2.1.0 \(built 2026-09-22\). Regenerated to address feedback from the University of Canterbury PIDS evaluation: attacks and normal traffic now share a timeline, usernames are wired into the provenance graph, mis-parsed timestamps are repaired, and every number in this card is generated from the uploaded data. Overview A large-scale, labeled cybersecurit…
 
@@ -329,7 +329,7 @@ WitFoo Precinct6 Cybersecurity Dataset Version 2.1.0 \(built 2026-09-22\). Regen
 ---
 
 ### 10. [rogue-security/prompt-injection-jailbreak-sentinel-v2](https://huggingface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2)
-**67 ❤** | **Model** | 10,491 downloads | Updated: 2026-03-11
+**68 ❤** | **Model** | 8,119 downloads | Updated: 2026-03-11
 
 **Tags**: transformers, safetensors, qwen3, text-classification, prompt-injection
 
@@ -337,94 +337,94 @@ WitFoo Precinct6 Cybersecurity Dataset Version 2.1.0 \(built 2026-09-22\). Regen
 
 ## 📄 arXiv Papers
 
-### 1. [Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory](https://arxiv.org/abs/2611.18133)
-**Paper** | Submitted: 2026-11-13 | Yulliwas Ameur, Billal Mokhtari, Samia Bouzefrane
+### 1. [RESILAGENT: A Three-Pillar Architecture for Cyber-Physical Resilience in Electrical Power and Energy Systems](https://arxiv.org/abs/2611.21480)
+**Paper** | Submitted: 2026-11-16 | Nikolaos Kekatos, Georgios Koutidis, Konstantinos Antonakopoulos, Stylianos Basagiannis, Sokratis Katsikas
 
-Large language model \(LLM\) agents keep a long-term memory that the model itself writes: summaries, extracted facts and embeddings derived from what users said. Deleting a message is therefore not enough: its derivatives, storage residue and backups survive. We define lineage-complete forward-secure erasure: after a forget request, an adversary that later obtains all storage and the agent's curren…
+Electrical Power and Energy Systems face hybrid threats that combine cyber intrusions, physical sabotage and climate-driven stress, and routinely outpace today's siloed monitoring stacks. We present RESILAGENT, a concept architecture organised around three operational pillars, Sensing & Data Intelligence, Resilience Analytics & Reporting, and Incident Response & Recovery, mediated by a Cloud-base…
+
+**Categories**: cs.CR, cs.AI, eess.SY
+
+---
+
+### 2. [TRIAGE-CPG: A Cross-Model Study of Budgeted Static Malware Triage with Large Language Models](https://arxiv.org/abs/2611.21331)
+**Paper** | Submitted: 2026-11-16 | Paul-Andrei Sava, Alexander Küchler, Daniel Kowatsch, Bernhard Grill, Jennifer Pullman
+
+When triaging unknown binaries, security analysts must decide which samples to clear as benign, flag as malicious, or escalate for deeper analysis. Large Language Models \(LLMs\) could support these decisions by interpreting decompiled code, but a binary can contain hundreds or thousands of functions, making exhaustive LLM analysis impractical. We study how current LLMs behave when static triage is…
+
+**Categories**: cs.CR, cs.AI
+
+---
+
+### 3. [A First Look at System One Decision Models for Malware Detection](https://arxiv.org/abs/2611.20699)
+**Paper** | Submitted: 2026-11-16 | Pier Mattia Basciano, Giovanni Farina, Salvatore Monteleone
+
+Malware detection needs scores calibrated at a fixed false positive rate \(FPR\) and decisions an analyst can read: feature-based detectors give the first, large language models \(LLMs\) on decompiled code the second, through generated text of uncalibrated confidence. System One decision models answer a typed question about a text with a probability over its declared answers in one forward pass. We p…
+
+**Categories**: cs.CR, cs.AI, cs.LG
+
+---
+
+### 4. [Beyond the Patch: Reconstructing an Incomplete-Fix Patch Bypass in LLM Agent Frameworks with Control-Gated, Benign Probes](https://arxiv.org/abs/2611.20514)
+**Paper** | Submitted: 2026-11-16 | Chaitanya Garware
+
+Replaying a vulnerability's original proof-of-concept after patching tests whether its reported trigger remains reproducible, but does not establish that the underlying security invariant holds on other code paths. We present a benign, control-gated reconstruction method and a pilot study across four LLM agent frameworks and four invariant classes. For PraisonAI, we compare original-trigger repla…
 
 **Categories**: cs.CR
 
 ---
 
-### 2. [OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination](https://arxiv.org/abs/2611.17933)
-**Paper** | Submitted: 2026-11-13 | Jie Huang, Yuecheng Hong, Yao Chen, Shengding Jiao, Xudong Liu
+### 5. [Model Immunization Beyond Condition Numbers: The Importance of Plateau Regions](https://arxiv.org/abs/2611.20472)
+**Paper** | Submitted: 2026-11-16 | Quoc Nguyen, Trung Le, Dinh Phung, Mehrtash Harandi
 
-In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternatives they displace. Recent benchmarks increasingly evaluate LLM agents in contin…
+Harmful fine-tuning can rapidly compromise safety alignment in Large Language Models, underscoring the vulnerability of deployed models to post-release modification. While prior work motivates model immunization by inducing ill-conditioned curvature to slow harmful optimization, this approach is not scalable due to the high computational cost of Hessian estimation. We refine this paradigm by exte…
 
-**Categories**: cs.AI
-
----
-
-### 3. [Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners](https://arxiv.org/abs/2611.17910)
-**Paper** | Submitted: 2026-11-13 | Stephen Obadinma, Xiaodan Zhu
-
-As large language models \(LLMs\) are increasingly deployed as autonomous agents, their abilities in navigating automated planning tasks have become essential. However, despite their strengths, LLMs' planning ability is not robust, particularly when they are not allowed to exploit commonsense cues in the symbolic vocabulary \(e.g., names of actions, predicates, and objects\) used to define planning t…
-
-**Categories**: cs.AI
+**Categories**: cs.LG, cs.AI
 
 ---
 
-### 4. [LLMs are Vulnerable to Malicious Requests with Indistinguishable Intent](https://arxiv.org/abs/2611.17818)
-**Paper** | Submitted: 2026-11-13 | Wenzhuo Xu, Zonghao Ying, Deyue Zhang, Dongdong Yang, Xiangzheng Zhang
+### 6. [GNN-Based Deep Reinforcement Learning for Coastal Emergency Response under Extreme Water Levels](https://arxiv.org/abs/2611.20268)
+**Paper** | Submitted: 2026-11-15 | Marcello Sano, Samuele Casagrande, Davide Ferrario, Sebastiano Vascon, Silvia Torresan
 
-Jailbreak attacks can circumvent the safety mechanisms of Large Language Models \(LLMs\) and lead to the generation of harmful or policy-violating content. We first examine eight jailbreak methods against an LLM-based filter and observe that requests resembling normal user queries tend to have higher filter pass rates than those containing obvious anomalous patterns. This observation motivates the…
+When a storm surge approaches a coastal town, the emergency plan must be put into action quickly using water-level forecasts, flood extent, road access, vulnerable residents and shelters. Bringing this information together under time pressure is slow and depends on the duty officer's expertise. This paper is one step in a wider research line from data to safe decisions: machine learning to unders…
 
-**Categories**: cs.CR
-
----
-
-### 5. [I2C-GRPO: Insight Importance Checklist for Reinforcement Learning in a Multi-Agent DDoS Alert Triage Workflow](https://arxiv.org/abs/2611.17534)
-**Paper** | Submitted: 2026-11-12 | Eyal Zloof, Shaun Shuster, Aviram Zilberman, Chen Frydman, Inderjeet Singh
-
-Large language model \(LLM\) agents are increasingly used for investigative tasks over incomplete evidence, such as cybersecurity alert triage, but reinforcement learning \(RL\) for such tasks is difficult: intermediate steps have no verifiable labels, rollouts are costly, and outcome rewards are sparse. We propose Insight Importance Checklist \(I2C\)-GRPO, a checklist reward for intermediate investiga…
-
-**Categories**: cs.CR
+**Categories**: cs.LG, cs.AI
 
 ---
 
-### 6. [Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites](https://arxiv.org/abs/2611.17123)
-**Paper** | Submitted: 2026-11-12 | Zhezhen Cao, Weiyuan Ding, Bowen Xu
+### 7. [Risk-certified prompt optimization for LLM-as-a-judge guardrails](https://arxiv.org/abs/2611.20156)
+**Paper** | Submitted: 2026-11-15 | Hussein Jawad, Alexandre Landeau, Guy Fleury Iradukunda, Paul Beaumont, Théodore Rezel
 
-Static application security testing \(SAST\) tools such as CodeQL serve as security gates in continuous integration and code review, and a gate is also read in reverse. When a previously reported alert disappears after a change, developers and the tools around them often take the vulnerability to be gone. That inference holds only if the analyzer is robust to changes that keep the vulnerability. We…
+LLM-as-a-judge guardrails are often controlled primarily through system prompts, yet standard prompt optimization methods target average performance rather than explicit safety constraints. This paper studies system-prompt selection as a constrained optimization problem: maximize benign pass rate while keeping the missed-attack rate below a user-specified level α with finite-sample statistical co…
 
-**Categories**: cs.CR, cs.SE
-
----
-
-### 7. [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](https://arxiv.org/abs/2611.17115)
-**Paper** | Submitted: 2026-11-12 | Zimo Xu, Wenzhuo Liu, Hideki Nakayama
-
-Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact \(a program, a privilege policy, a dependency graph or a constraint list\) that code then enforces. We ask whether small language model \(SLM\) agents can be trusted to write these artifacts. Across 15 open-weight models, 13 of them between 1.7B and 12B par…
-
-**Categories**: cs.AI, cs.CL, cs.CR
+**Categories**: cs.CL, cs.LG
 
 ---
 
-### 8. [Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents](https://arxiv.org/abs/2611.16744)
-**Paper** | Submitted: 2026-11-12 | Yiheng Zhao, Runze Ji, Chenyu Yi, Yi Yu, Bingquan Shen
+### 8. [Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning](https://arxiv.org/abs/2611.20045)
+**Paper** | Submitted: 2026-11-15 | Yang Luo, Guangpu Chen, Yichen Liu, Zhaoyu Chen, Yifeng Gao
 
-Visual content in multimedia systems may be resized, compressed, or re-rendered before it is interpreted by a vision-language model. We study a security failure mode in which these transformations change the machine-readable semantics of an image: a textual instruction is not recovered at a $512\\times512$ presentation resolution under our evaluation protocol but becomes recoverable after aggressi…
+Deep research and agentic search agents autonomously retrieve content from the open web and generate reports with citations, and their outputs are often taken directly as research conclusions. This paper systematizes security research in this area along four stages, namely retrieval, planning, evidence integration, and report generation. We present a unified threat model, a taxonomy of attacks an…
 
-**Categories**: cs.AI
-
----
-
-### 9. [Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function](https://arxiv.org/abs/2611.16369)
-**Paper** | Submitted: 2026-11-12 | Tiansheng Huang, Ananth Balashankar, Virat Shejwalkar, Santosh Pande, Ling Liu
-
-We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as \\$20, we show that safety alignment of a large language model \(e.g., Inkling\) can be completely subverted through rounds of harmful agentic reinforcement learning \(agentic RL\) with a toxic environment from its users. We also demonstrate that upon a successful harmful agenti…
-
-**Categories**: cs.LG, cs.CR
+**Categories**: cs.CR, cs.AI
 
 ---
 
-### 10. [PolicySniff: Inferring Agent Policy States through Shared-GPU Execution](https://arxiv.org/abs/2611.16158)
-**Paper** | Submitted: 2026-11-12 | Weimin Fu, Minghao Shao, Zeng Wang, Qiying Li, Yuntao Liu
+### 9. [Recovery Gone Too Far: Understanding and Repairing Risky Fallback in LLM Agents](https://arxiv.org/abs/2611.19886)
+**Paper** | Submitted: 2026-11-15 | Liwen Wang, Jiangrong Wu, Zongjie Li, Zongyi Lyu, Shuai Wang
 
-LLM agents apply approval settings, such as whether to ask before a consequential tool call, through instructions in their system prompt, and operators keep these settings confidential by restricting access to prompts and responses. Audits check whether an agent obeys its setting, not whether a neighboring process can infer which setting is deployed. PolicySniff infers an agent's approval-policy…
+Large Language Model \(LLM\) agents interact with their environments through tools, reading repositories, running builds, and pushing code. When a tool fails with an ordinary error, such as a rate limit or a timeout, the agent can fall back to a substitute tool and still complete the task. However, the same fallback that completes a task in one environment can cross an action boundary in another. F…
 
-**Categories**: cs.CR
+**Categories**: cs.CR, cs.AI, cs.SE
 
 ---
 
-*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 396 of 396.*
+### 10. [Found, but Not Fixed : From Software Vulnerability Discovery to Fixes with Iterative LLM Pipelines](https://arxiv.org/abs/2611.19719)
+**Paper** | Submitted: 2026-11-15 | Youssef Gamal, Mohamad Fakih, Halima Bouzidi, Rahul Dharmaji, Gustavo Quiros Araya
+
+Software vulnerabilities persist as a critical threat despite the deployment of sophisticated detection tools and AI assistants. While detection has advanced, the subsequent code repair phase remains a primary bottleneck; manual intervention is inherently slow, costly, and prone to introducing secondary regressions and issues. In this paper, we investigate whether an iterative, LLM-based pipeline…
+
+**Categories**: cs.SE, cs.CR, cs.LG
+
+---
+
+*Summaries, categories and relevance are written by a language model from each repository's README and can be wrong. Reviewed 399 of 399.*
